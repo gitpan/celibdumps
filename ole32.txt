@@ -1,0 +1,1274 @@
+Microsoft (R) COFF/PE Dumper Version 7.10.6030
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files\Windows CE Tools\wce400\STANDARDSDK\Lib\Emulator\ole32.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+     7A0 size
+correct header end
+
+    81 public symbols
+
+      FCA __IMPORT_DESCRIPTOR_ole32
+     11EC __NULL_IMPORT_DESCRIPTOR
+     1322 ole32_NULL_THUNK_DATA
+     16FE _CoInitializeEx
+     16FE __imp__CoInitializeEx
+     19E2 _CoUninitialize
+     19E2 __imp__CoUninitialize
+     154A _CoCreateInstance
+     154A __imp__CoCreateInstance
+     1692 _CoGetClassObject
+     1692 __imp__CoGetClassObject
+     1620 _CoFreeUnusedLibraries
+     1620 __imp__CoFreeUnusedLibraries
+     17D2 _CoSetState
+     17D2 __imp__CoSetState
+     1838 _CoTaskMemAlloc
+     1838 __imp__CoTaskMemAlloc
+     190C _CoTaskMemRealloc
+     190C __imp__CoTaskMemRealloc
+     18A2 _CoTaskMemFree
+     18A2 __imp__CoTaskMemFree
+     1978 _CoTaskMemSize
+     1978 __imp__CoTaskMemSize
+     22B8 _StringFromCLSID
+     22B8 __imp__StringFromCLSID
+     14DE _CLSIDFromString
+     14DE __imp__CLSIDFromString
+     1F4C _ProgIDFromCLSID
+     1F4C __imp__ProgIDFromCLSID
+     1472 _CLSIDFromProgID
+     1472 __imp__CLSIDFromProgID
+     2324 _StringFromGUID2
+     2324 __imp__StringFromGUID2
+     2390 _StringFromIID
+     2390 __imp__StringFromIID
+     1B9A _GetClassFile
+     1B9A __imp__GetClassFile
+     1A4C _CreateBindCtx
+     1A4C __imp__CreateBindCtx
+     1B28 _CreateStreamOnHGlobal
+     1B28 __imp__CreateStreamOnHGlobal
+     1C02 _GetHGlobalFromStream
+     1C02 __imp__GetHGlobalFromStream
+     1768 _CoLoadLibrary
+     1768 __imp__CoLoadLibrary
+     15B6 _CoFreeLibrary
+     15B6 __imp__CoFreeLibrary
+     1C72 _OleCreate
+     1C72 __imp__OleCreate
+     1E06 _OleSave
+     1E06 __imp__OleSave
+     1DA4 _OleRun
+     1DA4 __imp__OleRun
+     1D3C _OleIsRunning
+     1D3C __imp__OleIsRunning
+     1FB8 _ReadClassStg
+     1FB8 __imp__ReadClassStg
+     23FA _WriteClassStg
+     23FA __imp__WriteClassStg
+     2020 _ReadClassStm
+     2020 __imp__ReadClassStm
+     2464 _WriteClassStm
+     2464 __imp__WriteClassStm
+     2088 _ReleaseStgMedium
+     2088 __imp__ReleaseStgMedium
+     1AB6 _CreateOleAdviseHolder
+     1AB6 __imp__CreateOleAdviseHolder
+     1EDC _OleSetMenuDescriptor
+     1EDC __imp__OleSetMenuDescriptor
+     1CD8 _OleDraw
+     1CD8 __imp__OleDraw
+     1E6A _OleSetContainedObject
+     1E6A __imp__OleSetContainedObject
+     2160 _StgCreateDocfileOnILockBytes
+     2160 __imp__StgCreateDocfileOnILockBytes
+     2242 _StgOpenStorageOnILockBytes
+     2242 __imp__StgOpenStorageOnILockBytes
+     20F4 _StgCreateDocfile
+     20F4 __imp__StgCreateDocfile
+     21D8 _StgOpenStorage
+     21D8 __imp__StgOpenStorage
+
+Archive member name at 7E4: /               
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+     7AA size
+correct header end
+
+    42 offsets
+
+        1      FCA
+        2     11EC
+        3     1322
+        4     16FE
+        5     19E2
+        6     154A
+        7     1692
+        8     1620
+        9     17D2
+        A     1838
+        B     190C
+        C     18A2
+        D     1978
+        E     22B8
+        F     14DE
+       10     1F4C
+       11     1472
+       12     2324
+       13     2390
+       14     1B9A
+       15     1A4C
+       16     1B28
+       17     1C02
+       18     1768
+       19     15B6
+       1A     1C72
+       1B     1E06
+       1C     1DA4
+       1D     1D3C
+       1E     1FB8
+       1F     23FA
+       20     2020
+       21     2464
+       22     2088
+       23     1AB6
+       24     1EDC
+       25     1CD8
+       26     1E6A
+       27     2160
+       28     2242
+       29     20F4
+       2A     21D8
+
+    81 public symbols
+
+       11 _CLSIDFromProgID
+        F _CLSIDFromString
+        6 _CoCreateInstance
+       19 _CoFreeLibrary
+        8 _CoFreeUnusedLibraries
+        7 _CoGetClassObject
+        4 _CoInitializeEx
+       18 _CoLoadLibrary
+        9 _CoSetState
+        A _CoTaskMemAlloc
+        C _CoTaskMemFree
+        B _CoTaskMemRealloc
+        D _CoTaskMemSize
+        5 _CoUninitialize
+       15 _CreateBindCtx
+       23 _CreateOleAdviseHolder
+       16 _CreateStreamOnHGlobal
+       14 _GetClassFile
+       17 _GetHGlobalFromStream
+       1A _OleCreate
+       25 _OleDraw
+       1D _OleIsRunning
+       1C _OleRun
+       1B _OleSave
+       26 _OleSetContainedObject
+       24 _OleSetMenuDescriptor
+       10 _ProgIDFromCLSID
+       1E _ReadClassStg
+       20 _ReadClassStm
+       22 _ReleaseStgMedium
+       29 _StgCreateDocfile
+       27 _StgCreateDocfileOnILockBytes
+       2A _StgOpenStorage
+       28 _StgOpenStorageOnILockBytes
+        E _StringFromCLSID
+       12 _StringFromGUID2
+       13 _StringFromIID
+       1F _WriteClassStg
+       21 _WriteClassStm
+        1 __IMPORT_DESCRIPTOR_ole32
+        2 __NULL_IMPORT_DESCRIPTOR
+       11 __imp__CLSIDFromProgID
+        F __imp__CLSIDFromString
+        6 __imp__CoCreateInstance
+       19 __imp__CoFreeLibrary
+        8 __imp__CoFreeUnusedLibraries
+        7 __imp__CoGetClassObject
+        4 __imp__CoInitializeEx
+       18 __imp__CoLoadLibrary
+        9 __imp__CoSetState
+        A __imp__CoTaskMemAlloc
+        C __imp__CoTaskMemFree
+        B __imp__CoTaskMemRealloc
+        D __imp__CoTaskMemSize
+        5 __imp__CoUninitialize
+       15 __imp__CreateBindCtx
+       23 __imp__CreateOleAdviseHolder
+       16 __imp__CreateStreamOnHGlobal
+       14 __imp__GetClassFile
+       17 __imp__GetHGlobalFromStream
+       1A __imp__OleCreate
+       25 __imp__OleDraw
+       1D __imp__OleIsRunning
+       1C __imp__OleRun
+       1B __imp__OleSave
+       26 __imp__OleSetContainedObject
+       24 __imp__OleSetMenuDescriptor
+       10 __imp__ProgIDFromCLSID
+       1E __imp__ReadClassStg
+       20 __imp__ReadClassStm
+       22 __imp__ReleaseStgMedium
+       29 __imp__StgCreateDocfile
+       27 __imp__StgCreateDocfileOnILockBytes
+       2A __imp__StgOpenStorage
+       28 __imp__StgOpenStorageOnILockBytes
+        E __imp__StringFromCLSID
+       12 __imp__StringFromGUID2
+       13 __imp__StringFromIID
+       1F __imp__WriteClassStg
+       21 __imp__WriteClassStm
+        3 ole32_NULL_THUNK_DATA
+
+Archive member name at FCA: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+     1E6 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20793B time date stamp Wed Dec 19 06:25:47 2001
+             108 file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 10 00 09 00 00 00 00 00 09 6F 6C 65  .............ole
+  00000010: 33 32 2E 64 6C 6C 28 00 13 10 07 00 00 00 03 00  32.dll(.........
+  00000020: 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D 69 63  ..........Û..Mic
+  00000030: 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B 00  rosoft (R) LINK.
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CC file pointer to raw data (000000CC to 000000DF)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+RELOCATIONS #2
+                                                Symbol    Symbol
+ Offset    Type              Applied To         Index     Name
+ --------  ----------------  -----------------  --------  ------
+ 0000000C  DIR32NB                    00000000         3  .idata$6
+ 00000000  DIR32NB                    00000000         4  .idata$4
+ 00000010  DIR32NB                    00000000         5  .idata$5
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       A size of raw data
+      FE file pointer to raw data (000000FE to 00000107)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 6F 6C 65 33 32 2E 64 6C 6C 00                    ole32.dll.
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __IMPORT_DESCRIPTOR_ole32
+002 C0000040 SECT2  notype       Section      | .idata$2
+003 00000000 SECT3  notype       Static       | .idata$6
+004 C0000040 UNDEF  notype       Section      | .idata$4
+005 C0000040 UNDEF  notype       Section      | .idata$5
+006 00000000 UNDEF  notype       External     | __NULL_IMPORT_DESCRIPTOR
+007 00000000 UNDEF  notype       External     | ole32_NULL_THUNK_DATA
+
+String Table Size = 0x4E bytes
+
+Archive member name at 11EC: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      F9 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        3C20793B time date stamp Wed Dec 19 06:25:47 2001
+              B8 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      64 file pointer to raw data (00000064 to 000000A3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 10 00 09 00 00 00 00 00 09 6F 6C 65  .............ole
+  00000010: 33 32 2E 64 6C 6C 28 00 13 10 07 00 00 00 03 00  32.dll(.........
+  00000020: 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D 69 63  ..........Û..Mic
+  00000030: 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B 00  rosoft (R) LINK.
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A4 file pointer to raw data (000000A4 to 000000B7)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __NULL_IMPORT_DESCRIPTOR
+
+String Table Size = 0x1D bytes
+
+Archive member name at 1322: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+     113 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20793B time date stamp Wed Dec 19 06:25:47 2001
+              D4 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 10 00 09 00 00 00 00 00 09 6F 6C 65  .............ole
+  00000010: 33 32 2E 64 6C 6C 28 00 13 10 07 00 00 00 03 00  32.dll(.........
+  00000020: 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D 69 63  ..........Û..Mic
+  00000030: 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B 00  rosoft (R) LINK.
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CC file pointer to raw data (000000CC to 000000CF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00                                      ....
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D0 file pointer to raw data (000000D0 to 000000D3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | ole32_NULL_THUNK_DATA
+
+String Table Size = 0x1B bytes
+
+Archive member name at 1472: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 0000001B
+  DLL name     : ole32.dll
+  Symbol name  : _CLSIDFromProgID
+  Type         : code
+  Name type    : no prefix
+  Hint         : 0
+  Name         : CLSIDFromProgID
+
+Archive member name at 14DE: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 0000001B
+  DLL name     : ole32.dll
+  Symbol name  : _CLSIDFromString
+  Type         : code
+  Name type    : no prefix
+  Hint         : 1
+  Name         : CLSIDFromString
+
+Archive member name at 154A: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 0000001C
+  DLL name     : ole32.dll
+  Symbol name  : _CoCreateInstance
+  Type         : code
+  Name type    : no prefix
+  Hint         : 2
+  Name         : CoCreateInstance
+
+Archive member name at 15B6: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000019
+  DLL name     : ole32.dll
+  Symbol name  : _CoFreeLibrary
+  Type         : code
+  Name type    : no prefix
+  Hint         : 3
+  Name         : CoFreeLibrary
+
+Archive member name at 1620: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000021
+  DLL name     : ole32.dll
+  Symbol name  : _CoFreeUnusedLibraries
+  Type         : code
+  Name type    : no prefix
+  Hint         : 4
+  Name         : CoFreeUnusedLibraries
+
+Archive member name at 1692: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 0000001C
+  DLL name     : ole32.dll
+  Symbol name  : _CoGetClassObject
+  Type         : code
+  Name type    : no prefix
+  Hint         : 5
+  Name         : CoGetClassObject
+
+Archive member name at 16FE: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 0000001A
+  DLL name     : ole32.dll
+  Symbol name  : _CoInitializeEx
+  Type         : code
+  Name type    : no prefix
+  Hint         : 6
+  Name         : CoInitializeEx
+
+Archive member name at 1768: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000019
+  DLL name     : ole32.dll
+  Symbol name  : _CoLoadLibrary
+  Type         : code
+  Name type    : no prefix
+  Hint         : 7
+  Name         : CoLoadLibrary
+
+Archive member name at 17D2: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000016
+  DLL name     : ole32.dll
+  Symbol name  : _CoSetState
+  Type         : code
+  Name type    : no prefix
+  Hint         : 8
+  Name         : CoSetState
+
+Archive member name at 1838: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 0000001A
+  DLL name     : ole32.dll
+  Symbol name  : _CoTaskMemAlloc
+  Type         : code
+  Name type    : no prefix
+  Hint         : 9
+  Name         : CoTaskMemAlloc
+
+Archive member name at 18A2: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000019
+  DLL name     : ole32.dll
+  Symbol name  : _CoTaskMemFree
+  Type         : code
+  Name type    : no prefix
+  Hint         : 10
+  Name         : CoTaskMemFree
+
+Archive member name at 190C: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 0000001C
+  DLL name     : ole32.dll
+  Symbol name  : _CoTaskMemRealloc
+  Type         : code
+  Name type    : no prefix
+  Hint         : 11
+  Name         : CoTaskMemRealloc
+
+Archive member name at 1978: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000019
+  DLL name     : ole32.dll
+  Symbol name  : _CoTaskMemSize
+  Type         : code
+  Name type    : no prefix
+  Hint         : 12
+  Name         : CoTaskMemSize
+
+Archive member name at 19E2: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 0000001A
+  DLL name     : ole32.dll
+  Symbol name  : _CoUninitialize
+  Type         : code
+  Name type    : no prefix
+  Hint         : 13
+  Name         : CoUninitialize
+
+Archive member name at 1A4C: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000019
+  DLL name     : ole32.dll
+  Symbol name  : _CreateBindCtx
+  Type         : code
+  Name type    : no prefix
+  Hint         : 14
+  Name         : CreateBindCtx
+
+Archive member name at 1AB6: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000021
+  DLL name     : ole32.dll
+  Symbol name  : _CreateOleAdviseHolder
+  Type         : code
+  Name type    : no prefix
+  Hint         : 15
+  Name         : CreateOleAdviseHolder
+
+Archive member name at 1B28: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000021
+  DLL name     : ole32.dll
+  Symbol name  : _CreateStreamOnHGlobal
+  Type         : code
+  Name type    : no prefix
+  Hint         : 16
+  Name         : CreateStreamOnHGlobal
+
+Archive member name at 1B9A: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000018
+  DLL name     : ole32.dll
+  Symbol name  : _GetClassFile
+  Type         : code
+  Name type    : no prefix
+  Hint         : 17
+  Name         : GetClassFile
+
+Archive member name at 1C02: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000020
+  DLL name     : ole32.dll
+  Symbol name  : _GetHGlobalFromStream
+  Type         : code
+  Name type    : no prefix
+  Hint         : 18
+  Name         : GetHGlobalFromStream
+
+Archive member name at 1C72: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000015
+  DLL name     : ole32.dll
+  Symbol name  : _OleCreate
+  Type         : code
+  Name type    : no prefix
+  Hint         : 19
+  Name         : OleCreate
+
+Archive member name at 1CD8: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      27 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000013
+  DLL name     : ole32.dll
+  Symbol name  : _OleDraw
+  Type         : code
+  Name type    : no prefix
+  Hint         : 20
+  Name         : OleDraw
+
+Archive member name at 1D3C: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000018
+  DLL name     : ole32.dll
+  Symbol name  : _OleIsRunning
+  Type         : code
+  Name type    : no prefix
+  Hint         : 21
+  Name         : OleIsRunning
+
+Archive member name at 1DA4: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      26 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000012
+  DLL name     : ole32.dll
+  Symbol name  : _OleRun
+  Type         : code
+  Name type    : no prefix
+  Hint         : 22
+  Name         : OleRun
+
+Archive member name at 1E06: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      27 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000013
+  DLL name     : ole32.dll
+  Symbol name  : _OleSave
+  Type         : code
+  Name type    : no prefix
+  Hint         : 23
+  Name         : OleSave
+
+Archive member name at 1E6A: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000021
+  DLL name     : ole32.dll
+  Symbol name  : _OleSetContainedObject
+  Type         : code
+  Name type    : no prefix
+  Hint         : 24
+  Name         : OleSetContainedObject
+
+Archive member name at 1EDC: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000020
+  DLL name     : ole32.dll
+  Symbol name  : _OleSetMenuDescriptor
+  Type         : code
+  Name type    : no prefix
+  Hint         : 25
+  Name         : OleSetMenuDescriptor
+
+Archive member name at 1F4C: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 0000001B
+  DLL name     : ole32.dll
+  Symbol name  : _ProgIDFromCLSID
+  Type         : code
+  Name type    : no prefix
+  Hint         : 26
+  Name         : ProgIDFromCLSID
+
+Archive member name at 1FB8: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000018
+  DLL name     : ole32.dll
+  Symbol name  : _ReadClassStg
+  Type         : code
+  Name type    : no prefix
+  Hint         : 27
+  Name         : ReadClassStg
+
+Archive member name at 2020: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000018
+  DLL name     : ole32.dll
+  Symbol name  : _ReadClassStm
+  Type         : code
+  Name type    : no prefix
+  Hint         : 28
+  Name         : ReadClassStm
+
+Archive member name at 2088: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 0000001C
+  DLL name     : ole32.dll
+  Symbol name  : _ReleaseStgMedium
+  Type         : code
+  Name type    : no prefix
+  Hint         : 29
+  Name         : ReleaseStgMedium
+
+Archive member name at 20F4: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 0000001C
+  DLL name     : ole32.dll
+  Symbol name  : _StgCreateDocfile
+  Type         : code
+  Name type    : no prefix
+  Hint         : 30
+  Name         : StgCreateDocfile
+
+Archive member name at 2160: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000028
+  DLL name     : ole32.dll
+  Symbol name  : _StgCreateDocfileOnILockBytes
+  Type         : code
+  Name type    : no prefix
+  Hint         : 31
+  Name         : StgCreateDocfileOnILockBytes
+
+Archive member name at 21D8: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 0000001A
+  DLL name     : ole32.dll
+  Symbol name  : _StgOpenStorage
+  Type         : code
+  Name type    : no prefix
+  Hint         : 32
+  Name         : StgOpenStorage
+
+Archive member name at 2242: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000026
+  DLL name     : ole32.dll
+  Symbol name  : _StgOpenStorageOnILockBytes
+  Type         : code
+  Name type    : no prefix
+  Hint         : 33
+  Name         : StgOpenStorageOnILockBytes
+
+Archive member name at 22B8: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 0000001B
+  DLL name     : ole32.dll
+  Symbol name  : _StringFromCLSID
+  Type         : code
+  Name type    : no prefix
+  Hint         : 34
+  Name         : StringFromCLSID
+
+Archive member name at 2324: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 0000001B
+  DLL name     : ole32.dll
+  Symbol name  : _StringFromGUID2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 35
+  Name         : StringFromGUID2
+
+Archive member name at 2390: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000019
+  DLL name     : ole32.dll
+  Symbol name  : _StringFromIID
+  Type         : code
+  Name type    : no prefix
+  Hint         : 36
+  Name         : StringFromIID
+
+Archive member name at 23FA: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000019
+  DLL name     : ole32.dll
+  Symbol name  : _WriteClassStg
+  Type         : code
+  Name type    : no prefix
+  Hint         : 37
+  Name         : WriteClassStg
+
+Archive member name at 2464: ole32.dll/      
+3C20793B time/date Wed Dec 19 06:25:47 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793B Wed Dec 19 06:25:47 2001
+  SizeOfData   : 00000019
+  DLL name     : ole32.dll
+  Symbol name  : _WriteClassStm
+  Type         : code
+  Name type    : no prefix
+  Hint         : 38
+  Name         : WriteClassStm
+
+     Exports
+
+       ordinal    name
+
+                  _CLSIDFromProgID
+                  _CLSIDFromString
+                  _CoCreateInstance
+                  _CoFreeLibrary
+                  _CoFreeUnusedLibraries
+                  _CoGetClassObject
+                  _CoInitializeEx
+                  _CoLoadLibrary
+                  _CoSetState
+                  _CoTaskMemAlloc
+                  _CoTaskMemFree
+                  _CoTaskMemRealloc
+                  _CoTaskMemSize
+                  _CoUninitialize
+                  _CreateBindCtx
+                  _CreateOleAdviseHolder
+                  _CreateStreamOnHGlobal
+                  _GetClassFile
+                  _GetHGlobalFromStream
+                  _OleCreate
+                  _OleDraw
+                  _OleIsRunning
+                  _OleRun
+                  _OleSave
+                  _OleSetContainedObject
+                  _OleSetMenuDescriptor
+                  _ProgIDFromCLSID
+                  _ReadClassStg
+                  _ReadClassStm
+                  _ReleaseStgMedium
+                  _StgCreateDocfile
+                  _StgCreateDocfileOnILockBytes
+                  _StgOpenStorage
+                  _StgOpenStorageOnILockBytes
+                  _StringFromCLSID
+                  _StringFromGUID2
+                  _StringFromIID
+                  _WriteClassStg
+                  _WriteClassStm
+
+  Summary
+
+          C0 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           A .idata$6

@@ -1,0 +1,327 @@
+Microsoft (R) COFF/PE Dumper Version 7.10.6030
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files\Windows CE Tools\wce400\STANDARDSDK\Lib\Emulator\dinputx.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+3C196ED7 time/date Thu Dec 13 22:15:35 2001
+         uid
+         gid
+       0 mode
+      94 size
+correct header end
+
+    5 public symbols
+
+      1B2 __IMPORT_DESCRIPTOR_DINPUTX
+      3DC __NULL_IMPORT_DESCRIPTOR
+      514 DINPUTX_NULL_THUNK_DATA
+      668 _DirectInputCreateW
+      668 __imp__DirectInputCreateW
+
+Archive member name at D8: /               
+3C196ED7 time/date Thu Dec 13 22:15:35 2001
+         uid
+         gid
+       0 mode
+      9E size
+correct header end
+
+    4 offsets
+
+        1      1B2
+        2      3DC
+        3      514
+        4      668
+
+    5 public symbols
+
+        4 _DirectInputCreateW
+        1 __IMPORT_DESCRIPTOR_DINPUTX
+        2 __NULL_IMPORT_DESCRIPTOR
+        4 __imp__DirectInputCreateW
+        3 DINPUTX_NULL_THUNK_DATA
+
+Archive member name at 1B2: DINPUTX.dll/    
+3C196ED7 time/date Thu Dec 13 22:15:35 2001
+         uid
+         gid
+       0 mode
+     1EE size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C196ED7 time date stamp Thu Dec 13 22:15:35 2001
+             10C file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 12 00 09 00 00 00 00 00 0B 44 49 4E  .............DIN
+  00000010: 50 55 54 58 2E 64 6C 6C 28 00 13 10 07 00 00 00  PUTX.dll(.......
+  00000020: 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D  ............Û..M
+  00000030: 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E  icrosoft (R) LIN
+  00000040: 4B 00                                            K.
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CE file pointer to raw data (000000CE to 000000E1)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+RELOCATIONS #2
+                                                Symbol    Symbol
+ Offset    Type              Applied To         Index     Name
+ --------  ----------------  -----------------  --------  ------
+ 0000000C  DIR32NB                    00000000         3  .idata$6
+ 00000000  DIR32NB                    00000000         4  .idata$4
+ 00000010  DIR32NB                    00000000         5  .idata$5
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+     100 file pointer to raw data (00000100 to 0000010B)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 44 49 4E 50 55 54 58 2E 64 6C 6C 00              DINPUTX.dll.
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __IMPORT_DESCRIPTOR_DINPUTX
+002 C0000040 SECT2  notype       Section      | .idata$2
+003 00000000 SECT3  notype       Static       | .idata$6
+004 C0000040 UNDEF  notype       Section      | .idata$4
+005 C0000040 UNDEF  notype       Section      | .idata$5
+006 00000000 UNDEF  notype       External     | __NULL_IMPORT_DESCRIPTOR
+007 00000000 UNDEF  notype       External     | DINPUTX_NULL_THUNK_DATA
+
+String Table Size = 0x52 bytes
+
+Archive member name at 3DC: DINPUTX.dll/    
+3C196ED7 time/date Thu Dec 13 22:15:35 2001
+         uid
+         gid
+       0 mode
+      FB size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        3C196ED7 time date stamp Thu Dec 13 22:15:35 2001
+              BA file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      64 file pointer to raw data (00000064 to 000000A5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 12 00 09 00 00 00 00 00 0B 44 49 4E  .............DIN
+  00000010: 50 55 54 58 2E 64 6C 6C 28 00 13 10 07 00 00 00  PUTX.dll(.......
+  00000020: 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D  ............Û..M
+  00000030: 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E  icrosoft (R) LIN
+  00000040: 4B 00                                            K.
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A6 file pointer to raw data (000000A6 to 000000B9)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __NULL_IMPORT_DESCRIPTOR
+
+String Table Size = 0x1D bytes
+
+Archive member name at 514: DINPUTX.dll/    
+3C196ED7 time/date Thu Dec 13 22:15:35 2001
+         uid
+         gid
+       0 mode
+     117 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C196ED7 time date stamp Thu Dec 13 22:15:35 2001
+              D6 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 12 00 09 00 00 00 00 00 0B 44 49 4E  .............DIN
+  00000010: 50 55 54 58 2E 64 6C 6C 28 00 13 10 07 00 00 00  PUTX.dll(.......
+  00000020: 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D  ............Û..M
+  00000030: 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E  icrosoft (R) LIN
+  00000040: 4B 00                                            K.
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CE file pointer to raw data (000000CE to 000000D1)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00                                      ....
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D2 file pointer to raw data (000000D2 to 000000D5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | DINPUTX_NULL_THUNK_DATA
+
+String Table Size = 0x1D bytes
+
+Archive member name at 668: DINPUTX.dll/    
+3C196ED7 time/date Thu Dec 13 22:15:35 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C196ED7 Thu Dec 13 22:15:35 2001
+  SizeOfData   : 00000020
+  DLL name     : DINPUTX.dll
+  Symbol name  : _DirectInputCreateW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 0
+  Name         : DirectInputCreateW
+
+     Exports
+
+       ordinal    name
+
+                  _DirectInputCreateW
+
+  Summary
+
+          C6 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

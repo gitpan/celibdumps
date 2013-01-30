@@ -1,0 +1,2827 @@
+Microsoft (R) COFF/PE Dumper Version 7.10.6030
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files\Windows CE Tools\wce400\STANDARDSDK\Lib\Emulator\crypt32.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+    19B4 size
+correct header end
+
+    205 public symbols
+
+     33F2 __IMPORT_DESCRIPTOR_CRYPT32
+     361C __NULL_IMPORT_DESCRIPTOR
+     3754 CRYPT32_NULL_THUNK_DATA
+     553A _CryptEncodeObjectEx
+     553A __imp__CryptEncodeObjectEx
+     54C8 _CryptDecodeObjectEx
+     54C8 __imp__CryptDecodeObjectEx
+     5C9A _CryptInitOIDFunctionSet
+     5C9A __imp__CryptInitOIDFunctionSet
+     5D88 _CryptInstallOIDFunctionAddress
+     5D88 __imp__CryptInstallOIDFunctionAddress
+     59DC _CryptGetOIDFunctionAddress
+     59DC __imp__CryptGetOIDFunctionAddress
+     58E6 _CryptFreeOIDFunctionAddress
+     58E6 __imp__CryptFreeOIDFunctionAddress
+     5878 _CryptFindOIDInfo
+     5878 __imp__CryptFindOIDInfo
+     562A _CryptEnumOIDInfo
+     562A __imp__CryptEnumOIDInfo
+     5804 _CryptFindLocalizedName
+     5804 __imp__CryptFindLocalizedName
+     6218 _I_CryptAllocTls
+     6218 __imp__I_CryptAllocTls
+     62F4 _I_CryptFreeTls
+     62F4 __imp__I_CryptFreeTls
+     6286 _I_CryptDetachTls
+     6286 __imp__I_CryptDetachTls
+     6624 _I_CryptSetTls
+     6624 __imp__I_CryptSetTls
+     6542 _I_CryptGetTls
+     6542 __imp__I_CryptGetTls
+     65AE _I_CryptInstallAsn1Module
+     65AE __imp__I_CryptInstallAsn1Module
+     6690 _I_CryptUninstallAsn1Module
+     6690 __imp__I_CryptUninstallAsn1Module
+     63D4 _I_CryptGetAsn1Encoder
+     63D4 __imp__I_CryptGetAsn1Encoder
+     6360 _I_CryptGetAsn1Decoder
+     6360 __imp__I_CryptGetAsn1Decoder
+     6448 _I_CryptGetDefaultCryptProv
+     6448 __imp__I_CryptGetDefaultCryptProv
+     64C0 _I_CryptGetDefaultCryptProvForEncrypt
+     64C0 __imp__I_CryptGetDefaultCryptProvForEncrypt
+     61AA _I_CertSyncStore
+     61AA __imp__I_CertSyncStore
+     4CF6 _CertOpenStore
+     4CF6 __imp__CertOpenStore
+     3B8A _CertCloseStore
+     3B8A __imp__CertCloseStore
+     4EC4 _CertSaveStore
+     4EC4 __imp__CertSaveStore
+     402A _CertDuplicateStore
+     402A __imp__CertDuplicateStore
+     39A2 _CertAddEncodedCertificateToStore
+     39A2 __imp__CertAddEncodedCertificateToStore
+     38A8 _CertAddCertificateContextToStore
+     38A8 __imp__CertAddCertificateContextToStore
+     3EB4 _CertDeleteCertificateFromStore
+     3EB4 __imp__CertDeleteCertificateFromStore
+     411C _CertEnumCertificatesInStore
+     411C __imp__CertEnumCertificatesInStore
+     4366 _CertFindCertificateInStore
+     4366 __imp__CertFindCertificateInStore
+     4A44 _CertGetSubjectCertificateFromStore
+     4A44 __imp__CertGetSubjectCertificateFromStore
+     47FE _CertGetIssuerCertificateFromStore
+     47FE __imp__CertGetIssuerCertificateFromStore
+     51F2 _CertVerifySubjectCertificateContext
+     51F2 __imp__CertVerifySubjectCertificateContext
+     3E3A _CertCreateCertificateContext
+     3E3A __imp__CertCreateCertificateContext
+     3FAC _CertDuplicateCertificateContext
+     3FAC __imp__CertDuplicateCertificateContext
+     4FB2 _CertSetCertificateContextProperty
+     4FB2 __imp__CertSetCertificateContextProperty
+     4692 _CertGetCertificateContextProperty
+     4692 __imp__CertGetCertificateContextProperty
+     45A4 _CertFreeCertificateContext
+     45A4 __imp__CertFreeCertificateContext
+     3AA0 _CertAddSerializedElementToStore
+     3AA0 __imp__CertAddSerializedElementToStore
+     4F30 _CertSerializeCertificateStoreElement
+     4F30 __imp__CertSerializeCertificateStoreElement
+     409A _CertEnumCertificateContextProperties
+     409A __imp__CertEnumCertificateContextProperties
+     3DCC _CertControlStore
+     3DCC __imp__CertControlStore
+     3926 _CertAddCertificateLinkToStore
+     3926 __imp__CertAddCertificateLinkToStore
+     50A8 _CertSetStoreProperty
+     50A8 __imp__CertSetStoreProperty
+     49D2 _CertGetStoreProperty
+     49D2 __imp__CertGetStoreProperty
+     427C _CertEnumSystemStoreLocation
+     427C __imp__CertEnumSystemStoreLocation
+     420A _CertEnumSystemStore
+     420A __imp__CertEnumSystemStore
+     4196 _CertEnumPhysicalStore
+     4196 __imp__CertEnumPhysicalStore
+     4712 _CertGetEnhancedKeyUsage
+     4712 __imp__CertGetEnhancedKeyUsage
+     5032 _CertSetEnhancedKeyUsage
+     5032 __imp__CertSetEnhancedKeyUsage
+     3A20 _CertAddEnhancedKeyUsageIdentifier
+     3A20 __imp__CertAddEnhancedKeyUsageIdentifier
+     4E42 _CertRemoveEnhancedKeyUsageIdentifier
+     4E42 __imp__CertRemoveEnhancedKeyUsageIdentifier
+     4AC4 _CertGetValidUsages
+     4AC4 __imp__CertGetValidUsages
+     5BAC _CryptImportPublicKeyInfo
+     5BAC __imp__CryptImportPublicKeyInfo
+     5698 _CryptExportPublicKeyInfo
+     5698 __imp__CryptExportPublicKeyInfo
+     5A54 _CryptHashCertificate
+     5A54 __imp__CryptHashCertificate
+     5B3A _CryptHashToBeSigned
+     5B3A __imp__CryptHashToBeSigned
+     5AC6 _CryptHashPublicKeyInfo
+     5AC6 __imp__CryptHashPublicKeyInfo
+     6040 _CryptSignCertificate
+     6040 __imp__CryptSignCertificate
+     5FC4 _CryptSignAndEncodeCertificate
+     5FC4 __imp__CryptSignAndEncodeCertificate
+     612C _CryptVerifyCertificateSignature
+     612C __imp__CryptVerifyCertificateSignature
+     5D10 _CryptInstallDefaultContext
+     5D10 __imp__CryptInstallDefaultContext
+     60B2 _CryptUninstallDefaultContext
+     60B2 __imp__CryptUninstallDefaultContext
+     5C22 _CryptImportPublicKeyInfoEx
+     5C22 __imp__CryptImportPublicKeyInfoEx
+     570E _CryptExportPublicKeyInfoEx
+     570E __imp__CryptExportPublicKeyInfoEx
+     53CA _CryptAcquireCertificatePrivateKey
+     53CA __imp__CryptAcquireCertificatePrivateKey
+     5786 _CryptFindCertificateKeyProvInfo
+     5786 __imp__CryptFindCertificateKeyProvInfo
+     5960 _CryptGetKeyIdentifierProperty
+     5960 __imp__CryptGetKeyIdentifierProperty
+     5F48 _CryptSetKeyIdentifierProperty
+     5F48 __imp__CryptSetKeyIdentifierProperty
+     55AC _CryptEnumKeyIdentifierProperties
+     55AC __imp__CryptEnumKeyIdentifierProperties
+     544A _CryptCreateKeyIdentifierFromCSP
+     544A __imp__CryptCreateKeyIdentifierFromCSP
+     3CE2 _CertCompareIntegerBlob
+     3CE2 __imp__CertCompareIntegerBlob
+     3BF6 _CertCompareCertificate
+     3BF6 __imp__CertCompareCertificate
+     3C6A _CertCompareCertificateName
+     3C6A __imp__CertCompareCertificateName
+     4B34 _CertIsRDNAttrsInCertificateName
+     4B34 __imp__CertIsRDNAttrsInCertificateName
+     3D56 _CertComparePublicKeyInfo
+     3D56 __imp__CertComparePublicKeyInfo
+     495E _CertGetPublicKeyLength
+     495E __imp__CertGetPublicKeyLength
+     5274 _CertVerifyTimeValidity
+     5274 __imp__CertVerifyTimeValidity
+     52E8 _CertVerifyValidityNesting
+     52E8 __imp__CertVerifyValidityNesting
+     3B1E _CertAlgIdToOID
+     3B1E __imp__CertAlgIdToOID
+     4C8A _CertOIDToAlgId
+     4C8A __imp__CertOIDToAlgId
+     4450 _CertFindExtension
+     4450 __imp__CertFindExtension
+     42F6 _CertFindAttribute
+     42F6 __imp__CertFindAttribute
+     44C0 _CertFindRDNAttr
+     44C0 __imp__CertFindRDNAttr
+     4788 _CertGetIntendedKeyUsage
+     4788 __imp__CertGetIntendedKeyUsage
+     4D62 _CertRDNValueToStrA
+     4D62 __imp__CertRDNValueToStrA
+     4DD2 _CertRDNValueToStrW
+     4DD2 __imp__CertRDNValueToStrW
+     4BB2 _CertNameToStrA
+     4BB2 __imp__CertNameToStrA
+     4C1E _CertNameToStrW
+     4C1E __imp__CertNameToStrW
+     511A _CertStrToNameA
+     511A __imp__CertStrToNameA
+     5186 _CertStrToNameW
+     5186 __imp__CertStrToNameW
+     487E _CertGetNameStringA
+     487E __imp__CertGetNameStringA
+     48EE _CertGetNameStringW
+     48EE __imp__CertGetNameStringW
+     5E04 _CryptMemAlloc
+     5E04 __imp__CryptMemAlloc
+     5EDA _CryptMemRealloc
+     5EDA __imp__CryptMemRealloc
+     5E70 _CryptMemFree
+     5E70 __imp__CryptMemFree
+     5360 _ChainDllMain
+     5360 __imp__ChainDllMain
+     461C _CertGetCertificateChain
+     461C __imp__CertGetCertificateChain
+     452E _CertFreeCertificateChain
+     452E __imp__CertFreeCertificateChain
+     3F30 _CertDuplicateCertificateChain
+     3F30 __imp__CertDuplicateCertificateChain
+     43DE _CertFindChainInStore
+     43DE __imp__CertFindChainInStore
+
+Archive member name at 19F8: /               
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+    19BE size
+correct header end
+
+    104 offsets
+
+        1     33F2
+        2     361C
+        3     3754
+        4     553A
+        5     54C8
+        6     5C9A
+        7     5D88
+        8     59DC
+        9     58E6
+        A     5878
+        B     562A
+        C     5804
+        D     6218
+        E     62F4
+        F     6286
+       10     6624
+       11     6542
+       12     65AE
+       13     6690
+       14     63D4
+       15     6360
+       16     6448
+       17     64C0
+       18     61AA
+       19     4CF6
+       1A     3B8A
+       1B     4EC4
+       1C     402A
+       1D     39A2
+       1E     38A8
+       1F     3EB4
+       20     411C
+       21     4366
+       22     4A44
+       23     47FE
+       24     51F2
+       25     3E3A
+       26     3FAC
+       27     4FB2
+       28     4692
+       29     45A4
+       2A     3AA0
+       2B     4F30
+       2C     409A
+       2D     3DCC
+       2E     3926
+       2F     50A8
+       30     49D2
+       31     427C
+       32     420A
+       33     4196
+       34     4712
+       35     5032
+       36     3A20
+       37     4E42
+       38     4AC4
+       39     5BAC
+       3A     5698
+       3B     5A54
+       3C     5B3A
+       3D     5AC6
+       3E     6040
+       3F     5FC4
+       40     612C
+       41     5D10
+       42     60B2
+       43     5C22
+       44     570E
+       45     53CA
+       46     5786
+       47     5960
+       48     5F48
+       49     55AC
+       4A     544A
+       4B     3CE2
+       4C     3BF6
+       4D     3C6A
+       4E     4B34
+       4F     3D56
+       50     495E
+       51     5274
+       52     52E8
+       53     3B1E
+       54     4C8A
+       55     4450
+       56     42F6
+       57     44C0
+       58     4788
+       59     4D62
+       5A     4DD2
+       5B     4BB2
+       5C     4C1E
+       5D     511A
+       5E     5186
+       5F     487E
+       60     48EE
+       61     5E04
+       62     5EDA
+       63     5E70
+       64     5360
+       65     461C
+       66     452E
+       67     3F30
+       68     43DE
+
+    205 public symbols
+
+       1E _CertAddCertificateContextToStore
+       2E _CertAddCertificateLinkToStore
+       1D _CertAddEncodedCertificateToStore
+       36 _CertAddEnhancedKeyUsageIdentifier
+       2A _CertAddSerializedElementToStore
+       53 _CertAlgIdToOID
+       1A _CertCloseStore
+       4C _CertCompareCertificate
+       4D _CertCompareCertificateName
+       4B _CertCompareIntegerBlob
+       4F _CertComparePublicKeyInfo
+       2D _CertControlStore
+       25 _CertCreateCertificateContext
+       1F _CertDeleteCertificateFromStore
+       67 _CertDuplicateCertificateChain
+       26 _CertDuplicateCertificateContext
+       1C _CertDuplicateStore
+       2C _CertEnumCertificateContextProperties
+       20 _CertEnumCertificatesInStore
+       33 _CertEnumPhysicalStore
+       32 _CertEnumSystemStore
+       31 _CertEnumSystemStoreLocation
+       56 _CertFindAttribute
+       21 _CertFindCertificateInStore
+       68 _CertFindChainInStore
+       55 _CertFindExtension
+       57 _CertFindRDNAttr
+       66 _CertFreeCertificateChain
+       29 _CertFreeCertificateContext
+       65 _CertGetCertificateChain
+       28 _CertGetCertificateContextProperty
+       34 _CertGetEnhancedKeyUsage
+       58 _CertGetIntendedKeyUsage
+       23 _CertGetIssuerCertificateFromStore
+       5F _CertGetNameStringA
+       60 _CertGetNameStringW
+       50 _CertGetPublicKeyLength
+       30 _CertGetStoreProperty
+       22 _CertGetSubjectCertificateFromStore
+       38 _CertGetValidUsages
+       4E _CertIsRDNAttrsInCertificateName
+       5B _CertNameToStrA
+       5C _CertNameToStrW
+       54 _CertOIDToAlgId
+       19 _CertOpenStore
+       59 _CertRDNValueToStrA
+       5A _CertRDNValueToStrW
+       37 _CertRemoveEnhancedKeyUsageIdentifier
+       1B _CertSaveStore
+       2B _CertSerializeCertificateStoreElement
+       27 _CertSetCertificateContextProperty
+       35 _CertSetEnhancedKeyUsage
+       2F _CertSetStoreProperty
+       5D _CertStrToNameA
+       5E _CertStrToNameW
+       24 _CertVerifySubjectCertificateContext
+       51 _CertVerifyTimeValidity
+       52 _CertVerifyValidityNesting
+       64 _ChainDllMain
+       45 _CryptAcquireCertificatePrivateKey
+       4A _CryptCreateKeyIdentifierFromCSP
+        5 _CryptDecodeObjectEx
+        4 _CryptEncodeObjectEx
+       49 _CryptEnumKeyIdentifierProperties
+        B _CryptEnumOIDInfo
+       3A _CryptExportPublicKeyInfo
+       44 _CryptExportPublicKeyInfoEx
+       46 _CryptFindCertificateKeyProvInfo
+        C _CryptFindLocalizedName
+        A _CryptFindOIDInfo
+        9 _CryptFreeOIDFunctionAddress
+       47 _CryptGetKeyIdentifierProperty
+        8 _CryptGetOIDFunctionAddress
+       3B _CryptHashCertificate
+       3D _CryptHashPublicKeyInfo
+       3C _CryptHashToBeSigned
+       39 _CryptImportPublicKeyInfo
+       43 _CryptImportPublicKeyInfoEx
+        6 _CryptInitOIDFunctionSet
+       41 _CryptInstallDefaultContext
+        7 _CryptInstallOIDFunctionAddress
+       61 _CryptMemAlloc
+       63 _CryptMemFree
+       62 _CryptMemRealloc
+       48 _CryptSetKeyIdentifierProperty
+       3F _CryptSignAndEncodeCertificate
+       3E _CryptSignCertificate
+       42 _CryptUninstallDefaultContext
+       40 _CryptVerifyCertificateSignature
+       18 _I_CertSyncStore
+        D _I_CryptAllocTls
+        F _I_CryptDetachTls
+        E _I_CryptFreeTls
+       15 _I_CryptGetAsn1Decoder
+       14 _I_CryptGetAsn1Encoder
+       16 _I_CryptGetDefaultCryptProv
+       17 _I_CryptGetDefaultCryptProvForEncrypt
+       11 _I_CryptGetTls
+       12 _I_CryptInstallAsn1Module
+       10 _I_CryptSetTls
+       13 _I_CryptUninstallAsn1Module
+        1 __IMPORT_DESCRIPTOR_CRYPT32
+        2 __NULL_IMPORT_DESCRIPTOR
+       1E __imp__CertAddCertificateContextToStore
+       2E __imp__CertAddCertificateLinkToStore
+       1D __imp__CertAddEncodedCertificateToStore
+       36 __imp__CertAddEnhancedKeyUsageIdentifier
+       2A __imp__CertAddSerializedElementToStore
+       53 __imp__CertAlgIdToOID
+       1A __imp__CertCloseStore
+       4C __imp__CertCompareCertificate
+       4D __imp__CertCompareCertificateName
+       4B __imp__CertCompareIntegerBlob
+       4F __imp__CertComparePublicKeyInfo
+       2D __imp__CertControlStore
+       25 __imp__CertCreateCertificateContext
+       1F __imp__CertDeleteCertificateFromStore
+       67 __imp__CertDuplicateCertificateChain
+       26 __imp__CertDuplicateCertificateContext
+       1C __imp__CertDuplicateStore
+       2C __imp__CertEnumCertificateContextProperties
+       20 __imp__CertEnumCertificatesInStore
+       33 __imp__CertEnumPhysicalStore
+       32 __imp__CertEnumSystemStore
+       31 __imp__CertEnumSystemStoreLocation
+       56 __imp__CertFindAttribute
+       21 __imp__CertFindCertificateInStore
+       68 __imp__CertFindChainInStore
+       55 __imp__CertFindExtension
+       57 __imp__CertFindRDNAttr
+       66 __imp__CertFreeCertificateChain
+       29 __imp__CertFreeCertificateContext
+       65 __imp__CertGetCertificateChain
+       28 __imp__CertGetCertificateContextProperty
+       34 __imp__CertGetEnhancedKeyUsage
+       58 __imp__CertGetIntendedKeyUsage
+       23 __imp__CertGetIssuerCertificateFromStore
+       5F __imp__CertGetNameStringA
+       60 __imp__CertGetNameStringW
+       50 __imp__CertGetPublicKeyLength
+       30 __imp__CertGetStoreProperty
+       22 __imp__CertGetSubjectCertificateFromStore
+       38 __imp__CertGetValidUsages
+       4E __imp__CertIsRDNAttrsInCertificateName
+       5B __imp__CertNameToStrA
+       5C __imp__CertNameToStrW
+       54 __imp__CertOIDToAlgId
+       19 __imp__CertOpenStore
+       59 __imp__CertRDNValueToStrA
+       5A __imp__CertRDNValueToStrW
+       37 __imp__CertRemoveEnhancedKeyUsageIdentifier
+       1B __imp__CertSaveStore
+       2B __imp__CertSerializeCertificateStoreElement
+       27 __imp__CertSetCertificateContextProperty
+       35 __imp__CertSetEnhancedKeyUsage
+       2F __imp__CertSetStoreProperty
+       5D __imp__CertStrToNameA
+       5E __imp__CertStrToNameW
+       24 __imp__CertVerifySubjectCertificateContext
+       51 __imp__CertVerifyTimeValidity
+       52 __imp__CertVerifyValidityNesting
+       64 __imp__ChainDllMain
+       45 __imp__CryptAcquireCertificatePrivateKey
+       4A __imp__CryptCreateKeyIdentifierFromCSP
+        5 __imp__CryptDecodeObjectEx
+        4 __imp__CryptEncodeObjectEx
+       49 __imp__CryptEnumKeyIdentifierProperties
+        B __imp__CryptEnumOIDInfo
+       3A __imp__CryptExportPublicKeyInfo
+       44 __imp__CryptExportPublicKeyInfoEx
+       46 __imp__CryptFindCertificateKeyProvInfo
+        C __imp__CryptFindLocalizedName
+        A __imp__CryptFindOIDInfo
+        9 __imp__CryptFreeOIDFunctionAddress
+       47 __imp__CryptGetKeyIdentifierProperty
+        8 __imp__CryptGetOIDFunctionAddress
+       3B __imp__CryptHashCertificate
+       3D __imp__CryptHashPublicKeyInfo
+       3C __imp__CryptHashToBeSigned
+       39 __imp__CryptImportPublicKeyInfo
+       43 __imp__CryptImportPublicKeyInfoEx
+        6 __imp__CryptInitOIDFunctionSet
+       41 __imp__CryptInstallDefaultContext
+        7 __imp__CryptInstallOIDFunctionAddress
+       61 __imp__CryptMemAlloc
+       63 __imp__CryptMemFree
+       62 __imp__CryptMemRealloc
+       48 __imp__CryptSetKeyIdentifierProperty
+       3F __imp__CryptSignAndEncodeCertificate
+       3E __imp__CryptSignCertificate
+       42 __imp__CryptUninstallDefaultContext
+       40 __imp__CryptVerifyCertificateSignature
+       18 __imp__I_CertSyncStore
+        D __imp__I_CryptAllocTls
+        F __imp__I_CryptDetachTls
+        E __imp__I_CryptFreeTls
+       15 __imp__I_CryptGetAsn1Decoder
+       14 __imp__I_CryptGetAsn1Encoder
+       16 __imp__I_CryptGetDefaultCryptProv
+       17 __imp__I_CryptGetDefaultCryptProvForEncrypt
+       11 __imp__I_CryptGetTls
+       12 __imp__I_CryptInstallAsn1Module
+       10 __imp__I_CryptSetTls
+       13 __imp__I_CryptUninstallAsn1Module
+        3 CRYPT32_NULL_THUNK_DATA
+
+Archive member name at 33F2: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+     1EE size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20792C time date stamp Wed Dec 19 06:25:32 2001
+             10C file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 12 00 09 00 00 00 00 00 0B 43 52 59  .............CRY
+  00000010: 50 54 33 32 2E 64 6C 6C 28 00 13 10 07 00 00 00  PT32.dll(.......
+  00000020: 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D  ............Û..M
+  00000030: 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E  icrosoft (R) LIN
+  00000040: 4B 00                                            K.
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CE file pointer to raw data (000000CE to 000000E1)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+RELOCATIONS #2
+                                                Symbol    Symbol
+ Offset    Type              Applied To         Index     Name
+ --------  ----------------  -----------------  --------  ------
+ 0000000C  DIR32NB                    00000000         3  .idata$6
+ 00000000  DIR32NB                    00000000         4  .idata$4
+ 00000010  DIR32NB                    00000000         5  .idata$5
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+     100 file pointer to raw data (00000100 to 0000010B)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 43 52 59 50 54 33 32 2E 64 6C 6C 00              CRYPT32.dll.
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __IMPORT_DESCRIPTOR_CRYPT32
+002 C0000040 SECT2  notype       Section      | .idata$2
+003 00000000 SECT3  notype       Static       | .idata$6
+004 C0000040 UNDEF  notype       Section      | .idata$4
+005 C0000040 UNDEF  notype       Section      | .idata$5
+006 00000000 UNDEF  notype       External     | __NULL_IMPORT_DESCRIPTOR
+007 00000000 UNDEF  notype       External     | CRYPT32_NULL_THUNK_DATA
+
+String Table Size = 0x52 bytes
+
+Archive member name at 361C: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      FB size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        3C20792C time date stamp Wed Dec 19 06:25:32 2001
+              BA file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      64 file pointer to raw data (00000064 to 000000A5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 12 00 09 00 00 00 00 00 0B 43 52 59  .............CRY
+  00000010: 50 54 33 32 2E 64 6C 6C 28 00 13 10 07 00 00 00  PT32.dll(.......
+  00000020: 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D  ............Û..M
+  00000030: 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E  icrosoft (R) LIN
+  00000040: 4B 00                                            K.
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A6 file pointer to raw data (000000A6 to 000000B9)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __NULL_IMPORT_DESCRIPTOR
+
+String Table Size = 0x1D bytes
+
+Archive member name at 3754: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+     117 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20792C time date stamp Wed Dec 19 06:25:32 2001
+              D6 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 12 00 09 00 00 00 00 00 0B 43 52 59  .............CRY
+  00000010: 50 54 33 32 2E 64 6C 6C 28 00 13 10 07 00 00 00  PT32.dll(.......
+  00000020: 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D  ............Û..M
+  00000030: 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E  icrosoft (R) LIN
+  00000040: 4B 00                                            K.
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CE file pointer to raw data (000000CE to 000000D1)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00                                      ....
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D2 file pointer to raw data (000000D2 to 000000D5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | CRYPT32_NULL_THUNK_DATA
+
+String Table Size = 0x1D bytes
+
+Archive member name at 38A8: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002E
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertAddCertificateContextToStore
+  Type         : code
+  Name type    : no prefix
+  Hint         : 0
+  Name         : CertAddCertificateContextToStore
+
+Archive member name at 3926: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002B
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertAddCertificateLinkToStore
+  Type         : code
+  Name type    : no prefix
+  Hint         : 1
+  Name         : CertAddCertificateLinkToStore
+
+Archive member name at 39A2: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002E
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertAddEncodedCertificateToStore
+  Type         : code
+  Name type    : no prefix
+  Hint         : 2
+  Name         : CertAddEncodedCertificateToStore
+
+Archive member name at 3A20: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002F
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertAddEnhancedKeyUsageIdentifier
+  Type         : code
+  Name type    : no prefix
+  Hint         : 3
+  Name         : CertAddEnhancedKeyUsageIdentifier
+
+Archive member name at 3AA0: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002D
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertAddSerializedElementToStore
+  Type         : code
+  Name type    : no prefix
+  Hint         : 4
+  Name         : CertAddSerializedElementToStore
+
+Archive member name at 3B1E: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001C
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertAlgIdToOID
+  Type         : code
+  Name type    : no prefix
+  Hint         : 5
+  Name         : CertAlgIdToOID
+
+Archive member name at 3B8A: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001C
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertCloseStore
+  Type         : code
+  Name type    : no prefix
+  Hint         : 6
+  Name         : CertCloseStore
+
+Archive member name at 3BF6: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000024
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertCompareCertificate
+  Type         : code
+  Name type    : no prefix
+  Hint         : 7
+  Name         : CertCompareCertificate
+
+Archive member name at 3C6A: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000028
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertCompareCertificateName
+  Type         : code
+  Name type    : no prefix
+  Hint         : 8
+  Name         : CertCompareCertificateName
+
+Archive member name at 3CE2: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000024
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertCompareIntegerBlob
+  Type         : code
+  Name type    : no prefix
+  Hint         : 9
+  Name         : CertCompareIntegerBlob
+
+Archive member name at 3D56: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000026
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertComparePublicKeyInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 10
+  Name         : CertComparePublicKeyInfo
+
+Archive member name at 3DCC: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001E
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertControlStore
+  Type         : code
+  Name type    : no prefix
+  Hint         : 11
+  Name         : CertControlStore
+
+Archive member name at 3E3A: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002A
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertCreateCertificateContext
+  Type         : code
+  Name type    : no prefix
+  Hint         : 12
+  Name         : CertCreateCertificateContext
+
+Archive member name at 3EB4: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002C
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertDeleteCertificateFromStore
+  Type         : code
+  Name type    : no prefix
+  Hint         : 13
+  Name         : CertDeleteCertificateFromStore
+
+Archive member name at 3F30: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002B
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertDuplicateCertificateChain
+  Type         : code
+  Name type    : no prefix
+  Hint         : 14
+  Name         : CertDuplicateCertificateChain
+
+Archive member name at 3FAC: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002D
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertDuplicateCertificateContext
+  Type         : code
+  Name type    : no prefix
+  Hint         : 15
+  Name         : CertDuplicateCertificateContext
+
+Archive member name at 402A: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000020
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertDuplicateStore
+  Type         : code
+  Name type    : no prefix
+  Hint         : 16
+  Name         : CertDuplicateStore
+
+Archive member name at 409A: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000032
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertEnumCertificateContextProperties
+  Type         : code
+  Name type    : no prefix
+  Hint         : 17
+  Name         : CertEnumCertificateContextProperties
+
+Archive member name at 411C: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000029
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertEnumCertificatesInStore
+  Type         : code
+  Name type    : no prefix
+  Hint         : 18
+  Name         : CertEnumCertificatesInStore
+
+Archive member name at 4196: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000023
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertEnumPhysicalStore
+  Type         : code
+  Name type    : no prefix
+  Hint         : 19
+  Name         : CertEnumPhysicalStore
+
+Archive member name at 420A: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000021
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertEnumSystemStore
+  Type         : code
+  Name type    : no prefix
+  Hint         : 20
+  Name         : CertEnumSystemStore
+
+Archive member name at 427C: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000029
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertEnumSystemStoreLocation
+  Type         : code
+  Name type    : no prefix
+  Hint         : 21
+  Name         : CertEnumSystemStoreLocation
+
+Archive member name at 42F6: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001F
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertFindAttribute
+  Type         : code
+  Name type    : no prefix
+  Hint         : 22
+  Name         : CertFindAttribute
+
+Archive member name at 4366: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000028
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertFindCertificateInStore
+  Type         : code
+  Name type    : no prefix
+  Hint         : 23
+  Name         : CertFindCertificateInStore
+
+Archive member name at 43DE: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000022
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertFindChainInStore
+  Type         : code
+  Name type    : no prefix
+  Hint         : 24
+  Name         : CertFindChainInStore
+
+Archive member name at 4450: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001F
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertFindExtension
+  Type         : code
+  Name type    : no prefix
+  Hint         : 25
+  Name         : CertFindExtension
+
+Archive member name at 44C0: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001D
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertFindRDNAttr
+  Type         : code
+  Name type    : no prefix
+  Hint         : 26
+  Name         : CertFindRDNAttr
+
+Archive member name at 452E: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000026
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertFreeCertificateChain
+  Type         : code
+  Name type    : no prefix
+  Hint         : 27
+  Name         : CertFreeCertificateChain
+
+Archive member name at 45A4: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000028
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertFreeCertificateContext
+  Type         : code
+  Name type    : no prefix
+  Hint         : 28
+  Name         : CertFreeCertificateContext
+
+Archive member name at 461C: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000025
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertGetCertificateChain
+  Type         : code
+  Name type    : no prefix
+  Hint         : 29
+  Name         : CertGetCertificateChain
+
+Archive member name at 4692: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002F
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertGetCertificateContextProperty
+  Type         : code
+  Name type    : no prefix
+  Hint         : 30
+  Name         : CertGetCertificateContextProperty
+
+Archive member name at 4712: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000025
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertGetEnhancedKeyUsage
+  Type         : code
+  Name type    : no prefix
+  Hint         : 31
+  Name         : CertGetEnhancedKeyUsage
+
+Archive member name at 4788: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000025
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertGetIntendedKeyUsage
+  Type         : code
+  Name type    : no prefix
+  Hint         : 32
+  Name         : CertGetIntendedKeyUsage
+
+Archive member name at 47FE: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002F
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertGetIssuerCertificateFromStore
+  Type         : code
+  Name type    : no prefix
+  Hint         : 33
+  Name         : CertGetIssuerCertificateFromStore
+
+Archive member name at 487E: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000020
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertGetNameStringA
+  Type         : code
+  Name type    : no prefix
+  Hint         : 34
+  Name         : CertGetNameStringA
+
+Archive member name at 48EE: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000020
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertGetNameStringW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 35
+  Name         : CertGetNameStringW
+
+Archive member name at 495E: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000024
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertGetPublicKeyLength
+  Type         : code
+  Name type    : no prefix
+  Hint         : 36
+  Name         : CertGetPublicKeyLength
+
+Archive member name at 49D2: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000022
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertGetStoreProperty
+  Type         : code
+  Name type    : no prefix
+  Hint         : 37
+  Name         : CertGetStoreProperty
+
+Archive member name at 4A44: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000030
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertGetSubjectCertificateFromStore
+  Type         : code
+  Name type    : no prefix
+  Hint         : 38
+  Name         : CertGetSubjectCertificateFromStore
+
+Archive member name at 4AC4: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000020
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertGetValidUsages
+  Type         : code
+  Name type    : no prefix
+  Hint         : 39
+  Name         : CertGetValidUsages
+
+Archive member name at 4B34: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002D
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertIsRDNAttrsInCertificateName
+  Type         : code
+  Name type    : no prefix
+  Hint         : 40
+  Name         : CertIsRDNAttrsInCertificateName
+
+Archive member name at 4BB2: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001C
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertNameToStrA
+  Type         : code
+  Name type    : no prefix
+  Hint         : 41
+  Name         : CertNameToStrA
+
+Archive member name at 4C1E: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001C
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertNameToStrW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 42
+  Name         : CertNameToStrW
+
+Archive member name at 4C8A: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001C
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertOIDToAlgId
+  Type         : code
+  Name type    : no prefix
+  Hint         : 43
+  Name         : CertOIDToAlgId
+
+Archive member name at 4CF6: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001B
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertOpenStore
+  Type         : code
+  Name type    : no prefix
+  Hint         : 44
+  Name         : CertOpenStore
+
+Archive member name at 4D62: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000020
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertRDNValueToStrA
+  Type         : code
+  Name type    : no prefix
+  Hint         : 45
+  Name         : CertRDNValueToStrA
+
+Archive member name at 4DD2: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000020
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertRDNValueToStrW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 46
+  Name         : CertRDNValueToStrW
+
+Archive member name at 4E42: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000032
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertRemoveEnhancedKeyUsageIdentifier
+  Type         : code
+  Name type    : no prefix
+  Hint         : 47
+  Name         : CertRemoveEnhancedKeyUsageIdentifier
+
+Archive member name at 4EC4: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001B
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertSaveStore
+  Type         : code
+  Name type    : no prefix
+  Hint         : 48
+  Name         : CertSaveStore
+
+Archive member name at 4F30: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000032
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertSerializeCertificateStoreElement
+  Type         : code
+  Name type    : no prefix
+  Hint         : 49
+  Name         : CertSerializeCertificateStoreElement
+
+Archive member name at 4FB2: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002F
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertSetCertificateContextProperty
+  Type         : code
+  Name type    : no prefix
+  Hint         : 50
+  Name         : CertSetCertificateContextProperty
+
+Archive member name at 5032: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000025
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertSetEnhancedKeyUsage
+  Type         : code
+  Name type    : no prefix
+  Hint         : 51
+  Name         : CertSetEnhancedKeyUsage
+
+Archive member name at 50A8: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000022
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertSetStoreProperty
+  Type         : code
+  Name type    : no prefix
+  Hint         : 52
+  Name         : CertSetStoreProperty
+
+Archive member name at 511A: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001C
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertStrToNameA
+  Type         : code
+  Name type    : no prefix
+  Hint         : 53
+  Name         : CertStrToNameA
+
+Archive member name at 5186: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001C
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertStrToNameW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 54
+  Name         : CertStrToNameW
+
+Archive member name at 51F2: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000031
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertVerifySubjectCertificateContext
+  Type         : code
+  Name type    : no prefix
+  Hint         : 55
+  Name         : CertVerifySubjectCertificateContext
+
+Archive member name at 5274: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000024
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertVerifyTimeValidity
+  Type         : code
+  Name type    : no prefix
+  Hint         : 56
+  Name         : CertVerifyTimeValidity
+
+Archive member name at 52E8: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000027
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CertVerifyValidityNesting
+  Type         : code
+  Name type    : no prefix
+  Hint         : 57
+  Name         : CertVerifyValidityNesting
+
+Archive member name at 5360: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001A
+  DLL name     : CRYPT32.dll
+  Symbol name  : _ChainDllMain
+  Type         : code
+  Name type    : no prefix
+  Hint         : 58
+  Name         : ChainDllMain
+
+Archive member name at 53CA: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002F
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptAcquireCertificatePrivateKey
+  Type         : code
+  Name type    : no prefix
+  Hint         : 59
+  Name         : CryptAcquireCertificatePrivateKey
+
+Archive member name at 544A: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002D
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptCreateKeyIdentifierFromCSP
+  Type         : code
+  Name type    : no prefix
+  Hint         : 60
+  Name         : CryptCreateKeyIdentifierFromCSP
+
+Archive member name at 54C8: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000021
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptDecodeObjectEx
+  Type         : code
+  Name type    : no prefix
+  Hint         : 61
+  Name         : CryptDecodeObjectEx
+
+Archive member name at 553A: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000021
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptEncodeObjectEx
+  Type         : code
+  Name type    : no prefix
+  Hint         : 62
+  Name         : CryptEncodeObjectEx
+
+Archive member name at 55AC: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002E
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptEnumKeyIdentifierProperties
+  Type         : code
+  Name type    : no prefix
+  Hint         : 63
+  Name         : CryptEnumKeyIdentifierProperties
+
+Archive member name at 562A: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001E
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptEnumOIDInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 64
+  Name         : CryptEnumOIDInfo
+
+Archive member name at 5698: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000026
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptExportPublicKeyInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 65
+  Name         : CryptExportPublicKeyInfo
+
+Archive member name at 570E: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000028
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptExportPublicKeyInfoEx
+  Type         : code
+  Name type    : no prefix
+  Hint         : 66
+  Name         : CryptExportPublicKeyInfoEx
+
+Archive member name at 5786: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002D
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptFindCertificateKeyProvInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 67
+  Name         : CryptFindCertificateKeyProvInfo
+
+Archive member name at 5804: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000024
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptFindLocalizedName
+  Type         : code
+  Name type    : no prefix
+  Hint         : 68
+  Name         : CryptFindLocalizedName
+
+Archive member name at 5878: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001E
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptFindOIDInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 69
+  Name         : CryptFindOIDInfo
+
+Archive member name at 58E6: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000029
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptFreeOIDFunctionAddress
+  Type         : code
+  Name type    : no prefix
+  Hint         : 70
+  Name         : CryptFreeOIDFunctionAddress
+
+Archive member name at 5960: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002B
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptGetKeyIdentifierProperty
+  Type         : code
+  Name type    : no prefix
+  Hint         : 71
+  Name         : CryptGetKeyIdentifierProperty
+
+Archive member name at 59DC: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000028
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptGetOIDFunctionAddress
+  Type         : code
+  Name type    : no prefix
+  Hint         : 72
+  Name         : CryptGetOIDFunctionAddress
+
+Archive member name at 5A54: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000022
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptHashCertificate
+  Type         : code
+  Name type    : no prefix
+  Hint         : 73
+  Name         : CryptHashCertificate
+
+Archive member name at 5AC6: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000024
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptHashPublicKeyInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 74
+  Name         : CryptHashPublicKeyInfo
+
+Archive member name at 5B3A: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000021
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptHashToBeSigned
+  Type         : code
+  Name type    : no prefix
+  Hint         : 75
+  Name         : CryptHashToBeSigned
+
+Archive member name at 5BAC: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000026
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptImportPublicKeyInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 76
+  Name         : CryptImportPublicKeyInfo
+
+Archive member name at 5C22: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000028
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptImportPublicKeyInfoEx
+  Type         : code
+  Name type    : no prefix
+  Hint         : 77
+  Name         : CryptImportPublicKeyInfoEx
+
+Archive member name at 5C9A: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000025
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptInitOIDFunctionSet
+  Type         : code
+  Name type    : no prefix
+  Hint         : 78
+  Name         : CryptInitOIDFunctionSet
+
+Archive member name at 5D10: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000028
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptInstallDefaultContext
+  Type         : code
+  Name type    : no prefix
+  Hint         : 79
+  Name         : CryptInstallDefaultContext
+
+Archive member name at 5D88: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002C
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptInstallOIDFunctionAddress
+  Type         : code
+  Name type    : no prefix
+  Hint         : 80
+  Name         : CryptInstallOIDFunctionAddress
+
+Archive member name at 5E04: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001B
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptMemAlloc
+  Type         : code
+  Name type    : no prefix
+  Hint         : 81
+  Name         : CryptMemAlloc
+
+Archive member name at 5E70: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001A
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptMemFree
+  Type         : code
+  Name type    : no prefix
+  Hint         : 82
+  Name         : CryptMemFree
+
+Archive member name at 5EDA: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001D
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptMemRealloc
+  Type         : code
+  Name type    : no prefix
+  Hint         : 83
+  Name         : CryptMemRealloc
+
+Archive member name at 5F48: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002B
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptSetKeyIdentifierProperty
+  Type         : code
+  Name type    : no prefix
+  Hint         : 84
+  Name         : CryptSetKeyIdentifierProperty
+
+Archive member name at 5FC4: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002B
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptSignAndEncodeCertificate
+  Type         : code
+  Name type    : no prefix
+  Hint         : 85
+  Name         : CryptSignAndEncodeCertificate
+
+Archive member name at 6040: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000022
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptSignCertificate
+  Type         : code
+  Name type    : no prefix
+  Hint         : 86
+  Name         : CryptSignCertificate
+
+Archive member name at 60B2: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002A
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptUninstallDefaultContext
+  Type         : code
+  Name type    : no prefix
+  Hint         : 87
+  Name         : CryptUninstallDefaultContext
+
+Archive member name at 612C: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000002D
+  DLL name     : CRYPT32.dll
+  Symbol name  : _CryptVerifyCertificateSignature
+  Type         : code
+  Name type    : no prefix
+  Hint         : 88
+  Name         : CryptVerifyCertificateSignature
+
+Archive member name at 61AA: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001D
+  DLL name     : CRYPT32.dll
+  Symbol name  : _I_CertSyncStore
+  Type         : code
+  Name type    : no prefix
+  Hint         : 89
+  Name         : I_CertSyncStore
+
+Archive member name at 6218: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001D
+  DLL name     : CRYPT32.dll
+  Symbol name  : _I_CryptAllocTls
+  Type         : code
+  Name type    : no prefix
+  Hint         : 90
+  Name         : I_CryptAllocTls
+
+Archive member name at 6286: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001E
+  DLL name     : CRYPT32.dll
+  Symbol name  : _I_CryptDetachTls
+  Type         : code
+  Name type    : no prefix
+  Hint         : 91
+  Name         : I_CryptDetachTls
+
+Archive member name at 62F4: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001C
+  DLL name     : CRYPT32.dll
+  Symbol name  : _I_CryptFreeTls
+  Type         : code
+  Name type    : no prefix
+  Hint         : 92
+  Name         : I_CryptFreeTls
+
+Archive member name at 6360: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000023
+  DLL name     : CRYPT32.dll
+  Symbol name  : _I_CryptGetAsn1Decoder
+  Type         : code
+  Name type    : no prefix
+  Hint         : 93
+  Name         : I_CryptGetAsn1Decoder
+
+Archive member name at 63D4: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000023
+  DLL name     : CRYPT32.dll
+  Symbol name  : _I_CryptGetAsn1Encoder
+  Type         : code
+  Name type    : no prefix
+  Hint         : 94
+  Name         : I_CryptGetAsn1Encoder
+
+Archive member name at 6448: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000028
+  DLL name     : CRYPT32.dll
+  Symbol name  : _I_CryptGetDefaultCryptProv
+  Type         : code
+  Name type    : no prefix
+  Hint         : 95
+  Name         : I_CryptGetDefaultCryptProv
+
+Archive member name at 64C0: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000032
+  DLL name     : CRYPT32.dll
+  Symbol name  : _I_CryptGetDefaultCryptProvForEncrypt
+  Type         : code
+  Name type    : no prefix
+  Hint         : 96
+  Name         : I_CryptGetDefaultCryptProvForEncrypt
+
+Archive member name at 6542: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001B
+  DLL name     : CRYPT32.dll
+  Symbol name  : _I_CryptGetTls
+  Type         : code
+  Name type    : no prefix
+  Hint         : 97
+  Name         : I_CryptGetTls
+
+Archive member name at 65AE: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000026
+  DLL name     : CRYPT32.dll
+  Symbol name  : _I_CryptInstallAsn1Module
+  Type         : code
+  Name type    : no prefix
+  Hint         : 98
+  Name         : I_CryptInstallAsn1Module
+
+Archive member name at 6624: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 0000001B
+  DLL name     : CRYPT32.dll
+  Symbol name  : _I_CryptSetTls
+  Type         : code
+  Name type    : no prefix
+  Hint         : 99
+  Name         : I_CryptSetTls
+
+Archive member name at 6690: CRYPT32.dll/    
+3C20792C time/date Wed Dec 19 06:25:32 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792C Wed Dec 19 06:25:32 2001
+  SizeOfData   : 00000028
+  DLL name     : CRYPT32.dll
+  Symbol name  : _I_CryptUninstallAsn1Module
+  Type         : code
+  Name type    : no prefix
+  Hint         : 100
+  Name         : I_CryptUninstallAsn1Module
+
+     Exports
+
+       ordinal    name
+
+                  _CertAddCertificateContextToStore
+                  _CertAddCertificateLinkToStore
+                  _CertAddEncodedCertificateToStore
+                  _CertAddEnhancedKeyUsageIdentifier
+                  _CertAddSerializedElementToStore
+                  _CertAlgIdToOID
+                  _CertCloseStore
+                  _CertCompareCertificate
+                  _CertCompareCertificateName
+                  _CertCompareIntegerBlob
+                  _CertComparePublicKeyInfo
+                  _CertControlStore
+                  _CertCreateCertificateContext
+                  _CertDeleteCertificateFromStore
+                  _CertDuplicateCertificateChain
+                  _CertDuplicateCertificateContext
+                  _CertDuplicateStore
+                  _CertEnumCertificateContextProperties
+                  _CertEnumCertificatesInStore
+                  _CertEnumPhysicalStore
+                  _CertEnumSystemStore
+                  _CertEnumSystemStoreLocation
+                  _CertFindAttribute
+                  _CertFindCertificateInStore
+                  _CertFindChainInStore
+                  _CertFindExtension
+                  _CertFindRDNAttr
+                  _CertFreeCertificateChain
+                  _CertFreeCertificateContext
+                  _CertGetCertificateChain
+                  _CertGetCertificateContextProperty
+                  _CertGetEnhancedKeyUsage
+                  _CertGetIntendedKeyUsage
+                  _CertGetIssuerCertificateFromStore
+                  _CertGetNameStringA
+                  _CertGetNameStringW
+                  _CertGetPublicKeyLength
+                  _CertGetStoreProperty
+                  _CertGetSubjectCertificateFromStore
+                  _CertGetValidUsages
+                  _CertIsRDNAttrsInCertificateName
+                  _CertNameToStrA
+                  _CertNameToStrW
+                  _CertOIDToAlgId
+                  _CertOpenStore
+                  _CertRDNValueToStrA
+                  _CertRDNValueToStrW
+                  _CertRemoveEnhancedKeyUsageIdentifier
+                  _CertSaveStore
+                  _CertSerializeCertificateStoreElement
+                  _CertSetCertificateContextProperty
+                  _CertSetEnhancedKeyUsage
+                  _CertSetStoreProperty
+                  _CertStrToNameA
+                  _CertStrToNameW
+                  _CertVerifySubjectCertificateContext
+                  _CertVerifyTimeValidity
+                  _CertVerifyValidityNesting
+                  _ChainDllMain
+                  _CryptAcquireCertificatePrivateKey
+                  _CryptCreateKeyIdentifierFromCSP
+                  _CryptDecodeObjectEx
+                  _CryptEncodeObjectEx
+                  _CryptEnumKeyIdentifierProperties
+                  _CryptEnumOIDInfo
+                  _CryptExportPublicKeyInfo
+                  _CryptExportPublicKeyInfoEx
+                  _CryptFindCertificateKeyProvInfo
+                  _CryptFindLocalizedName
+                  _CryptFindOIDInfo
+                  _CryptFreeOIDFunctionAddress
+                  _CryptGetKeyIdentifierProperty
+                  _CryptGetOIDFunctionAddress
+                  _CryptHashCertificate
+                  _CryptHashPublicKeyInfo
+                  _CryptHashToBeSigned
+                  _CryptImportPublicKeyInfo
+                  _CryptImportPublicKeyInfoEx
+                  _CryptInitOIDFunctionSet
+                  _CryptInstallDefaultContext
+                  _CryptInstallOIDFunctionAddress
+                  _CryptMemAlloc
+                  _CryptMemFree
+                  _CryptMemRealloc
+                  _CryptSetKeyIdentifierProperty
+                  _CryptSignAndEncodeCertificate
+                  _CryptSignCertificate
+                  _CryptUninstallDefaultContext
+                  _CryptVerifyCertificateSignature
+                  _I_CertSyncStore
+                  _I_CryptAllocTls
+                  _I_CryptDetachTls
+                  _I_CryptFreeTls
+                  _I_CryptGetAsn1Decoder
+                  _I_CryptGetAsn1Encoder
+                  _I_CryptGetDefaultCryptProv
+                  _I_CryptGetDefaultCryptProvForEncrypt
+                  _I_CryptGetTls
+                  _I_CryptInstallAsn1Module
+                  _I_CryptSetTls
+                  _I_CryptUninstallAsn1Module
+
+  Summary
+
+          C6 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

@@ -1,0 +1,852 @@
+Microsoft (R) COFF/PE Dumper Version 7.10.6030
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files\Windows CE Tools\wce400\STANDARDSDK\Lib\Emulator\secur32.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+     538 size
+correct header end
+
+    47 public symbols
+
+      AFA __IMPORT_DESCRIPTOR_Secur32
+      D24 __NULL_IMPORT_DESCRIPTOR
+      E5C Secur32_NULL_THUNK_DATA
+     1502 _InitSecurityInterfaceW
+     1502 __imp__InitSecurityInterfaceW
+     174A _QuerySecurityPackageInfoW
+     174A __imp__QuerySecurityPackageInfoW
+     12BA _EnumerateSecurityPackagesW
+     12BA __imp__EnumerateSecurityPackagesW
+     1024 _AcquireCredentialsHandleW
+     1024 __imp__AcquireCredentialsHandleW
+     16D0 _QueryCredentialsAttributesW
+     16D0 __imp__QueryCredentialsAttributesW
+     13A2 _FreeCredentialsHandle
+     13A2 __imp__FreeCredentialsHandle
+     1576 _InitializeSecurityContextW
+     1576 __imp__InitializeSecurityContextW
+      FB0 _AcceptSecurityContext
+      FB0 __imp__AcceptSecurityContext
+     1246 _DeleteSecurityContext
+     1246 __imp__DeleteSecurityContext
+     165A _QueryContextAttributesW
+     165A __imp__QueryContextAttributesW
+     109C _ApplyControlToken
+     109C __imp__ApplyControlToken
+     15EE _MakeSignature
+     15EE __imp__MakeSignature
+     190C _VerifySignature
+     190C __imp__VerifySignature
+     1416 _ImpersonateSecurityContext
+     1416 __imp__ImpersonateSecurityContext
+     17C2 _RevertSecurityContext
+     17C2 __imp__RevertSecurityContext
+     1332 _FreeContextBuffer
+     1332 __imp__FreeContextBuffer
+     1836 _SealMessage
+     1836 __imp__SealMessage
+     18A0 _UnsealMessage
+     18A0 __imp__UnsealMessage
+     148E _InitSecurityInterfaceA
+     148E __imp__InitSecurityInterfaceA
+     1174 _CeCredRead
+     1174 __imp__CeCredRead
+     11DC _CeCredWrite
+     11DC __imp__CeCredWrite
+     110C _CeCredFree
+     110C __imp__CeCredFree
+
+Archive member name at 57C: /               
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+     542 size
+correct header end
+
+    25 offsets
+
+        1      AFA
+        2      D24
+        3      E5C
+        4     1502
+        5     174A
+        6     12BA
+        7     1024
+        8     16D0
+        9     13A2
+        A     1576
+        B      FB0
+        C     1246
+        D     165A
+        E     109C
+        F     15EE
+       10     190C
+       11     1416
+       12     17C2
+       13     1332
+       14     1836
+       15     18A0
+       16     148E
+       17     1174
+       18     11DC
+       19     110C
+
+    47 public symbols
+
+        B _AcceptSecurityContext
+        7 _AcquireCredentialsHandleW
+        E _ApplyControlToken
+       19 _CeCredFree
+       17 _CeCredRead
+       18 _CeCredWrite
+        C _DeleteSecurityContext
+        6 _EnumerateSecurityPackagesW
+       13 _FreeContextBuffer
+        9 _FreeCredentialsHandle
+       11 _ImpersonateSecurityContext
+       16 _InitSecurityInterfaceA
+        4 _InitSecurityInterfaceW
+        A _InitializeSecurityContextW
+        F _MakeSignature
+        D _QueryContextAttributesW
+        8 _QueryCredentialsAttributesW
+        5 _QuerySecurityPackageInfoW
+       12 _RevertSecurityContext
+       14 _SealMessage
+       15 _UnsealMessage
+       10 _VerifySignature
+        1 __IMPORT_DESCRIPTOR_Secur32
+        2 __NULL_IMPORT_DESCRIPTOR
+        B __imp__AcceptSecurityContext
+        7 __imp__AcquireCredentialsHandleW
+        E __imp__ApplyControlToken
+       19 __imp__CeCredFree
+       17 __imp__CeCredRead
+       18 __imp__CeCredWrite
+        C __imp__DeleteSecurityContext
+        6 __imp__EnumerateSecurityPackagesW
+       13 __imp__FreeContextBuffer
+        9 __imp__FreeCredentialsHandle
+       11 __imp__ImpersonateSecurityContext
+       16 __imp__InitSecurityInterfaceA
+        4 __imp__InitSecurityInterfaceW
+        A __imp__InitializeSecurityContextW
+        F __imp__MakeSignature
+        D __imp__QueryContextAttributesW
+        8 __imp__QueryCredentialsAttributesW
+        5 __imp__QuerySecurityPackageInfoW
+       12 __imp__RevertSecurityContext
+       14 __imp__SealMessage
+       15 __imp__UnsealMessage
+       10 __imp__VerifySignature
+        3 Secur32_NULL_THUNK_DATA
+
+Archive member name at AFA: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+     1EE size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20792B time date stamp Wed Dec 19 06:25:31 2001
+             10C file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 12 00 09 00 00 00 00 00 0B 53 65 63  .............Sec
+  00000010: 75 72 33 32 2E 64 6C 6C 28 00 13 10 07 00 00 00  ur32.dll(.......
+  00000020: 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D  ............Û..M
+  00000030: 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E  icrosoft (R) LIN
+  00000040: 4B 00                                            K.
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CE file pointer to raw data (000000CE to 000000E1)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+RELOCATIONS #2
+                                                Symbol    Symbol
+ Offset    Type              Applied To         Index     Name
+ --------  ----------------  -----------------  --------  ------
+ 0000000C  DIR32NB                    00000000         3  .idata$6
+ 00000000  DIR32NB                    00000000         4  .idata$4
+ 00000010  DIR32NB                    00000000         5  .idata$5
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+     100 file pointer to raw data (00000100 to 0000010B)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 53 65 63 75 72 33 32 2E 64 6C 6C 00              Secur32.dll.
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __IMPORT_DESCRIPTOR_Secur32
+002 C0000040 SECT2  notype       Section      | .idata$2
+003 00000000 SECT3  notype       Static       | .idata$6
+004 C0000040 UNDEF  notype       Section      | .idata$4
+005 C0000040 UNDEF  notype       Section      | .idata$5
+006 00000000 UNDEF  notype       External     | __NULL_IMPORT_DESCRIPTOR
+007 00000000 UNDEF  notype       External     | Secur32_NULL_THUNK_DATA
+
+String Table Size = 0x52 bytes
+
+Archive member name at D24: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      FB size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        3C20792B time date stamp Wed Dec 19 06:25:31 2001
+              BA file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      64 file pointer to raw data (00000064 to 000000A5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 12 00 09 00 00 00 00 00 0B 53 65 63  .............Sec
+  00000010: 75 72 33 32 2E 64 6C 6C 28 00 13 10 07 00 00 00  ur32.dll(.......
+  00000020: 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D  ............Û..M
+  00000030: 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E  icrosoft (R) LIN
+  00000040: 4B 00                                            K.
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A6 file pointer to raw data (000000A6 to 000000B9)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __NULL_IMPORT_DESCRIPTOR
+
+String Table Size = 0x1D bytes
+
+Archive member name at E5C: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+     117 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20792B time date stamp Wed Dec 19 06:25:31 2001
+              D6 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 12 00 09 00 00 00 00 00 0B 53 65 63  .............Sec
+  00000010: 75 72 33 32 2E 64 6C 6C 28 00 13 10 07 00 00 00  ur32.dll(.......
+  00000020: 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D  ............Û..M
+  00000030: 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E  icrosoft (R) LIN
+  00000040: 4B 00                                            K.
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CE file pointer to raw data (000000CE to 000000D1)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00                                      ....
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D2 file pointer to raw data (000000D2 to 000000D5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | Secur32_NULL_THUNK_DATA
+
+String Table Size = 0x1D bytes
+
+Archive member name at FB0: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 00000023
+  DLL name     : Secur32.dll
+  Symbol name  : _AcceptSecurityContext
+  Type         : code
+  Name type    : no prefix
+  Hint         : 0
+  Name         : AcceptSecurityContext
+
+Archive member name at 1024: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 00000027
+  DLL name     : Secur32.dll
+  Symbol name  : _AcquireCredentialsHandleW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 1
+  Name         : AcquireCredentialsHandleW
+
+Archive member name at 109C: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 0000001F
+  DLL name     : Secur32.dll
+  Symbol name  : _ApplyControlToken
+  Type         : code
+  Name type    : no prefix
+  Hint         : 2
+  Name         : ApplyControlToken
+
+Archive member name at 110C: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 00000018
+  DLL name     : Secur32.dll
+  Symbol name  : _CeCredFree
+  Type         : code
+  Name type    : no prefix
+  Hint         : 3
+  Name         : CeCredFree
+
+Archive member name at 1174: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 00000018
+  DLL name     : Secur32.dll
+  Symbol name  : _CeCredRead
+  Type         : code
+  Name type    : no prefix
+  Hint         : 4
+  Name         : CeCredRead
+
+Archive member name at 11DC: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 00000019
+  DLL name     : Secur32.dll
+  Symbol name  : _CeCredWrite
+  Type         : code
+  Name type    : no prefix
+  Hint         : 5
+  Name         : CeCredWrite
+
+Archive member name at 1246: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 00000023
+  DLL name     : Secur32.dll
+  Symbol name  : _DeleteSecurityContext
+  Type         : code
+  Name type    : no prefix
+  Hint         : 6
+  Name         : DeleteSecurityContext
+
+Archive member name at 12BA: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 00000028
+  DLL name     : Secur32.dll
+  Symbol name  : _EnumerateSecurityPackagesW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 7
+  Name         : EnumerateSecurityPackagesW
+
+Archive member name at 1332: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 0000001F
+  DLL name     : Secur32.dll
+  Symbol name  : _FreeContextBuffer
+  Type         : code
+  Name type    : no prefix
+  Hint         : 8
+  Name         : FreeContextBuffer
+
+Archive member name at 13A2: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 00000023
+  DLL name     : Secur32.dll
+  Symbol name  : _FreeCredentialsHandle
+  Type         : code
+  Name type    : no prefix
+  Hint         : 9
+  Name         : FreeCredentialsHandle
+
+Archive member name at 1416: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 00000028
+  DLL name     : Secur32.dll
+  Symbol name  : _ImpersonateSecurityContext
+  Type         : code
+  Name type    : no prefix
+  Hint         : 10
+  Name         : ImpersonateSecurityContext
+
+Archive member name at 148E: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 00000024
+  DLL name     : Secur32.dll
+  Symbol name  : _InitSecurityInterfaceA
+  Type         : code
+  Name type    : no prefix
+  Hint         : 11
+  Name         : InitSecurityInterfaceA
+
+Archive member name at 1502: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 00000024
+  DLL name     : Secur32.dll
+  Symbol name  : _InitSecurityInterfaceW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 12
+  Name         : InitSecurityInterfaceW
+
+Archive member name at 1576: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 00000028
+  DLL name     : Secur32.dll
+  Symbol name  : _InitializeSecurityContextW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 13
+  Name         : InitializeSecurityContextW
+
+Archive member name at 15EE: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 0000001B
+  DLL name     : Secur32.dll
+  Symbol name  : _MakeSignature
+  Type         : code
+  Name type    : no prefix
+  Hint         : 14
+  Name         : MakeSignature
+
+Archive member name at 165A: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 00000025
+  DLL name     : Secur32.dll
+  Symbol name  : _QueryContextAttributesW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 15
+  Name         : QueryContextAttributesW
+
+Archive member name at 16D0: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 00000029
+  DLL name     : Secur32.dll
+  Symbol name  : _QueryCredentialsAttributesW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 16
+  Name         : QueryCredentialsAttributesW
+
+Archive member name at 174A: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 00000027
+  DLL name     : Secur32.dll
+  Symbol name  : _QuerySecurityPackageInfoW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 17
+  Name         : QuerySecurityPackageInfoW
+
+Archive member name at 17C2: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 00000023
+  DLL name     : Secur32.dll
+  Symbol name  : _RevertSecurityContext
+  Type         : code
+  Name type    : no prefix
+  Hint         : 18
+  Name         : RevertSecurityContext
+
+Archive member name at 1836: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 00000019
+  DLL name     : Secur32.dll
+  Symbol name  : _SealMessage
+  Type         : code
+  Name type    : no prefix
+  Hint         : 19
+  Name         : SealMessage
+
+Archive member name at 18A0: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 0000001B
+  DLL name     : Secur32.dll
+  Symbol name  : _UnsealMessage
+  Type         : code
+  Name type    : no prefix
+  Hint         : 20
+  Name         : UnsealMessage
+
+Archive member name at 190C: Secur32.dll/    
+3C20792B time/date Wed Dec 19 06:25:31 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792B Wed Dec 19 06:25:31 2001
+  SizeOfData   : 0000001D
+  DLL name     : Secur32.dll
+  Symbol name  : _VerifySignature
+  Type         : code
+  Name type    : no prefix
+  Hint         : 21
+  Name         : VerifySignature
+
+     Exports
+
+       ordinal    name
+
+                  _AcceptSecurityContext
+                  _AcquireCredentialsHandleW
+                  _ApplyControlToken
+                  _CeCredFree
+                  _CeCredRead
+                  _CeCredWrite
+                  _DeleteSecurityContext
+                  _EnumerateSecurityPackagesW
+                  _FreeContextBuffer
+                  _FreeCredentialsHandle
+                  _ImpersonateSecurityContext
+                  _InitSecurityInterfaceA
+                  _InitSecurityInterfaceW
+                  _InitializeSecurityContextW
+                  _MakeSignature
+                  _QueryContextAttributesW
+                  _QueryCredentialsAttributesW
+                  _QuerySecurityPackageInfoW
+                  _RevertSecurityContext
+                  _SealMessage
+                  _UnsealMessage
+                  _VerifySignature
+
+  Summary
+
+          C6 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

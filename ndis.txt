@@ -1,0 +1,5824 @@
+Microsoft (R) COFF/PE Dumper Version 7.10.6030
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files\Windows CE Tools\wce400\STANDARDSDK\Lib\Emulator\ndis.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+    34FE size
+correct header end
+
+    445 public symbols
+
+     6A86 __IMPORT_DESCRIPTOR_NDIS
+     6CA6 __NULL_IMPORT_DESCRIPTOR
+     6DDA NDIS_NULL_THUNK_DATA
+     87F0 _NdisFlushBuffer
+     87F0 __imp__NdisFlushBuffer
+     C898 _NdisStallExecution
+     C898 __imp__NdisStallExecution
+     9B8C _NdisInitializeListHead
+     9B8C __imp__NdisInitializeListHead
+     6F90 _DbgPrint
+     6F90 __imp__DbgPrint
+     6F28 _DbgBreakPoint
+     6F28 __imp__DbgBreakPoint
+     C08A _NdisRegisterAdapter
+     C08A __imp__NdisRegisterAdapter
+     83EC _NdisDeregisterAdapter
+     83EC __imp__NdisDeregisterAdapter
+     7DC8 _NdisBindProtocolsToAdapter
+     7DC8 __imp__NdisBindProtocolsToAdapter
+     CA56 _NdisUnbindProtocolsFromAdapter
+     CA56 __imp__NdisUnbindProtocolsFromAdapter
+     C012 _NdisRebindProtocolsToAdapter
+     C012 __imp__NdisRebindProtocolsToAdapter
+     AAC0 _NdisMRebindProtocolsToAdapter
+     AAC0 __imp__NdisMRebindProtocolsToAdapter
+     B966 _NdisPCIBusDeviceInit
+     B966 __imp__NdisPCIBusDeviceInit
+     8CA0 _NdisGetAdapterNames
+     8CA0 __imp__NdisGetAdapterNames
+     9120 _NdisGetProtocolNames
+     9120 __imp__NdisGetProtocolNames
+     8C2E _NdisGetAdapterBindings
+     8C2E __imp__NdisGetAdapterBindings
+     8FD6 _NdisGetLogData
+     8FD6 __imp__NdisGetLogData
+     75B4 _NDS_Init
+     75B4 __imp__NDS_Init
+     74E6 _NDS_Deinit
+     74E6 __imp__NDS_Deinit
+     7618 _NDS_Open
+     7618 __imp__NDS_Open
+     7482 _NDS_Close
+     7482 __imp__NDS_Close
+     774A _NDS_Read
+     774A __imp__NDS_Read
+     7812 _NDS_Write
+     7812 __imp__NDS_Write
+     77AE _NDS_Seek
+     77AE __imp__NDS_Seek
+     754C _NDS_IOControl
+     754C __imp__NDS_IOControl
+     76E4 _NDS_PowerUp
+     76E4 __imp__NDS_PowerUp
+     767C _NDS_PowerDown
+     767C __imp__NDS_PowerDown
+     7068 _EthCreateFilter
+     7068 __imp__EthCreateFilter
+     70D2 _EthDeleteFilter
+     70D2 __imp__EthDeleteFilter
+     713C _EthDeleteFilterOpenAdapter
+     713C __imp__EthDeleteFilterOpenAdapter
+     6FF4 _EthChangeFilterAddresses
+     6FF4 __imp__EthChangeFilterAddresses
+     72A6 _EthNumberOfOpenFilterAddresses
+     72A6 __imp__EthNumberOfOpenFilterAddresses
+     7320 _EthQueryGlobalFilterAddresses
+     7320 __imp__EthQueryGlobalFilterAddresses
+     7398 _EthQueryOpenFilterAddresses
+     7398 __imp__EthQueryOpenFilterAddresses
+     71B2 _EthFilterDprIndicateReceive
+     71B2 __imp__EthFilterDprIndicateReceive
+     7228 _EthFilterDprIndicateReceiveComplete
+     7228 __imp__EthFilterDprIndicateReceiveComplete
+     CFB6 _TrFilterDprIndicateReceive
+     CFB6 __imp__TrFilterDprIndicateReceive
+     D02C _TrFilterDprIndicateReceiveComplete
+     D02C __imp__TrFilterDprIndicateReceiveComplete
+     79CA _NdisAllocateBuffer
+     79CA __imp__NdisAllocateBuffer
+     7A38 _NdisAllocateBufferPool
+     7A38 __imp__NdisAllocateBufferPool
+     7958 _NdisAdjustBufferLength
+     7958 __imp__NdisAdjustBufferLength
+     7E3E _NdisBufferLength
+     7E3E __imp__NdisBufferLength
+     7EAA _NdisBufferVirtualAddress
+     7EAA __imp__NdisBufferVirtualAddress
+     7AAA _NdisAllocateMemory
+     7AAA __imp__NdisAllocateMemory
+     7B18 _NdisAllocateMemoryWithTag
+     7B18 __imp__NdisAllocateMemoryWithTag
+     7B8C _NdisAllocatePacket
+     7B8C __imp__NdisAllocatePacket
+     8540 _NdisDprAllocatePacket
+     8540 __imp__NdisDprAllocatePacket
+     85B0 _NdisDprAllocatePacketNonInterlocked
+     85B0 __imp__NdisDprAllocatePacketNonInterlocked
+     8A04 _NdisFreePacket
+     8A04 __imp__NdisFreePacket
+     862E _NdisDprFreePacket
+     862E __imp__NdisDprFreePacket
+     869A _NdisDprFreePacketNonInterlocked
+     869A __imp__NdisDprFreePacketNonInterlocked
+     7BFA _NdisAllocatePacketPool
+     7BFA __imp__NdisAllocatePacketPool
+     7C6C _NdisAllocatePacketPoolEx
+     7C6C __imp__NdisAllocatePacketPoolEx
+     B9D6 _NdisPacketPoolUsage
+     B9D6 __imp__NdisPacketPoolUsage
+     BA44 _NdisPacketSize
+     BA44 __imp__NdisPacketSize
+     90B0 _NdisGetPoolFromPacket
+     90B0 __imp__NdisGetPoolFromPacket
+     9626 _NdisIMGetCurrentPacketStack
+     9626 __imp__NdisIMGetCurrentPacketStack
+     C672 _NdisSetPacketPoolProtocolId
+     C672 __imp__NdisSetPacketPoolProtocolId
+     9190 _NdisGetReceivedPacket
+     9190 __imp__NdisGetReceivedPacket
+     8064 _NdisCloseConfiguration
+     8064 __imp__NdisCloseConfiguration
+     80D6 _NdisCloseFile
+     80D6 __imp__NdisCloseFile
+     830C _NdisCopyBuffer
+     830C __imp__NdisCopyBuffer
+     8376 _NdisCopyFromPacketToPacket
+     8376 __imp__NdisCopyFromPacketToPacket
+     BB26 _NdisQueryBindInstanceName
+     BB26 __imp__NdisQueryBindInstanceName
+     88C4 _NdisFreeBufferPool
+     88C4 __imp__NdisFreeBufferPool
+     8A6E _NdisFreePacketPool
+     8A6E __imp__NdisFreePacketPool
+     899A _NdisFreeMemory
+     899A __imp__NdisFreeMemory
+     9CE4 _NdisInitializeTimer
+     9CE4 __imp__NdisInitializeTimer
+     9D52 _NdisInitializeWrapper
+     9D52 __imp__NdisInitializeWrapper
+     B5E0 _NdisMapFile
+     B5E0 __imp__NdisMapFile
+     B722 _NdisOpenConfiguration
+     B722 __imp__NdisOpenConfiguration
+     B80C _NdisOpenConfigurationKeyByName
+     B80C __imp__NdisOpenConfigurationKeyByName
+     B792 _NdisOpenConfigurationKeyByIndex
+     B792 __imp__NdisOpenConfigurationKeyByIndex
+     B886 _NdisOpenFile
+     B886 __imp__NdisOpenFile
+     BF9A _NdisReadPcmciaAttributeMemory
+     BF9A __imp__NdisReadPcmciaAttributeMemory
+     CF3C _NdisWritePcmciaAttributeMemory
+     CF3C __imp__NdisWritePcmciaAttributeMemory
+     BEB2 _NdisReadNetworkAddress
+     BEB2 __imp__NdisReadNetworkAddress
+     9C74 _NdisInitializeString
+     9C74 __imp__NdisInitializeString
+     8294 _NdisConvertStringToAtmAddress
+     8294 __imp__NdisConvertStringToAtmAddress
+     BF24 _NdisReadPciSlotInformation
+     BF24 __imp__NdisReadPciSlotInformation
+     C0F8 _NdisRegisterProtocol
+     C0F8 __imp__NdisRegisterProtocol
+     7F8E _NdisCancelTimer
+     7F8E __imp__NdisCancelTimer
+     C7C6 _NdisSetTimer
+     C7C6 __imp__NdisSetTimer
+     C82E _NdisSetTimerEx
+     C82E __imp__NdisSetTimerEx
+     C97A _NdisTerminateWrapper
+     C97A __imp__NdisTerminateWrapper
+     CB42 _NdisUnchainBufferAtFront
+     CB42 __imp__NdisUnchainBufferAtFront
+     CAD0 _NdisUnchainBufferAtBack
+     CAD0 __imp__NdisUnchainBufferAtBack
+     CC2E _NdisUnmapFile
+     CC2E __imp__NdisUnmapFile
+     CD08 _NdisUpdateSharedMemory
+     CD08 __imp__NdisUpdateSharedMemory
+     CE54 _NdisWriteErrorLogEntry
+     CE54 __imp__NdisWriteErrorLogEntry
+     CEC6 _NdisWritePciSlotInformation
+     CEC6 __imp__NdisWritePciSlotInformation
+     B6B8 _NdisOpenAdapter
+     B6B8 __imp__NdisOpenAdapter
+     7FF8 _NdisCloseAdapter
+     7FF8 __imp__NdisCloseAdapter
+     813E _NdisCompleteBindAdapter
+     813E __imp__NdisCompleteBindAdapter
+     8220 _NdisCompleteUnbindAdapter
+     8220 __imp__NdisCompleteUnbindAdapter
+     B8EE _NdisOpenProtocolConfiguration
+     B8EE __imp__NdisOpenProtocolConfiguration
+     C4CC _NdisSend
+     C4CC __imp__NdisSend
+     C530 _NdisSendPackets
+     C530 __imp__NdisSendPackets
+     C3F0 _NdisReturnPackets
+     C3F0 __imp__NdisReturnPackets
+     C9EA _NdisTransferData
+     C9EA __imp__NdisTransferData
+     C2BC _NdisRequest
+     C2BC __imp__NdisRequest
+     C322 _NdisReset
+     C322 __imp__NdisReset
+     845C _NdisDeregisterProtocol
+     845C __imp__NdisDeregisterProtocol
+     8E74 _NdisGetDriverHandle
+     8E74 __imp__NdisGetDriverHandle
+     BDC8 _NdisReEnumerateProtocolBindings
+     BDC8 __imp__NdisReEnumerateProtocolBindings
+     C168 _NdisRegisterTdiCallBack
+     C168 __imp__NdisRegisterTdiCallBack
+     BAAE _NdisQueryAdapterInstanceName
+     BAAE __imp__NdisQueryAdapterInstanceName
+     81B0 _NdisCompletePnPEvent
+     81B0 __imp__NdisCompletePnPEvent
+     A084 _NdisMAllocateMapRegisters
+     A084 __imp__NdisMAllocateMapRegisters
+     A16C _NdisMCancelTimer
+     A16C __imp__NdisMCancelTimer
+     B108 _NdisMSetPeriodicTimer
+     B108 __imp__NdisMSetPeriodicTimer
+     A41C _NdisMDeregisterIoPortRange
+     A41C __imp__NdisMDeregisterIoPortRange
+     A4FA _NdisMFreeMapRegisters
+     A4FA __imp__NdisMFreeMapRegisters
+     A64C _NdisMIndicateStatus
+     A64C __imp__NdisMIndicateStatus
+     A6BA _NdisMIndicateStatusComplete
+     A6BA __imp__NdisMIndicateStatusComplete
+     A730 _NdisMInitializeTimer
+     A730 __imp__NdisMInitializeTimer
+     B178 _NdisMSetTimer
+     B178 __imp__NdisMSetTimer
+     B1E0 _NdisMSleep
+     B1E0 __imp__NdisMSleep
+     AA48 _NdisMQueryInformationComplete
+     AA48 __imp__NdisMQueryInformationComplete
+     AC28 _NdisMRegisterIoPortRange
+     AC28 __imp__NdisMRegisterIoPortRange
+     AC9C _NdisMRegisterMiniport
+     AC9C __imp__NdisMRegisterMiniport
+     92D8 _NdisIMAssociateMiniport
+     92D8 __imp__NdisIMAssociateMiniport
+     98EA _NdisIMRegisterLayeredMiniport
+     98EA __imp__NdisIMRegisterLayeredMiniport
+     953A _NdisIMDeregisterLayeredMiniport
+     953A __imp__NdisIMDeregisterLayeredMiniport
+     AD0C _NdisMRegisterUnloadHandler
+     AD0C __imp__NdisMRegisterUnloadHandler
+     970E _NdisIMInitializeDeviceInstance
+     970E __imp__NdisIMInitializeDeviceInstance
+     9788 _NdisIMInitializeDeviceInstanceEx
+     9788 __imp__NdisIMInitializeDeviceInstanceEx
+     95B4 _NdisIMGetBindingContext
+     95B4 __imp__NdisIMGetBindingContext
+     969C _NdisIMGetDeviceContext
+     969C __imp__NdisIMGetDeviceContext
+     94BE _NdisIMDeInitializeDeviceInstance
+     94BE __imp__NdisIMDeInitializeDeviceInstance
+     934A _NdisIMCancelInitializeDeviceInstance
+     934A __imp__NdisIMCancelInitializeDeviceInstance
+     9448 _NdisIMCopySendPerPacketInfo
+     9448 __imp__NdisIMCopySendPerPacketInfo
+     93CA _NdisIMCopySendCompletePerPacketInfo
+     93CA __imp__NdisIMCopySendCompletePerPacketInfo
+     9874 _NdisIMQueueMiniportCallback
+     9874 __imp__NdisIMQueueMiniportCallback
+     99CE _NdisIMSwitchToMiniport
+     99CE __imp__NdisIMSwitchToMiniport
+     9962 _NdisIMRevertBack
+     9962 __imp__NdisIMRevertBack
+     ADF0 _NdisMResetComplete
+     ADF0 __imp__NdisMResetComplete
+     AE5E _NdisMSendComplete
+     AE5E __imp__NdisMSendComplete
+     AECA _NdisMSendResourcesAvailable
+     AECA __imp__NdisMSendResourcesAvailable
+     AF40 _NdisMSetAttributes
+     AF40 __imp__NdisMSetAttributes
+     AFAE _NdisMSetAttributesEx
+     AFAE __imp__NdisMSetAttributesEx
+     A8EA _NdisMPromoteMiniport
+     A8EA __imp__NdisMPromoteMiniport
+     B094 _NdisMSetMiniportSecondary
+     B094 __imp__NdisMSetMiniportSecondary
+     AD82 _NdisMRemoveMiniport
+     AD82 __imp__NdisMRemoveMiniport
+     B01E _NdisMSetInformationComplete
+     B01E __imp__NdisMSetInformationComplete
+     B338 _NdisMTransferDataComplete
+     B338 __imp__NdisMTransferDataComplete
+     A7A0 _NdisMMapIoSpace
+     A7A0 __imp__NdisMMapIoSpace
+     B3AC _NdisMUnmapIoSpace
+     B3AC __imp__NdisMUnmapIoSpace
+     ABB6 _NdisMRegisterInterrupt
+     ABB6 __imp__NdisMRegisterInterrupt
+     A3A8 _NdisMDeregisterInterrupt
+     A3A8 __imp__NdisMDeregisterInterrupt
+     B2C0 _NdisMSynchronizeWithInterrupt
+     B2C0 __imp__NdisMSynchronizeWithInterrupt
+     A0F8 _NdisMAllocateSharedMemory
+     A0F8 __imp__NdisMAllocateSharedMemory
+     A56A _NdisMFreeSharedMemory
+     A56A __imp__NdisMFreeSharedMemory
+     B246 _NdisMStartBufferPhysicalMapping
+     B246 __imp__NdisMStartBufferPhysicalMapping
+     A240 _NdisMCompleteBufferPhysicalMapping
+     A240 __imp__NdisMCompleteBufferPhysicalMapping
+     AB38 _NdisMRegisterAdapterShutdownHandler
+     AB38 __imp__NdisMRegisterAdapterShutdownHandler
+     A328 _NdisMDeregisterAdapterShutdownHandler
+     A328 __imp__NdisMDeregisterAdapterShutdownHandler
+     A878 _NdisMPciAssignResources
+     A878 __imp__NdisMPciAssignResources
+     A9D2 _NdisMQueryAdapterResources
+     A9D2 __imp__NdisMQueryAdapterResources
+     A2BE _NdisMCreateLog
+     A2BE __imp__NdisMCreateLog
+     A1D8 _NdisMCloseLog
+     A1D8 __imp__NdisMCloseLog
+     A492 _NdisMFlushLog
+     A492 __imp__NdisMFlushLog
+     B574 _NdisMWriteLogData
+     B574 __imp__NdisMWriteLogData
+     A5DA _NdisMGetDeviceProperty
+     A5DA __imp__NdisMGetDeviceProperty
+     A95A _NdisMQueryAdapterInstanceName
+     A95A __imp__NdisMQueryAdapterInstanceName
+     A80A _NdisMNotifyPnPEvent
+     A80A __imp__NdisMNotifyPnPEvent
+     9804 _NdisIMNotifyPnPEvent
+     9804 __imp__NdisIMNotifyPnPEvent
+     B504 _NdisMWanSendComplete
+     B504 __imp__NdisMWanSendComplete
+     B418 _NdisMWanIndicateReceive
+     B418 __imp__NdisMWanIndicateReceive
+     B48A _NdisMWanIndicateReceiveComplete
+     B48A __imp__NdisMWanIndicateReceiveComplete
+     7CE0 _NdisAllocateSpinLock
+     7CE0 __imp__NdisAllocateSpinLock
+     8B4C _NdisFreeSpinLock
+     8B4C __imp__NdisFreeSpinLock
+     78EA _NdisAcquireSpinLock
+     78EA __imp__NdisAcquireSpinLock
+     C24E _NdisReleaseSpinLock
+     C24E __imp__NdisReleaseSpinLock
+     84CE _NdisDprAcquireSpinLock
+     84CE __imp__NdisDprAcquireSpinLock
+     8714 _NdisDprReleaseSpinLock
+     8714 __imp__NdisDprReleaseSpinLock
+     9BFE _NdisInitializeReadWriteLock
+     9BFE __imp__NdisInitializeReadWriteLock
+     8ADC _NdisFreeReadWriteLock
+     8ADC __imp__NdisFreeReadWriteLock
+     7876 _NdisAcquireReadWriteLock
+     7876 __imp__NdisAcquireReadWriteLock
+     C1DA _NdisReleaseReadWriteLock
+     C1DA __imp__NdisReleaseReadWriteLock
+     885A _NdisFreeBuffer
+     885A __imp__NdisFreeBuffer
+     BB9A _NdisQueryBuffer
+     BB9A __imp__NdisQueryBuffer
+     BC74 _NdisQueryBufferSafe
+     BC74 __imp__NdisQueryBufferSafe
+     BC04 _NdisQueryBufferOffset
+     BC04 __imp__NdisQueryBufferOffset
+     8EE2 _NdisGetFirstBufferFromPacket
+     8EE2 __imp__NdisGetFirstBufferFromPacket
+     8F5A _NdisGetFirstBufferFromPacketSafe
+     8F5A __imp__NdisGetFirstBufferFromPacketSafe
+     740E _NDIS_BUFFER_TO_SPAN_PAGES
+     740E __imp__NDIS_BUFFER_TO_SPAN_PAGES
+     7D50 _NdisAnsiStringToUnicodeString
+     7D50 __imp__NdisAnsiStringToUnicodeString
+     CC96 _NdisUpcaseUnicodeString
+     CC96 __imp__NdisUpcaseUnicodeString
+     CBB6 _NdisUnicodeStringToAnsiString
+     CBB6 __imp__NdisUnicodeStringToAnsiString
+     C45C _NdisScheduleWorkItem
+     C45C __imp__NdisScheduleWorkItem
+     C906 _NdisSystemProcessorCount
+     C906 __imp__NdisSystemProcessorCount
+     BE42 _NdisReadConfiguration
+     BE42 __imp__NdisReadConfiguration
+     CDE2 _NdisWriteConfiguration
+     CDE2 __imp__NdisWriteConfiguration
+     8D86 _NdisGetCurrentProcessorCpuUsage
+     8D86 __imp__NdisGetCurrentProcessorCpuUsage
+     8D0E _NdisGetCurrentProcessorCounts
+     8D0E __imp__NdisGetCurrentProcessorCounts
+     8E00 _NdisGetCurrentSystemTime
+     8E00 __imp__NdisGetCurrentSystemTime
+     BCE2 _NdisQueryMapRegisterCount
+     BCE2 __imp__NdisQueryMapRegisterCount
+     9200 _NdisGetSystemUpTime
+     9200 __imp__NdisGetSystemUpTime
+     9B1E _NdisInitializeEvent
+     9B1E __imp__NdisInitializeEvent
+     8932 _NdisFreeEvent
+     8932 __imp__NdisFreeEvent
+     C59A _NdisSetEvent
+     C59A __imp__NdisSetEvent
+     C386 _NdisResetEvent
+     C386 __imp__NdisResetEvent
+     CD7A _NdisWaitEvent
+     CD7A __imp__NdisWaitEvent
+     C756 _NdisSetProtocolFilter
+     C756 __imp__NdisSetProtocolFilter
+     9EA8 _NdisInterlockedIncrement
+     9EA8 __imp__NdisInterlockedIncrement
+     9E34 _NdisInterlockedDecrement
+     9E34 __imp__NdisInterlockedDecrement
+     9DC2 _NdisInterlockedAddUlong
+     9DC2 __imp__NdisInterlockedAddUlong
+     9F1C _NdisInterlockedInsertHeadList
+     9F1C __imp__NdisInterlockedInsertHeadList
+     9F94 _NdisInterlockedInsertTailList
+     9F94 __imp__NdisInterlockedInsertTailList
+     A00C _NdisInterlockedRemoveHeadList
+     A00C __imp__NdisInterlockedRemoveHeadList
+     8786 _NdisEqualString
+     8786 __imp__NdisEqualString
+     9A40 _NdisInitAnsiString
+     9A40 __imp__NdisInitAnsiString
+     9AAE _NdisInitUnicodeString
+     9AAE __imp__NdisInitUnicodeString
+     B646 _NdisMatchPdoWithPacket
+     B646 __imp__NdisMatchPdoWithPacket
+     7F1E _NdisCancelSendPackets
+     7F1E __imp__NdisCancelSendPackets
+     BD56 _NdisQueryPendingIOCount
+     BD56 __imp__NdisQueryPendingIOCount
+     8BB8 _NdisGeneratePartialCancelId
+     8BB8 __imp__NdisGeneratePartialCancelId
+     C602 _NdisSetPacketCancelId
+     C602 __imp__NdisSetPacketCancelId
+     9040 _NdisGetPacketCancelId
+     9040 __imp__NdisGetPacketCancelId
+     926E _NdisGetVersion
+     926E __imp__NdisGetVersion
+     C6E8 _NdisSetPacketStatus
+     C6E8 __imp__NdisSetPacketStatus
+
+Archive member name at 3542: /               
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+    3508 size
+correct header end
+
+    224 offsets
+
+        1     6A86
+        2     6CA6
+        3     6DDA
+        4     87F0
+        5     C898
+        6     9B8C
+        7     6F90
+        8     6F28
+        9     C08A
+        A     83EC
+        B     7DC8
+        C     CA56
+        D     C012
+        E     AAC0
+        F     B966
+       10     8CA0
+       11     9120
+       12     8C2E
+       13     8FD6
+       14     75B4
+       15     74E6
+       16     7618
+       17     7482
+       18     774A
+       19     7812
+       1A     77AE
+       1B     754C
+       1C     76E4
+       1D     767C
+       1E     7068
+       1F     70D2
+       20     713C
+       21     6FF4
+       22     72A6
+       23     7320
+       24     7398
+       25     71B2
+       26     7228
+       27     CFB6
+       28     D02C
+       29     79CA
+       2A     7A38
+       2B     7958
+       2C     7E3E
+       2D     7EAA
+       2E     7AAA
+       2F     7B18
+       30     7B8C
+       31     8540
+       32     85B0
+       33     8A04
+       34     862E
+       35     869A
+       36     7BFA
+       37     7C6C
+       38     B9D6
+       39     BA44
+       3A     90B0
+       3B     9626
+       3C     C672
+       3D     9190
+       3E     8064
+       3F     80D6
+       40     830C
+       41     8376
+       42     BB26
+       43     88C4
+       44     8A6E
+       45     899A
+       46     9CE4
+       47     9D52
+       48     B5E0
+       49     B722
+       4A     B80C
+       4B     B792
+       4C     B886
+       4D     BF9A
+       4E     CF3C
+       4F     BEB2
+       50     9C74
+       51     8294
+       52     BF24
+       53     C0F8
+       54     7F8E
+       55     C7C6
+       56     C82E
+       57     C97A
+       58     CB42
+       59     CAD0
+       5A     CC2E
+       5B     CD08
+       5C     CE54
+       5D     CEC6
+       5E     B6B8
+       5F     7FF8
+       60     813E
+       61     8220
+       62     B8EE
+       63     C4CC
+       64     C530
+       65     C3F0
+       66     C9EA
+       67     C2BC
+       68     C322
+       69     845C
+       6A     8E74
+       6B     BDC8
+       6C     C168
+       6D     BAAE
+       6E     81B0
+       6F     A084
+       70     A16C
+       71     B108
+       72     A41C
+       73     A4FA
+       74     A64C
+       75     A6BA
+       76     A730
+       77     B178
+       78     B1E0
+       79     AA48
+       7A     AC28
+       7B     AC9C
+       7C     92D8
+       7D     98EA
+       7E     953A
+       7F     AD0C
+       80     970E
+       81     9788
+       82     95B4
+       83     969C
+       84     94BE
+       85     934A
+       86     9448
+       87     93CA
+       88     9874
+       89     99CE
+       8A     9962
+       8B     ADF0
+       8C     AE5E
+       8D     AECA
+       8E     AF40
+       8F     AFAE
+       90     A8EA
+       91     B094
+       92     AD82
+       93     B01E
+       94     B338
+       95     A7A0
+       96     B3AC
+       97     ABB6
+       98     A3A8
+       99     B2C0
+       9A     A0F8
+       9B     A56A
+       9C     B246
+       9D     A240
+       9E     AB38
+       9F     A328
+       A0     A878
+       A1     A9D2
+       A2     A2BE
+       A3     A1D8
+       A4     A492
+       A5     B574
+       A6     A5DA
+       A7     A95A
+       A8     A80A
+       A9     9804
+       AA     B504
+       AB     B418
+       AC     B48A
+       AD     7CE0
+       AE     8B4C
+       AF     78EA
+       B0     C24E
+       B1     84CE
+       B2     8714
+       B3     9BFE
+       B4     8ADC
+       B5     7876
+       B6     C1DA
+       B7     885A
+       B8     BB9A
+       B9     BC74
+       BA     BC04
+       BB     8EE2
+       BC     8F5A
+       BD     740E
+       BE     7D50
+       BF     CC96
+       C0     CBB6
+       C1     C45C
+       C2     C906
+       C3     BE42
+       C4     CDE2
+       C5     8D86
+       C6     8D0E
+       C7     8E00
+       C8     BCE2
+       C9     9200
+       CA     9B1E
+       CB     8932
+       CC     C59A
+       CD     C386
+       CE     CD7A
+       CF     C756
+       D0     9EA8
+       D1     9E34
+       D2     9DC2
+       D3     9F1C
+       D4     9F94
+       D5     A00C
+       D6     8786
+       D7     9A40
+       D8     9AAE
+       D9     B646
+       DA     7F1E
+       DB     BD56
+       DC     8BB8
+       DD     C602
+       DE     9040
+       DF     926E
+       E0     C6E8
+
+    445 public symbols
+
+        8 _DbgBreakPoint
+        7 _DbgPrint
+       21 _EthChangeFilterAddresses
+       1E _EthCreateFilter
+       1F _EthDeleteFilter
+       20 _EthDeleteFilterOpenAdapter
+       25 _EthFilterDprIndicateReceive
+       26 _EthFilterDprIndicateReceiveComplete
+       22 _EthNumberOfOpenFilterAddresses
+       23 _EthQueryGlobalFilterAddresses
+       24 _EthQueryOpenFilterAddresses
+       BD _NDIS_BUFFER_TO_SPAN_PAGES
+       17 _NDS_Close
+       15 _NDS_Deinit
+       1B _NDS_IOControl
+       14 _NDS_Init
+       16 _NDS_Open
+       1D _NDS_PowerDown
+       1C _NDS_PowerUp
+       18 _NDS_Read
+       1A _NDS_Seek
+       19 _NDS_Write
+       B5 _NdisAcquireReadWriteLock
+       AF _NdisAcquireSpinLock
+       2B _NdisAdjustBufferLength
+       29 _NdisAllocateBuffer
+       2A _NdisAllocateBufferPool
+       2E _NdisAllocateMemory
+       2F _NdisAllocateMemoryWithTag
+       30 _NdisAllocatePacket
+       36 _NdisAllocatePacketPool
+       37 _NdisAllocatePacketPoolEx
+       AD _NdisAllocateSpinLock
+       BE _NdisAnsiStringToUnicodeString
+        B _NdisBindProtocolsToAdapter
+       2C _NdisBufferLength
+       2D _NdisBufferVirtualAddress
+       DA _NdisCancelSendPackets
+       54 _NdisCancelTimer
+       5F _NdisCloseAdapter
+       3E _NdisCloseConfiguration
+       3F _NdisCloseFile
+       60 _NdisCompleteBindAdapter
+       6E _NdisCompletePnPEvent
+       61 _NdisCompleteUnbindAdapter
+       51 _NdisConvertStringToAtmAddress
+       40 _NdisCopyBuffer
+       41 _NdisCopyFromPacketToPacket
+        A _NdisDeregisterAdapter
+       69 _NdisDeregisterProtocol
+       B1 _NdisDprAcquireSpinLock
+       31 _NdisDprAllocatePacket
+       32 _NdisDprAllocatePacketNonInterlocked
+       34 _NdisDprFreePacket
+       35 _NdisDprFreePacketNonInterlocked
+       B2 _NdisDprReleaseSpinLock
+       D6 _NdisEqualString
+        4 _NdisFlushBuffer
+       B7 _NdisFreeBuffer
+       43 _NdisFreeBufferPool
+       CB _NdisFreeEvent
+       45 _NdisFreeMemory
+       33 _NdisFreePacket
+       44 _NdisFreePacketPool
+       B4 _NdisFreeReadWriteLock
+       AE _NdisFreeSpinLock
+       DC _NdisGeneratePartialCancelId
+       12 _NdisGetAdapterBindings
+       10 _NdisGetAdapterNames
+       C6 _NdisGetCurrentProcessorCounts
+       C5 _NdisGetCurrentProcessorCpuUsage
+       C7 _NdisGetCurrentSystemTime
+       6A _NdisGetDriverHandle
+       BB _NdisGetFirstBufferFromPacket
+       BC _NdisGetFirstBufferFromPacketSafe
+       13 _NdisGetLogData
+       DE _NdisGetPacketCancelId
+       3A _NdisGetPoolFromPacket
+       11 _NdisGetProtocolNames
+       3D _NdisGetReceivedPacket
+       C9 _NdisGetSystemUpTime
+       DF _NdisGetVersion
+       7C _NdisIMAssociateMiniport
+       85 _NdisIMCancelInitializeDeviceInstance
+       87 _NdisIMCopySendCompletePerPacketInfo
+       86 _NdisIMCopySendPerPacketInfo
+       84 _NdisIMDeInitializeDeviceInstance
+       7E _NdisIMDeregisterLayeredMiniport
+       82 _NdisIMGetBindingContext
+       3B _NdisIMGetCurrentPacketStack
+       83 _NdisIMGetDeviceContext
+       80 _NdisIMInitializeDeviceInstance
+       81 _NdisIMInitializeDeviceInstanceEx
+       A9 _NdisIMNotifyPnPEvent
+       88 _NdisIMQueueMiniportCallback
+       7D _NdisIMRegisterLayeredMiniport
+       8A _NdisIMRevertBack
+       89 _NdisIMSwitchToMiniport
+       D7 _NdisInitAnsiString
+       D8 _NdisInitUnicodeString
+       CA _NdisInitializeEvent
+        6 _NdisInitializeListHead
+       B3 _NdisInitializeReadWriteLock
+       50 _NdisInitializeString
+       46 _NdisInitializeTimer
+       47 _NdisInitializeWrapper
+       D2 _NdisInterlockedAddUlong
+       D1 _NdisInterlockedDecrement
+       D0 _NdisInterlockedIncrement
+       D3 _NdisInterlockedInsertHeadList
+       D4 _NdisInterlockedInsertTailList
+       D5 _NdisInterlockedRemoveHeadList
+       6F _NdisMAllocateMapRegisters
+       9A _NdisMAllocateSharedMemory
+       70 _NdisMCancelTimer
+       A3 _NdisMCloseLog
+       9D _NdisMCompleteBufferPhysicalMapping
+       A2 _NdisMCreateLog
+       9F _NdisMDeregisterAdapterShutdownHandler
+       98 _NdisMDeregisterInterrupt
+       72 _NdisMDeregisterIoPortRange
+       A4 _NdisMFlushLog
+       73 _NdisMFreeMapRegisters
+       9B _NdisMFreeSharedMemory
+       A6 _NdisMGetDeviceProperty
+       74 _NdisMIndicateStatus
+       75 _NdisMIndicateStatusComplete
+       76 _NdisMInitializeTimer
+       95 _NdisMMapIoSpace
+       A8 _NdisMNotifyPnPEvent
+       A0 _NdisMPciAssignResources
+       90 _NdisMPromoteMiniport
+       A7 _NdisMQueryAdapterInstanceName
+       A1 _NdisMQueryAdapterResources
+       79 _NdisMQueryInformationComplete
+        E _NdisMRebindProtocolsToAdapter
+       9E _NdisMRegisterAdapterShutdownHandler
+       97 _NdisMRegisterInterrupt
+       7A _NdisMRegisterIoPortRange
+       7B _NdisMRegisterMiniport
+       7F _NdisMRegisterUnloadHandler
+       92 _NdisMRemoveMiniport
+       8B _NdisMResetComplete
+       8C _NdisMSendComplete
+       8D _NdisMSendResourcesAvailable
+       8E _NdisMSetAttributes
+       8F _NdisMSetAttributesEx
+       93 _NdisMSetInformationComplete
+       91 _NdisMSetMiniportSecondary
+       71 _NdisMSetPeriodicTimer
+       77 _NdisMSetTimer
+       78 _NdisMSleep
+       9C _NdisMStartBufferPhysicalMapping
+       99 _NdisMSynchronizeWithInterrupt
+       94 _NdisMTransferDataComplete
+       96 _NdisMUnmapIoSpace
+       AB _NdisMWanIndicateReceive
+       AC _NdisMWanIndicateReceiveComplete
+       AA _NdisMWanSendComplete
+       A5 _NdisMWriteLogData
+       48 _NdisMapFile
+       D9 _NdisMatchPdoWithPacket
+       5E _NdisOpenAdapter
+       49 _NdisOpenConfiguration
+       4B _NdisOpenConfigurationKeyByIndex
+       4A _NdisOpenConfigurationKeyByName
+       4C _NdisOpenFile
+       62 _NdisOpenProtocolConfiguration
+        F _NdisPCIBusDeviceInit
+       38 _NdisPacketPoolUsage
+       39 _NdisPacketSize
+       6D _NdisQueryAdapterInstanceName
+       42 _NdisQueryBindInstanceName
+       B8 _NdisQueryBuffer
+       BA _NdisQueryBufferOffset
+       B9 _NdisQueryBufferSafe
+       C8 _NdisQueryMapRegisterCount
+       DB _NdisQueryPendingIOCount
+       6B _NdisReEnumerateProtocolBindings
+       C3 _NdisReadConfiguration
+       4F _NdisReadNetworkAddress
+       52 _NdisReadPciSlotInformation
+       4D _NdisReadPcmciaAttributeMemory
+        D _NdisRebindProtocolsToAdapter
+        9 _NdisRegisterAdapter
+       53 _NdisRegisterProtocol
+       6C _NdisRegisterTdiCallBack
+       B6 _NdisReleaseReadWriteLock
+       B0 _NdisReleaseSpinLock
+       67 _NdisRequest
+       68 _NdisReset
+       CD _NdisResetEvent
+       65 _NdisReturnPackets
+       C1 _NdisScheduleWorkItem
+       63 _NdisSend
+       64 _NdisSendPackets
+       CC _NdisSetEvent
+       DD _NdisSetPacketCancelId
+       3C _NdisSetPacketPoolProtocolId
+       E0 _NdisSetPacketStatus
+       CF _NdisSetProtocolFilter
+       55 _NdisSetTimer
+       56 _NdisSetTimerEx
+        5 _NdisStallExecution
+       C2 _NdisSystemProcessorCount
+       57 _NdisTerminateWrapper
+       66 _NdisTransferData
+        C _NdisUnbindProtocolsFromAdapter
+       59 _NdisUnchainBufferAtBack
+       58 _NdisUnchainBufferAtFront
+       C0 _NdisUnicodeStringToAnsiString
+       5A _NdisUnmapFile
+       BF _NdisUpcaseUnicodeString
+       5B _NdisUpdateSharedMemory
+       CE _NdisWaitEvent
+       C4 _NdisWriteConfiguration
+       5C _NdisWriteErrorLogEntry
+       5D _NdisWritePciSlotInformation
+       4E _NdisWritePcmciaAttributeMemory
+       27 _TrFilterDprIndicateReceive
+       28 _TrFilterDprIndicateReceiveComplete
+        1 __IMPORT_DESCRIPTOR_NDIS
+        2 __NULL_IMPORT_DESCRIPTOR
+        8 __imp__DbgBreakPoint
+        7 __imp__DbgPrint
+       21 __imp__EthChangeFilterAddresses
+       1E __imp__EthCreateFilter
+       1F __imp__EthDeleteFilter
+       20 __imp__EthDeleteFilterOpenAdapter
+       25 __imp__EthFilterDprIndicateReceive
+       26 __imp__EthFilterDprIndicateReceiveComplete
+       22 __imp__EthNumberOfOpenFilterAddresses
+       23 __imp__EthQueryGlobalFilterAddresses
+       24 __imp__EthQueryOpenFilterAddresses
+       BD __imp__NDIS_BUFFER_TO_SPAN_PAGES
+       17 __imp__NDS_Close
+       15 __imp__NDS_Deinit
+       1B __imp__NDS_IOControl
+       14 __imp__NDS_Init
+       16 __imp__NDS_Open
+       1D __imp__NDS_PowerDown
+       1C __imp__NDS_PowerUp
+       18 __imp__NDS_Read
+       1A __imp__NDS_Seek
+       19 __imp__NDS_Write
+       B5 __imp__NdisAcquireReadWriteLock
+       AF __imp__NdisAcquireSpinLock
+       2B __imp__NdisAdjustBufferLength
+       29 __imp__NdisAllocateBuffer
+       2A __imp__NdisAllocateBufferPool
+       2E __imp__NdisAllocateMemory
+       2F __imp__NdisAllocateMemoryWithTag
+       30 __imp__NdisAllocatePacket
+       36 __imp__NdisAllocatePacketPool
+       37 __imp__NdisAllocatePacketPoolEx
+       AD __imp__NdisAllocateSpinLock
+       BE __imp__NdisAnsiStringToUnicodeString
+        B __imp__NdisBindProtocolsToAdapter
+       2C __imp__NdisBufferLength
+       2D __imp__NdisBufferVirtualAddress
+       DA __imp__NdisCancelSendPackets
+       54 __imp__NdisCancelTimer
+       5F __imp__NdisCloseAdapter
+       3E __imp__NdisCloseConfiguration
+       3F __imp__NdisCloseFile
+       60 __imp__NdisCompleteBindAdapter
+       6E __imp__NdisCompletePnPEvent
+       61 __imp__NdisCompleteUnbindAdapter
+       51 __imp__NdisConvertStringToAtmAddress
+       40 __imp__NdisCopyBuffer
+       41 __imp__NdisCopyFromPacketToPacket
+        A __imp__NdisDeregisterAdapter
+       69 __imp__NdisDeregisterProtocol
+       B1 __imp__NdisDprAcquireSpinLock
+       31 __imp__NdisDprAllocatePacket
+       32 __imp__NdisDprAllocatePacketNonInterlocked
+       34 __imp__NdisDprFreePacket
+       35 __imp__NdisDprFreePacketNonInterlocked
+       B2 __imp__NdisDprReleaseSpinLock
+       D6 __imp__NdisEqualString
+        4 __imp__NdisFlushBuffer
+       B7 __imp__NdisFreeBuffer
+       43 __imp__NdisFreeBufferPool
+       CB __imp__NdisFreeEvent
+       45 __imp__NdisFreeMemory
+       33 __imp__NdisFreePacket
+       44 __imp__NdisFreePacketPool
+       B4 __imp__NdisFreeReadWriteLock
+       AE __imp__NdisFreeSpinLock
+       DC __imp__NdisGeneratePartialCancelId
+       12 __imp__NdisGetAdapterBindings
+       10 __imp__NdisGetAdapterNames
+       C6 __imp__NdisGetCurrentProcessorCounts
+       C5 __imp__NdisGetCurrentProcessorCpuUsage
+       C7 __imp__NdisGetCurrentSystemTime
+       6A __imp__NdisGetDriverHandle
+       BB __imp__NdisGetFirstBufferFromPacket
+       BC __imp__NdisGetFirstBufferFromPacketSafe
+       13 __imp__NdisGetLogData
+       DE __imp__NdisGetPacketCancelId
+       3A __imp__NdisGetPoolFromPacket
+       11 __imp__NdisGetProtocolNames
+       3D __imp__NdisGetReceivedPacket
+       C9 __imp__NdisGetSystemUpTime
+       DF __imp__NdisGetVersion
+       7C __imp__NdisIMAssociateMiniport
+       85 __imp__NdisIMCancelInitializeDeviceInstance
+       87 __imp__NdisIMCopySendCompletePerPacketInfo
+       86 __imp__NdisIMCopySendPerPacketInfo
+       84 __imp__NdisIMDeInitializeDeviceInstance
+       7E __imp__NdisIMDeregisterLayeredMiniport
+       82 __imp__NdisIMGetBindingContext
+       3B __imp__NdisIMGetCurrentPacketStack
+       83 __imp__NdisIMGetDeviceContext
+       80 __imp__NdisIMInitializeDeviceInstance
+       81 __imp__NdisIMInitializeDeviceInstanceEx
+       A9 __imp__NdisIMNotifyPnPEvent
+       88 __imp__NdisIMQueueMiniportCallback
+       7D __imp__NdisIMRegisterLayeredMiniport
+       8A __imp__NdisIMRevertBack
+       89 __imp__NdisIMSwitchToMiniport
+       D7 __imp__NdisInitAnsiString
+       D8 __imp__NdisInitUnicodeString
+       CA __imp__NdisInitializeEvent
+        6 __imp__NdisInitializeListHead
+       B3 __imp__NdisInitializeReadWriteLock
+       50 __imp__NdisInitializeString
+       46 __imp__NdisInitializeTimer
+       47 __imp__NdisInitializeWrapper
+       D2 __imp__NdisInterlockedAddUlong
+       D1 __imp__NdisInterlockedDecrement
+       D0 __imp__NdisInterlockedIncrement
+       D3 __imp__NdisInterlockedInsertHeadList
+       D4 __imp__NdisInterlockedInsertTailList
+       D5 __imp__NdisInterlockedRemoveHeadList
+       6F __imp__NdisMAllocateMapRegisters
+       9A __imp__NdisMAllocateSharedMemory
+       70 __imp__NdisMCancelTimer
+       A3 __imp__NdisMCloseLog
+       9D __imp__NdisMCompleteBufferPhysicalMapping
+       A2 __imp__NdisMCreateLog
+       9F __imp__NdisMDeregisterAdapterShutdownHandler
+       98 __imp__NdisMDeregisterInterrupt
+       72 __imp__NdisMDeregisterIoPortRange
+       A4 __imp__NdisMFlushLog
+       73 __imp__NdisMFreeMapRegisters
+       9B __imp__NdisMFreeSharedMemory
+       A6 __imp__NdisMGetDeviceProperty
+       74 __imp__NdisMIndicateStatus
+       75 __imp__NdisMIndicateStatusComplete
+       76 __imp__NdisMInitializeTimer
+       95 __imp__NdisMMapIoSpace
+       A8 __imp__NdisMNotifyPnPEvent
+       A0 __imp__NdisMPciAssignResources
+       90 __imp__NdisMPromoteMiniport
+       A7 __imp__NdisMQueryAdapterInstanceName
+       A1 __imp__NdisMQueryAdapterResources
+       79 __imp__NdisMQueryInformationComplete
+        E __imp__NdisMRebindProtocolsToAdapter
+       9E __imp__NdisMRegisterAdapterShutdownHandler
+       97 __imp__NdisMRegisterInterrupt
+       7A __imp__NdisMRegisterIoPortRange
+       7B __imp__NdisMRegisterMiniport
+       7F __imp__NdisMRegisterUnloadHandler
+       92 __imp__NdisMRemoveMiniport
+       8B __imp__NdisMResetComplete
+       8C __imp__NdisMSendComplete
+       8D __imp__NdisMSendResourcesAvailable
+       8E __imp__NdisMSetAttributes
+       8F __imp__NdisMSetAttributesEx
+       93 __imp__NdisMSetInformationComplete
+       91 __imp__NdisMSetMiniportSecondary
+       71 __imp__NdisMSetPeriodicTimer
+       77 __imp__NdisMSetTimer
+       78 __imp__NdisMSleep
+       9C __imp__NdisMStartBufferPhysicalMapping
+       99 __imp__NdisMSynchronizeWithInterrupt
+       94 __imp__NdisMTransferDataComplete
+       96 __imp__NdisMUnmapIoSpace
+       AB __imp__NdisMWanIndicateReceive
+       AC __imp__NdisMWanIndicateReceiveComplete
+       AA __imp__NdisMWanSendComplete
+       A5 __imp__NdisMWriteLogData
+       48 __imp__NdisMapFile
+       D9 __imp__NdisMatchPdoWithPacket
+       5E __imp__NdisOpenAdapter
+       49 __imp__NdisOpenConfiguration
+       4B __imp__NdisOpenConfigurationKeyByIndex
+       4A __imp__NdisOpenConfigurationKeyByName
+       4C __imp__NdisOpenFile
+       62 __imp__NdisOpenProtocolConfiguration
+        F __imp__NdisPCIBusDeviceInit
+       38 __imp__NdisPacketPoolUsage
+       39 __imp__NdisPacketSize
+       6D __imp__NdisQueryAdapterInstanceName
+       42 __imp__NdisQueryBindInstanceName
+       B8 __imp__NdisQueryBuffer
+       BA __imp__NdisQueryBufferOffset
+       B9 __imp__NdisQueryBufferSafe
+       C8 __imp__NdisQueryMapRegisterCount
+       DB __imp__NdisQueryPendingIOCount
+       6B __imp__NdisReEnumerateProtocolBindings
+       C3 __imp__NdisReadConfiguration
+       4F __imp__NdisReadNetworkAddress
+       52 __imp__NdisReadPciSlotInformation
+       4D __imp__NdisReadPcmciaAttributeMemory
+        D __imp__NdisRebindProtocolsToAdapter
+        9 __imp__NdisRegisterAdapter
+       53 __imp__NdisRegisterProtocol
+       6C __imp__NdisRegisterTdiCallBack
+       B6 __imp__NdisReleaseReadWriteLock
+       B0 __imp__NdisReleaseSpinLock
+       67 __imp__NdisRequest
+       68 __imp__NdisReset
+       CD __imp__NdisResetEvent
+       65 __imp__NdisReturnPackets
+       C1 __imp__NdisScheduleWorkItem
+       63 __imp__NdisSend
+       64 __imp__NdisSendPackets
+       CC __imp__NdisSetEvent
+       DD __imp__NdisSetPacketCancelId
+       3C __imp__NdisSetPacketPoolProtocolId
+       E0 __imp__NdisSetPacketStatus
+       CF __imp__NdisSetProtocolFilter
+       55 __imp__NdisSetTimer
+       56 __imp__NdisSetTimerEx
+        5 __imp__NdisStallExecution
+       C2 __imp__NdisSystemProcessorCount
+       57 __imp__NdisTerminateWrapper
+       66 __imp__NdisTransferData
+        C __imp__NdisUnbindProtocolsFromAdapter
+       59 __imp__NdisUnchainBufferAtBack
+       58 __imp__NdisUnchainBufferAtFront
+       C0 __imp__NdisUnicodeStringToAnsiString
+       5A __imp__NdisUnmapFile
+       BF __imp__NdisUpcaseUnicodeString
+       5B __imp__NdisUpdateSharedMemory
+       CE __imp__NdisWaitEvent
+       C4 __imp__NdisWriteConfiguration
+       5C __imp__NdisWriteErrorLogEntry
+       5D __imp__NdisWritePciSlotInformation
+       4E __imp__NdisWritePcmciaAttributeMemory
+       27 __imp__TrFilterDprIndicateReceive
+       28 __imp__TrFilterDprIndicateReceiveComplete
+        3 NDIS_NULL_THUNK_DATA
+
+Archive member name at 6A86: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+     1E3 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20791F time date stamp Wed Dec 19 06:25:19 2001
+             107 file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3F size of raw data
+      8C file pointer to raw data (0000008C to 000000CA)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 0F 00 09 00 00 00 00 00 08 4E 44 49  .............NDI
+  00000010: 53 2E 64 6C 6C 28 00 13 10 07 00 00 00 03 00 00  S.dll(..........
+  00000020: 00 00 00 00 00 06 00 18 00 DB 04 12 4D 69 63 72  .........Û..Micr
+  00000030: 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B 00     osoft (R) LINK.
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CB file pointer to raw data (000000CB to 000000DE)
+      DF file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+RELOCATIONS #2
+                                                Symbol    Symbol
+ Offset    Type              Applied To         Index     Name
+ --------  ----------------  -----------------  --------  ------
+ 0000000C  DIR32NB                    00000000         3  .idata$6
+ 00000000  DIR32NB                    00000000         4  .idata$4
+ 00000010  DIR32NB                    00000000         5  .idata$5
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       A size of raw data
+      FD file pointer to raw data (000000FD to 00000106)
+      DF file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 4E 44 49 53 2E 64 6C 6C 00 00                    NDIS.dll..
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __IMPORT_DESCRIPTOR_NDIS
+002 C0000040 SECT2  notype       Section      | .idata$2
+003 00000000 SECT3  notype       Static       | .idata$6
+004 C0000040 UNDEF  notype       Section      | .idata$4
+005 C0000040 UNDEF  notype       Section      | .idata$5
+006 00000000 UNDEF  notype       External     | __NULL_IMPORT_DESCRIPTOR
+007 00000000 UNDEF  notype       External     | NDIS_NULL_THUNK_DATA
+
+String Table Size = 0x4C bytes
+
+Archive member name at 6CA6: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      F8 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        3C20791F time date stamp Wed Dec 19 06:25:19 2001
+              B7 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3F size of raw data
+      64 file pointer to raw data (00000064 to 000000A2)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 0F 00 09 00 00 00 00 00 08 4E 44 49  .............NDI
+  00000010: 53 2E 64 6C 6C 28 00 13 10 07 00 00 00 03 00 00  S.dll(..........
+  00000020: 00 00 00 00 00 06 00 18 00 DB 04 12 4D 69 63 72  .........Û..Micr
+  00000030: 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B 00     osoft (R) LINK.
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A3 file pointer to raw data (000000A3 to 000000B6)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __NULL_IMPORT_DESCRIPTOR
+
+String Table Size = 0x1D bytes
+
+Archive member name at 6DDA: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+     111 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20791F time date stamp Wed Dec 19 06:25:19 2001
+              D3 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3F size of raw data
+      8C file pointer to raw data (0000008C to 000000CA)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 0F 00 09 00 00 00 00 00 08 4E 44 49  .............NDI
+  00000010: 53 2E 64 6C 6C 28 00 13 10 07 00 00 00 03 00 00  S.dll(..........
+  00000020: 00 00 00 00 00 06 00 18 00 DB 04 12 4D 69 63 72  .........Û..Micr
+  00000030: 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B 00     osoft (R) LINK.
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CB file pointer to raw data (000000CB to 000000CE)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00                                      ....
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CF file pointer to raw data (000000CF to 000000D2)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | NDIS_NULL_THUNK_DATA
+
+String Table Size = 0x1A bytes
+
+Archive member name at 6F28: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000018
+  DLL name     : NDIS.dll
+  Symbol name  : _DbgBreakPoint
+  Type         : code
+  Name type    : no prefix
+  Hint         : 0
+  Name         : DbgBreakPoint
+
+Archive member name at 6F90: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      27 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000013
+  DLL name     : NDIS.dll
+  Symbol name  : _DbgPrint
+  Type         : code
+  Name type    : no prefix
+  Hint         : 1
+  Name         : DbgPrint
+
+Archive member name at 6FF4: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000023
+  DLL name     : NDIS.dll
+  Symbol name  : _EthChangeFilterAddresses
+  Type         : code
+  Name type    : no prefix
+  Hint         : 2
+  Name         : EthChangeFilterAddresses
+
+Archive member name at 7068: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001A
+  DLL name     : NDIS.dll
+  Symbol name  : _EthCreateFilter
+  Type         : code
+  Name type    : no prefix
+  Hint         : 3
+  Name         : EthCreateFilter
+
+Archive member name at 70D2: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001A
+  DLL name     : NDIS.dll
+  Symbol name  : _EthDeleteFilter
+  Type         : code
+  Name type    : no prefix
+  Hint         : 4
+  Name         : EthDeleteFilter
+
+Archive member name at 713C: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000025
+  DLL name     : NDIS.dll
+  Symbol name  : _EthDeleteFilterOpenAdapter
+  Type         : code
+  Name type    : no prefix
+  Hint         : 5
+  Name         : EthDeleteFilterOpenAdapter
+
+Archive member name at 71B2: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000026
+  DLL name     : NDIS.dll
+  Symbol name  : _EthFilterDprIndicateReceive
+  Type         : code
+  Name type    : no prefix
+  Hint         : 6
+  Name         : EthFilterDprIndicateReceive
+
+Archive member name at 7228: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002E
+  DLL name     : NDIS.dll
+  Symbol name  : _EthFilterDprIndicateReceiveComplete
+  Type         : code
+  Name type    : no prefix
+  Hint         : 7
+  Name         : EthFilterDprIndicateReceiveComplete
+
+Archive member name at 72A6: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000029
+  DLL name     : NDIS.dll
+  Symbol name  : _EthNumberOfOpenFilterAddresses
+  Type         : code
+  Name type    : no prefix
+  Hint         : 8
+  Name         : EthNumberOfOpenFilterAddresses
+
+Archive member name at 7320: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000028
+  DLL name     : NDIS.dll
+  Symbol name  : _EthQueryGlobalFilterAddresses
+  Type         : code
+  Name type    : no prefix
+  Hint         : 9
+  Name         : EthQueryGlobalFilterAddresses
+
+Archive member name at 7398: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000026
+  DLL name     : NDIS.dll
+  Symbol name  : _EthQueryOpenFilterAddresses
+  Type         : code
+  Name type    : no prefix
+  Hint         : 10
+  Name         : EthQueryOpenFilterAddresses
+
+Archive member name at 740E: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000024
+  DLL name     : NDIS.dll
+  Symbol name  : _NDIS_BUFFER_TO_SPAN_PAGES
+  Type         : code
+  Name type    : no prefix
+  Hint         : 11
+  Name         : NDIS_BUFFER_TO_SPAN_PAGES
+
+Archive member name at 7482: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000014
+  DLL name     : NDIS.dll
+  Symbol name  : _NDS_Close
+  Type         : code
+  Name type    : no prefix
+  Hint         : 12
+  Name         : NDS_Close
+
+Archive member name at 74E6: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000015
+  DLL name     : NDIS.dll
+  Symbol name  : _NDS_Deinit
+  Type         : code
+  Name type    : no prefix
+  Hint         : 13
+  Name         : NDS_Deinit
+
+Archive member name at 754C: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000018
+  DLL name     : NDIS.dll
+  Symbol name  : _NDS_IOControl
+  Type         : code
+  Name type    : no prefix
+  Hint         : 14
+  Name         : NDS_IOControl
+
+Archive member name at 75B4: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      27 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000013
+  DLL name     : NDIS.dll
+  Symbol name  : _NDS_Init
+  Type         : code
+  Name type    : no prefix
+  Hint         : 15
+  Name         : NDS_Init
+
+Archive member name at 7618: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      27 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000013
+  DLL name     : NDIS.dll
+  Symbol name  : _NDS_Open
+  Type         : code
+  Name type    : no prefix
+  Hint         : 16
+  Name         : NDS_Open
+
+Archive member name at 767C: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000018
+  DLL name     : NDIS.dll
+  Symbol name  : _NDS_PowerDown
+  Type         : code
+  Name type    : no prefix
+  Hint         : 17
+  Name         : NDS_PowerDown
+
+Archive member name at 76E4: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000016
+  DLL name     : NDIS.dll
+  Symbol name  : _NDS_PowerUp
+  Type         : code
+  Name type    : no prefix
+  Hint         : 18
+  Name         : NDS_PowerUp
+
+Archive member name at 774A: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      27 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000013
+  DLL name     : NDIS.dll
+  Symbol name  : _NDS_Read
+  Type         : code
+  Name type    : no prefix
+  Hint         : 19
+  Name         : NDS_Read
+
+Archive member name at 77AE: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      27 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000013
+  DLL name     : NDIS.dll
+  Symbol name  : _NDS_Seek
+  Type         : code
+  Name type    : no prefix
+  Hint         : 20
+  Name         : NDS_Seek
+
+Archive member name at 7812: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000014
+  DLL name     : NDIS.dll
+  Symbol name  : _NDS_Write
+  Type         : code
+  Name type    : no prefix
+  Hint         : 21
+  Name         : NDS_Write
+
+Archive member name at 7876: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000023
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisAcquireReadWriteLock
+  Type         : code
+  Name type    : no prefix
+  Hint         : 22
+  Name         : NdisAcquireReadWriteLock
+
+Archive member name at 78EA: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001E
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisAcquireSpinLock
+  Type         : code
+  Name type    : no prefix
+  Hint         : 23
+  Name         : NdisAcquireSpinLock
+
+Archive member name at 7958: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisAdjustBufferLength
+  Type         : code
+  Name type    : no prefix
+  Hint         : 24
+  Name         : NdisAdjustBufferLength
+
+Archive member name at 79CA: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001D
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisAllocateBuffer
+  Type         : code
+  Name type    : no prefix
+  Hint         : 25
+  Name         : NdisAllocateBuffer
+
+Archive member name at 7A38: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisAllocateBufferPool
+  Type         : code
+  Name type    : no prefix
+  Hint         : 26
+  Name         : NdisAllocateBufferPool
+
+Archive member name at 7AAA: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001D
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisAllocateMemory
+  Type         : code
+  Name type    : no prefix
+  Hint         : 27
+  Name         : NdisAllocateMemory
+
+Archive member name at 7B18: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000024
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisAllocateMemoryWithTag
+  Type         : code
+  Name type    : no prefix
+  Hint         : 28
+  Name         : NdisAllocateMemoryWithTag
+
+Archive member name at 7B8C: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001D
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisAllocatePacket
+  Type         : code
+  Name type    : no prefix
+  Hint         : 29
+  Name         : NdisAllocatePacket
+
+Archive member name at 7BFA: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisAllocatePacketPool
+  Type         : code
+  Name type    : no prefix
+  Hint         : 30
+  Name         : NdisAllocatePacketPool
+
+Archive member name at 7C6C: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000023
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisAllocatePacketPoolEx
+  Type         : code
+  Name type    : no prefix
+  Hint         : 31
+  Name         : NdisAllocatePacketPoolEx
+
+Archive member name at 7CE0: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisAllocateSpinLock
+  Type         : code
+  Name type    : no prefix
+  Hint         : 32
+  Name         : NdisAllocateSpinLock
+
+Archive member name at 7D50: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000028
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisAnsiStringToUnicodeString
+  Type         : code
+  Name type    : no prefix
+  Hint         : 33
+  Name         : NdisAnsiStringToUnicodeString
+
+Archive member name at 7DC8: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000025
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisBindProtocolsToAdapter
+  Type         : code
+  Name type    : no prefix
+  Hint         : 34
+  Name         : NdisBindProtocolsToAdapter
+
+Archive member name at 7E3E: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001B
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisBufferLength
+  Type         : code
+  Name type    : no prefix
+  Hint         : 35
+  Name         : NdisBufferLength
+
+Archive member name at 7EAA: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000023
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisBufferVirtualAddress
+  Type         : code
+  Name type    : no prefix
+  Hint         : 36
+  Name         : NdisBufferVirtualAddress
+
+Archive member name at 7F1E: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisCancelSendPackets
+  Type         : code
+  Name type    : no prefix
+  Hint         : 37
+  Name         : NdisCancelSendPackets
+
+Archive member name at 7F8E: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001A
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisCancelTimer
+  Type         : code
+  Name type    : no prefix
+  Hint         : 38
+  Name         : NdisCancelTimer
+
+Archive member name at 7FF8: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001B
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisCloseAdapter
+  Type         : code
+  Name type    : no prefix
+  Hint         : 39
+  Name         : NdisCloseAdapter
+
+Archive member name at 8064: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisCloseConfiguration
+  Type         : code
+  Name type    : no prefix
+  Hint         : 40
+  Name         : NdisCloseConfiguration
+
+Archive member name at 80D6: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000018
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisCloseFile
+  Type         : code
+  Name type    : no prefix
+  Hint         : 41
+  Name         : NdisCloseFile
+
+Archive member name at 813E: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000022
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisCompleteBindAdapter
+  Type         : code
+  Name type    : no prefix
+  Hint         : 42
+  Name         : NdisCompleteBindAdapter
+
+Archive member name at 81B0: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisCompletePnPEvent
+  Type         : code
+  Name type    : no prefix
+  Hint         : 43
+  Name         : NdisCompletePnPEvent
+
+Archive member name at 8220: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000024
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisCompleteUnbindAdapter
+  Type         : code
+  Name type    : no prefix
+  Hint         : 44
+  Name         : NdisCompleteUnbindAdapter
+
+Archive member name at 8294: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000028
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisConvertStringToAtmAddress
+  Type         : code
+  Name type    : no prefix
+  Hint         : 45
+  Name         : NdisConvertStringToAtmAddress
+
+Archive member name at 830C: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000019
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisCopyBuffer
+  Type         : code
+  Name type    : no prefix
+  Hint         : 46
+  Name         : NdisCopyBuffer
+
+Archive member name at 8376: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000025
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisCopyFromPacketToPacket
+  Type         : code
+  Name type    : no prefix
+  Hint         : 47
+  Name         : NdisCopyFromPacketToPacket
+
+Archive member name at 83EC: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisDeregisterAdapter
+  Type         : code
+  Name type    : no prefix
+  Hint         : 48
+  Name         : NdisDeregisterAdapter
+
+Archive member name at 845C: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisDeregisterProtocol
+  Type         : code
+  Name type    : no prefix
+  Hint         : 49
+  Name         : NdisDeregisterProtocol
+
+Archive member name at 84CE: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisDprAcquireSpinLock
+  Type         : code
+  Name type    : no prefix
+  Hint         : 50
+  Name         : NdisDprAcquireSpinLock
+
+Archive member name at 8540: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisDprAllocatePacket
+  Type         : code
+  Name type    : no prefix
+  Hint         : 51
+  Name         : NdisDprAllocatePacket
+
+Archive member name at 85B0: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002E
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisDprAllocatePacketNonInterlocked
+  Type         : code
+  Name type    : no prefix
+  Hint         : 52
+  Name         : NdisDprAllocatePacketNonInterlocked
+
+Archive member name at 862E: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001C
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisDprFreePacket
+  Type         : code
+  Name type    : no prefix
+  Hint         : 53
+  Name         : NdisDprFreePacket
+
+Archive member name at 869A: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002A
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisDprFreePacketNonInterlocked
+  Type         : code
+  Name type    : no prefix
+  Hint         : 54
+  Name         : NdisDprFreePacketNonInterlocked
+
+Archive member name at 8714: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisDprReleaseSpinLock
+  Type         : code
+  Name type    : no prefix
+  Hint         : 55
+  Name         : NdisDprReleaseSpinLock
+
+Archive member name at 8786: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001A
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisEqualString
+  Type         : code
+  Name type    : no prefix
+  Hint         : 56
+  Name         : NdisEqualString
+
+Archive member name at 87F0: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001A
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisFlushBuffer
+  Type         : code
+  Name type    : no prefix
+  Hint         : 57
+  Name         : NdisFlushBuffer
+
+Archive member name at 885A: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000019
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisFreeBuffer
+  Type         : code
+  Name type    : no prefix
+  Hint         : 58
+  Name         : NdisFreeBuffer
+
+Archive member name at 88C4: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001D
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisFreeBufferPool
+  Type         : code
+  Name type    : no prefix
+  Hint         : 59
+  Name         : NdisFreeBufferPool
+
+Archive member name at 8932: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000018
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisFreeEvent
+  Type         : code
+  Name type    : no prefix
+  Hint         : 60
+  Name         : NdisFreeEvent
+
+Archive member name at 899A: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000019
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisFreeMemory
+  Type         : code
+  Name type    : no prefix
+  Hint         : 61
+  Name         : NdisFreeMemory
+
+Archive member name at 8A04: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000019
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisFreePacket
+  Type         : code
+  Name type    : no prefix
+  Hint         : 62
+  Name         : NdisFreePacket
+
+Archive member name at 8A6E: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001D
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisFreePacketPool
+  Type         : code
+  Name type    : no prefix
+  Hint         : 63
+  Name         : NdisFreePacketPool
+
+Archive member name at 8ADC: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisFreeReadWriteLock
+  Type         : code
+  Name type    : no prefix
+  Hint         : 64
+  Name         : NdisFreeReadWriteLock
+
+Archive member name at 8B4C: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001B
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisFreeSpinLock
+  Type         : code
+  Name type    : no prefix
+  Hint         : 65
+  Name         : NdisFreeSpinLock
+
+Archive member name at 8BB8: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000026
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisGeneratePartialCancelId
+  Type         : code
+  Name type    : no prefix
+  Hint         : 66
+  Name         : NdisGeneratePartialCancelId
+
+Archive member name at 8C2E: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisGetAdapterBindings
+  Type         : code
+  Name type    : no prefix
+  Hint         : 67
+  Name         : NdisGetAdapterBindings
+
+Archive member name at 8CA0: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001E
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisGetAdapterNames
+  Type         : code
+  Name type    : no prefix
+  Hint         : 68
+  Name         : NdisGetAdapterNames
+
+Archive member name at 8D0E: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000028
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisGetCurrentProcessorCounts
+  Type         : code
+  Name type    : no prefix
+  Hint         : 69
+  Name         : NdisGetCurrentProcessorCounts
+
+Archive member name at 8D86: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002A
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisGetCurrentProcessorCpuUsage
+  Type         : code
+  Name type    : no prefix
+  Hint         : 70
+  Name         : NdisGetCurrentProcessorCpuUsage
+
+Archive member name at 8E00: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000023
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisGetCurrentSystemTime
+  Type         : code
+  Name type    : no prefix
+  Hint         : 71
+  Name         : NdisGetCurrentSystemTime
+
+Archive member name at 8E74: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001E
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisGetDriverHandle
+  Type         : code
+  Name type    : no prefix
+  Hint         : 72
+  Name         : NdisGetDriverHandle
+
+Archive member name at 8EE2: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000027
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisGetFirstBufferFromPacket
+  Type         : code
+  Name type    : no prefix
+  Hint         : 73
+  Name         : NdisGetFirstBufferFromPacket
+
+Archive member name at 8F5A: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002B
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisGetFirstBufferFromPacketSafe
+  Type         : code
+  Name type    : no prefix
+  Hint         : 74
+  Name         : NdisGetFirstBufferFromPacketSafe
+
+Archive member name at 8FD6: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000019
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisGetLogData
+  Type         : code
+  Name type    : no prefix
+  Hint         : 75
+  Name         : NdisGetLogData
+
+Archive member name at 9040: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisGetPacketCancelId
+  Type         : code
+  Name type    : no prefix
+  Hint         : 76
+  Name         : NdisGetPacketCancelId
+
+Archive member name at 90B0: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisGetPoolFromPacket
+  Type         : code
+  Name type    : no prefix
+  Hint         : 77
+  Name         : NdisGetPoolFromPacket
+
+Archive member name at 9120: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisGetProtocolNames
+  Type         : code
+  Name type    : no prefix
+  Hint         : 78
+  Name         : NdisGetProtocolNames
+
+Archive member name at 9190: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisGetReceivedPacket
+  Type         : code
+  Name type    : no prefix
+  Hint         : 79
+  Name         : NdisGetReceivedPacket
+
+Archive member name at 9200: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001E
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisGetSystemUpTime
+  Type         : code
+  Name type    : no prefix
+  Hint         : 80
+  Name         : NdisGetSystemUpTime
+
+Archive member name at 926E: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000019
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisGetVersion
+  Type         : code
+  Name type    : no prefix
+  Hint         : 81
+  Name         : NdisGetVersion
+
+Archive member name at 92D8: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000022
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisIMAssociateMiniport
+  Type         : code
+  Name type    : no prefix
+  Hint         : 82
+  Name         : NdisIMAssociateMiniport
+
+Archive member name at 934A: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002F
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisIMCancelInitializeDeviceInstance
+  Type         : code
+  Name type    : no prefix
+  Hint         : 83
+  Name         : NdisIMCancelInitializeDeviceInstance
+
+Archive member name at 93CA: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002E
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisIMCopySendCompletePerPacketInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 84
+  Name         : NdisIMCopySendCompletePerPacketInfo
+
+Archive member name at 9448: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000026
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisIMCopySendPerPacketInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 85
+  Name         : NdisIMCopySendPerPacketInfo
+
+Archive member name at 94BE: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002B
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisIMDeInitializeDeviceInstance
+  Type         : code
+  Name type    : no prefix
+  Hint         : 86
+  Name         : NdisIMDeInitializeDeviceInstance
+
+Archive member name at 953A: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002A
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisIMDeregisterLayeredMiniport
+  Type         : code
+  Name type    : no prefix
+  Hint         : 87
+  Name         : NdisIMDeregisterLayeredMiniport
+
+Archive member name at 95B4: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000022
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisIMGetBindingContext
+  Type         : code
+  Name type    : no prefix
+  Hint         : 88
+  Name         : NdisIMGetBindingContext
+
+Archive member name at 9626: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000026
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisIMGetCurrentPacketStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 89
+  Name         : NdisIMGetCurrentPacketStack
+
+Archive member name at 969C: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisIMGetDeviceContext
+  Type         : code
+  Name type    : no prefix
+  Hint         : 90
+  Name         : NdisIMGetDeviceContext
+
+Archive member name at 970E: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000029
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisIMInitializeDeviceInstance
+  Type         : code
+  Name type    : no prefix
+  Hint         : 91
+  Name         : NdisIMInitializeDeviceInstance
+
+Archive member name at 9788: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002B
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisIMInitializeDeviceInstanceEx
+  Type         : code
+  Name type    : no prefix
+  Hint         : 92
+  Name         : NdisIMInitializeDeviceInstanceEx
+
+Archive member name at 9804: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisIMNotifyPnPEvent
+  Type         : code
+  Name type    : no prefix
+  Hint         : 93
+  Name         : NdisIMNotifyPnPEvent
+
+Archive member name at 9874: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000026
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisIMQueueMiniportCallback
+  Type         : code
+  Name type    : no prefix
+  Hint         : 94
+  Name         : NdisIMQueueMiniportCallback
+
+Archive member name at 98EA: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000028
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisIMRegisterLayeredMiniport
+  Type         : code
+  Name type    : no prefix
+  Hint         : 95
+  Name         : NdisIMRegisterLayeredMiniport
+
+Archive member name at 9962: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001B
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisIMRevertBack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 96
+  Name         : NdisIMRevertBack
+
+Archive member name at 99CE: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisIMSwitchToMiniport
+  Type         : code
+  Name type    : no prefix
+  Hint         : 97
+  Name         : NdisIMSwitchToMiniport
+
+Archive member name at 9A40: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001D
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisInitAnsiString
+  Type         : code
+  Name type    : no prefix
+  Hint         : 98
+  Name         : NdisInitAnsiString
+
+Archive member name at 9AAE: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisInitUnicodeString
+  Type         : code
+  Name type    : no prefix
+  Hint         : 99
+  Name         : NdisInitUnicodeString
+
+Archive member name at 9B1E: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001E
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisInitializeEvent
+  Type         : code
+  Name type    : no prefix
+  Hint         : 100
+  Name         : NdisInitializeEvent
+
+Archive member name at 9B8C: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisInitializeListHead
+  Type         : code
+  Name type    : no prefix
+  Hint         : 101
+  Name         : NdisInitializeListHead
+
+Archive member name at 9BFE: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000026
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisInitializeReadWriteLock
+  Type         : code
+  Name type    : no prefix
+  Hint         : 102
+  Name         : NdisInitializeReadWriteLock
+
+Archive member name at 9C74: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisInitializeString
+  Type         : code
+  Name type    : no prefix
+  Hint         : 103
+  Name         : NdisInitializeString
+
+Archive member name at 9CE4: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001E
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisInitializeTimer
+  Type         : code
+  Name type    : no prefix
+  Hint         : 104
+  Name         : NdisInitializeTimer
+
+Archive member name at 9D52: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisInitializeWrapper
+  Type         : code
+  Name type    : no prefix
+  Hint         : 105
+  Name         : NdisInitializeWrapper
+
+Archive member name at 9DC2: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000022
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisInterlockedAddUlong
+  Type         : code
+  Name type    : no prefix
+  Hint         : 106
+  Name         : NdisInterlockedAddUlong
+
+Archive member name at 9E34: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000023
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisInterlockedDecrement
+  Type         : code
+  Name type    : no prefix
+  Hint         : 107
+  Name         : NdisInterlockedDecrement
+
+Archive member name at 9EA8: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000023
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisInterlockedIncrement
+  Type         : code
+  Name type    : no prefix
+  Hint         : 108
+  Name         : NdisInterlockedIncrement
+
+Archive member name at 9F1C: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000028
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisInterlockedInsertHeadList
+  Type         : code
+  Name type    : no prefix
+  Hint         : 109
+  Name         : NdisInterlockedInsertHeadList
+
+Archive member name at 9F94: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000028
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisInterlockedInsertTailList
+  Type         : code
+  Name type    : no prefix
+  Hint         : 110
+  Name         : NdisInterlockedInsertTailList
+
+Archive member name at A00C: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000028
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisInterlockedRemoveHeadList
+  Type         : code
+  Name type    : no prefix
+  Hint         : 111
+  Name         : NdisInterlockedRemoveHeadList
+
+Archive member name at A084: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000024
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMAllocateMapRegisters
+  Type         : code
+  Name type    : no prefix
+  Hint         : 112
+  Name         : NdisMAllocateMapRegisters
+
+Archive member name at A0F8: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000024
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMAllocateSharedMemory
+  Type         : code
+  Name type    : no prefix
+  Hint         : 113
+  Name         : NdisMAllocateSharedMemory
+
+Archive member name at A16C: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001B
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMCancelTimer
+  Type         : code
+  Name type    : no prefix
+  Hint         : 114
+  Name         : NdisMCancelTimer
+
+Archive member name at A1D8: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000018
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMCloseLog
+  Type         : code
+  Name type    : no prefix
+  Hint         : 115
+  Name         : NdisMCloseLog
+
+Archive member name at A240: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002D
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMCompleteBufferPhysicalMapping
+  Type         : code
+  Name type    : no prefix
+  Hint         : 116
+  Name         : NdisMCompleteBufferPhysicalMapping
+
+Archive member name at A2BE: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000019
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMCreateLog
+  Type         : code
+  Name type    : no prefix
+  Hint         : 117
+  Name         : NdisMCreateLog
+
+Archive member name at A328: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000030
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMDeregisterAdapterShutdownHandler
+  Type         : code
+  Name type    : no prefix
+  Hint         : 118
+  Name         : NdisMDeregisterAdapterShutdownHandler
+
+Archive member name at A3A8: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000023
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMDeregisterInterrupt
+  Type         : code
+  Name type    : no prefix
+  Hint         : 119
+  Name         : NdisMDeregisterInterrupt
+
+Archive member name at A41C: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000025
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMDeregisterIoPortRange
+  Type         : code
+  Name type    : no prefix
+  Hint         : 120
+  Name         : NdisMDeregisterIoPortRange
+
+Archive member name at A492: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000018
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMFlushLog
+  Type         : code
+  Name type    : no prefix
+  Hint         : 121
+  Name         : NdisMFlushLog
+
+Archive member name at A4FA: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMFreeMapRegisters
+  Type         : code
+  Name type    : no prefix
+  Hint         : 122
+  Name         : NdisMFreeMapRegisters
+
+Archive member name at A56A: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMFreeSharedMemory
+  Type         : code
+  Name type    : no prefix
+  Hint         : 123
+  Name         : NdisMFreeSharedMemory
+
+Archive member name at A5DA: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMGetDeviceProperty
+  Type         : code
+  Name type    : no prefix
+  Hint         : 124
+  Name         : NdisMGetDeviceProperty
+
+Archive member name at A64C: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001E
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMIndicateStatus
+  Type         : code
+  Name type    : no prefix
+  Hint         : 125
+  Name         : NdisMIndicateStatus
+
+Archive member name at A6BA: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000026
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMIndicateStatusComplete
+  Type         : code
+  Name type    : no prefix
+  Hint         : 126
+  Name         : NdisMIndicateStatusComplete
+
+Archive member name at A730: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMInitializeTimer
+  Type         : code
+  Name type    : no prefix
+  Hint         : 127
+  Name         : NdisMInitializeTimer
+
+Archive member name at A7A0: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001A
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMMapIoSpace
+  Type         : code
+  Name type    : no prefix
+  Hint         : 128
+  Name         : NdisMMapIoSpace
+
+Archive member name at A80A: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001E
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMNotifyPnPEvent
+  Type         : code
+  Name type    : no prefix
+  Hint         : 129
+  Name         : NdisMNotifyPnPEvent
+
+Archive member name at A878: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000022
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMPciAssignResources
+  Type         : code
+  Name type    : no prefix
+  Hint         : 130
+  Name         : NdisMPciAssignResources
+
+Archive member name at A8EA: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMPromoteMiniport
+  Type         : code
+  Name type    : no prefix
+  Hint         : 131
+  Name         : NdisMPromoteMiniport
+
+Archive member name at A95A: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000028
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMQueryAdapterInstanceName
+  Type         : code
+  Name type    : no prefix
+  Hint         : 132
+  Name         : NdisMQueryAdapterInstanceName
+
+Archive member name at A9D2: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000025
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMQueryAdapterResources
+  Type         : code
+  Name type    : no prefix
+  Hint         : 133
+  Name         : NdisMQueryAdapterResources
+
+Archive member name at AA48: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000028
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMQueryInformationComplete
+  Type         : code
+  Name type    : no prefix
+  Hint         : 134
+  Name         : NdisMQueryInformationComplete
+
+Archive member name at AAC0: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000028
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMRebindProtocolsToAdapter
+  Type         : code
+  Name type    : no prefix
+  Hint         : 135
+  Name         : NdisMRebindProtocolsToAdapter
+
+Archive member name at AB38: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002E
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMRegisterAdapterShutdownHandler
+  Type         : code
+  Name type    : no prefix
+  Hint         : 136
+  Name         : NdisMRegisterAdapterShutdownHandler
+
+Archive member name at ABB6: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMRegisterInterrupt
+  Type         : code
+  Name type    : no prefix
+  Hint         : 137
+  Name         : NdisMRegisterInterrupt
+
+Archive member name at AC28: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000023
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMRegisterIoPortRange
+  Type         : code
+  Name type    : no prefix
+  Hint         : 138
+  Name         : NdisMRegisterIoPortRange
+
+Archive member name at AC9C: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMRegisterMiniport
+  Type         : code
+  Name type    : no prefix
+  Hint         : 139
+  Name         : NdisMRegisterMiniport
+
+Archive member name at AD0C: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000025
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMRegisterUnloadHandler
+  Type         : code
+  Name type    : no prefix
+  Hint         : 140
+  Name         : NdisMRegisterUnloadHandler
+
+Archive member name at AD82: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001E
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMRemoveMiniport
+  Type         : code
+  Name type    : no prefix
+  Hint         : 141
+  Name         : NdisMRemoveMiniport
+
+Archive member name at ADF0: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001D
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMResetComplete
+  Type         : code
+  Name type    : no prefix
+  Hint         : 142
+  Name         : NdisMResetComplete
+
+Archive member name at AE5E: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001C
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMSendComplete
+  Type         : code
+  Name type    : no prefix
+  Hint         : 143
+  Name         : NdisMSendComplete
+
+Archive member name at AECA: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000026
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMSendResourcesAvailable
+  Type         : code
+  Name type    : no prefix
+  Hint         : 144
+  Name         : NdisMSendResourcesAvailable
+
+Archive member name at AF40: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001D
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMSetAttributes
+  Type         : code
+  Name type    : no prefix
+  Hint         : 145
+  Name         : NdisMSetAttributes
+
+Archive member name at AFAE: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMSetAttributesEx
+  Type         : code
+  Name type    : no prefix
+  Hint         : 146
+  Name         : NdisMSetAttributesEx
+
+Archive member name at B01E: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000026
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMSetInformationComplete
+  Type         : code
+  Name type    : no prefix
+  Hint         : 147
+  Name         : NdisMSetInformationComplete
+
+Archive member name at B094: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000024
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMSetMiniportSecondary
+  Type         : code
+  Name type    : no prefix
+  Hint         : 148
+  Name         : NdisMSetMiniportSecondary
+
+Archive member name at B108: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMSetPeriodicTimer
+  Type         : code
+  Name type    : no prefix
+  Hint         : 149
+  Name         : NdisMSetPeriodicTimer
+
+Archive member name at B178: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000018
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMSetTimer
+  Type         : code
+  Name type    : no prefix
+  Hint         : 150
+  Name         : NdisMSetTimer
+
+Archive member name at B1E0: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000015
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMSleep
+  Type         : code
+  Name type    : no prefix
+  Hint         : 151
+  Name         : NdisMSleep
+
+Archive member name at B246: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002A
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMStartBufferPhysicalMapping
+  Type         : code
+  Name type    : no prefix
+  Hint         : 152
+  Name         : NdisMStartBufferPhysicalMapping
+
+Archive member name at B2C0: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000028
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMSynchronizeWithInterrupt
+  Type         : code
+  Name type    : no prefix
+  Hint         : 153
+  Name         : NdisMSynchronizeWithInterrupt
+
+Archive member name at B338: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000024
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMTransferDataComplete
+  Type         : code
+  Name type    : no prefix
+  Hint         : 154
+  Name         : NdisMTransferDataComplete
+
+Archive member name at B3AC: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001C
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMUnmapIoSpace
+  Type         : code
+  Name type    : no prefix
+  Hint         : 155
+  Name         : NdisMUnmapIoSpace
+
+Archive member name at B418: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000022
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMWanIndicateReceive
+  Type         : code
+  Name type    : no prefix
+  Hint         : 156
+  Name         : NdisMWanIndicateReceive
+
+Archive member name at B48A: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002A
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMWanIndicateReceiveComplete
+  Type         : code
+  Name type    : no prefix
+  Hint         : 157
+  Name         : NdisMWanIndicateReceiveComplete
+
+Archive member name at B504: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMWanSendComplete
+  Type         : code
+  Name type    : no prefix
+  Hint         : 158
+  Name         : NdisMWanSendComplete
+
+Archive member name at B574: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001C
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMWriteLogData
+  Type         : code
+  Name type    : no prefix
+  Hint         : 159
+  Name         : NdisMWriteLogData
+
+Archive member name at B5E0: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000016
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMapFile
+  Type         : code
+  Name type    : no prefix
+  Hint         : 160
+  Name         : NdisMapFile
+
+Archive member name at B646: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisMatchPdoWithPacket
+  Type         : code
+  Name type    : no prefix
+  Hint         : 161
+  Name         : NdisMatchPdoWithPacket
+
+Archive member name at B6B8: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001A
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisOpenAdapter
+  Type         : code
+  Name type    : no prefix
+  Hint         : 162
+  Name         : NdisOpenAdapter
+
+Archive member name at B722: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisOpenConfiguration
+  Type         : code
+  Name type    : no prefix
+  Hint         : 163
+  Name         : NdisOpenConfiguration
+
+Archive member name at B792: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002A
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisOpenConfigurationKeyByIndex
+  Type         : code
+  Name type    : no prefix
+  Hint         : 164
+  Name         : NdisOpenConfigurationKeyByIndex
+
+Archive member name at B80C: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000029
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisOpenConfigurationKeyByName
+  Type         : code
+  Name type    : no prefix
+  Hint         : 165
+  Name         : NdisOpenConfigurationKeyByName
+
+Archive member name at B886: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000017
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisOpenFile
+  Type         : code
+  Name type    : no prefix
+  Hint         : 166
+  Name         : NdisOpenFile
+
+Archive member name at B8EE: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000028
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisOpenProtocolConfiguration
+  Type         : code
+  Name type    : no prefix
+  Hint         : 167
+  Name         : NdisOpenProtocolConfiguration
+
+Archive member name at B966: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisPCIBusDeviceInit
+  Type         : code
+  Name type    : no prefix
+  Hint         : 168
+  Name         : NdisPCIBusDeviceInit
+
+Archive member name at B9D6: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001E
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisPacketPoolUsage
+  Type         : code
+  Name type    : no prefix
+  Hint         : 169
+  Name         : NdisPacketPoolUsage
+
+Archive member name at BA44: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000019
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisPacketSize
+  Type         : code
+  Name type    : no prefix
+  Hint         : 170
+  Name         : NdisPacketSize
+
+Archive member name at BAAE: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000027
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisQueryAdapterInstanceName
+  Type         : code
+  Name type    : no prefix
+  Hint         : 171
+  Name         : NdisQueryAdapterInstanceName
+
+Archive member name at BB26: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000024
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisQueryBindInstanceName
+  Type         : code
+  Name type    : no prefix
+  Hint         : 172
+  Name         : NdisQueryBindInstanceName
+
+Archive member name at BB9A: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001A
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisQueryBuffer
+  Type         : code
+  Name type    : no prefix
+  Hint         : 173
+  Name         : NdisQueryBuffer
+
+Archive member name at BC04: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisQueryBufferOffset
+  Type         : code
+  Name type    : no prefix
+  Hint         : 174
+  Name         : NdisQueryBufferOffset
+
+Archive member name at BC74: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001E
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisQueryBufferSafe
+  Type         : code
+  Name type    : no prefix
+  Hint         : 175
+  Name         : NdisQueryBufferSafe
+
+Archive member name at BCE2: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000024
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisQueryMapRegisterCount
+  Type         : code
+  Name type    : no prefix
+  Hint         : 176
+  Name         : NdisQueryMapRegisterCount
+
+Archive member name at BD56: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000022
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisQueryPendingIOCount
+  Type         : code
+  Name type    : no prefix
+  Hint         : 177
+  Name         : NdisQueryPendingIOCount
+
+Archive member name at BDC8: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002A
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisReEnumerateProtocolBindings
+  Type         : code
+  Name type    : no prefix
+  Hint         : 178
+  Name         : NdisReEnumerateProtocolBindings
+
+Archive member name at BE42: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisReadConfiguration
+  Type         : code
+  Name type    : no prefix
+  Hint         : 179
+  Name         : NdisReadConfiguration
+
+Archive member name at BEB2: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisReadNetworkAddress
+  Type         : code
+  Name type    : no prefix
+  Hint         : 180
+  Name         : NdisReadNetworkAddress
+
+Archive member name at BF24: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000025
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisReadPciSlotInformation
+  Type         : code
+  Name type    : no prefix
+  Hint         : 181
+  Name         : NdisReadPciSlotInformation
+
+Archive member name at BF9A: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000028
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisReadPcmciaAttributeMemory
+  Type         : code
+  Name type    : no prefix
+  Hint         : 182
+  Name         : NdisReadPcmciaAttributeMemory
+
+Archive member name at C012: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000027
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisRebindProtocolsToAdapter
+  Type         : code
+  Name type    : no prefix
+  Hint         : 183
+  Name         : NdisRebindProtocolsToAdapter
+
+Archive member name at C08A: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001E
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisRegisterAdapter
+  Type         : code
+  Name type    : no prefix
+  Hint         : 184
+  Name         : NdisRegisterAdapter
+
+Archive member name at C0F8: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisRegisterProtocol
+  Type         : code
+  Name type    : no prefix
+  Hint         : 185
+  Name         : NdisRegisterProtocol
+
+Archive member name at C168: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000022
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisRegisterTdiCallBack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 186
+  Name         : NdisRegisterTdiCallBack
+
+Archive member name at C1DA: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000023
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisReleaseReadWriteLock
+  Type         : code
+  Name type    : no prefix
+  Hint         : 187
+  Name         : NdisReleaseReadWriteLock
+
+Archive member name at C24E: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001E
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisReleaseSpinLock
+  Type         : code
+  Name type    : no prefix
+  Hint         : 188
+  Name         : NdisReleaseSpinLock
+
+Archive member name at C2BC: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000016
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisRequest
+  Type         : code
+  Name type    : no prefix
+  Hint         : 189
+  Name         : NdisRequest
+
+Archive member name at C322: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000014
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisReset
+  Type         : code
+  Name type    : no prefix
+  Hint         : 190
+  Name         : NdisReset
+
+Archive member name at C386: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000019
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisResetEvent
+  Type         : code
+  Name type    : no prefix
+  Hint         : 191
+  Name         : NdisResetEvent
+
+Archive member name at C3F0: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001C
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisReturnPackets
+  Type         : code
+  Name type    : no prefix
+  Hint         : 192
+  Name         : NdisReturnPackets
+
+Archive member name at C45C: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisScheduleWorkItem
+  Type         : code
+  Name type    : no prefix
+  Hint         : 193
+  Name         : NdisScheduleWorkItem
+
+Archive member name at C4CC: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      27 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000013
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisSend
+  Type         : code
+  Name type    : no prefix
+  Hint         : 194
+  Name         : NdisSend
+
+Archive member name at C530: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001A
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisSendPackets
+  Type         : code
+  Name type    : no prefix
+  Hint         : 195
+  Name         : NdisSendPackets
+
+Archive member name at C59A: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000017
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisSetEvent
+  Type         : code
+  Name type    : no prefix
+  Hint         : 196
+  Name         : NdisSetEvent
+
+Archive member name at C602: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisSetPacketCancelId
+  Type         : code
+  Name type    : no prefix
+  Hint         : 197
+  Name         : NdisSetPacketCancelId
+
+Archive member name at C672: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000026
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisSetPacketPoolProtocolId
+  Type         : code
+  Name type    : no prefix
+  Hint         : 198
+  Name         : NdisSetPacketPoolProtocolId
+
+Archive member name at C6E8: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001E
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisSetPacketStatus
+  Type         : code
+  Name type    : no prefix
+  Hint         : 199
+  Name         : NdisSetPacketStatus
+
+Archive member name at C756: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisSetProtocolFilter
+  Type         : code
+  Name type    : no prefix
+  Hint         : 200
+  Name         : NdisSetProtocolFilter
+
+Archive member name at C7C6: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000017
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisSetTimer
+  Type         : code
+  Name type    : no prefix
+  Hint         : 201
+  Name         : NdisSetTimer
+
+Archive member name at C82E: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000019
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisSetTimerEx
+  Type         : code
+  Name type    : no prefix
+  Hint         : 202
+  Name         : NdisSetTimerEx
+
+Archive member name at C898: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001D
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisStallExecution
+  Type         : code
+  Name type    : no prefix
+  Hint         : 203
+  Name         : NdisStallExecution
+
+Archive member name at C906: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000023
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisSystemProcessorCount
+  Type         : code
+  Name type    : no prefix
+  Hint         : 204
+  Name         : NdisSystemProcessorCount
+
+Archive member name at C97A: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisTerminateWrapper
+  Type         : code
+  Name type    : no prefix
+  Hint         : 205
+  Name         : NdisTerminateWrapper
+
+Archive member name at C9EA: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001B
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisTransferData
+  Type         : code
+  Name type    : no prefix
+  Hint         : 206
+  Name         : NdisTransferData
+
+Archive member name at CA56: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000029
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisUnbindProtocolsFromAdapter
+  Type         : code
+  Name type    : no prefix
+  Hint         : 207
+  Name         : NdisUnbindProtocolsFromAdapter
+
+Archive member name at CAD0: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000022
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisUnchainBufferAtBack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 208
+  Name         : NdisUnchainBufferAtBack
+
+Archive member name at CB42: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000023
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisUnchainBufferAtFront
+  Type         : code
+  Name type    : no prefix
+  Hint         : 209
+  Name         : NdisUnchainBufferAtFront
+
+Archive member name at CBB6: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000028
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisUnicodeStringToAnsiString
+  Type         : code
+  Name type    : no prefix
+  Hint         : 210
+  Name         : NdisUnicodeStringToAnsiString
+
+Archive member name at CC2E: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000018
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisUnmapFile
+  Type         : code
+  Name type    : no prefix
+  Hint         : 211
+  Name         : NdisUnmapFile
+
+Archive member name at CC96: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000022
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisUpcaseUnicodeString
+  Type         : code
+  Name type    : no prefix
+  Hint         : 212
+  Name         : NdisUpcaseUnicodeString
+
+Archive member name at CD08: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisUpdateSharedMemory
+  Type         : code
+  Name type    : no prefix
+  Hint         : 213
+  Name         : NdisUpdateSharedMemory
+
+Archive member name at CD7A: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000018
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisWaitEvent
+  Type         : code
+  Name type    : no prefix
+  Hint         : 214
+  Name         : NdisWaitEvent
+
+Archive member name at CDE2: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisWriteConfiguration
+  Type         : code
+  Name type    : no prefix
+  Hint         : 215
+  Name         : NdisWriteConfiguration
+
+Archive member name at CE54: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisWriteErrorLogEntry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 216
+  Name         : NdisWriteErrorLogEntry
+
+Archive member name at CEC6: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000026
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisWritePciSlotInformation
+  Type         : code
+  Name type    : no prefix
+  Hint         : 217
+  Name         : NdisWritePciSlotInformation
+
+Archive member name at CF3C: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000029
+  DLL name     : NDIS.dll
+  Symbol name  : _NdisWritePcmciaAttributeMemory
+  Type         : code
+  Name type    : no prefix
+  Hint         : 218
+  Name         : NdisWritePcmciaAttributeMemory
+
+Archive member name at CFB6: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000025
+  DLL name     : NDIS.dll
+  Symbol name  : _TrFilterDprIndicateReceive
+  Type         : code
+  Name type    : no prefix
+  Hint         : 219
+  Name         : TrFilterDprIndicateReceive
+
+Archive member name at D02C: NDIS.dll/       
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002D
+  DLL name     : NDIS.dll
+  Symbol name  : _TrFilterDprIndicateReceiveComplete
+  Type         : code
+  Name type    : no prefix
+  Hint         : 220
+  Name         : TrFilterDprIndicateReceiveComplete
+
+     Exports
+
+       ordinal    name
+
+                  _DbgBreakPoint
+                  _DbgPrint
+                  _EthChangeFilterAddresses
+                  _EthCreateFilter
+                  _EthDeleteFilter
+                  _EthDeleteFilterOpenAdapter
+                  _EthFilterDprIndicateReceive
+                  _EthFilterDprIndicateReceiveComplete
+                  _EthNumberOfOpenFilterAddresses
+                  _EthQueryGlobalFilterAddresses
+                  _EthQueryOpenFilterAddresses
+                  _NDIS_BUFFER_TO_SPAN_PAGES
+                  _NDS_Close
+                  _NDS_Deinit
+                  _NDS_IOControl
+                  _NDS_Init
+                  _NDS_Open
+                  _NDS_PowerDown
+                  _NDS_PowerUp
+                  _NDS_Read
+                  _NDS_Seek
+                  _NDS_Write
+                  _NdisAcquireReadWriteLock
+                  _NdisAcquireSpinLock
+                  _NdisAdjustBufferLength
+                  _NdisAllocateBuffer
+                  _NdisAllocateBufferPool
+                  _NdisAllocateMemory
+                  _NdisAllocateMemoryWithTag
+                  _NdisAllocatePacket
+                  _NdisAllocatePacketPool
+                  _NdisAllocatePacketPoolEx
+                  _NdisAllocateSpinLock
+                  _NdisAnsiStringToUnicodeString
+                  _NdisBindProtocolsToAdapter
+                  _NdisBufferLength
+                  _NdisBufferVirtualAddress
+                  _NdisCancelSendPackets
+                  _NdisCancelTimer
+                  _NdisCloseAdapter
+                  _NdisCloseConfiguration
+                  _NdisCloseFile
+                  _NdisCompleteBindAdapter
+                  _NdisCompletePnPEvent
+                  _NdisCompleteUnbindAdapter
+                  _NdisConvertStringToAtmAddress
+                  _NdisCopyBuffer
+                  _NdisCopyFromPacketToPacket
+                  _NdisDeregisterAdapter
+                  _NdisDeregisterProtocol
+                  _NdisDprAcquireSpinLock
+                  _NdisDprAllocatePacket
+                  _NdisDprAllocatePacketNonInterlocked
+                  _NdisDprFreePacket
+                  _NdisDprFreePacketNonInterlocked
+                  _NdisDprReleaseSpinLock
+                  _NdisEqualString
+                  _NdisFlushBuffer
+                  _NdisFreeBuffer
+                  _NdisFreeBufferPool
+                  _NdisFreeEvent
+                  _NdisFreeMemory
+                  _NdisFreePacket
+                  _NdisFreePacketPool
+                  _NdisFreeReadWriteLock
+                  _NdisFreeSpinLock
+                  _NdisGeneratePartialCancelId
+                  _NdisGetAdapterBindings
+                  _NdisGetAdapterNames
+                  _NdisGetCurrentProcessorCounts
+                  _NdisGetCurrentProcessorCpuUsage
+                  _NdisGetCurrentSystemTime
+                  _NdisGetDriverHandle
+                  _NdisGetFirstBufferFromPacket
+                  _NdisGetFirstBufferFromPacketSafe
+                  _NdisGetLogData
+                  _NdisGetPacketCancelId
+                  _NdisGetPoolFromPacket
+                  _NdisGetProtocolNames
+                  _NdisGetReceivedPacket
+                  _NdisGetSystemUpTime
+                  _NdisGetVersion
+                  _NdisIMAssociateMiniport
+                  _NdisIMCancelInitializeDeviceInstance
+                  _NdisIMCopySendCompletePerPacketInfo
+                  _NdisIMCopySendPerPacketInfo
+                  _NdisIMDeInitializeDeviceInstance
+                  _NdisIMDeregisterLayeredMiniport
+                  _NdisIMGetBindingContext
+                  _NdisIMGetCurrentPacketStack
+                  _NdisIMGetDeviceContext
+                  _NdisIMInitializeDeviceInstance
+                  _NdisIMInitializeDeviceInstanceEx
+                  _NdisIMNotifyPnPEvent
+                  _NdisIMQueueMiniportCallback
+                  _NdisIMRegisterLayeredMiniport
+                  _NdisIMRevertBack
+                  _NdisIMSwitchToMiniport
+                  _NdisInitAnsiString
+                  _NdisInitUnicodeString
+                  _NdisInitializeEvent
+                  _NdisInitializeListHead
+                  _NdisInitializeReadWriteLock
+                  _NdisInitializeString
+                  _NdisInitializeTimer
+                  _NdisInitializeWrapper
+                  _NdisInterlockedAddUlong
+                  _NdisInterlockedDecrement
+                  _NdisInterlockedIncrement
+                  _NdisInterlockedInsertHeadList
+                  _NdisInterlockedInsertTailList
+                  _NdisInterlockedRemoveHeadList
+                  _NdisMAllocateMapRegisters
+                  _NdisMAllocateSharedMemory
+                  _NdisMCancelTimer
+                  _NdisMCloseLog
+                  _NdisMCompleteBufferPhysicalMapping
+                  _NdisMCreateLog
+                  _NdisMDeregisterAdapterShutdownHandler
+                  _NdisMDeregisterInterrupt
+                  _NdisMDeregisterIoPortRange
+                  _NdisMFlushLog
+                  _NdisMFreeMapRegisters
+                  _NdisMFreeSharedMemory
+                  _NdisMGetDeviceProperty
+                  _NdisMIndicateStatus
+                  _NdisMIndicateStatusComplete
+                  _NdisMInitializeTimer
+                  _NdisMMapIoSpace
+                  _NdisMNotifyPnPEvent
+                  _NdisMPciAssignResources
+                  _NdisMPromoteMiniport
+                  _NdisMQueryAdapterInstanceName
+                  _NdisMQueryAdapterResources
+                  _NdisMQueryInformationComplete
+                  _NdisMRebindProtocolsToAdapter
+                  _NdisMRegisterAdapterShutdownHandler
+                  _NdisMRegisterInterrupt
+                  _NdisMRegisterIoPortRange
+                  _NdisMRegisterMiniport
+                  _NdisMRegisterUnloadHandler
+                  _NdisMRemoveMiniport
+                  _NdisMResetComplete
+                  _NdisMSendComplete
+                  _NdisMSendResourcesAvailable
+                  _NdisMSetAttributes
+                  _NdisMSetAttributesEx
+                  _NdisMSetInformationComplete
+                  _NdisMSetMiniportSecondary
+                  _NdisMSetPeriodicTimer
+                  _NdisMSetTimer
+                  _NdisMSleep
+                  _NdisMStartBufferPhysicalMapping
+                  _NdisMSynchronizeWithInterrupt
+                  _NdisMTransferDataComplete
+                  _NdisMUnmapIoSpace
+                  _NdisMWanIndicateReceive
+                  _NdisMWanIndicateReceiveComplete
+                  _NdisMWanSendComplete
+                  _NdisMWriteLogData
+                  _NdisMapFile
+                  _NdisMatchPdoWithPacket
+                  _NdisOpenAdapter
+                  _NdisOpenConfiguration
+                  _NdisOpenConfigurationKeyByIndex
+                  _NdisOpenConfigurationKeyByName
+                  _NdisOpenFile
+                  _NdisOpenProtocolConfiguration
+                  _NdisPCIBusDeviceInit
+                  _NdisPacketPoolUsage
+                  _NdisPacketSize
+                  _NdisQueryAdapterInstanceName
+                  _NdisQueryBindInstanceName
+                  _NdisQueryBuffer
+                  _NdisQueryBufferOffset
+                  _NdisQueryBufferSafe
+                  _NdisQueryMapRegisterCount
+                  _NdisQueryPendingIOCount
+                  _NdisReEnumerateProtocolBindings
+                  _NdisReadConfiguration
+                  _NdisReadNetworkAddress
+                  _NdisReadPciSlotInformation
+                  _NdisReadPcmciaAttributeMemory
+                  _NdisRebindProtocolsToAdapter
+                  _NdisRegisterAdapter
+                  _NdisRegisterProtocol
+                  _NdisRegisterTdiCallBack
+                  _NdisReleaseReadWriteLock
+                  _NdisReleaseSpinLock
+                  _NdisRequest
+                  _NdisReset
+                  _NdisResetEvent
+                  _NdisReturnPackets
+                  _NdisScheduleWorkItem
+                  _NdisSend
+                  _NdisSendPackets
+                  _NdisSetEvent
+                  _NdisSetPacketCancelId
+                  _NdisSetPacketPoolProtocolId
+                  _NdisSetPacketStatus
+                  _NdisSetProtocolFilter
+                  _NdisSetTimer
+                  _NdisSetTimerEx
+                  _NdisStallExecution
+                  _NdisSystemProcessorCount
+                  _NdisTerminateWrapper
+                  _NdisTransferData
+                  _NdisUnbindProtocolsFromAdapter
+                  _NdisUnchainBufferAtBack
+                  _NdisUnchainBufferAtFront
+                  _NdisUnicodeStringToAnsiString
+                  _NdisUnmapFile
+                  _NdisUpcaseUnicodeString
+                  _NdisUpdateSharedMemory
+                  _NdisWaitEvent
+                  _NdisWriteConfiguration
+                  _NdisWriteErrorLogEntry
+                  _NdisWritePciSlotInformation
+                  _NdisWritePcmciaAttributeMemory
+                  _TrFilterDprIndicateReceive
+                  _TrFilterDprIndicateReceiveComplete
+
+  Summary
+
+          BD .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           A .idata$6

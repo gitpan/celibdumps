@@ -1,0 +1,1470 @@
+Microsoft (R) COFF/PE Dumper Version 7.10.6030
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files\Windows CE Tools\wce400\STANDARDSDK\Lib\Emulator\atlce400.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+     CAA size
+correct header end
+
+    97 public symbols
+
+     1A72 __IMPORT_DESCRIPTOR_atlce400
+     1CA2 __NULL_IMPORT_DESCRIPTOR
+     1DDA atlce400_NULL_THUNK_DATA
+     22A2 _AtlAdvise
+     22A2 __imp__AtlAdvise
+     3456 _AtlUnadvise
+     3456 __imp__AtlUnadvise
+     2D62 _AtlModuleGetClassObject
+     2D62 __imp__AtlModuleGetClassObject
+     2DD8 _AtlModuleInit
+     2DD8 __imp__AtlModuleInit
+     2F34 _AtlModuleRegisterServer
+     2F34 __imp__AtlModuleRegisterServer
+     2FAA _AtlModuleRegisterTypeLib
+     2FAA __imp__AtlModuleRegisterTypeLib
+     311A _AtlModuleTerm
+     311A __imp__AtlModuleTerm
+     3200 _AtlModuleUnregisterServer
+     3200 __imp__AtlModuleUnregisterServer
+     32F2 _AtlModuleUpdateRegistryFromResourceD
+     32F2 __imp__AtlModuleUpdateRegistryFromResourceD
+     33E8 _AtlSetErrorInfo
+     33E8 __imp__AtlSetErrorInfo
+     2766 _AtlCreateTargetDC
+     2766 __imp__AtlCreateTargetDC
+     2928 _AtlHiMetricToPixel
+     2928 __imp__AtlHiMetricToPixel
+     3376 _AtlPixelToHiMetric
+     3376 __imp__AtlPixelToHiMetric
+     2688 _AtlComPtrAssign
+     2688 __imp__AtlComPtrAssign
+     26F6 _AtlComQIPtrAssign
+     26F6 __imp__AtlComQIPtrAssign
+     2B82 _AtlInternalQueryInterface
+     2B82 __imp__AtlInternalQueryInterface
+     28BC _AtlGetVersion
+     28BC __imp__AtlGetVersion
+     24D4 _AtlAxDialogBoxW
+     24D4 __imp__AtlAxDialogBoxW
+     2462 _AtlAxCreateDialogW
+     2462 __imp__AtlAxCreateDialogW
+     237C _AtlAxCreateControl
+     237C __imp__AtlAxCreateControl
+     23EE _AtlAxCreateControlEx
+     23EE __imp__AtlAxCreateControlEx
+     230A _AtlAxAttachControl
+     230A __imp__AtlAxAttachControl
+     261C _AtlAxWinInit
+     261C __imp__AtlAxWinInit
+     2BFA _AtlModuleAddCreateWndData
+     2BFA __imp__AtlModuleAddCreateWndData
+     2CE6 _AtlModuleExtractCreateWndData
+     2CE6 __imp__AtlModuleExtractCreateWndData
+     3022 _AtlModuleRegisterWndClassInfoW
+     3022 __imp__AtlModuleRegisterWndClassInfoW
+     2542 _AtlAxGetControl
+     2542 __imp__AtlAxGetControl
+     25B0 _AtlAxGetHost
+     25B0 __imp__AtlAxGetHost
+     2A8E _AtlIPersistStreamInit_Load
+     2A8E __imp__AtlIPersistStreamInit_Load
+     2B08 _AtlIPersistStreamInit_Save
+     2B08 __imp__AtlIPersistStreamInit_Save
+     299A _AtlIPersistPropertyBag_Load
+     299A __imp__AtlIPersistPropertyBag_Load
+     2A14 _AtlIPersistPropertyBag_Save
+     2A14 __imp__AtlIPersistPropertyBag_Save
+     2842 _AtlGetObjectSourceInterface
+     2842 __imp__AtlGetObjectSourceInterface
+     3186 _AtlModuleUnRegisterTypeLib
+     3186 __imp__AtlModuleUnRegisterTypeLib
+     2E44 _AtlModuleLoadTypeLib
+     2E44 __imp__AtlModuleLoadTypeLib
+     3278 _AtlModuleUnregisterServerEx
+     3278 __imp__AtlModuleUnregisterServerEx
+     2C72 _AtlModuleAddTermFunc
+     2C72 __imp__AtlModuleAddTermFunc
+     20D4 ?wce_ATL_OleLoadFromStream@ATL@@YAJPAUIStream@@ABU_GUID@@PAPAX@Z
+     20D4 __imp_?wce_ATL_OleLoadFromStream@ATL@@YAJPAUIStream@@ABU_GUID@@PAPAX@Z
+     2172 ?wce_ATL_OleSaveToStream@ATL@@YAJPAUIPersistStream@@PAUIStream@@@Z
+     2172 __imp_?wce_ATL_OleSaveToStream@ATL@@YAJPAUIPersistStream@@PAUIStream@@@Z
+     1F30 ?wce_ATL_CLSIDFromProgID@ATL@@YAJPBGPAU_GUID@@@Z
+     1F30 __imp_?wce_ATL_CLSIDFromProgID@ATL@@YAJPBGPAU_GUID@@@Z
+     2212 ?wce_ATL_ProgIDFromCLSID@ATL@@YAJABU_GUID@@PAPAG@Z
+     2212 __imp_?wce_ATL_ProgIDFromCLSID@ATL@@YAJABU_GUID@@PAPAG@Z
+     2058 ?wce_ATL_MulDiv@ATL@@YAHHHH@Z
+     2058 __imp_?wce_ATL_MulDiv@ATL@@YAHHHH@Z
+     1FBE ?wce_ATL_CreateStreamOnHGlobal@ATL@@YAJPAXHPAPAUIStream@@@Z
+     1FBE __imp_?wce_ATL_CreateStreamOnHGlobal@ATL@@YAJPAXHPAPAUIStream@@@Z
+     34C0 __AtlceDispatchCall
+     34C0 __imp___AtlceDispatchCall
+     2EB8 _AtlModuleRegisterClassObjects
+     2EB8 __imp__AtlModuleRegisterClassObjects
+     30A0 _AtlModuleRevokeClassObjects
+     30A0 __imp__AtlModuleRevokeClassObjects
+     27D6 _AtlDevModeW2A
+     27D6 __imp__AtlDevModeW2A
+
+Archive member name at CEE: /               
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+     D48 size
+correct header end
+
+    87 offsets
+
+        1     1A72
+        2     1CA2
+        3     1DDA
+        4     22A2
+        5     3456
+        6     2D62
+        7     2DD8
+        8     2F34
+        9     2FAA
+        A     311A
+        B     3200
+        C     32F2
+        D     33E8
+        E     2766
+        F     2928
+       10     3376
+       11     2688
+       12     26F6
+       13     2B82
+       14     28BC
+       15     24D4
+       16     2462
+       17     237C
+       18     23EE
+       19     230A
+       1A     261C
+       1B     2BFA
+       1C     2CE6
+       1D     3022
+       1E     2542
+       1F     25B0
+       20     2A8E
+       21     2B08
+       22     299A
+       23     2A14
+       24     2842
+       25     3186
+       26     2E44
+       27     3278
+       28     2C72
+       29     20D4
+       2A     2172
+       2B     1F30
+       2C     2212
+       2D     2058
+       2E     1FBE
+       2F     34C0
+       30        0
+       31        0
+       32        0
+       33        0
+       34        0
+       35        0
+       36        0
+       37        0
+       38        0
+       39        0
+       3A        0
+       3B        0
+       3C        0
+       3D     2EB8
+       3E     30A0
+       3F        0
+       40        0
+       41        0
+       42        0
+       43        0
+       44        0
+       45        0
+       46        0
+       47        0
+       48        0
+       49        0
+       4A        0
+       4B        0
+       4C        0
+       4D        0
+       4E        0
+       4F     27D6
+       50        0
+       51        0
+       52        0
+       53        0
+       54        0
+       55        0
+       56        0
+       57        0
+
+    97 public symbols
+
+       2B ?wce_ATL_CLSIDFromProgID@ATL@@YAJPBGPAU_GUID@@@Z
+       2E ?wce_ATL_CreateStreamOnHGlobal@ATL@@YAJPAXHPAPAUIStream@@@Z
+       2D ?wce_ATL_MulDiv@ATL@@YAHHHH@Z
+       29 ?wce_ATL_OleLoadFromStream@ATL@@YAJPAUIStream@@ABU_GUID@@PAPAX@Z
+       2A ?wce_ATL_OleSaveToStream@ATL@@YAJPAUIPersistStream@@PAUIStream@@@Z
+       2C ?wce_ATL_ProgIDFromCLSID@ATL@@YAJABU_GUID@@PAPAG@Z
+        4 _AtlAdvise
+       19 _AtlAxAttachControl
+       17 _AtlAxCreateControl
+       18 _AtlAxCreateControlEx
+       16 _AtlAxCreateDialogW
+       15 _AtlAxDialogBoxW
+       1E _AtlAxGetControl
+       1F _AtlAxGetHost
+       1A _AtlAxWinInit
+       11 _AtlComPtrAssign
+       12 _AtlComQIPtrAssign
+        E _AtlCreateTargetDC
+       4F _AtlDevModeW2A
+       24 _AtlGetObjectSourceInterface
+       14 _AtlGetVersion
+        F _AtlHiMetricToPixel
+       22 _AtlIPersistPropertyBag_Load
+       23 _AtlIPersistPropertyBag_Save
+       20 _AtlIPersistStreamInit_Load
+       21 _AtlIPersistStreamInit_Save
+       13 _AtlInternalQueryInterface
+       1B _AtlModuleAddCreateWndData
+       28 _AtlModuleAddTermFunc
+       1C _AtlModuleExtractCreateWndData
+        6 _AtlModuleGetClassObject
+        7 _AtlModuleInit
+       26 _AtlModuleLoadTypeLib
+       3D _AtlModuleRegisterClassObjects
+        8 _AtlModuleRegisterServer
+        9 _AtlModuleRegisterTypeLib
+       1D _AtlModuleRegisterWndClassInfoW
+       3E _AtlModuleRevokeClassObjects
+        A _AtlModuleTerm
+       25 _AtlModuleUnRegisterTypeLib
+        B _AtlModuleUnregisterServer
+       27 _AtlModuleUnregisterServerEx
+        C _AtlModuleUpdateRegistryFromResourceD
+       10 _AtlPixelToHiMetric
+        D _AtlSetErrorInfo
+        5 _AtlUnadvise
+       2F __AtlceDispatchCall
+        1 __IMPORT_DESCRIPTOR_atlce400
+        2 __NULL_IMPORT_DESCRIPTOR
+       2B __imp_?wce_ATL_CLSIDFromProgID@ATL@@YAJPBGPAU_GUID@@@Z
+       2E __imp_?wce_ATL_CreateStreamOnHGlobal@ATL@@YAJPAXHPAPAUIStream@@@Z
+       2D __imp_?wce_ATL_MulDiv@ATL@@YAHHHH@Z
+       29 __imp_?wce_ATL_OleLoadFromStream@ATL@@YAJPAUIStream@@ABU_GUID@@PAPAX@Z
+       2A __imp_?wce_ATL_OleSaveToStream@ATL@@YAJPAUIPersistStream@@PAUIStream@@@Z
+       2C __imp_?wce_ATL_ProgIDFromCLSID@ATL@@YAJABU_GUID@@PAPAG@Z
+        4 __imp__AtlAdvise
+       19 __imp__AtlAxAttachControl
+       17 __imp__AtlAxCreateControl
+       18 __imp__AtlAxCreateControlEx
+       16 __imp__AtlAxCreateDialogW
+       15 __imp__AtlAxDialogBoxW
+       1E __imp__AtlAxGetControl
+       1F __imp__AtlAxGetHost
+       1A __imp__AtlAxWinInit
+       11 __imp__AtlComPtrAssign
+       12 __imp__AtlComQIPtrAssign
+        E __imp__AtlCreateTargetDC
+       4F __imp__AtlDevModeW2A
+       24 __imp__AtlGetObjectSourceInterface
+       14 __imp__AtlGetVersion
+        F __imp__AtlHiMetricToPixel
+       22 __imp__AtlIPersistPropertyBag_Load
+       23 __imp__AtlIPersistPropertyBag_Save
+       20 __imp__AtlIPersistStreamInit_Load
+       21 __imp__AtlIPersistStreamInit_Save
+       13 __imp__AtlInternalQueryInterface
+       1B __imp__AtlModuleAddCreateWndData
+       28 __imp__AtlModuleAddTermFunc
+       1C __imp__AtlModuleExtractCreateWndData
+        6 __imp__AtlModuleGetClassObject
+        7 __imp__AtlModuleInit
+       26 __imp__AtlModuleLoadTypeLib
+       3D __imp__AtlModuleRegisterClassObjects
+        8 __imp__AtlModuleRegisterServer
+        9 __imp__AtlModuleRegisterTypeLib
+       1D __imp__AtlModuleRegisterWndClassInfoW
+       3E __imp__AtlModuleRevokeClassObjects
+        A __imp__AtlModuleTerm
+       25 __imp__AtlModuleUnRegisterTypeLib
+        B __imp__AtlModuleUnregisterServer
+       27 __imp__AtlModuleUnregisterServerEx
+        C __imp__AtlModuleUpdateRegistryFromResourceD
+       10 __imp__AtlPixelToHiMetric
+        D __imp__AtlSetErrorInfo
+        5 __imp__AtlUnadvise
+       2F __imp___AtlceDispatchCall
+        3 atlce400_NULL_THUNK_DATA
+
+Archive member name at 1A72: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+     1F3 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C17C8E2 time date stamp Wed Dec 12 16:15:14 2001
+             10F file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      43 size of raw data
+      8C file pointer to raw data (0000008C to 000000CE)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 13 00 09 00 00 00 00 00 0C 61 74 6C  .............atl
+  00000010: 63 65 34 30 30 2E 64 6C 6C 28 00 13 10 07 00 00  ce400.dll(......
+  00000020: 00 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12  .............Û..
+  00000030: 4D 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49  Microsoft (R) LI
+  00000040: 4E 4B 00                                         NK.
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CF file pointer to raw data (000000CF to 000000E2)
+      E3 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+RELOCATIONS #2
+                                                Symbol    Symbol
+ Offset    Type              Applied To         Index     Name
+ --------  ----------------  -----------------  --------  ------
+ 0000000C  DIR32NB                    00000000         3  .idata$6
+ 00000000  DIR32NB                    00000000         4  .idata$4
+ 00000010  DIR32NB                    00000000         5  .idata$5
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       E size of raw data
+     101 file pointer to raw data (00000101 to 0000010E)
+      E3 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 61 74 6C 63 65 34 30 30 2E 64 6C 6C 00 00        atlce400.dll..
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __IMPORT_DESCRIPTOR_atlce400
+002 C0000040 SECT2  notype       Section      | .idata$2
+003 00000000 SECT3  notype       Static       | .idata$6
+004 C0000040 UNDEF  notype       Section      | .idata$4
+005 C0000040 UNDEF  notype       Section      | .idata$5
+006 00000000 UNDEF  notype       External     | __NULL_IMPORT_DESCRIPTOR
+007 00000000 UNDEF  notype       External     | atlce400_NULL_THUNK_DATA
+
+String Table Size = 0x54 bytes
+
+Archive member name at 1CA2: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      FC size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        3C17C8E2 time date stamp Wed Dec 12 16:15:14 2001
+              BB file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      43 size of raw data
+      64 file pointer to raw data (00000064 to 000000A6)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 13 00 09 00 00 00 00 00 0C 61 74 6C  .............atl
+  00000010: 63 65 34 30 30 2E 64 6C 6C 28 00 13 10 07 00 00  ce400.dll(......
+  00000020: 00 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12  .............Û..
+  00000030: 4D 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49  Microsoft (R) LI
+  00000040: 4E 4B 00                                         NK.
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A7 file pointer to raw data (000000A7 to 000000BA)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __NULL_IMPORT_DESCRIPTOR
+
+String Table Size = 0x1D bytes
+
+Archive member name at 1DDA: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+     119 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C17C8E2 time date stamp Wed Dec 12 16:15:14 2001
+              D7 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      43 size of raw data
+      8C file pointer to raw data (0000008C to 000000CE)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 13 00 09 00 00 00 00 00 0C 61 74 6C  .............atl
+  00000010: 63 65 34 30 30 2E 64 6C 6C 28 00 13 10 07 00 00  ce400.dll(......
+  00000020: 00 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12  .............Û..
+  00000030: 4D 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49  Microsoft (R) LI
+  00000040: 4E 4B 00                                         NK.
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CF file pointer to raw data (000000CF to 000000D2)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00                                      ....
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D3 file pointer to raw data (000000D3 to 000000D6)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | atlce400_NULL_THUNK_DATA
+
+String Table Size = 0x1E bytes
+
+Archive member name at 1F30: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      52 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000003E
+  DLL name     : atlce400.dll
+  Symbol name  : ?wce_ATL_CLSIDFromProgID@ATL@@YAJPBGPAU_GUID@@@Z (long __cdecl ATL::wce_ATL_CLSIDFromProgID(unsigned short const *,struct _GUID *))
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 61
+
+Archive member name at 1FBE: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      5D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000049
+  DLL name     : atlce400.dll
+  Symbol name  : ?wce_ATL_CreateStreamOnHGlobal@ATL@@YAJPAXHPAPAUIStream@@@Z (long __cdecl ATL::wce_ATL_CreateStreamOnHGlobal(void *,int,struct IStream * *))
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 64
+
+Archive member name at 2058: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000002B
+  DLL name     : atlce400.dll
+  Symbol name  : ?wce_ATL_MulDiv@ATL@@YAHHHH@Z (int __cdecl ATL::wce_ATL_MulDiv(int,int,int))
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 63
+
+Archive member name at 20D4: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      62 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000004E
+  DLL name     : atlce400.dll
+  Symbol name  : ?wce_ATL_OleLoadFromStream@ATL@@YAJPAUIStream@@ABU_GUID@@PAPAX@Z (long __cdecl ATL::wce_ATL_OleLoadFromStream(struct IStream *,struct _GUID const &,void * *))
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 59
+
+Archive member name at 2172: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      64 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000050
+  DLL name     : atlce400.dll
+  Symbol name  : ?wce_ATL_OleSaveToStream@ATL@@YAJPAUIPersistStream@@PAUIStream@@@Z (long __cdecl ATL::wce_ATL_OleSaveToStream(struct IPersistStream *,struct IStream *))
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 60
+
+Archive member name at 2212: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      54 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000040
+  DLL name     : atlce400.dll
+  Symbol name  : ?wce_ATL_ProgIDFromCLSID@ATL@@YAJABU_GUID@@PAPAG@Z (long __cdecl ATL::wce_ATL_ProgIDFromCLSID(struct _GUID const &,unsigned short * *))
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 62
+
+Archive member name at 22A2: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000018
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlAdvise
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 10
+
+Archive member name at 230A: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000021
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlAxAttachControl
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 41
+
+Archive member name at 237C: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000021
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlAxCreateControl
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 39
+
+Archive member name at 23EE: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000023
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlAxCreateControlEx
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 40
+
+Archive member name at 2462: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000021
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlAxCreateDialogW
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 37
+
+Archive member name at 24D4: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000001E
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlAxDialogBoxW
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 35
+
+Archive member name at 2542: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000001E
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlAxGetControl
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 47
+
+Archive member name at 25B0: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000001B
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlAxGetHost
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 48
+
+Archive member name at 261C: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000001B
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlAxWinInit
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 42
+
+Archive member name at 2688: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000001E
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlComPtrAssign
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 30
+
+Archive member name at 26F6: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000020
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlComQIPtrAssign
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 31
+
+Archive member name at 2766: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000020
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlCreateTargetDC
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 26
+
+Archive member name at 27D6: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000001C
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlDevModeW2A
+  Type         : code
+  Name type    : no prefix
+  Hint         : 12
+  Name         : AtlDevModeW2A
+
+Archive member name at 2842: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000002A
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlGetObjectSourceInterface
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 54
+
+Archive member name at 28BC: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000001C
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlGetVersion
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 34
+
+Archive member name at 2928: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000021
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlHiMetricToPixel
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 27
+
+Archive member name at 299A: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000002A
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlIPersistPropertyBag_Load
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 52
+
+Archive member name at 2A14: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000002A
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlIPersistPropertyBag_Save
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 53
+
+Archive member name at 2A8E: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000029
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlIPersistStreamInit_Load
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 50
+
+Archive member name at 2B08: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000029
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlIPersistStreamInit_Save
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 51
+
+Archive member name at 2B82: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000028
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlInternalQueryInterface
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 32
+
+Archive member name at 2BFA: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000028
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlModuleAddCreateWndData
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 43
+
+Archive member name at 2C72: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000023
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlModuleAddTermFunc
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 58
+
+Archive member name at 2CE6: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000002C
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlModuleExtractCreateWndData
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 44
+
+Archive member name at 2D62: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000026
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlModuleGetClassObject
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 15
+
+Archive member name at 2DD8: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000001C
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlModuleInit
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 16
+
+Archive member name at 2E44: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000023
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlModuleLoadTypeLib
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 56
+
+Archive member name at 2EB8: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000002C
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlModuleRegisterClassObjects
+  Type         : code
+  Name type    : no prefix
+  Hint         : 27
+  Name         : AtlModuleRegisterClassObjects
+
+Archive member name at 2F34: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000026
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlModuleRegisterServer
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 18
+
+Archive member name at 2FAA: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000027
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlModuleRegisterTypeLib
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 19
+
+Archive member name at 3022: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000002D
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlModuleRegisterWndClassInfoW
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 45
+
+Archive member name at 30A0: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000002A
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlModuleRevokeClassObjects
+  Type         : code
+  Name type    : no prefix
+  Hint         : 31
+  Name         : AtlModuleRevokeClassObjects
+
+Archive member name at 311A: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000001C
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlModuleTerm
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 21
+
+Archive member name at 3186: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000029
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlModuleUnRegisterTypeLib
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 55
+
+Archive member name at 3200: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000028
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlModuleUnregisterServer
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 22
+
+Archive member name at 3278: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000002A
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlModuleUnregisterServerEx
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 57
+
+Archive member name at 32F2: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000033
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlModuleUpdateRegistryFromResourceD
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 23
+
+Archive member name at 3376: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000021
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlPixelToHiMetric
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 28
+
+Archive member name at 33E8: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000001E
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlSetErrorInfo
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 25
+
+Archive member name at 3456: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 0000001A
+  DLL name     : atlce400.dll
+  Symbol name  : _AtlUnadvise
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 11
+
+Archive member name at 34C0: atlce400.dll/   
+3C17C8E2 time/date Wed Dec 12 16:15:14 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C17C8E2 Wed Dec 12 16:15:14 2001
+  SizeOfData   : 00000021
+  DLL name     : atlce400.dll
+  Symbol name  : __AtlceDispatchCall
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 9
+
+     Exports
+
+       ordinal    name
+
+            61    ?wce_ATL_CLSIDFromProgID@ATL@@YAJPBGPAU_GUID@@@Z (long __cdecl ATL::wce_ATL_CLSIDFromProgID(unsigned short const *,struct _GUID *))
+            64    ?wce_ATL_CreateStreamOnHGlobal@ATL@@YAJPAXHPAPAUIStream@@@Z (long __cdecl ATL::wce_ATL_CreateStreamOnHGlobal(void *,int,struct IStream * *))
+            63    ?wce_ATL_MulDiv@ATL@@YAHHHH@Z (int __cdecl ATL::wce_ATL_MulDiv(int,int,int))
+            59    ?wce_ATL_OleLoadFromStream@ATL@@YAJPAUIStream@@ABU_GUID@@PAPAX@Z (long __cdecl ATL::wce_ATL_OleLoadFromStream(struct IStream *,struct _GUID const &,void * *))
+            60    ?wce_ATL_OleSaveToStream@ATL@@YAJPAUIPersistStream@@PAUIStream@@@Z (long __cdecl ATL::wce_ATL_OleSaveToStream(struct IPersistStream *,struct IStream *))
+            62    ?wce_ATL_ProgIDFromCLSID@ATL@@YAJABU_GUID@@PAPAG@Z (long __cdecl ATL::wce_ATL_ProgIDFromCLSID(struct _GUID const &,unsigned short * *))
+            10    _AtlAdvise
+            41    _AtlAxAttachControl
+            39    _AtlAxCreateControl
+            40    _AtlAxCreateControlEx
+            37    _AtlAxCreateDialogW
+            35    _AtlAxDialogBoxW
+            47    _AtlAxGetControl
+            48    _AtlAxGetHost
+            42    _AtlAxWinInit
+            30    _AtlComPtrAssign
+            31    _AtlComQIPtrAssign
+            26    _AtlCreateTargetDC
+                  _AtlDevModeW2A
+            54    _AtlGetObjectSourceInterface
+            34    _AtlGetVersion
+            27    _AtlHiMetricToPixel
+            52    _AtlIPersistPropertyBag_Load
+            53    _AtlIPersistPropertyBag_Save
+            50    _AtlIPersistStreamInit_Load
+            51    _AtlIPersistStreamInit_Save
+            32    _AtlInternalQueryInterface
+            43    _AtlModuleAddCreateWndData
+            58    _AtlModuleAddTermFunc
+            44    _AtlModuleExtractCreateWndData
+            15    _AtlModuleGetClassObject
+            16    _AtlModuleInit
+            56    _AtlModuleLoadTypeLib
+                  _AtlModuleRegisterClassObjects
+            18    _AtlModuleRegisterServer
+            19    _AtlModuleRegisterTypeLib
+            45    _AtlModuleRegisterWndClassInfoW
+                  _AtlModuleRevokeClassObjects
+            21    _AtlModuleTerm
+            55    _AtlModuleUnRegisterTypeLib
+            22    _AtlModuleUnregisterServer
+            57    _AtlModuleUnregisterServerEx
+            23    _AtlModuleUpdateRegistryFromResourceD
+            28    _AtlPixelToHiMetric
+            25    _AtlSetErrorInfo
+            11    _AtlUnadvise
+             9    __AtlceDispatchCall
+
+  Summary
+
+          C9 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           E .idata$6

@@ -1,0 +1,1127 @@
+Microsoft (R) COFF/PE Dumper Version 7.10.6030
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files\Windows CE Tools\wce400\STANDARDSDK\Lib\Emulator\winsock.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+     4DC size
+correct header end
+
+    69 public symbols
+
+      A42 __IMPORT_DESCRIPTOR_WINSOCK
+      C6C __NULL_IMPORT_DESCRIPTOR
+      DA4 WINSOCK_NULL_THUNK_DATA
+     1032 _WSAStartup
+     1032 __imp__WSAStartup
+      F64 _WSACleanup
+      F64 __imp__WSACleanup
+     116C __imp__accept
+     116C _accept
+     11D0 __imp__bind
+     11D0 _bind
+     1232 __imp__closesocket
+     1232 _closesocket
+     129C __imp__connect
+     129C _connect
+     1518 __imp__getsockopt
+     1518 _getsockopt
+     1580 __imp__htonl
+     1580 _htonl
+     15E4 __imp__htons
+     15E4 _htons
+     1648 __imp__inet_addr
+     1648 _inet_addr
+     16B0 __imp__inet_ntoa
+     16B0 _inet_ntoa
+      FCC _WSAIoctl
+      FCC __imp__WSAIoctl
+     1718 __imp__ioctlsocket
+     1718 _ioctlsocket
+     1782 __imp__listen
+     1782 _listen
+     17E6 __imp__ntohl
+     17E6 _ntohl
+     184A __imp__ntohs
+     184A _ntohs
+     18AE __imp__recv
+     18AE _recv
+     1910 __imp__recvfrom
+     1910 _recvfrom
+     1976 __imp__select
+     1976 _select
+     19DA __imp__send
+     19DA _send
+     1A3C __imp__sendto
+     1A3C _sendto
+     1B0A __imp__setsockopt
+     1B0A _setsockopt
+     1B72 __imp__shutdown
+     1B72 _shutdown
+     1BD8 __imp__socket
+     1BD8 _socket
+     14AE __imp__getsockname
+     14AE _getsockname
+     1444 __imp__getpeername
+     1444 _getpeername
+     1102 ___WSAFDIsSet
+     1102 __imp____WSAFDIsSet
+     109A _WsControl
+     109A __imp__WsControl
+      EF8 _EnumProtocolsW
+      EF8 __imp__EnumProtocolsW
+     136E __imp__gethostbyname
+     136E _gethostbyname
+     1302 __imp__gethostbyaddr
+     1302 _gethostbyaddr
+     13DA __imp__gethostname
+     13DA _gethostname
+     1AA0 __imp__sethostname
+     1AA0 _sethostname
+
+Archive member name at 520: /               
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+     4E6 size
+correct header end
+
+    36 offsets
+
+        1      A42
+        2      C6C
+        3      DA4
+        4     1032
+        5      F64
+        6     116C
+        7     11D0
+        8     1232
+        9     129C
+        A     1518
+        B     1580
+        C     15E4
+        D     1648
+        E     16B0
+        F      FCC
+       10     1718
+       11     1782
+       12     17E6
+       13     184A
+       14     18AE
+       15     1910
+       16     1976
+       17     19DA
+       18     1A3C
+       19     1B0A
+       1A     1B72
+       1B     1BD8
+       1C     14AE
+       1D     1444
+       1E     1102
+       1F     109A
+       20      EF8
+       21     136E
+       22     1302
+       23     13DA
+       24     1AA0
+
+    69 public symbols
+
+       20 _EnumProtocolsW
+        5 _WSACleanup
+        F _WSAIoctl
+        4 _WSAStartup
+       1F _WsControl
+        1 __IMPORT_DESCRIPTOR_WINSOCK
+        2 __NULL_IMPORT_DESCRIPTOR
+       1E ___WSAFDIsSet
+       20 __imp__EnumProtocolsW
+        5 __imp__WSACleanup
+        F __imp__WSAIoctl
+        4 __imp__WSAStartup
+       1F __imp__WsControl
+       1E __imp____WSAFDIsSet
+        6 __imp__accept
+        7 __imp__bind
+        8 __imp__closesocket
+        9 __imp__connect
+       22 __imp__gethostbyaddr
+       21 __imp__gethostbyname
+       23 __imp__gethostname
+       1D __imp__getpeername
+       1C __imp__getsockname
+        A __imp__getsockopt
+        B __imp__htonl
+        C __imp__htons
+        D __imp__inet_addr
+        E __imp__inet_ntoa
+       10 __imp__ioctlsocket
+       11 __imp__listen
+       12 __imp__ntohl
+       13 __imp__ntohs
+       14 __imp__recv
+       15 __imp__recvfrom
+       16 __imp__select
+       17 __imp__send
+       18 __imp__sendto
+       24 __imp__sethostname
+       19 __imp__setsockopt
+       1A __imp__shutdown
+       1B __imp__socket
+        6 _accept
+        7 _bind
+        8 _closesocket
+        9 _connect
+       22 _gethostbyaddr
+       21 _gethostbyname
+       23 _gethostname
+       1D _getpeername
+       1C _getsockname
+        A _getsockopt
+        B _htonl
+        C _htons
+        D _inet_addr
+        E _inet_ntoa
+       10 _ioctlsocket
+       11 _listen
+       12 _ntohl
+       13 _ntohs
+       14 _recv
+       15 _recvfrom
+       16 _select
+       17 _send
+       18 _sendto
+       24 _sethostname
+       19 _setsockopt
+       1A _shutdown
+       1B _socket
+        3 WINSOCK_NULL_THUNK_DATA
+
+Archive member name at A42: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+     1EE size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20791E time date stamp Wed Dec 19 06:25:18 2001
+             10C file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 12 00 09 00 00 00 00 00 0B 57 49 4E  .............WIN
+  00000010: 53 4F 43 4B 2E 64 6C 6C 28 00 13 10 07 00 00 00  SOCK.dll(.......
+  00000020: 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D  ............Û..M
+  00000030: 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E  icrosoft (R) LIN
+  00000040: 4B 00                                            K.
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CE file pointer to raw data (000000CE to 000000E1)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+RELOCATIONS #2
+                                                Symbol    Symbol
+ Offset    Type              Applied To         Index     Name
+ --------  ----------------  -----------------  --------  ------
+ 0000000C  DIR32NB                    00000000         3  .idata$6
+ 00000000  DIR32NB                    00000000         4  .idata$4
+ 00000010  DIR32NB                    00000000         5  .idata$5
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+     100 file pointer to raw data (00000100 to 0000010B)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 57 49 4E 53 4F 43 4B 2E 64 6C 6C 00              WINSOCK.dll.
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __IMPORT_DESCRIPTOR_WINSOCK
+002 C0000040 SECT2  notype       Section      | .idata$2
+003 00000000 SECT3  notype       Static       | .idata$6
+004 C0000040 UNDEF  notype       Section      | .idata$4
+005 C0000040 UNDEF  notype       Section      | .idata$5
+006 00000000 UNDEF  notype       External     | __NULL_IMPORT_DESCRIPTOR
+007 00000000 UNDEF  notype       External     | WINSOCK_NULL_THUNK_DATA
+
+String Table Size = 0x52 bytes
+
+Archive member name at C6C: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      FB size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        3C20791E time date stamp Wed Dec 19 06:25:18 2001
+              BA file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      64 file pointer to raw data (00000064 to 000000A5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 12 00 09 00 00 00 00 00 0B 57 49 4E  .............WIN
+  00000010: 53 4F 43 4B 2E 64 6C 6C 28 00 13 10 07 00 00 00  SOCK.dll(.......
+  00000020: 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D  ............Û..M
+  00000030: 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E  icrosoft (R) LIN
+  00000040: 4B 00                                            K.
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A6 file pointer to raw data (000000A6 to 000000B9)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __NULL_IMPORT_DESCRIPTOR
+
+String Table Size = 0x1D bytes
+
+Archive member name at DA4: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+     117 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20791E time date stamp Wed Dec 19 06:25:18 2001
+              D6 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 12 00 09 00 00 00 00 00 0B 57 49 4E  .............WIN
+  00000010: 53 4F 43 4B 2E 64 6C 6C 28 00 13 10 07 00 00 00  SOCK.dll(.......
+  00000020: 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D  ............Û..M
+  00000030: 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E  icrosoft (R) LIN
+  00000040: 4B 00                                            K.
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CE file pointer to raw data (000000CE to 000000D1)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00                                      ....
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D2 file pointer to raw data (000000D2 to 000000D5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | WINSOCK_NULL_THUNK_DATA
+
+String Table Size = 0x1D bytes
+
+Archive member name at EF8: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 0000001C
+  DLL name     : WINSOCK.dll
+  Symbol name  : _EnumProtocolsW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 0
+  Name         : EnumProtocolsW
+
+Archive member name at F64: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000018
+  DLL name     : WINSOCK.dll
+  Symbol name  : _WSACleanup
+  Type         : code
+  Name type    : no prefix
+  Hint         : 1
+  Name         : WSACleanup
+
+Archive member name at FCC: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000016
+  DLL name     : WINSOCK.dll
+  Symbol name  : _WSAIoctl
+  Type         : code
+  Name type    : no prefix
+  Hint         : 2
+  Name         : WSAIoctl
+
+Archive member name at 1032: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000018
+  DLL name     : WINSOCK.dll
+  Symbol name  : _WSAStartup
+  Type         : code
+  Name type    : no prefix
+  Hint         : 3
+  Name         : WSAStartup
+
+Archive member name at 109A: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000017
+  DLL name     : WINSOCK.dll
+  Symbol name  : _WsControl
+  Type         : code
+  Name type    : no prefix
+  Hint         : 4
+  Name         : WsControl
+
+Archive member name at 1102: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 0000001A
+  DLL name     : WINSOCK.dll
+  Symbol name  : ___WSAFDIsSet
+  Type         : code
+  Name type    : no prefix
+  Hint         : 5
+  Name         : __WSAFDIsSet
+
+Archive member name at 116C: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000014
+  DLL name     : WINSOCK.dll
+  Symbol name  : _accept
+  Type         : code
+  Name type    : no prefix
+  Hint         : 6
+  Name         : accept
+
+Archive member name at 11D0: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      26 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000012
+  DLL name     : WINSOCK.dll
+  Symbol name  : _bind
+  Type         : code
+  Name type    : no prefix
+  Hint         : 7
+  Name         : bind
+
+Archive member name at 1232: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000019
+  DLL name     : WINSOCK.dll
+  Symbol name  : _closesocket
+  Type         : code
+  Name type    : no prefix
+  Hint         : 8
+  Name         : closesocket
+
+Archive member name at 129C: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000015
+  DLL name     : WINSOCK.dll
+  Symbol name  : _connect
+  Type         : code
+  Name type    : no prefix
+  Hint         : 9
+  Name         : connect
+
+Archive member name at 1302: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 0000001B
+  DLL name     : WINSOCK.dll
+  Symbol name  : _gethostbyaddr
+  Type         : code
+  Name type    : no prefix
+  Hint         : 10
+  Name         : gethostbyaddr
+
+Archive member name at 136E: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 0000001B
+  DLL name     : WINSOCK.dll
+  Symbol name  : _gethostbyname
+  Type         : code
+  Name type    : no prefix
+  Hint         : 11
+  Name         : gethostbyname
+
+Archive member name at 13DA: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000019
+  DLL name     : WINSOCK.dll
+  Symbol name  : _gethostname
+  Type         : code
+  Name type    : no prefix
+  Hint         : 12
+  Name         : gethostname
+
+Archive member name at 1444: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000019
+  DLL name     : WINSOCK.dll
+  Symbol name  : _getpeername
+  Type         : code
+  Name type    : no prefix
+  Hint         : 13
+  Name         : getpeername
+
+Archive member name at 14AE: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000019
+  DLL name     : WINSOCK.dll
+  Symbol name  : _getsockname
+  Type         : code
+  Name type    : no prefix
+  Hint         : 14
+  Name         : getsockname
+
+Archive member name at 1518: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000018
+  DLL name     : WINSOCK.dll
+  Symbol name  : _getsockopt
+  Type         : code
+  Name type    : no prefix
+  Hint         : 15
+  Name         : getsockopt
+
+Archive member name at 1580: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      27 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000013
+  DLL name     : WINSOCK.dll
+  Symbol name  : _htonl
+  Type         : code
+  Name type    : no prefix
+  Hint         : 16
+  Name         : htonl
+
+Archive member name at 15E4: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      27 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000013
+  DLL name     : WINSOCK.dll
+  Symbol name  : _htons
+  Type         : code
+  Name type    : no prefix
+  Hint         : 17
+  Name         : htons
+
+Archive member name at 1648: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000017
+  DLL name     : WINSOCK.dll
+  Symbol name  : _inet_addr
+  Type         : code
+  Name type    : no prefix
+  Hint         : 18
+  Name         : inet_addr
+
+Archive member name at 16B0: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000017
+  DLL name     : WINSOCK.dll
+  Symbol name  : _inet_ntoa
+  Type         : code
+  Name type    : no prefix
+  Hint         : 19
+  Name         : inet_ntoa
+
+Archive member name at 1718: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000019
+  DLL name     : WINSOCK.dll
+  Symbol name  : _ioctlsocket
+  Type         : code
+  Name type    : no prefix
+  Hint         : 20
+  Name         : ioctlsocket
+
+Archive member name at 1782: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000014
+  DLL name     : WINSOCK.dll
+  Symbol name  : _listen
+  Type         : code
+  Name type    : no prefix
+  Hint         : 21
+  Name         : listen
+
+Archive member name at 17E6: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      27 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000013
+  DLL name     : WINSOCK.dll
+  Symbol name  : _ntohl
+  Type         : code
+  Name type    : no prefix
+  Hint         : 22
+  Name         : ntohl
+
+Archive member name at 184A: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      27 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000013
+  DLL name     : WINSOCK.dll
+  Symbol name  : _ntohs
+  Type         : code
+  Name type    : no prefix
+  Hint         : 23
+  Name         : ntohs
+
+Archive member name at 18AE: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      26 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000012
+  DLL name     : WINSOCK.dll
+  Symbol name  : _recv
+  Type         : code
+  Name type    : no prefix
+  Hint         : 24
+  Name         : recv
+
+Archive member name at 1910: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000016
+  DLL name     : WINSOCK.dll
+  Symbol name  : _recvfrom
+  Type         : code
+  Name type    : no prefix
+  Hint         : 25
+  Name         : recvfrom
+
+Archive member name at 1976: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000014
+  DLL name     : WINSOCK.dll
+  Symbol name  : _select
+  Type         : code
+  Name type    : no prefix
+  Hint         : 26
+  Name         : select
+
+Archive member name at 19DA: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      26 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000012
+  DLL name     : WINSOCK.dll
+  Symbol name  : _send
+  Type         : code
+  Name type    : no prefix
+  Hint         : 27
+  Name         : send
+
+Archive member name at 1A3C: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000014
+  DLL name     : WINSOCK.dll
+  Symbol name  : _sendto
+  Type         : code
+  Name type    : no prefix
+  Hint         : 28
+  Name         : sendto
+
+Archive member name at 1AA0: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000019
+  DLL name     : WINSOCK.dll
+  Symbol name  : _sethostname
+  Type         : code
+  Name type    : no prefix
+  Hint         : 29
+  Name         : sethostname
+
+Archive member name at 1B0A: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000018
+  DLL name     : WINSOCK.dll
+  Symbol name  : _setsockopt
+  Type         : code
+  Name type    : no prefix
+  Hint         : 30
+  Name         : setsockopt
+
+Archive member name at 1B72: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000016
+  DLL name     : WINSOCK.dll
+  Symbol name  : _shutdown
+  Type         : code
+  Name type    : no prefix
+  Hint         : 31
+  Name         : shutdown
+
+Archive member name at 1BD8: WINSOCK.dll/    
+3C20791E time/date Wed Dec 19 06:25:18 2001
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791E Wed Dec 19 06:25:18 2001
+  SizeOfData   : 00000014
+  DLL name     : WINSOCK.dll
+  Symbol name  : _socket
+  Type         : code
+  Name type    : no prefix
+  Hint         : 32
+  Name         : socket
+
+     Exports
+
+       ordinal    name
+
+                  _EnumProtocolsW
+                  _WSACleanup
+                  _WSAIoctl
+                  _WSAStartup
+                  _WsControl
+                  ___WSAFDIsSet
+                  _accept
+                  _bind
+                  _closesocket
+                  _connect
+                  _gethostbyaddr
+                  _gethostbyname
+                  _gethostname
+                  _getpeername
+                  _getsockname
+                  _getsockopt
+                  _htonl
+                  _htons
+                  _inet_addr
+                  _inet_ntoa
+                  _ioctlsocket
+                  _listen
+                  _ntohl
+                  _ntohs
+                  _recv
+                  _recvfrom
+                  _select
+                  _send
+                  _sendto
+                  _sethostname
+                  _setsockopt
+                  _shutdown
+                  _socket
+
+  Summary
+
+          C6 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

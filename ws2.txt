@@ -1,0 +1,2074 @@
+Microsoft (R) COFF/PE Dumper Version 7.10.6030
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files\Windows CE Tools\wce400\STANDARDSDK\Lib\Emulator\ws2.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+     BD6 size
+correct header end
+
+    145 public symbols
+
+     1836 __IMPORT_DESCRIPTOR_WS2
+     1A50 __NULL_IMPORT_DESCRIPTOR
+     1B84 WS2_NULL_THUNK_DATA
+     2826 _WSAStartup
+     2826 __imp__WSAStartup
+     1D34 _WSACleanup
+     1D34 __imp__WSACleanup
+     2BF2 __imp__accept
+     2BF2 _accept
+     2C52 __imp__bind
+     2C52 _bind
+     2CB0 __imp__closesocket
+     2CB0 _closesocket
+     2D16 __imp__connect
+     2D16 _connect
+     2D78 __imp__freeaddrinfo
+     2D78 _freeaddrinfo
+     2DDE __imp__getaddrinfo
+     2DDE _getaddrinfo
+     2F7A __imp__getnameinfo
+     2F7A _getnameinfo
+     379E __imp__sethostname
+     379E _sethostname
+     2E44 __imp__gethostbyaddr
+     2E44 _gethostbyaddr
+     2EAC __imp__gethostbyname
+     2EAC _gethostbyname
+     2F14 __imp__gethostname
+     2F14 _gethostname
+     2FE0 __imp__getpeername
+     2FE0 _getpeername
+     3046 __imp__getprotobyname
+     3046 _getprotobyname
+     30AE __imp__getprotobynumber
+     30AE _getprotobynumber
+     3118 __imp__getservbyname
+     3118 _getservbyname
+     3180 __imp__getservbyport
+     3180 _getservbyport
+     31E8 __imp__getsockname
+     31E8 _getsockname
+     324E __imp__getsockopt
+     324E _getsockopt
+     32B2 __imp__htonl
+     32B2 _htonl
+     3312 __imp__htons
+     3312 _htons
+     343A __imp__ioctlsocket
+     343A _ioctlsocket
+     3372 __imp__inet_addr
+     3372 _inet_addr
+     33D6 __imp__inet_ntoa
+     33D6 _inet_ntoa
+     34A0 __imp__listen
+     34A0 _listen
+     3500 __imp__ntohl
+     3500 _ntohl
+     3560 __imp__ntohs
+     3560 _ntohs
+     35C0 __imp__recv
+     35C0 _recv
+     361E __imp__recvfrom
+     361E _recvfrom
+     3680 __imp__select
+     3680 _select
+     36E0 __imp__send
+     36E0 _send
+     373E __imp__sendto
+     373E _sendto
+     3804 __imp__setsockopt
+     3804 _setsockopt
+     3868 __imp__shutdown
+     3868 _shutdown
+     38CA __imp__socket
+     38CA _socket
+     1CD0 _WSAAccept
+     1CD0 __imp__WSAAccept
+     1D98 _WSACloseEvent
+     1D98 __imp__WSACloseEvent
+     1E00 _WSAConnect
+     1E00 __imp__WSAConnect
+     1E64 _WSACreateEvent
+     1E64 __imp__WSACreateEvent
+     1ECC _WSAEnumNameSpaceProvidersW
+     1ECC __imp__WSAEnumNameSpaceProvidersW
+     1FAE _WSAEnumProtocolsW
+     1FAE __imp__WSAEnumProtocolsW
+     2082 _WSAGetLastError
+     2082 __imp__WSAGetLastError
+     20EC _WSAGetOverlappedResult
+     20EC __imp__WSAGetOverlappedResult
+     215C _WSAHtonl
+     215C __imp__WSAHtonl
+     21BE _WSAHtons
+     21BE __imp__WSAHtons
+     2220 _WSAIoctl
+     2220 __imp__WSAIoctl
+     23D0 _WSANtohl
+     23D0 __imp__WSANtohl
+     2432 _WSANtohs
+     2432 __imp__WSANtohs
+     2282 _WSALookupServiceBeginW
+     2282 __imp__WSALookupServiceBeginW
+     22F2 _WSALookupServiceEnd
+     22F2 __imp__WSALookupServiceEnd
+     2360 _WSALookupServiceNextW
+     2360 __imp__WSALookupServiceNextW
+     275A _WSASetServiceW
+     275A __imp__WSASetServiceW
+     2494 _WSARecv
+     2494 __imp__WSARecv
+     24F6 _WSARecvFrom
+     24F6 __imp__WSARecvFrom
+     255C _WSAResetEvent
+     255C __imp__WSAResetEvent
+     25C4 _WSASend
+     25C4 __imp__WSASend
+     2626 _WSASendTo
+     2626 __imp__WSASendTo
+     201A _WSAEventSelect
+     201A __imp__WSAEventSelect
+     1F40 _WSAEnumNetworkEvents
+     1F40 __imp__WSAEnumNetworkEvents
+     268A _WSASetEvent
+     268A __imp__WSASetEvent
+     26F0 _WSASetLastError
+     26F0 __imp__WSASetLastError
+     27C2 _WSASocketW
+     27C2 __imp__WSASocketW
+     288A _WSAStringToAddressW
+     288A __imp__WSAStringToAddressW
+     28F8 _WSAWaitForMultipleEvents
+     28F8 __imp__WSAWaitForMultipleEvents
+     296A _WSCDeinstallProvider
+     296A __imp__WSCDeinstallProvider
+     29D8 _WSCEnumProtocols
+     29D8 __imp__WSCEnumProtocols
+     2AB0 _WSCInstallProvider
+     2AB0 __imp__WSCInstallProvider
+     2A42 _WSCInstallNameSpace
+     2A42 __imp__WSCInstallNameSpace
+     2B1C _WSCUnInstallNameSpace
+     2B1C __imp__WSCUnInstallNameSpace
+     2B8C ___WSAFDIsSet
+     2B8C __imp____WSAFDIsSet
+
+Archive member name at C1A: /               
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+     BE0 size
+correct header end
+
+    74 offsets
+
+        1     1836
+        2     1A50
+        3     1B84
+        4     2826
+        5     1D34
+        6     2BF2
+        7     2C52
+        8     2CB0
+        9     2D16
+        A     2D78
+        B     2DDE
+        C     2F7A
+        D     379E
+        E     2E44
+        F     2EAC
+       10     2F14
+       11     2FE0
+       12     3046
+       13     30AE
+       14     3118
+       15     3180
+       16     31E8
+       17     324E
+       18     32B2
+       19     3312
+       1A     343A
+       1B     3372
+       1C     33D6
+       1D     34A0
+       1E     3500
+       1F     3560
+       20     35C0
+       21     361E
+       22     3680
+       23     36E0
+       24     373E
+       25     3804
+       26     3868
+       27     38CA
+       28     1CD0
+       29     1D98
+       2A     1E00
+       2B     1E64
+       2C     1ECC
+       2D     1FAE
+       2E     2082
+       2F     20EC
+       30     215C
+       31     21BE
+       32     2220
+       33     23D0
+       34     2432
+       35     2282
+       36     22F2
+       37     2360
+       38     275A
+       39     2494
+       3A     24F6
+       3B     255C
+       3C     25C4
+       3D     2626
+       3E     201A
+       3F     1F40
+       40     268A
+       41     26F0
+       42     27C2
+       43     288A
+       44     28F8
+       45     296A
+       46     29D8
+       47     2AB0
+       48     2A42
+       49     2B1C
+       4A     2B8C
+
+    145 public symbols
+
+       28 _WSAAccept
+        5 _WSACleanup
+       29 _WSACloseEvent
+       2A _WSAConnect
+       2B _WSACreateEvent
+       2C _WSAEnumNameSpaceProvidersW
+       3F _WSAEnumNetworkEvents
+       2D _WSAEnumProtocolsW
+       3E _WSAEventSelect
+       2E _WSAGetLastError
+       2F _WSAGetOverlappedResult
+       30 _WSAHtonl
+       31 _WSAHtons
+       32 _WSAIoctl
+       35 _WSALookupServiceBeginW
+       36 _WSALookupServiceEnd
+       37 _WSALookupServiceNextW
+       33 _WSANtohl
+       34 _WSANtohs
+       39 _WSARecv
+       3A _WSARecvFrom
+       3B _WSAResetEvent
+       3C _WSASend
+       3D _WSASendTo
+       40 _WSASetEvent
+       41 _WSASetLastError
+       38 _WSASetServiceW
+       42 _WSASocketW
+        4 _WSAStartup
+       43 _WSAStringToAddressW
+       44 _WSAWaitForMultipleEvents
+       45 _WSCDeinstallProvider
+       46 _WSCEnumProtocols
+       48 _WSCInstallNameSpace
+       47 _WSCInstallProvider
+       49 _WSCUnInstallNameSpace
+        1 __IMPORT_DESCRIPTOR_WS2
+        2 __NULL_IMPORT_DESCRIPTOR
+       4A ___WSAFDIsSet
+       28 __imp__WSAAccept
+        5 __imp__WSACleanup
+       29 __imp__WSACloseEvent
+       2A __imp__WSAConnect
+       2B __imp__WSACreateEvent
+       2C __imp__WSAEnumNameSpaceProvidersW
+       3F __imp__WSAEnumNetworkEvents
+       2D __imp__WSAEnumProtocolsW
+       3E __imp__WSAEventSelect
+       2E __imp__WSAGetLastError
+       2F __imp__WSAGetOverlappedResult
+       30 __imp__WSAHtonl
+       31 __imp__WSAHtons
+       32 __imp__WSAIoctl
+       35 __imp__WSALookupServiceBeginW
+       36 __imp__WSALookupServiceEnd
+       37 __imp__WSALookupServiceNextW
+       33 __imp__WSANtohl
+       34 __imp__WSANtohs
+       39 __imp__WSARecv
+       3A __imp__WSARecvFrom
+       3B __imp__WSAResetEvent
+       3C __imp__WSASend
+       3D __imp__WSASendTo
+       40 __imp__WSASetEvent
+       41 __imp__WSASetLastError
+       38 __imp__WSASetServiceW
+       42 __imp__WSASocketW
+        4 __imp__WSAStartup
+       43 __imp__WSAStringToAddressW
+       44 __imp__WSAWaitForMultipleEvents
+       45 __imp__WSCDeinstallProvider
+       46 __imp__WSCEnumProtocols
+       48 __imp__WSCInstallNameSpace
+       47 __imp__WSCInstallProvider
+       49 __imp__WSCUnInstallNameSpace
+       4A __imp____WSAFDIsSet
+        6 __imp__accept
+        7 __imp__bind
+        8 __imp__closesocket
+        9 __imp__connect
+        A __imp__freeaddrinfo
+        B __imp__getaddrinfo
+        E __imp__gethostbyaddr
+        F __imp__gethostbyname
+       10 __imp__gethostname
+        C __imp__getnameinfo
+       11 __imp__getpeername
+       12 __imp__getprotobyname
+       13 __imp__getprotobynumber
+       14 __imp__getservbyname
+       15 __imp__getservbyport
+       16 __imp__getsockname
+       17 __imp__getsockopt
+       18 __imp__htonl
+       19 __imp__htons
+       1B __imp__inet_addr
+       1C __imp__inet_ntoa
+       1A __imp__ioctlsocket
+       1D __imp__listen
+       1E __imp__ntohl
+       1F __imp__ntohs
+       20 __imp__recv
+       21 __imp__recvfrom
+       22 __imp__select
+       23 __imp__send
+       24 __imp__sendto
+        D __imp__sethostname
+       25 __imp__setsockopt
+       26 __imp__shutdown
+       27 __imp__socket
+        6 _accept
+        7 _bind
+        8 _closesocket
+        9 _connect
+        A _freeaddrinfo
+        B _getaddrinfo
+        E _gethostbyaddr
+        F _gethostbyname
+       10 _gethostname
+        C _getnameinfo
+       11 _getpeername
+       12 _getprotobyname
+       13 _getprotobynumber
+       14 _getservbyname
+       15 _getservbyport
+       16 _getsockname
+       17 _getsockopt
+       18 _htonl
+       19 _htons
+       1B _inet_addr
+       1C _inet_ntoa
+       1A _ioctlsocket
+       1D _listen
+       1E _ntohl
+       1F _ntohs
+       20 _recv
+       21 _recvfrom
+       22 _select
+       23 _send
+       24 _sendto
+        D _sethostname
+       25 _setsockopt
+       26 _shutdown
+       27 _socket
+        3 WS2_NULL_THUNK_DATA
+
+Archive member name at 1836: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+     1DE size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20792A time date stamp Wed Dec 19 06:25:30 2001
+             104 file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3E size of raw data
+      8C file pointer to raw data (0000008C to 000000C9)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 0E 00 09 00 00 00 00 00 07 57 53 32  .............WS2
+  00000010: 2E 64 6C 6C 28 00 13 10 07 00 00 00 03 00 00 00  .dll(...........
+  00000020: 00 00 00 00 06 00 18 00 DB 04 12 4D 69 63 72 6F  ........Û..Micro
+  00000030: 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B 00        soft (R) LINK.
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CA file pointer to raw data (000000CA to 000000DD)
+      DE file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+RELOCATIONS #2
+                                                Symbol    Symbol
+ Offset    Type              Applied To         Index     Name
+ --------  ----------------  -----------------  --------  ------
+ 0000000C  DIR32NB                    00000000         3  .idata$6
+ 00000000  DIR32NB                    00000000         4  .idata$4
+ 00000010  DIR32NB                    00000000         5  .idata$5
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+      FC file pointer to raw data (000000FC to 00000103)
+      DE file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 57 53 32 2E 64 6C 6C 00                          WS2.dll.
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __IMPORT_DESCRIPTOR_WS2
+002 C0000040 SECT2  notype       Section      | .idata$2
+003 00000000 SECT3  notype       Static       | .idata$6
+004 C0000040 UNDEF  notype       Section      | .idata$4
+005 C0000040 UNDEF  notype       Section      | .idata$5
+006 00000000 UNDEF  notype       External     | __NULL_IMPORT_DESCRIPTOR
+007 00000000 UNDEF  notype       External     | WS2_NULL_THUNK_DATA
+
+String Table Size = 0x4A bytes
+
+Archive member name at 1A50: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      F7 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        3C20792A time date stamp Wed Dec 19 06:25:30 2001
+              B6 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3E size of raw data
+      64 file pointer to raw data (00000064 to 000000A1)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 0E 00 09 00 00 00 00 00 07 57 53 32  .............WS2
+  00000010: 2E 64 6C 6C 28 00 13 10 07 00 00 00 03 00 00 00  .dll(...........
+  00000020: 00 00 00 00 06 00 18 00 DB 04 12 4D 69 63 72 6F  ........Û..Micro
+  00000030: 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B 00        soft (R) LINK.
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A2 file pointer to raw data (000000A2 to 000000B5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __NULL_IMPORT_DESCRIPTOR
+
+String Table Size = 0x1D bytes
+
+Archive member name at 1B84: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+     10F size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20792A time date stamp Wed Dec 19 06:25:30 2001
+              D2 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3E size of raw data
+      8C file pointer to raw data (0000008C to 000000C9)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 0E 00 09 00 00 00 00 00 07 57 53 32  .............WS2
+  00000010: 2E 64 6C 6C 28 00 13 10 07 00 00 00 03 00 00 00  .dll(...........
+  00000020: 00 00 00 00 06 00 18 00 DB 04 12 4D 69 63 72 6F  ........Û..Micro
+  00000030: 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B 00        soft (R) LINK.
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CA file pointer to raw data (000000CA to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00                                      ....
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CE file pointer to raw data (000000CE to 000000D1)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | WS2_NULL_THUNK_DATA
+
+String Table Size = 0x19 bytes
+
+Archive member name at 1CD0: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      27 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000013
+  DLL name     : WS2.dll
+  Symbol name  : _WSAAccept
+  Type         : code
+  Name type    : no prefix
+  Hint         : 0
+  Name         : WSAAccept
+
+Archive member name at 1D34: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000014
+  DLL name     : WS2.dll
+  Symbol name  : _WSACleanup
+  Type         : code
+  Name type    : no prefix
+  Hint         : 1
+  Name         : WSACleanup
+
+Archive member name at 1D98: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000017
+  DLL name     : WS2.dll
+  Symbol name  : _WSACloseEvent
+  Type         : code
+  Name type    : no prefix
+  Hint         : 2
+  Name         : WSACloseEvent
+
+Archive member name at 1E00: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000014
+  DLL name     : WS2.dll
+  Symbol name  : _WSAConnect
+  Type         : code
+  Name type    : no prefix
+  Hint         : 3
+  Name         : WSAConnect
+
+Archive member name at 1E64: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000018
+  DLL name     : WS2.dll
+  Symbol name  : _WSACreateEvent
+  Type         : code
+  Name type    : no prefix
+  Hint         : 4
+  Name         : WSACreateEvent
+
+Archive member name at 1ECC: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000024
+  DLL name     : WS2.dll
+  Symbol name  : _WSAEnumNameSpaceProvidersW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 5
+  Name         : WSAEnumNameSpaceProvidersW
+
+Archive member name at 1F40: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 0000001E
+  DLL name     : WS2.dll
+  Symbol name  : _WSAEnumNetworkEvents
+  Type         : code
+  Name type    : no prefix
+  Hint         : 6
+  Name         : WSAEnumNetworkEvents
+
+Archive member name at 1FAE: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 0000001B
+  DLL name     : WS2.dll
+  Symbol name  : _WSAEnumProtocolsW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 7
+  Name         : WSAEnumProtocolsW
+
+Archive member name at 201A: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000018
+  DLL name     : WS2.dll
+  Symbol name  : _WSAEventSelect
+  Type         : code
+  Name type    : no prefix
+  Hint         : 8
+  Name         : WSAEventSelect
+
+Archive member name at 2082: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000019
+  DLL name     : WS2.dll
+  Symbol name  : _WSAGetLastError
+  Type         : code
+  Name type    : no prefix
+  Hint         : 9
+  Name         : WSAGetLastError
+
+Archive member name at 20EC: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000020
+  DLL name     : WS2.dll
+  Symbol name  : _WSAGetOverlappedResult
+  Type         : code
+  Name type    : no prefix
+  Hint         : 10
+  Name         : WSAGetOverlappedResult
+
+Archive member name at 215C: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      26 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000012
+  DLL name     : WS2.dll
+  Symbol name  : _WSAHtonl
+  Type         : code
+  Name type    : no prefix
+  Hint         : 11
+  Name         : WSAHtonl
+
+Archive member name at 21BE: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      26 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000012
+  DLL name     : WS2.dll
+  Symbol name  : _WSAHtons
+  Type         : code
+  Name type    : no prefix
+  Hint         : 12
+  Name         : WSAHtons
+
+Archive member name at 2220: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      26 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000012
+  DLL name     : WS2.dll
+  Symbol name  : _WSAIoctl
+  Type         : code
+  Name type    : no prefix
+  Hint         : 13
+  Name         : WSAIoctl
+
+Archive member name at 2282: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000020
+  DLL name     : WS2.dll
+  Symbol name  : _WSALookupServiceBeginW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 14
+  Name         : WSALookupServiceBeginW
+
+Archive member name at 22F2: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 0000001D
+  DLL name     : WS2.dll
+  Symbol name  : _WSALookupServiceEnd
+  Type         : code
+  Name type    : no prefix
+  Hint         : 15
+  Name         : WSALookupServiceEnd
+
+Archive member name at 2360: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 0000001F
+  DLL name     : WS2.dll
+  Symbol name  : _WSALookupServiceNextW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 16
+  Name         : WSALookupServiceNextW
+
+Archive member name at 23D0: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      26 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000012
+  DLL name     : WS2.dll
+  Symbol name  : _WSANtohl
+  Type         : code
+  Name type    : no prefix
+  Hint         : 17
+  Name         : WSANtohl
+
+Archive member name at 2432: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      26 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000012
+  DLL name     : WS2.dll
+  Symbol name  : _WSANtohs
+  Type         : code
+  Name type    : no prefix
+  Hint         : 18
+  Name         : WSANtohs
+
+Archive member name at 2494: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      25 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000011
+  DLL name     : WS2.dll
+  Symbol name  : _WSARecv
+  Type         : code
+  Name type    : no prefix
+  Hint         : 19
+  Name         : WSARecv
+
+Archive member name at 24F6: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000015
+  DLL name     : WS2.dll
+  Symbol name  : _WSARecvFrom
+  Type         : code
+  Name type    : no prefix
+  Hint         : 20
+  Name         : WSARecvFrom
+
+Archive member name at 255C: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000017
+  DLL name     : WS2.dll
+  Symbol name  : _WSAResetEvent
+  Type         : code
+  Name type    : no prefix
+  Hint         : 21
+  Name         : WSAResetEvent
+
+Archive member name at 25C4: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      25 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000011
+  DLL name     : WS2.dll
+  Symbol name  : _WSASend
+  Type         : code
+  Name type    : no prefix
+  Hint         : 22
+  Name         : WSASend
+
+Archive member name at 2626: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      27 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000013
+  DLL name     : WS2.dll
+  Symbol name  : _WSASendTo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 23
+  Name         : WSASendTo
+
+Archive member name at 268A: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000015
+  DLL name     : WS2.dll
+  Symbol name  : _WSASetEvent
+  Type         : code
+  Name type    : no prefix
+  Hint         : 24
+  Name         : WSASetEvent
+
+Archive member name at 26F0: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000019
+  DLL name     : WS2.dll
+  Symbol name  : _WSASetLastError
+  Type         : code
+  Name type    : no prefix
+  Hint         : 25
+  Name         : WSASetLastError
+
+Archive member name at 275A: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000018
+  DLL name     : WS2.dll
+  Symbol name  : _WSASetServiceW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 26
+  Name         : WSASetServiceW
+
+Archive member name at 27C2: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000014
+  DLL name     : WS2.dll
+  Symbol name  : _WSASocketW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 27
+  Name         : WSASocketW
+
+Archive member name at 2826: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000014
+  DLL name     : WS2.dll
+  Symbol name  : _WSAStartup
+  Type         : code
+  Name type    : no prefix
+  Hint         : 28
+  Name         : WSAStartup
+
+Archive member name at 288A: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 0000001D
+  DLL name     : WS2.dll
+  Symbol name  : _WSAStringToAddressW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 29
+  Name         : WSAStringToAddressW
+
+Archive member name at 28F8: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000022
+  DLL name     : WS2.dll
+  Symbol name  : _WSAWaitForMultipleEvents
+  Type         : code
+  Name type    : no prefix
+  Hint         : 30
+  Name         : WSAWaitForMultipleEvents
+
+Archive member name at 296A: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 0000001E
+  DLL name     : WS2.dll
+  Symbol name  : _WSCDeinstallProvider
+  Type         : code
+  Name type    : no prefix
+  Hint         : 31
+  Name         : WSCDeinstallProvider
+
+Archive member name at 29D8: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 0000001A
+  DLL name     : WS2.dll
+  Symbol name  : _WSCEnumProtocols
+  Type         : code
+  Name type    : no prefix
+  Hint         : 32
+  Name         : WSCEnumProtocols
+
+Archive member name at 2A42: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 0000001D
+  DLL name     : WS2.dll
+  Symbol name  : _WSCInstallNameSpace
+  Type         : code
+  Name type    : no prefix
+  Hint         : 33
+  Name         : WSCInstallNameSpace
+
+Archive member name at 2AB0: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 0000001C
+  DLL name     : WS2.dll
+  Symbol name  : _WSCInstallProvider
+  Type         : code
+  Name type    : no prefix
+  Hint         : 34
+  Name         : WSCInstallProvider
+
+Archive member name at 2B1C: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 0000001F
+  DLL name     : WS2.dll
+  Symbol name  : _WSCUnInstallNameSpace
+  Type         : code
+  Name type    : no prefix
+  Hint         : 35
+  Name         : WSCUnInstallNameSpace
+
+Archive member name at 2B8C: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000016
+  DLL name     : WS2.dll
+  Symbol name  : ___WSAFDIsSet
+  Type         : code
+  Name type    : no prefix
+  Hint         : 36
+  Name         : __WSAFDIsSet
+
+Archive member name at 2BF2: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      24 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000010
+  DLL name     : WS2.dll
+  Symbol name  : _accept
+  Type         : code
+  Name type    : no prefix
+  Hint         : 37
+  Name         : accept
+
+Archive member name at 2C52: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      22 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 0000000E
+  DLL name     : WS2.dll
+  Symbol name  : _bind
+  Type         : code
+  Name type    : no prefix
+  Hint         : 38
+  Name         : bind
+
+Archive member name at 2CB0: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000015
+  DLL name     : WS2.dll
+  Symbol name  : _closesocket
+  Type         : code
+  Name type    : no prefix
+  Hint         : 39
+  Name         : closesocket
+
+Archive member name at 2D16: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      25 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000011
+  DLL name     : WS2.dll
+  Symbol name  : _connect
+  Type         : code
+  Name type    : no prefix
+  Hint         : 40
+  Name         : connect
+
+Archive member name at 2D78: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000016
+  DLL name     : WS2.dll
+  Symbol name  : _freeaddrinfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 41
+  Name         : freeaddrinfo
+
+Archive member name at 2DDE: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000015
+  DLL name     : WS2.dll
+  Symbol name  : _getaddrinfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 42
+  Name         : getaddrinfo
+
+Archive member name at 2E44: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000017
+  DLL name     : WS2.dll
+  Symbol name  : _gethostbyaddr
+  Type         : code
+  Name type    : no prefix
+  Hint         : 43
+  Name         : gethostbyaddr
+
+Archive member name at 2EAC: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000017
+  DLL name     : WS2.dll
+  Symbol name  : _gethostbyname
+  Type         : code
+  Name type    : no prefix
+  Hint         : 44
+  Name         : gethostbyname
+
+Archive member name at 2F14: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000015
+  DLL name     : WS2.dll
+  Symbol name  : _gethostname
+  Type         : code
+  Name type    : no prefix
+  Hint         : 45
+  Name         : gethostname
+
+Archive member name at 2F7A: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000015
+  DLL name     : WS2.dll
+  Symbol name  : _getnameinfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 46
+  Name         : getnameinfo
+
+Archive member name at 2FE0: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000015
+  DLL name     : WS2.dll
+  Symbol name  : _getpeername
+  Type         : code
+  Name type    : no prefix
+  Hint         : 47
+  Name         : getpeername
+
+Archive member name at 3046: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000018
+  DLL name     : WS2.dll
+  Symbol name  : _getprotobyname
+  Type         : code
+  Name type    : no prefix
+  Hint         : 48
+  Name         : getprotobyname
+
+Archive member name at 30AE: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 0000001A
+  DLL name     : WS2.dll
+  Symbol name  : _getprotobynumber
+  Type         : code
+  Name type    : no prefix
+  Hint         : 49
+  Name         : getprotobynumber
+
+Archive member name at 3118: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000017
+  DLL name     : WS2.dll
+  Symbol name  : _getservbyname
+  Type         : code
+  Name type    : no prefix
+  Hint         : 50
+  Name         : getservbyname
+
+Archive member name at 3180: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000017
+  DLL name     : WS2.dll
+  Symbol name  : _getservbyport
+  Type         : code
+  Name type    : no prefix
+  Hint         : 51
+  Name         : getservbyport
+
+Archive member name at 31E8: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000015
+  DLL name     : WS2.dll
+  Symbol name  : _getsockname
+  Type         : code
+  Name type    : no prefix
+  Hint         : 52
+  Name         : getsockname
+
+Archive member name at 324E: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000014
+  DLL name     : WS2.dll
+  Symbol name  : _getsockopt
+  Type         : code
+  Name type    : no prefix
+  Hint         : 53
+  Name         : getsockopt
+
+Archive member name at 32B2: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      23 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 0000000F
+  DLL name     : WS2.dll
+  Symbol name  : _htonl
+  Type         : code
+  Name type    : no prefix
+  Hint         : 54
+  Name         : htonl
+
+Archive member name at 3312: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      23 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 0000000F
+  DLL name     : WS2.dll
+  Symbol name  : _htons
+  Type         : code
+  Name type    : no prefix
+  Hint         : 55
+  Name         : htons
+
+Archive member name at 3372: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      27 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000013
+  DLL name     : WS2.dll
+  Symbol name  : _inet_addr
+  Type         : code
+  Name type    : no prefix
+  Hint         : 56
+  Name         : inet_addr
+
+Archive member name at 33D6: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      27 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000013
+  DLL name     : WS2.dll
+  Symbol name  : _inet_ntoa
+  Type         : code
+  Name type    : no prefix
+  Hint         : 57
+  Name         : inet_ntoa
+
+Archive member name at 343A: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000015
+  DLL name     : WS2.dll
+  Symbol name  : _ioctlsocket
+  Type         : code
+  Name type    : no prefix
+  Hint         : 58
+  Name         : ioctlsocket
+
+Archive member name at 34A0: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      24 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000010
+  DLL name     : WS2.dll
+  Symbol name  : _listen
+  Type         : code
+  Name type    : no prefix
+  Hint         : 59
+  Name         : listen
+
+Archive member name at 3500: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      23 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 0000000F
+  DLL name     : WS2.dll
+  Symbol name  : _ntohl
+  Type         : code
+  Name type    : no prefix
+  Hint         : 60
+  Name         : ntohl
+
+Archive member name at 3560: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      23 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 0000000F
+  DLL name     : WS2.dll
+  Symbol name  : _ntohs
+  Type         : code
+  Name type    : no prefix
+  Hint         : 61
+  Name         : ntohs
+
+Archive member name at 35C0: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      22 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 0000000E
+  DLL name     : WS2.dll
+  Symbol name  : _recv
+  Type         : code
+  Name type    : no prefix
+  Hint         : 62
+  Name         : recv
+
+Archive member name at 361E: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      26 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000012
+  DLL name     : WS2.dll
+  Symbol name  : _recvfrom
+  Type         : code
+  Name type    : no prefix
+  Hint         : 63
+  Name         : recvfrom
+
+Archive member name at 3680: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      24 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000010
+  DLL name     : WS2.dll
+  Symbol name  : _select
+  Type         : code
+  Name type    : no prefix
+  Hint         : 64
+  Name         : select
+
+Archive member name at 36E0: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      22 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 0000000E
+  DLL name     : WS2.dll
+  Symbol name  : _send
+  Type         : code
+  Name type    : no prefix
+  Hint         : 65
+  Name         : send
+
+Archive member name at 373E: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      24 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000010
+  DLL name     : WS2.dll
+  Symbol name  : _sendto
+  Type         : code
+  Name type    : no prefix
+  Hint         : 66
+  Name         : sendto
+
+Archive member name at 379E: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000015
+  DLL name     : WS2.dll
+  Symbol name  : _sethostname
+  Type         : code
+  Name type    : no prefix
+  Hint         : 67
+  Name         : sethostname
+
+Archive member name at 3804: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000014
+  DLL name     : WS2.dll
+  Symbol name  : _setsockopt
+  Type         : code
+  Name type    : no prefix
+  Hint         : 68
+  Name         : setsockopt
+
+Archive member name at 3868: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      26 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000012
+  DLL name     : WS2.dll
+  Symbol name  : _shutdown
+  Type         : code
+  Name type    : no prefix
+  Hint         : 69
+  Name         : shutdown
+
+Archive member name at 38CA: WS2.dll/        
+3C20792A time/date Wed Dec 19 06:25:30 2001
+         uid
+         gid
+       0 mode
+      24 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20792A Wed Dec 19 06:25:30 2001
+  SizeOfData   : 00000010
+  DLL name     : WS2.dll
+  Symbol name  : _socket
+  Type         : code
+  Name type    : no prefix
+  Hint         : 70
+  Name         : socket
+
+     Exports
+
+       ordinal    name
+
+                  _WSAAccept
+                  _WSACleanup
+                  _WSACloseEvent
+                  _WSAConnect
+                  _WSACreateEvent
+                  _WSAEnumNameSpaceProvidersW
+                  _WSAEnumNetworkEvents
+                  _WSAEnumProtocolsW
+                  _WSAEventSelect
+                  _WSAGetLastError
+                  _WSAGetOverlappedResult
+                  _WSAHtonl
+                  _WSAHtons
+                  _WSAIoctl
+                  _WSALookupServiceBeginW
+                  _WSALookupServiceEnd
+                  _WSALookupServiceNextW
+                  _WSANtohl
+                  _WSANtohs
+                  _WSARecv
+                  _WSARecvFrom
+                  _WSAResetEvent
+                  _WSASend
+                  _WSASendTo
+                  _WSASetEvent
+                  _WSASetLastError
+                  _WSASetServiceW
+                  _WSASocketW
+                  _WSAStartup
+                  _WSAStringToAddressW
+                  _WSAWaitForMultipleEvents
+                  _WSCDeinstallProvider
+                  _WSCEnumProtocols
+                  _WSCInstallNameSpace
+                  _WSCInstallProvider
+                  _WSCUnInstallNameSpace
+                  ___WSAFDIsSet
+                  _accept
+                  _bind
+                  _closesocket
+                  _connect
+                  _freeaddrinfo
+                  _getaddrinfo
+                  _gethostbyaddr
+                  _gethostbyname
+                  _gethostname
+                  _getnameinfo
+                  _getpeername
+                  _getprotobyname
+                  _getprotobynumber
+                  _getservbyname
+                  _getservbyport
+                  _getsockname
+                  _getsockopt
+                  _htonl
+                  _htons
+                  _inet_addr
+                  _inet_ntoa
+                  _ioctlsocket
+                  _listen
+                  _ntohl
+                  _ntohs
+                  _recv
+                  _recvfrom
+                  _select
+                  _send
+                  _sendto
+                  _sethostname
+                  _setsockopt
+                  _shutdown
+                  _socket
+
+  Summary
+
+          BA .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           8 .idata$6

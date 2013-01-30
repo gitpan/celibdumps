@@ -1,0 +1,5902 @@
+Microsoft (R) COFF/PE Dumper Version 7.10.6030
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files\Windows CE Tools\wce400\STANDARDSDK\Lib\Emulator\oleaut32.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+    27B2 size
+correct header end
+
+    451 public symbols
+
+     4FEE __IMPORT_DESCRIPTOR_OLEAUT32
+     521E __NULL_IMPORT_DESCRIPTOR
+     5356 OLEAUT32_NULL_THUNK_DATA
+     6386 _SysAllocString
+     6386 __imp__SysAllocString
+     6544 _SysReAllocString
+     6544 __imp__SysReAllocString
+     6468 _SysAllocStringLen
+     6468 __imp__SysAllocStringLen
+     65B4 _SysReAllocStringLen
+     65B4 __imp__SysReAllocStringLen
+     64D8 _SysFreeString
+     64D8 __imp__SysFreeString
+     6696 _SysStringLen
+     6696 __imp__SysStringLen
+     B2B4 _VariantInit
+     B2B4 __imp__VariantInit
+     B170 _VariantClear
+     B170 __imp__VariantClear
+     B1DC _VariantCopy
+     B1DC __imp__VariantCopy
+     B246 _VariantCopyInd
+     B246 __imp__VariantCopyInd
+     B08E _VariantChangeType
+     B08E __imp__VariantChangeType
+     5C02 _SafeArrayCreate
+     5C02 __imp__SafeArrayCreate
+     5CE4 _SafeArrayDestroy
+     5CE4 __imp__SafeArrayDestroy
+     5E42 _SafeArrayGetDim
+     5E42 __imp__SafeArrayGetDim
+     5F22 _SafeArrayGetElemsize
+     5F22 __imp__SafeArrayGetElemsize
+     6008 _SafeArrayGetUBound
+     6008 __imp__SafeArrayGetUBound
+     5F96 _SafeArrayGetLBound
+     5F96 __imp__SafeArrayGetLBound
+     607A _SafeArrayLock
+     607A __imp__SafeArrayLock
+     62AC _SafeArrayUnlock
+     62AC __imp__SafeArrayUnlock
+     59CA _SafeArrayAccessData
+     59CA __imp__SafeArrayAccessData
+     6238 _SafeArrayUnaccessData
+     6238 __imp__SafeArrayUnaccessData
+     5EB0 _SafeArrayGetElement
+     5EB0 __imp__SafeArrayGetElement
+     6158 _SafeArrayPutElement
+     6158 __imp__SafeArrayPutElement
+     5B26 _SafeArrayCopy
+     5B26 __imp__SafeArrayCopy
+     56D2 _DispGetParam
+     56D2 __imp__DispGetParam
+     5662 _DispGetIDsOfNames
+     5662 __imp__DispGetIDsOfNames
+     573E _DispInvoke
+     573E __imp__DispInvoke
+     5AAE _SafeArrayAllocDescriptor
+     5AAE __imp__SafeArrayAllocDescriptor
+     5A3C _SafeArrayAllocData
+     5A3C __imp__SafeArrayAllocData
+     5DC8 _SafeArrayDestroyDescriptor
+     5DC8 __imp__SafeArrayDestroyDescriptor
+     5D54 _SafeArrayDestroyData
+     5D54 __imp__SafeArrayDestroyData
+     61CA _SafeArrayRedim
+     61CA __imp__SafeArrayRedim
+     9442 _VarParseNumFromStr
+     9442 __imp__VarParseNumFromStr
+     93D0 _VarNumFromParseNum
+     93D0 __imp__VarNumFromParseNum
+     8D1A _VarI2FromUI1
+     8D1A __imp__VarI2FromUI1
+     8B70 _VarI2FromI4
+     8B70 __imp__VarI2FromI4
+     8BDA _VarI2FromR4
+     8BDA __imp__VarI2FromR4
+     8C44 _VarI2FromR8
+     8C44 __imp__VarI2FromR8
+     8958 _VarI2FromCy
+     8958 __imp__VarI2FromCy
+     89C2 _VarI2FromDate
+     89C2 __imp__VarI2FromDate
+     8CAE _VarI2FromStr
+     8CAE __imp__VarI2FromStr
+     8A9A _VarI2FromDisp
+     8A9A __imp__VarI2FromDisp
+     88EC _VarI2FromBool
+     88EC __imp__VarI2FromBool
+     8B06 _VarI2FromI1
+     8B06 __imp__VarI2FromI1
+     8D86 _VarI2FromUI2
+     8D86 __imp__VarI2FromUI2
+     8DF2 _VarI2FromUI4
+     8DF2 __imp__VarI2FromUI4
+     8A2E _VarI2FromDec
+     8A2E __imp__VarI2FromDec
+     928C _VarI4FromUI1
+     928C __imp__VarI4FromUI1
+     90E2 _VarI4FromI2
+     90E2 __imp__VarI4FromI2
+     914C _VarI4FromR4
+     914C __imp__VarI4FromR4
+     91B6 _VarI4FromR8
+     91B6 __imp__VarI4FromR8
+     8ECA _VarI4FromCy
+     8ECA __imp__VarI4FromCy
+     8F34 _VarI4FromDate
+     8F34 __imp__VarI4FromDate
+     9220 _VarI4FromStr
+     9220 __imp__VarI4FromStr
+     900C _VarI4FromDisp
+     900C __imp__VarI4FromDisp
+     8E5E _VarI4FromBool
+     8E5E __imp__VarI4FromBool
+     9078 _VarI4FromI1
+     9078 __imp__VarI4FromI1
+     92F8 _VarI4FromUI2
+     92F8 __imp__VarI4FromUI2
+     9364 _VarI4FromUI4
+     9364 __imp__VarI4FromUI4
+     8FA0 _VarI4FromDec
+     8FA0 __imp__VarI4FromDec
+     98E2 _VarR4FromUI1
+     98E2 __imp__VarR4FromUI1
+     9738 _VarR4FromI2
+     9738 __imp__VarR4FromI2
+     97A2 _VarR4FromI4
+     97A2 __imp__VarR4FromI4
+     980C _VarR4FromR8
+     980C __imp__VarR4FromR8
+     9520 _VarR4FromCy
+     9520 __imp__VarR4FromCy
+     958A _VarR4FromDate
+     958A __imp__VarR4FromDate
+     9876 _VarR4FromStr
+     9876 __imp__VarR4FromStr
+     9662 _VarR4FromDisp
+     9662 __imp__VarR4FromDisp
+     94B4 _VarR4FromBool
+     94B4 __imp__VarR4FromBool
+     96CE _VarR4FromI1
+     96CE __imp__VarR4FromI1
+     994E _VarR4FromUI2
+     994E __imp__VarR4FromUI2
+     99BA _VarR4FromUI4
+     99BA __imp__VarR4FromUI4
+     95F6 _VarR4FromDec
+     95F6 __imp__VarR4FromDec
+     9E54 _VarR8FromUI1
+     9E54 __imp__VarR8FromUI1
+     9CAA _VarR8FromI2
+     9CAA __imp__VarR8FromI2
+     9D14 _VarR8FromI4
+     9D14 __imp__VarR8FromI4
+     9D7E _VarR8FromR4
+     9D7E __imp__VarR8FromR4
+     9A92 _VarR8FromCy
+     9A92 __imp__VarR8FromCy
+     9AFC _VarR8FromDate
+     9AFC __imp__VarR8FromDate
+     9DE8 _VarR8FromStr
+     9DE8 __imp__VarR8FromStr
+     9BD4 _VarR8FromDisp
+     9BD4 __imp__VarR8FromDisp
+     9A26 _VarR8FromBool
+     9A26 __imp__VarR8FromBool
+     9C40 _VarR8FromI1
+     9C40 __imp__VarR8FromI1
+     9EC0 _VarR8FromUI2
+     9EC0 __imp__VarR8FromUI2
+     9F2C _VarR8FromUI4
+     9F2C __imp__VarR8FromUI4
+     9B68 _VarR8FromDec
+     9B68 __imp__VarR8FromDec
+     7C3E _VarDateFromUI1
+     7C3E __imp__VarDateFromUI1
+     7A20 _VarDateFromI2
+     7A20 __imp__VarDateFromI2
+     7A8C _VarDateFromI4
+     7A8C __imp__VarDateFromI4
+     7AF8 _VarDateFromR4
+     7AF8 __imp__VarDateFromR4
+     7B64 _VarDateFromR8
+     7B64 __imp__VarDateFromR8
+     786C _VarDateFromCy
+     786C __imp__VarDateFromCy
+     7BD0 _VarDateFromStr
+     7BD0 __imp__VarDateFromStr
+     7946 _VarDateFromDisp
+     7946 __imp__VarDateFromDisp
+     77FE _VarDateFromBool
+     77FE __imp__VarDateFromBool
+     79B4 _VarDateFromI1
+     79B4 __imp__VarDateFromI1
+     7CAC _VarDateFromUI2
+     7CAC __imp__VarDateFromUI2
+     7D1A _VarDateFromUI4
+     7D1A __imp__VarDateFromUI4
+     78D8 _VarDateFromDec
+     78D8 __imp__VarDateFromDec
+     76BA _VarCyFromUI1
+     76BA __imp__VarCyFromUI1
+     74A6 _VarCyFromI2
+     74A6 __imp__VarCyFromI2
+     7510 _VarCyFromI4
+     7510 __imp__VarCyFromI4
+     757A _VarCyFromR4
+     757A __imp__VarCyFromR4
+     75E4 _VarCyFromR8
+     75E4 __imp__VarCyFromR8
+     72F8 _VarCyFromDate
+     72F8 __imp__VarCyFromDate
+     764E _VarCyFromStr
+     764E __imp__VarCyFromStr
+     73D0 _VarCyFromDisp
+     73D0 __imp__VarCyFromDisp
+     728C _VarCyFromBool
+     728C __imp__VarCyFromBool
+     743C _VarCyFromI1
+     743C __imp__VarCyFromI1
+     7726 _VarCyFromUI2
+     7726 __imp__VarCyFromUI2
+     7792 _VarCyFromUI4
+     7792 __imp__VarCyFromUI4
+     7364 _VarCyFromDec
+     7364 __imp__VarCyFromDec
+     7142 _VarBstrFromUI1
+     7142 __imp__VarBstrFromUI1
+     6F92 _VarBstrFromI2
+     6F92 __imp__VarBstrFromI2
+     6FFE _VarBstrFromI4
+     6FFE __imp__VarBstrFromI4
+     706A _VarBstrFromR4
+     706A __imp__VarBstrFromR4
+     70D6 _VarBstrFromR8
+     70D6 __imp__VarBstrFromR8
+     6D70 _VarBstrFromCy
+     6D70 __imp__VarBstrFromCy
+     6DDC _VarBstrFromDate
+     6DDC __imp__VarBstrFromDate
+     6EB8 _VarBstrFromDisp
+     6EB8 __imp__VarBstrFromDisp
+     6D02 _VarBstrFromBool
+     6D02 __imp__VarBstrFromBool
+     6F26 _VarBstrFromI1
+     6F26 __imp__VarBstrFromI1
+     71B0 _VarBstrFromUI2
+     71B0 __imp__VarBstrFromUI2
+     721E _VarBstrFromUI4
+     721E __imp__VarBstrFromUI4
+     6E4A _VarBstrFromDec
+     6E4A __imp__VarBstrFromDec
+     6BB8 _VarBoolFromUI1
+     6BB8 __imp__VarBoolFromUI1
+     699A _VarBoolFromI2
+     699A __imp__VarBoolFromI2
+     6A06 _VarBoolFromI4
+     6A06 __imp__VarBoolFromI4
+     6A72 _VarBoolFromR4
+     6A72 __imp__VarBoolFromR4
+     6ADE _VarBoolFromR8
+     6ADE __imp__VarBoolFromR8
+     67E4 _VarBoolFromDate
+     67E4 __imp__VarBoolFromDate
+     6778 _VarBoolFromCy
+     6778 __imp__VarBoolFromCy
+     6B4A _VarBoolFromStr
+     6B4A __imp__VarBoolFromStr
+     68C0 _VarBoolFromDisp
+     68C0 __imp__VarBoolFromDisp
+     692E _VarBoolFromI1
+     692E __imp__VarBoolFromI1
+     6C26 _VarBoolFromUI2
+     6C26 __imp__VarBoolFromUI2
+     6C94 _VarBoolFromUI4
+     6C94 __imp__VarBoolFromUI4
+     6852 _VarBoolFromDec
+     6852 __imp__VarBoolFromDec
+     A226 _VarUI1FromI2
+     A226 __imp__VarUI1FromI2
+     A292 _VarUI1FromI4
+     A292 __imp__VarUI1FromI4
+     A2FE _VarUI1FromR4
+     A2FE __imp__VarUI1FromR4
+     A36A _VarUI1FromR8
+     A36A __imp__VarUI1FromR8
+     A006 _VarUI1FromCy
+     A006 __imp__VarUI1FromCy
+     A072 _VarUI1FromDate
+     A072 __imp__VarUI1FromDate
+     A3D6 _VarUI1FromStr
+     A3D6 __imp__VarUI1FromStr
+     A14C _VarUI1FromDisp
+     A14C __imp__VarUI1FromDisp
+     9F98 _VarUI1FromBool
+     9F98 __imp__VarUI1FromBool
+     A1BA _VarUI1FromI1
+     A1BA __imp__VarUI1FromI1
+     A442 _VarUI1FromUI2
+     A442 __imp__VarUI1FromUI2
+     A4AE _VarUI1FromUI4
+     A4AE __imp__VarUI1FromUI4
+     A0E0 _VarUI1FromDec
+     A0E0 __imp__VarUI1FromDec
+     8236 _VarDecFromUI1
+     8236 __imp__VarDecFromUI1
+     801A _VarDecFromI2
+     801A __imp__VarDecFromI2
+     8086 _VarDecFromI4
+     8086 __imp__VarDecFromI4
+     80F2 _VarDecFromR4
+     80F2 __imp__VarDecFromR4
+     815E _VarDecFromR8
+     815E __imp__VarDecFromR8
+     7ED2 _VarDecFromDate
+     7ED2 __imp__VarDecFromDate
+     7E66 _VarDecFromCy
+     7E66 __imp__VarDecFromCy
+     81CA _VarDecFromStr
+     81CA __imp__VarDecFromStr
+     7F40 _VarDecFromDisp
+     7F40 __imp__VarDecFromDisp
+     7DF8 _VarDecFromBool
+     7DF8 __imp__VarDecFromBool
+     7FAE _VarDecFromI1
+     7FAE __imp__VarDecFromI1
+     82A2 _VarDecFromUI2
+     82A2 __imp__VarDecFromUI2
+     830E _VarDecFromUI4
+     830E __imp__VarDecFromUI4
+     87A8 _VarI1FromUI1
+     87A8 __imp__VarI1FromUI1
+     8594 _VarI1FromI2
+     8594 __imp__VarI1FromI2
+     85FE _VarI1FromI4
+     85FE __imp__VarI1FromI4
+     8668 _VarI1FromR4
+     8668 __imp__VarI1FromR4
+     86D2 _VarI1FromR8
+     86D2 __imp__VarI1FromR8
+     8450 _VarI1FromDate
+     8450 __imp__VarI1FromDate
+     83E6 _VarI1FromCy
+     83E6 __imp__VarI1FromCy
+     873C _VarI1FromStr
+     873C __imp__VarI1FromStr
+     8528 _VarI1FromDisp
+     8528 __imp__VarI1FromDisp
+     837A _VarI1FromBool
+     837A __imp__VarI1FromBool
+     8814 _VarI1FromUI2
+     8814 __imp__VarI1FromUI2
+     8880 _VarI1FromUI4
+     8880 __imp__VarI1FromUI4
+     84BC _VarI1FromDec
+     84BC __imp__VarI1FromDec
+     A9C4 _VarUI2FromUI1
+     A9C4 __imp__VarUI2FromUI1
+     A7A8 _VarUI2FromI2
+     A7A8 __imp__VarUI2FromI2
+     A814 _VarUI2FromI4
+     A814 __imp__VarUI2FromI4
+     A880 _VarUI2FromR4
+     A880 __imp__VarUI2FromR4
+     A8EC _VarUI2FromR8
+     A8EC __imp__VarUI2FromR8
+     A5F4 _VarUI2FromDate
+     A5F4 __imp__VarUI2FromDate
+     A588 _VarUI2FromCy
+     A588 __imp__VarUI2FromCy
+     A958 _VarUI2FromStr
+     A958 __imp__VarUI2FromStr
+     A6CE _VarUI2FromDisp
+     A6CE __imp__VarUI2FromDisp
+     A51A _VarUI2FromBool
+     A51A __imp__VarUI2FromBool
+     A73C _VarUI2FromI1
+     A73C __imp__VarUI2FromI1
+     AA30 _VarUI2FromUI4
+     AA30 __imp__VarUI2FromUI4
+     A662 _VarUI2FromDec
+     A662 __imp__VarUI2FromDec
+     AF46 _VarUI4FromUI1
+     AF46 __imp__VarUI4FromUI1
+     AD2A _VarUI4FromI2
+     AD2A __imp__VarUI4FromI2
+     AD96 _VarUI4FromI4
+     AD96 __imp__VarUI4FromI4
+     AE02 _VarUI4FromR4
+     AE02 __imp__VarUI4FromR4
+     AE6E _VarUI4FromR8
+     AE6E __imp__VarUI4FromR8
+     AB76 _VarUI4FromDate
+     AB76 __imp__VarUI4FromDate
+     AB0A _VarUI4FromCy
+     AB0A __imp__VarUI4FromCy
+     AEDA _VarUI4FromStr
+     AEDA __imp__VarUI4FromStr
+     AC50 _VarUI4FromDisp
+     AC50 __imp__VarUI4FromDisp
+     AA9C _VarUI4FromBool
+     AA9C __imp__VarUI4FromBool
+     ACBE _VarUI4FromI1
+     ACBE __imp__VarUI4FromI1
+     AFB2 _VarUI4FromUI2
+     AFB2 __imp__VarUI4FromUI2
+     ABE4 _VarUI4FromDec
+     ABE4 __imp__VarUI4FromDec
+     55F6 _DispCallFunc
+     55F6 __imp__DispCallFunc
+     B0FE _VariantChangeTypeEx
+     B0FE __imp__VariantChangeTypeEx
+     60E6 _SafeArrayPtrOfIndex
+     60E6 __imp__SafeArrayPtrOfIndex
+     6626 _SysStringByteLen
+     6626 __imp__SysStringByteLen
+     63F4 _SysAllocStringByteLen
+     63F4 __imp__SysAllocStringByteLen
+     5882 _LoadTypeLib
+     5882 __imp__LoadTypeLib
+     5814 _LoadRegTypeLib
+     5814 __imp__LoadRegTypeLib
+     595C _RegisterTypeLib
+     595C __imp__RegisterTypeLib
+     5588 _CreateTypeLib2
+     5588 __imp__CreateTypeLib2
+     58EC _OACreateTypeLib2
+     58EC __imp__OACreateTypeLib2
+     6702 _SystemTimeToVariantTime
+     6702 __imp__SystemTimeToVariantTime
+     B31E _VariantTimeToSystemTime
+     B31E __imp__VariantTimeToSystemTime
+     57A8 _GetErrorInfo
+     57A8 __imp__GetErrorInfo
+     631A _SetErrorInfo
+     631A __imp__SetErrorInfo
+     551A _CreateErrorInfo
+     551A __imp__CreateErrorInfo
+     7D88 _VarDateFromUdate
+     7D88 __imp__VarDateFromUdate
+     B01E _VarUdateFromDate
+     B01E __imp__VarUdateFromDate
+     5C70 _SafeArrayCreateVector
+     5C70 __imp__SafeArrayCreateVector
+     5B92 _SafeArrayCopyData
+     5B92 __imp__SafeArrayCopyData
+     B394 _VectorFromBstr
+     B394 __imp__VectorFromBstr
+     54AC _BstrFromVector
+     54AC __imp__BstrFromVector
+
+Archive member name at 27F6: /               
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+    27BC size
+correct header end
+
+    227 offsets
+
+        1     4FEE
+        2     521E
+        3     5356
+        4     6386
+        5     6544
+        6     6468
+        7     65B4
+        8     64D8
+        9     6696
+        A     B2B4
+        B     B170
+        C     B1DC
+        D     B246
+        E     B08E
+        F     5C02
+       10     5CE4
+       11     5E42
+       12     5F22
+       13     6008
+       14     5F96
+       15     607A
+       16     62AC
+       17     59CA
+       18     6238
+       19     5EB0
+       1A     6158
+       1B     5B26
+       1C     56D2
+       1D     5662
+       1E     573E
+       1F     5AAE
+       20     5A3C
+       21     5DC8
+       22     5D54
+       23     61CA
+       24     9442
+       25     93D0
+       26     8D1A
+       27     8B70
+       28     8BDA
+       29     8C44
+       2A     8958
+       2B     89C2
+       2C     8CAE
+       2D     8A9A
+       2E     88EC
+       2F     8B06
+       30     8D86
+       31     8DF2
+       32     8A2E
+       33     928C
+       34     90E2
+       35     914C
+       36     91B6
+       37     8ECA
+       38     8F34
+       39     9220
+       3A     900C
+       3B     8E5E
+       3C     9078
+       3D     92F8
+       3E     9364
+       3F     8FA0
+       40     98E2
+       41     9738
+       42     97A2
+       43     980C
+       44     9520
+       45     958A
+       46     9876
+       47     9662
+       48     94B4
+       49     96CE
+       4A     994E
+       4B     99BA
+       4C     95F6
+       4D     9E54
+       4E     9CAA
+       4F     9D14
+       50     9D7E
+       51     9A92
+       52     9AFC
+       53     9DE8
+       54     9BD4
+       55     9A26
+       56     9C40
+       57     9EC0
+       58     9F2C
+       59     9B68
+       5A     7C3E
+       5B     7A20
+       5C     7A8C
+       5D     7AF8
+       5E     7B64
+       5F     786C
+       60     7BD0
+       61     7946
+       62     77FE
+       63     79B4
+       64     7CAC
+       65     7D1A
+       66     78D8
+       67     76BA
+       68     74A6
+       69     7510
+       6A     757A
+       6B     75E4
+       6C     72F8
+       6D     764E
+       6E     73D0
+       6F     728C
+       70     743C
+       71     7726
+       72     7792
+       73     7364
+       74     7142
+       75     6F92
+       76     6FFE
+       77     706A
+       78     70D6
+       79     6D70
+       7A     6DDC
+       7B     6EB8
+       7C     6D02
+       7D     6F26
+       7E     71B0
+       7F     721E
+       80     6E4A
+       81     6BB8
+       82     699A
+       83     6A06
+       84     6A72
+       85     6ADE
+       86     67E4
+       87     6778
+       88     6B4A
+       89     68C0
+       8A     692E
+       8B     6C26
+       8C     6C94
+       8D     6852
+       8E     A226
+       8F     A292
+       90     A2FE
+       91     A36A
+       92     A006
+       93     A072
+       94     A3D6
+       95     A14C
+       96     9F98
+       97     A1BA
+       98     A442
+       99     A4AE
+       9A     A0E0
+       9B     8236
+       9C     801A
+       9D     8086
+       9E     80F2
+       9F     815E
+       A0     7ED2
+       A1     7E66
+       A2     81CA
+       A3     7F40
+       A4     7DF8
+       A5     7FAE
+       A6     82A2
+       A7     830E
+       A8     87A8
+       A9     8594
+       AA     85FE
+       AB     8668
+       AC     86D2
+       AD     8450
+       AE     83E6
+       AF     873C
+       B0     8528
+       B1     837A
+       B2     8814
+       B3     8880
+       B4     84BC
+       B5     A9C4
+       B6     A7A8
+       B7     A814
+       B8     A880
+       B9     A8EC
+       BA     A5F4
+       BB     A588
+       BC     A958
+       BD     A6CE
+       BE     A51A
+       BF     A73C
+       C0     AA30
+       C1     A662
+       C2     AF46
+       C3     AD2A
+       C4     AD96
+       C5     AE02
+       C6     AE6E
+       C7     AB76
+       C8     AB0A
+       C9     AEDA
+       CA     AC50
+       CB     AA9C
+       CC     ACBE
+       CD     AFB2
+       CE     ABE4
+       CF     55F6
+       D0     B0FE
+       D1     60E6
+       D2     6626
+       D3     63F4
+       D4     5882
+       D5     5814
+       D6     595C
+       D7     5588
+       D8     58EC
+       D9     6702
+       DA     B31E
+       DB     57A8
+       DC     631A
+       DD     551A
+       DE     7D88
+       DF     B01E
+       E0     5C70
+       E1     5B92
+       E2     B394
+       E3     54AC
+
+    451 public symbols
+
+       E3 _BstrFromVector
+       DD _CreateErrorInfo
+       D7 _CreateTypeLib2
+       CF _DispCallFunc
+       1D _DispGetIDsOfNames
+       1C _DispGetParam
+       1E _DispInvoke
+       DB _GetErrorInfo
+       D5 _LoadRegTypeLib
+       D4 _LoadTypeLib
+       D8 _OACreateTypeLib2
+       D6 _RegisterTypeLib
+       17 _SafeArrayAccessData
+       20 _SafeArrayAllocData
+       1F _SafeArrayAllocDescriptor
+       1B _SafeArrayCopy
+       E1 _SafeArrayCopyData
+        F _SafeArrayCreate
+       E0 _SafeArrayCreateVector
+       10 _SafeArrayDestroy
+       22 _SafeArrayDestroyData
+       21 _SafeArrayDestroyDescriptor
+       11 _SafeArrayGetDim
+       19 _SafeArrayGetElement
+       12 _SafeArrayGetElemsize
+       14 _SafeArrayGetLBound
+       13 _SafeArrayGetUBound
+       15 _SafeArrayLock
+       D1 _SafeArrayPtrOfIndex
+       1A _SafeArrayPutElement
+       23 _SafeArrayRedim
+       18 _SafeArrayUnaccessData
+       16 _SafeArrayUnlock
+       DC _SetErrorInfo
+        4 _SysAllocString
+       D3 _SysAllocStringByteLen
+        6 _SysAllocStringLen
+        8 _SysFreeString
+        5 _SysReAllocString
+        7 _SysReAllocStringLen
+       D2 _SysStringByteLen
+        9 _SysStringLen
+       D9 _SystemTimeToVariantTime
+       87 _VarBoolFromCy
+       86 _VarBoolFromDate
+       8D _VarBoolFromDec
+       89 _VarBoolFromDisp
+       8A _VarBoolFromI1
+       82 _VarBoolFromI2
+       83 _VarBoolFromI4
+       84 _VarBoolFromR4
+       85 _VarBoolFromR8
+       88 _VarBoolFromStr
+       81 _VarBoolFromUI1
+       8B _VarBoolFromUI2
+       8C _VarBoolFromUI4
+       7C _VarBstrFromBool
+       79 _VarBstrFromCy
+       7A _VarBstrFromDate
+       80 _VarBstrFromDec
+       7B _VarBstrFromDisp
+       7D _VarBstrFromI1
+       75 _VarBstrFromI2
+       76 _VarBstrFromI4
+       77 _VarBstrFromR4
+       78 _VarBstrFromR8
+       74 _VarBstrFromUI1
+       7E _VarBstrFromUI2
+       7F _VarBstrFromUI4
+       6F _VarCyFromBool
+       6C _VarCyFromDate
+       73 _VarCyFromDec
+       6E _VarCyFromDisp
+       70 _VarCyFromI1
+       68 _VarCyFromI2
+       69 _VarCyFromI4
+       6A _VarCyFromR4
+       6B _VarCyFromR8
+       6D _VarCyFromStr
+       67 _VarCyFromUI1
+       71 _VarCyFromUI2
+       72 _VarCyFromUI4
+       62 _VarDateFromBool
+       5F _VarDateFromCy
+       66 _VarDateFromDec
+       61 _VarDateFromDisp
+       63 _VarDateFromI1
+       5B _VarDateFromI2
+       5C _VarDateFromI4
+       5D _VarDateFromR4
+       5E _VarDateFromR8
+       60 _VarDateFromStr
+       5A _VarDateFromUI1
+       64 _VarDateFromUI2
+       65 _VarDateFromUI4
+       DE _VarDateFromUdate
+       A4 _VarDecFromBool
+       A1 _VarDecFromCy
+       A0 _VarDecFromDate
+       A3 _VarDecFromDisp
+       A5 _VarDecFromI1
+       9C _VarDecFromI2
+       9D _VarDecFromI4
+       9E _VarDecFromR4
+       9F _VarDecFromR8
+       A2 _VarDecFromStr
+       9B _VarDecFromUI1
+       A6 _VarDecFromUI2
+       A7 _VarDecFromUI4
+       B1 _VarI1FromBool
+       AE _VarI1FromCy
+       AD _VarI1FromDate
+       B4 _VarI1FromDec
+       B0 _VarI1FromDisp
+       A9 _VarI1FromI2
+       AA _VarI1FromI4
+       AB _VarI1FromR4
+       AC _VarI1FromR8
+       AF _VarI1FromStr
+       A8 _VarI1FromUI1
+       B2 _VarI1FromUI2
+       B3 _VarI1FromUI4
+       2E _VarI2FromBool
+       2A _VarI2FromCy
+       2B _VarI2FromDate
+       32 _VarI2FromDec
+       2D _VarI2FromDisp
+       2F _VarI2FromI1
+       27 _VarI2FromI4
+       28 _VarI2FromR4
+       29 _VarI2FromR8
+       2C _VarI2FromStr
+       26 _VarI2FromUI1
+       30 _VarI2FromUI2
+       31 _VarI2FromUI4
+       3B _VarI4FromBool
+       37 _VarI4FromCy
+       38 _VarI4FromDate
+       3F _VarI4FromDec
+       3A _VarI4FromDisp
+       3C _VarI4FromI1
+       34 _VarI4FromI2
+       35 _VarI4FromR4
+       36 _VarI4FromR8
+       39 _VarI4FromStr
+       33 _VarI4FromUI1
+       3D _VarI4FromUI2
+       3E _VarI4FromUI4
+       25 _VarNumFromParseNum
+       24 _VarParseNumFromStr
+       48 _VarR4FromBool
+       44 _VarR4FromCy
+       45 _VarR4FromDate
+       4C _VarR4FromDec
+       47 _VarR4FromDisp
+       49 _VarR4FromI1
+       41 _VarR4FromI2
+       42 _VarR4FromI4
+       43 _VarR4FromR8
+       46 _VarR4FromStr
+       40 _VarR4FromUI1
+       4A _VarR4FromUI2
+       4B _VarR4FromUI4
+       55 _VarR8FromBool
+       51 _VarR8FromCy
+       52 _VarR8FromDate
+       59 _VarR8FromDec
+       54 _VarR8FromDisp
+       56 _VarR8FromI1
+       4E _VarR8FromI2
+       4F _VarR8FromI4
+       50 _VarR8FromR4
+       53 _VarR8FromStr
+       4D _VarR8FromUI1
+       57 _VarR8FromUI2
+       58 _VarR8FromUI4
+       96 _VarUI1FromBool
+       92 _VarUI1FromCy
+       93 _VarUI1FromDate
+       9A _VarUI1FromDec
+       95 _VarUI1FromDisp
+       97 _VarUI1FromI1
+       8E _VarUI1FromI2
+       8F _VarUI1FromI4
+       90 _VarUI1FromR4
+       91 _VarUI1FromR8
+       94 _VarUI1FromStr
+       98 _VarUI1FromUI2
+       99 _VarUI1FromUI4
+       BE _VarUI2FromBool
+       BB _VarUI2FromCy
+       BA _VarUI2FromDate
+       C1 _VarUI2FromDec
+       BD _VarUI2FromDisp
+       BF _VarUI2FromI1
+       B6 _VarUI2FromI2
+       B7 _VarUI2FromI4
+       B8 _VarUI2FromR4
+       B9 _VarUI2FromR8
+       BC _VarUI2FromStr
+       B5 _VarUI2FromUI1
+       C0 _VarUI2FromUI4
+       CB _VarUI4FromBool
+       C8 _VarUI4FromCy
+       C7 _VarUI4FromDate
+       CE _VarUI4FromDec
+       CA _VarUI4FromDisp
+       CC _VarUI4FromI1
+       C3 _VarUI4FromI2
+       C4 _VarUI4FromI4
+       C5 _VarUI4FromR4
+       C6 _VarUI4FromR8
+       C9 _VarUI4FromStr
+       C2 _VarUI4FromUI1
+       CD _VarUI4FromUI2
+       DF _VarUdateFromDate
+        E _VariantChangeType
+       D0 _VariantChangeTypeEx
+        B _VariantClear
+        C _VariantCopy
+        D _VariantCopyInd
+        A _VariantInit
+       DA _VariantTimeToSystemTime
+       E2 _VectorFromBstr
+        1 __IMPORT_DESCRIPTOR_OLEAUT32
+        2 __NULL_IMPORT_DESCRIPTOR
+       E3 __imp__BstrFromVector
+       DD __imp__CreateErrorInfo
+       D7 __imp__CreateTypeLib2
+       CF __imp__DispCallFunc
+       1D __imp__DispGetIDsOfNames
+       1C __imp__DispGetParam
+       1E __imp__DispInvoke
+       DB __imp__GetErrorInfo
+       D5 __imp__LoadRegTypeLib
+       D4 __imp__LoadTypeLib
+       D8 __imp__OACreateTypeLib2
+       D6 __imp__RegisterTypeLib
+       17 __imp__SafeArrayAccessData
+       20 __imp__SafeArrayAllocData
+       1F __imp__SafeArrayAllocDescriptor
+       1B __imp__SafeArrayCopy
+       E1 __imp__SafeArrayCopyData
+        F __imp__SafeArrayCreate
+       E0 __imp__SafeArrayCreateVector
+       10 __imp__SafeArrayDestroy
+       22 __imp__SafeArrayDestroyData
+       21 __imp__SafeArrayDestroyDescriptor
+       11 __imp__SafeArrayGetDim
+       19 __imp__SafeArrayGetElement
+       12 __imp__SafeArrayGetElemsize
+       14 __imp__SafeArrayGetLBound
+       13 __imp__SafeArrayGetUBound
+       15 __imp__SafeArrayLock
+       D1 __imp__SafeArrayPtrOfIndex
+       1A __imp__SafeArrayPutElement
+       23 __imp__SafeArrayRedim
+       18 __imp__SafeArrayUnaccessData
+       16 __imp__SafeArrayUnlock
+       DC __imp__SetErrorInfo
+        4 __imp__SysAllocString
+       D3 __imp__SysAllocStringByteLen
+        6 __imp__SysAllocStringLen
+        8 __imp__SysFreeString
+        5 __imp__SysReAllocString
+        7 __imp__SysReAllocStringLen
+       D2 __imp__SysStringByteLen
+        9 __imp__SysStringLen
+       D9 __imp__SystemTimeToVariantTime
+       87 __imp__VarBoolFromCy
+       86 __imp__VarBoolFromDate
+       8D __imp__VarBoolFromDec
+       89 __imp__VarBoolFromDisp
+       8A __imp__VarBoolFromI1
+       82 __imp__VarBoolFromI2
+       83 __imp__VarBoolFromI4
+       84 __imp__VarBoolFromR4
+       85 __imp__VarBoolFromR8
+       88 __imp__VarBoolFromStr
+       81 __imp__VarBoolFromUI1
+       8B __imp__VarBoolFromUI2
+       8C __imp__VarBoolFromUI4
+       7C __imp__VarBstrFromBool
+       79 __imp__VarBstrFromCy
+       7A __imp__VarBstrFromDate
+       80 __imp__VarBstrFromDec
+       7B __imp__VarBstrFromDisp
+       7D __imp__VarBstrFromI1
+       75 __imp__VarBstrFromI2
+       76 __imp__VarBstrFromI4
+       77 __imp__VarBstrFromR4
+       78 __imp__VarBstrFromR8
+       74 __imp__VarBstrFromUI1
+       7E __imp__VarBstrFromUI2
+       7F __imp__VarBstrFromUI4
+       6F __imp__VarCyFromBool
+       6C __imp__VarCyFromDate
+       73 __imp__VarCyFromDec
+       6E __imp__VarCyFromDisp
+       70 __imp__VarCyFromI1
+       68 __imp__VarCyFromI2
+       69 __imp__VarCyFromI4
+       6A __imp__VarCyFromR4
+       6B __imp__VarCyFromR8
+       6D __imp__VarCyFromStr
+       67 __imp__VarCyFromUI1
+       71 __imp__VarCyFromUI2
+       72 __imp__VarCyFromUI4
+       62 __imp__VarDateFromBool
+       5F __imp__VarDateFromCy
+       66 __imp__VarDateFromDec
+       61 __imp__VarDateFromDisp
+       63 __imp__VarDateFromI1
+       5B __imp__VarDateFromI2
+       5C __imp__VarDateFromI4
+       5D __imp__VarDateFromR4
+       5E __imp__VarDateFromR8
+       60 __imp__VarDateFromStr
+       5A __imp__VarDateFromUI1
+       64 __imp__VarDateFromUI2
+       65 __imp__VarDateFromUI4
+       DE __imp__VarDateFromUdate
+       A4 __imp__VarDecFromBool
+       A1 __imp__VarDecFromCy
+       A0 __imp__VarDecFromDate
+       A3 __imp__VarDecFromDisp
+       A5 __imp__VarDecFromI1
+       9C __imp__VarDecFromI2
+       9D __imp__VarDecFromI4
+       9E __imp__VarDecFromR4
+       9F __imp__VarDecFromR8
+       A2 __imp__VarDecFromStr
+       9B __imp__VarDecFromUI1
+       A6 __imp__VarDecFromUI2
+       A7 __imp__VarDecFromUI4
+       B1 __imp__VarI1FromBool
+       AE __imp__VarI1FromCy
+       AD __imp__VarI1FromDate
+       B4 __imp__VarI1FromDec
+       B0 __imp__VarI1FromDisp
+       A9 __imp__VarI1FromI2
+       AA __imp__VarI1FromI4
+       AB __imp__VarI1FromR4
+       AC __imp__VarI1FromR8
+       AF __imp__VarI1FromStr
+       A8 __imp__VarI1FromUI1
+       B2 __imp__VarI1FromUI2
+       B3 __imp__VarI1FromUI4
+       2E __imp__VarI2FromBool
+       2A __imp__VarI2FromCy
+       2B __imp__VarI2FromDate
+       32 __imp__VarI2FromDec
+       2D __imp__VarI2FromDisp
+       2F __imp__VarI2FromI1
+       27 __imp__VarI2FromI4
+       28 __imp__VarI2FromR4
+       29 __imp__VarI2FromR8
+       2C __imp__VarI2FromStr
+       26 __imp__VarI2FromUI1
+       30 __imp__VarI2FromUI2
+       31 __imp__VarI2FromUI4
+       3B __imp__VarI4FromBool
+       37 __imp__VarI4FromCy
+       38 __imp__VarI4FromDate
+       3F __imp__VarI4FromDec
+       3A __imp__VarI4FromDisp
+       3C __imp__VarI4FromI1
+       34 __imp__VarI4FromI2
+       35 __imp__VarI4FromR4
+       36 __imp__VarI4FromR8
+       39 __imp__VarI4FromStr
+       33 __imp__VarI4FromUI1
+       3D __imp__VarI4FromUI2
+       3E __imp__VarI4FromUI4
+       25 __imp__VarNumFromParseNum
+       24 __imp__VarParseNumFromStr
+       48 __imp__VarR4FromBool
+       44 __imp__VarR4FromCy
+       45 __imp__VarR4FromDate
+       4C __imp__VarR4FromDec
+       47 __imp__VarR4FromDisp
+       49 __imp__VarR4FromI1
+       41 __imp__VarR4FromI2
+       42 __imp__VarR4FromI4
+       43 __imp__VarR4FromR8
+       46 __imp__VarR4FromStr
+       40 __imp__VarR4FromUI1
+       4A __imp__VarR4FromUI2
+       4B __imp__VarR4FromUI4
+       55 __imp__VarR8FromBool
+       51 __imp__VarR8FromCy
+       52 __imp__VarR8FromDate
+       59 __imp__VarR8FromDec
+       54 __imp__VarR8FromDisp
+       56 __imp__VarR8FromI1
+       4E __imp__VarR8FromI2
+       4F __imp__VarR8FromI4
+       50 __imp__VarR8FromR4
+       53 __imp__VarR8FromStr
+       4D __imp__VarR8FromUI1
+       57 __imp__VarR8FromUI2
+       58 __imp__VarR8FromUI4
+       96 __imp__VarUI1FromBool
+       92 __imp__VarUI1FromCy
+       93 __imp__VarUI1FromDate
+       9A __imp__VarUI1FromDec
+       95 __imp__VarUI1FromDisp
+       97 __imp__VarUI1FromI1
+       8E __imp__VarUI1FromI2
+       8F __imp__VarUI1FromI4
+       90 __imp__VarUI1FromR4
+       91 __imp__VarUI1FromR8
+       94 __imp__VarUI1FromStr
+       98 __imp__VarUI1FromUI2
+       99 __imp__VarUI1FromUI4
+       BE __imp__VarUI2FromBool
+       BB __imp__VarUI2FromCy
+       BA __imp__VarUI2FromDate
+       C1 __imp__VarUI2FromDec
+       BD __imp__VarUI2FromDisp
+       BF __imp__VarUI2FromI1
+       B6 __imp__VarUI2FromI2
+       B7 __imp__VarUI2FromI4
+       B8 __imp__VarUI2FromR4
+       B9 __imp__VarUI2FromR8
+       BC __imp__VarUI2FromStr
+       B5 __imp__VarUI2FromUI1
+       C0 __imp__VarUI2FromUI4
+       CB __imp__VarUI4FromBool
+       C8 __imp__VarUI4FromCy
+       C7 __imp__VarUI4FromDate
+       CE __imp__VarUI4FromDec
+       CA __imp__VarUI4FromDisp
+       CC __imp__VarUI4FromI1
+       C3 __imp__VarUI4FromI2
+       C4 __imp__VarUI4FromI4
+       C5 __imp__VarUI4FromR4
+       C6 __imp__VarUI4FromR8
+       C9 __imp__VarUI4FromStr
+       C2 __imp__VarUI4FromUI1
+       CD __imp__VarUI4FromUI2
+       DF __imp__VarUdateFromDate
+        E __imp__VariantChangeType
+       D0 __imp__VariantChangeTypeEx
+        B __imp__VariantClear
+        C __imp__VariantCopy
+        D __imp__VariantCopyInd
+        A __imp__VariantInit
+       DA __imp__VariantTimeToSystemTime
+       E2 __imp__VectorFromBstr
+        3 OLEAUT32_NULL_THUNK_DATA
+
+Archive member name at 4FEE: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+     1F3 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20793C time date stamp Wed Dec 19 06:25:48 2001
+             10F file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      43 size of raw data
+      8C file pointer to raw data (0000008C to 000000CE)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 13 00 09 00 00 00 00 00 0C 4F 4C 45  .............OLE
+  00000010: 41 55 54 33 32 2E 64 6C 6C 28 00 13 10 07 00 00  AUT32.dll(......
+  00000020: 00 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12  .............Û..
+  00000030: 4D 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49  Microsoft (R) LI
+  00000040: 4E 4B 00                                         NK.
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CF file pointer to raw data (000000CF to 000000E2)
+      E3 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+RELOCATIONS #2
+                                                Symbol    Symbol
+ Offset    Type              Applied To         Index     Name
+ --------  ----------------  -----------------  --------  ------
+ 0000000C  DIR32NB                    00000000         3  .idata$6
+ 00000000  DIR32NB                    00000000         4  .idata$4
+ 00000010  DIR32NB                    00000000         5  .idata$5
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       E size of raw data
+     101 file pointer to raw data (00000101 to 0000010E)
+      E3 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 4F 4C 45 41 55 54 33 32 2E 64 6C 6C 00 00        OLEAUT32.dll..
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __IMPORT_DESCRIPTOR_OLEAUT32
+002 C0000040 SECT2  notype       Section      | .idata$2
+003 00000000 SECT3  notype       Static       | .idata$6
+004 C0000040 UNDEF  notype       Section      | .idata$4
+005 C0000040 UNDEF  notype       Section      | .idata$5
+006 00000000 UNDEF  notype       External     | __NULL_IMPORT_DESCRIPTOR
+007 00000000 UNDEF  notype       External     | OLEAUT32_NULL_THUNK_DATA
+
+String Table Size = 0x54 bytes
+
+Archive member name at 521E: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      FC size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        3C20793C time date stamp Wed Dec 19 06:25:48 2001
+              BB file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      43 size of raw data
+      64 file pointer to raw data (00000064 to 000000A6)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 13 00 09 00 00 00 00 00 0C 4F 4C 45  .............OLE
+  00000010: 41 55 54 33 32 2E 64 6C 6C 28 00 13 10 07 00 00  AUT32.dll(......
+  00000020: 00 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12  .............Û..
+  00000030: 4D 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49  Microsoft (R) LI
+  00000040: 4E 4B 00                                         NK.
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A7 file pointer to raw data (000000A7 to 000000BA)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __NULL_IMPORT_DESCRIPTOR
+
+String Table Size = 0x1D bytes
+
+Archive member name at 5356: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+     119 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20793C time date stamp Wed Dec 19 06:25:48 2001
+              D7 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      43 size of raw data
+      8C file pointer to raw data (0000008C to 000000CE)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 13 00 09 00 00 00 00 00 0C 4F 4C 45  .............OLE
+  00000010: 41 55 54 33 32 2E 64 6C 6C 28 00 13 10 07 00 00  AUT32.dll(......
+  00000020: 00 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12  .............Û..
+  00000030: 4D 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49  Microsoft (R) LI
+  00000040: 4E 4B 00                                         NK.
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CF file pointer to raw data (000000CF to 000000D2)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00                                      ....
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D3 file pointer to raw data (000000D3 to 000000D6)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | OLEAUT32_NULL_THUNK_DATA
+
+String Table Size = 0x1E bytes
+
+Archive member name at 54AC: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _BstrFromVector
+  Type         : code
+  Name type    : no prefix
+  Hint         : 0
+  Name         : BstrFromVector
+
+Archive member name at 551A: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001E
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _CreateErrorInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 1
+  Name         : CreateErrorInfo
+
+Archive member name at 5588: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _CreateTypeLib2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 2
+  Name         : CreateTypeLib2
+
+Archive member name at 55F6: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _DispCallFunc
+  Type         : code
+  Name type    : no prefix
+  Hint         : 3
+  Name         : DispCallFunc
+
+Archive member name at 5662: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000020
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _DispGetIDsOfNames
+  Type         : code
+  Name type    : no prefix
+  Hint         : 4
+  Name         : DispGetIDsOfNames
+
+Archive member name at 56D2: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _DispGetParam
+  Type         : code
+  Name type    : no prefix
+  Hint         : 5
+  Name         : DispGetParam
+
+Archive member name at 573E: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000019
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _DispInvoke
+  Type         : code
+  Name type    : no prefix
+  Hint         : 6
+  Name         : DispInvoke
+
+Archive member name at 57A8: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _GetErrorInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 11
+  Name         : GetErrorInfo
+
+Archive member name at 5814: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _LoadRegTypeLib
+  Type         : code
+  Name type    : no prefix
+  Hint         : 12
+  Name         : LoadRegTypeLib
+
+Archive member name at 5882: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _LoadTypeLib
+  Type         : code
+  Name type    : no prefix
+  Hint         : 13
+  Name         : LoadTypeLib
+
+Archive member name at 58EC: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001F
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _OACreateTypeLib2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 14
+  Name         : OACreateTypeLib2
+
+Archive member name at 595C: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001E
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _RegisterTypeLib
+  Type         : code
+  Name type    : no prefix
+  Hint         : 15
+  Name         : RegisterTypeLib
+
+Archive member name at 59CA: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000022
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SafeArrayAccessData
+  Type         : code
+  Name type    : no prefix
+  Hint         : 16
+  Name         : SafeArrayAccessData
+
+Archive member name at 5A3C: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000021
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SafeArrayAllocData
+  Type         : code
+  Name type    : no prefix
+  Hint         : 17
+  Name         : SafeArrayAllocData
+
+Archive member name at 5AAE: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000027
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SafeArrayAllocDescriptor
+  Type         : code
+  Name type    : no prefix
+  Hint         : 18
+  Name         : SafeArrayAllocDescriptor
+
+Archive member name at 5B26: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SafeArrayCopy
+  Type         : code
+  Name type    : no prefix
+  Hint         : 19
+  Name         : SafeArrayCopy
+
+Archive member name at 5B92: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000020
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SafeArrayCopyData
+  Type         : code
+  Name type    : no prefix
+  Hint         : 20
+  Name         : SafeArrayCopyData
+
+Archive member name at 5C02: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001E
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SafeArrayCreate
+  Type         : code
+  Name type    : no prefix
+  Hint         : 21
+  Name         : SafeArrayCreate
+
+Archive member name at 5C70: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000024
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SafeArrayCreateVector
+  Type         : code
+  Name type    : no prefix
+  Hint         : 22
+  Name         : SafeArrayCreateVector
+
+Archive member name at 5CE4: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001F
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SafeArrayDestroy
+  Type         : code
+  Name type    : no prefix
+  Hint         : 23
+  Name         : SafeArrayDestroy
+
+Archive member name at 5D54: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000023
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SafeArrayDestroyData
+  Type         : code
+  Name type    : no prefix
+  Hint         : 24
+  Name         : SafeArrayDestroyData
+
+Archive member name at 5DC8: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000029
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SafeArrayDestroyDescriptor
+  Type         : code
+  Name type    : no prefix
+  Hint         : 25
+  Name         : SafeArrayDestroyDescriptor
+
+Archive member name at 5E42: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001E
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SafeArrayGetDim
+  Type         : code
+  Name type    : no prefix
+  Hint         : 26
+  Name         : SafeArrayGetDim
+
+Archive member name at 5EB0: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000022
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SafeArrayGetElement
+  Type         : code
+  Name type    : no prefix
+  Hint         : 27
+  Name         : SafeArrayGetElement
+
+Archive member name at 5F22: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000023
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SafeArrayGetElemsize
+  Type         : code
+  Name type    : no prefix
+  Hint         : 28
+  Name         : SafeArrayGetElemsize
+
+Archive member name at 5F96: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000021
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SafeArrayGetLBound
+  Type         : code
+  Name type    : no prefix
+  Hint         : 29
+  Name         : SafeArrayGetLBound
+
+Archive member name at 6008: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000021
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SafeArrayGetUBound
+  Type         : code
+  Name type    : no prefix
+  Hint         : 30
+  Name         : SafeArrayGetUBound
+
+Archive member name at 607A: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SafeArrayLock
+  Type         : code
+  Name type    : no prefix
+  Hint         : 31
+  Name         : SafeArrayLock
+
+Archive member name at 60E6: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000022
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SafeArrayPtrOfIndex
+  Type         : code
+  Name type    : no prefix
+  Hint         : 32
+  Name         : SafeArrayPtrOfIndex
+
+Archive member name at 6158: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000022
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SafeArrayPutElement
+  Type         : code
+  Name type    : no prefix
+  Hint         : 33
+  Name         : SafeArrayPutElement
+
+Archive member name at 61CA: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SafeArrayRedim
+  Type         : code
+  Name type    : no prefix
+  Hint         : 34
+  Name         : SafeArrayRedim
+
+Archive member name at 6238: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000024
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SafeArrayUnaccessData
+  Type         : code
+  Name type    : no prefix
+  Hint         : 35
+  Name         : SafeArrayUnaccessData
+
+Archive member name at 62AC: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001E
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SafeArrayUnlock
+  Type         : code
+  Name type    : no prefix
+  Hint         : 36
+  Name         : SafeArrayUnlock
+
+Archive member name at 631A: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SetErrorInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 37
+  Name         : SetErrorInfo
+
+Archive member name at 6386: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SysAllocString
+  Type         : code
+  Name type    : no prefix
+  Hint         : 38
+  Name         : SysAllocString
+
+Archive member name at 63F4: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000024
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SysAllocStringByteLen
+  Type         : code
+  Name type    : no prefix
+  Hint         : 39
+  Name         : SysAllocStringByteLen
+
+Archive member name at 6468: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000020
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SysAllocStringLen
+  Type         : code
+  Name type    : no prefix
+  Hint         : 40
+  Name         : SysAllocStringLen
+
+Archive member name at 64D8: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SysFreeString
+  Type         : code
+  Name type    : no prefix
+  Hint         : 41
+  Name         : SysFreeString
+
+Archive member name at 6544: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001F
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SysReAllocString
+  Type         : code
+  Name type    : no prefix
+  Hint         : 42
+  Name         : SysReAllocString
+
+Archive member name at 65B4: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000022
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SysReAllocStringLen
+  Type         : code
+  Name type    : no prefix
+  Hint         : 43
+  Name         : SysReAllocStringLen
+
+Archive member name at 6626: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001F
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SysStringByteLen
+  Type         : code
+  Name type    : no prefix
+  Hint         : 44
+  Name         : SysStringByteLen
+
+Archive member name at 6696: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SysStringLen
+  Type         : code
+  Name type    : no prefix
+  Hint         : 45
+  Name         : SysStringLen
+
+Archive member name at 6702: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000026
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _SystemTimeToVariantTime
+  Type         : code
+  Name type    : no prefix
+  Hint         : 46
+  Name         : SystemTimeToVariantTime
+
+Archive member name at 6778: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBoolFromCy
+  Type         : code
+  Name type    : no prefix
+  Hint         : 47
+  Name         : VarBoolFromCy
+
+Archive member name at 67E4: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001E
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBoolFromDate
+  Type         : code
+  Name type    : no prefix
+  Hint         : 48
+  Name         : VarBoolFromDate
+
+Archive member name at 6852: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBoolFromDec
+  Type         : code
+  Name type    : no prefix
+  Hint         : 49
+  Name         : VarBoolFromDec
+
+Archive member name at 68C0: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001E
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBoolFromDisp
+  Type         : code
+  Name type    : no prefix
+  Hint         : 50
+  Name         : VarBoolFromDisp
+
+Archive member name at 692E: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBoolFromI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 51
+  Name         : VarBoolFromI1
+
+Archive member name at 699A: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBoolFromI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 52
+  Name         : VarBoolFromI2
+
+Archive member name at 6A06: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBoolFromI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 53
+  Name         : VarBoolFromI4
+
+Archive member name at 6A72: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBoolFromR4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 54
+  Name         : VarBoolFromR4
+
+Archive member name at 6ADE: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBoolFromR8
+  Type         : code
+  Name type    : no prefix
+  Hint         : 55
+  Name         : VarBoolFromR8
+
+Archive member name at 6B4A: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBoolFromStr
+  Type         : code
+  Name type    : no prefix
+  Hint         : 56
+  Name         : VarBoolFromStr
+
+Archive member name at 6BB8: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBoolFromUI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 57
+  Name         : VarBoolFromUI1
+
+Archive member name at 6C26: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBoolFromUI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 58
+  Name         : VarBoolFromUI2
+
+Archive member name at 6C94: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBoolFromUI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 59
+  Name         : VarBoolFromUI4
+
+Archive member name at 6D02: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001E
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBstrFromBool
+  Type         : code
+  Name type    : no prefix
+  Hint         : 60
+  Name         : VarBstrFromBool
+
+Archive member name at 6D70: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBstrFromCy
+  Type         : code
+  Name type    : no prefix
+  Hint         : 61
+  Name         : VarBstrFromCy
+
+Archive member name at 6DDC: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001E
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBstrFromDate
+  Type         : code
+  Name type    : no prefix
+  Hint         : 62
+  Name         : VarBstrFromDate
+
+Archive member name at 6E4A: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBstrFromDec
+  Type         : code
+  Name type    : no prefix
+  Hint         : 63
+  Name         : VarBstrFromDec
+
+Archive member name at 6EB8: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001E
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBstrFromDisp
+  Type         : code
+  Name type    : no prefix
+  Hint         : 64
+  Name         : VarBstrFromDisp
+
+Archive member name at 6F26: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBstrFromI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 65
+  Name         : VarBstrFromI1
+
+Archive member name at 6F92: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBstrFromI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 66
+  Name         : VarBstrFromI2
+
+Archive member name at 6FFE: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBstrFromI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 67
+  Name         : VarBstrFromI4
+
+Archive member name at 706A: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBstrFromR4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 68
+  Name         : VarBstrFromR4
+
+Archive member name at 70D6: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBstrFromR8
+  Type         : code
+  Name type    : no prefix
+  Hint         : 69
+  Name         : VarBstrFromR8
+
+Archive member name at 7142: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBstrFromUI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 70
+  Name         : VarBstrFromUI1
+
+Archive member name at 71B0: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBstrFromUI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 71
+  Name         : VarBstrFromUI2
+
+Archive member name at 721E: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarBstrFromUI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 72
+  Name         : VarBstrFromUI4
+
+Archive member name at 728C: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarCyFromBool
+  Type         : code
+  Name type    : no prefix
+  Hint         : 73
+  Name         : VarCyFromBool
+
+Archive member name at 72F8: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarCyFromDate
+  Type         : code
+  Name type    : no prefix
+  Hint         : 74
+  Name         : VarCyFromDate
+
+Archive member name at 7364: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarCyFromDec
+  Type         : code
+  Name type    : no prefix
+  Hint         : 75
+  Name         : VarCyFromDec
+
+Archive member name at 73D0: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarCyFromDisp
+  Type         : code
+  Name type    : no prefix
+  Hint         : 76
+  Name         : VarCyFromDisp
+
+Archive member name at 743C: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarCyFromI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 77
+  Name         : VarCyFromI1
+
+Archive member name at 74A6: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarCyFromI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 78
+  Name         : VarCyFromI2
+
+Archive member name at 7510: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarCyFromI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 79
+  Name         : VarCyFromI4
+
+Archive member name at 757A: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarCyFromR4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 80
+  Name         : VarCyFromR4
+
+Archive member name at 75E4: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarCyFromR8
+  Type         : code
+  Name type    : no prefix
+  Hint         : 81
+  Name         : VarCyFromR8
+
+Archive member name at 764E: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarCyFromStr
+  Type         : code
+  Name type    : no prefix
+  Hint         : 82
+  Name         : VarCyFromStr
+
+Archive member name at 76BA: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarCyFromUI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 83
+  Name         : VarCyFromUI1
+
+Archive member name at 7726: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarCyFromUI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 84
+  Name         : VarCyFromUI2
+
+Archive member name at 7792: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarCyFromUI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 85
+  Name         : VarCyFromUI4
+
+Archive member name at 77FE: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001E
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDateFromBool
+  Type         : code
+  Name type    : no prefix
+  Hint         : 86
+  Name         : VarDateFromBool
+
+Archive member name at 786C: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDateFromCy
+  Type         : code
+  Name type    : no prefix
+  Hint         : 87
+  Name         : VarDateFromCy
+
+Archive member name at 78D8: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDateFromDec
+  Type         : code
+  Name type    : no prefix
+  Hint         : 88
+  Name         : VarDateFromDec
+
+Archive member name at 7946: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001E
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDateFromDisp
+  Type         : code
+  Name type    : no prefix
+  Hint         : 89
+  Name         : VarDateFromDisp
+
+Archive member name at 79B4: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDateFromI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 90
+  Name         : VarDateFromI1
+
+Archive member name at 7A20: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDateFromI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 91
+  Name         : VarDateFromI2
+
+Archive member name at 7A8C: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDateFromI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 92
+  Name         : VarDateFromI4
+
+Archive member name at 7AF8: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDateFromR4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 93
+  Name         : VarDateFromR4
+
+Archive member name at 7B64: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDateFromR8
+  Type         : code
+  Name type    : no prefix
+  Hint         : 94
+  Name         : VarDateFromR8
+
+Archive member name at 7BD0: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDateFromStr
+  Type         : code
+  Name type    : no prefix
+  Hint         : 95
+  Name         : VarDateFromStr
+
+Archive member name at 7C3E: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDateFromUI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 96
+  Name         : VarDateFromUI1
+
+Archive member name at 7CAC: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDateFromUI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 97
+  Name         : VarDateFromUI2
+
+Archive member name at 7D1A: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDateFromUI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 98
+  Name         : VarDateFromUI4
+
+Archive member name at 7D88: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001F
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDateFromUdate
+  Type         : code
+  Name type    : no prefix
+  Hint         : 99
+  Name         : VarDateFromUdate
+
+Archive member name at 7DF8: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDecFromBool
+  Type         : code
+  Name type    : no prefix
+  Hint         : 100
+  Name         : VarDecFromBool
+
+Archive member name at 7E66: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDecFromCy
+  Type         : code
+  Name type    : no prefix
+  Hint         : 101
+  Name         : VarDecFromCy
+
+Archive member name at 7ED2: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDecFromDate
+  Type         : code
+  Name type    : no prefix
+  Hint         : 102
+  Name         : VarDecFromDate
+
+Archive member name at 7F40: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDecFromDisp
+  Type         : code
+  Name type    : no prefix
+  Hint         : 103
+  Name         : VarDecFromDisp
+
+Archive member name at 7FAE: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDecFromI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 104
+  Name         : VarDecFromI1
+
+Archive member name at 801A: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDecFromI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 105
+  Name         : VarDecFromI2
+
+Archive member name at 8086: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDecFromI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 106
+  Name         : VarDecFromI4
+
+Archive member name at 80F2: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDecFromR4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 107
+  Name         : VarDecFromR4
+
+Archive member name at 815E: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDecFromR8
+  Type         : code
+  Name type    : no prefix
+  Hint         : 108
+  Name         : VarDecFromR8
+
+Archive member name at 81CA: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDecFromStr
+  Type         : code
+  Name type    : no prefix
+  Hint         : 109
+  Name         : VarDecFromStr
+
+Archive member name at 8236: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDecFromUI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 110
+  Name         : VarDecFromUI1
+
+Archive member name at 82A2: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDecFromUI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 111
+  Name         : VarDecFromUI2
+
+Archive member name at 830E: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarDecFromUI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 112
+  Name         : VarDecFromUI4
+
+Archive member name at 837A: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI1FromBool
+  Type         : code
+  Name type    : no prefix
+  Hint         : 113
+  Name         : VarI1FromBool
+
+Archive member name at 83E6: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI1FromCy
+  Type         : code
+  Name type    : no prefix
+  Hint         : 114
+  Name         : VarI1FromCy
+
+Archive member name at 8450: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI1FromDate
+  Type         : code
+  Name type    : no prefix
+  Hint         : 115
+  Name         : VarI1FromDate
+
+Archive member name at 84BC: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI1FromDec
+  Type         : code
+  Name type    : no prefix
+  Hint         : 116
+  Name         : VarI1FromDec
+
+Archive member name at 8528: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI1FromDisp
+  Type         : code
+  Name type    : no prefix
+  Hint         : 117
+  Name         : VarI1FromDisp
+
+Archive member name at 8594: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI1FromI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 118
+  Name         : VarI1FromI2
+
+Archive member name at 85FE: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI1FromI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 119
+  Name         : VarI1FromI4
+
+Archive member name at 8668: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI1FromR4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 120
+  Name         : VarI1FromR4
+
+Archive member name at 86D2: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI1FromR8
+  Type         : code
+  Name type    : no prefix
+  Hint         : 121
+  Name         : VarI1FromR8
+
+Archive member name at 873C: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI1FromStr
+  Type         : code
+  Name type    : no prefix
+  Hint         : 122
+  Name         : VarI1FromStr
+
+Archive member name at 87A8: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI1FromUI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 123
+  Name         : VarI1FromUI1
+
+Archive member name at 8814: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI1FromUI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 124
+  Name         : VarI1FromUI2
+
+Archive member name at 8880: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI1FromUI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 125
+  Name         : VarI1FromUI4
+
+Archive member name at 88EC: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI2FromBool
+  Type         : code
+  Name type    : no prefix
+  Hint         : 126
+  Name         : VarI2FromBool
+
+Archive member name at 8958: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI2FromCy
+  Type         : code
+  Name type    : no prefix
+  Hint         : 127
+  Name         : VarI2FromCy
+
+Archive member name at 89C2: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI2FromDate
+  Type         : code
+  Name type    : no prefix
+  Hint         : 128
+  Name         : VarI2FromDate
+
+Archive member name at 8A2E: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI2FromDec
+  Type         : code
+  Name type    : no prefix
+  Hint         : 129
+  Name         : VarI2FromDec
+
+Archive member name at 8A9A: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI2FromDisp
+  Type         : code
+  Name type    : no prefix
+  Hint         : 130
+  Name         : VarI2FromDisp
+
+Archive member name at 8B06: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI2FromI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 131
+  Name         : VarI2FromI1
+
+Archive member name at 8B70: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI2FromI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 132
+  Name         : VarI2FromI4
+
+Archive member name at 8BDA: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI2FromR4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 133
+  Name         : VarI2FromR4
+
+Archive member name at 8C44: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI2FromR8
+  Type         : code
+  Name type    : no prefix
+  Hint         : 134
+  Name         : VarI2FromR8
+
+Archive member name at 8CAE: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI2FromStr
+  Type         : code
+  Name type    : no prefix
+  Hint         : 135
+  Name         : VarI2FromStr
+
+Archive member name at 8D1A: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI2FromUI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 136
+  Name         : VarI2FromUI1
+
+Archive member name at 8D86: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI2FromUI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 137
+  Name         : VarI2FromUI2
+
+Archive member name at 8DF2: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI2FromUI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 138
+  Name         : VarI2FromUI4
+
+Archive member name at 8E5E: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI4FromBool
+  Type         : code
+  Name type    : no prefix
+  Hint         : 139
+  Name         : VarI4FromBool
+
+Archive member name at 8ECA: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI4FromCy
+  Type         : code
+  Name type    : no prefix
+  Hint         : 140
+  Name         : VarI4FromCy
+
+Archive member name at 8F34: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI4FromDate
+  Type         : code
+  Name type    : no prefix
+  Hint         : 141
+  Name         : VarI4FromDate
+
+Archive member name at 8FA0: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI4FromDec
+  Type         : code
+  Name type    : no prefix
+  Hint         : 142
+  Name         : VarI4FromDec
+
+Archive member name at 900C: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI4FromDisp
+  Type         : code
+  Name type    : no prefix
+  Hint         : 143
+  Name         : VarI4FromDisp
+
+Archive member name at 9078: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI4FromI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 144
+  Name         : VarI4FromI1
+
+Archive member name at 90E2: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI4FromI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 145
+  Name         : VarI4FromI2
+
+Archive member name at 914C: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI4FromR4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 146
+  Name         : VarI4FromR4
+
+Archive member name at 91B6: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI4FromR8
+  Type         : code
+  Name type    : no prefix
+  Hint         : 147
+  Name         : VarI4FromR8
+
+Archive member name at 9220: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI4FromStr
+  Type         : code
+  Name type    : no prefix
+  Hint         : 148
+  Name         : VarI4FromStr
+
+Archive member name at 928C: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI4FromUI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 149
+  Name         : VarI4FromUI1
+
+Archive member name at 92F8: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI4FromUI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 150
+  Name         : VarI4FromUI2
+
+Archive member name at 9364: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarI4FromUI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 151
+  Name         : VarI4FromUI4
+
+Archive member name at 93D0: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000021
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarNumFromParseNum
+  Type         : code
+  Name type    : no prefix
+  Hint         : 152
+  Name         : VarNumFromParseNum
+
+Archive member name at 9442: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000021
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarParseNumFromStr
+  Type         : code
+  Name type    : no prefix
+  Hint         : 153
+  Name         : VarParseNumFromStr
+
+Archive member name at 94B4: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR4FromBool
+  Type         : code
+  Name type    : no prefix
+  Hint         : 154
+  Name         : VarR4FromBool
+
+Archive member name at 9520: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR4FromCy
+  Type         : code
+  Name type    : no prefix
+  Hint         : 155
+  Name         : VarR4FromCy
+
+Archive member name at 958A: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR4FromDate
+  Type         : code
+  Name type    : no prefix
+  Hint         : 156
+  Name         : VarR4FromDate
+
+Archive member name at 95F6: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR4FromDec
+  Type         : code
+  Name type    : no prefix
+  Hint         : 157
+  Name         : VarR4FromDec
+
+Archive member name at 9662: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR4FromDisp
+  Type         : code
+  Name type    : no prefix
+  Hint         : 158
+  Name         : VarR4FromDisp
+
+Archive member name at 96CE: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR4FromI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 159
+  Name         : VarR4FromI1
+
+Archive member name at 9738: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR4FromI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 160
+  Name         : VarR4FromI2
+
+Archive member name at 97A2: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR4FromI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 161
+  Name         : VarR4FromI4
+
+Archive member name at 980C: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR4FromR8
+  Type         : code
+  Name type    : no prefix
+  Hint         : 162
+  Name         : VarR4FromR8
+
+Archive member name at 9876: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR4FromStr
+  Type         : code
+  Name type    : no prefix
+  Hint         : 163
+  Name         : VarR4FromStr
+
+Archive member name at 98E2: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR4FromUI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 164
+  Name         : VarR4FromUI1
+
+Archive member name at 994E: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR4FromUI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 165
+  Name         : VarR4FromUI2
+
+Archive member name at 99BA: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR4FromUI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 166
+  Name         : VarR4FromUI4
+
+Archive member name at 9A26: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR8FromBool
+  Type         : code
+  Name type    : no prefix
+  Hint         : 167
+  Name         : VarR8FromBool
+
+Archive member name at 9A92: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR8FromCy
+  Type         : code
+  Name type    : no prefix
+  Hint         : 168
+  Name         : VarR8FromCy
+
+Archive member name at 9AFC: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR8FromDate
+  Type         : code
+  Name type    : no prefix
+  Hint         : 169
+  Name         : VarR8FromDate
+
+Archive member name at 9B68: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR8FromDec
+  Type         : code
+  Name type    : no prefix
+  Hint         : 170
+  Name         : VarR8FromDec
+
+Archive member name at 9BD4: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR8FromDisp
+  Type         : code
+  Name type    : no prefix
+  Hint         : 171
+  Name         : VarR8FromDisp
+
+Archive member name at 9C40: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR8FromI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 172
+  Name         : VarR8FromI1
+
+Archive member name at 9CAA: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR8FromI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 173
+  Name         : VarR8FromI2
+
+Archive member name at 9D14: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR8FromI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 174
+  Name         : VarR8FromI4
+
+Archive member name at 9D7E: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR8FromR4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 175
+  Name         : VarR8FromR4
+
+Archive member name at 9DE8: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR8FromStr
+  Type         : code
+  Name type    : no prefix
+  Hint         : 176
+  Name         : VarR8FromStr
+
+Archive member name at 9E54: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR8FromUI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 177
+  Name         : VarR8FromUI1
+
+Archive member name at 9EC0: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR8FromUI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 178
+  Name         : VarR8FromUI2
+
+Archive member name at 9F2C: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarR8FromUI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 179
+  Name         : VarR8FromUI4
+
+Archive member name at 9F98: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI1FromBool
+  Type         : code
+  Name type    : no prefix
+  Hint         : 180
+  Name         : VarUI1FromBool
+
+Archive member name at A006: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI1FromCy
+  Type         : code
+  Name type    : no prefix
+  Hint         : 181
+  Name         : VarUI1FromCy
+
+Archive member name at A072: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI1FromDate
+  Type         : code
+  Name type    : no prefix
+  Hint         : 182
+  Name         : VarUI1FromDate
+
+Archive member name at A0E0: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI1FromDec
+  Type         : code
+  Name type    : no prefix
+  Hint         : 183
+  Name         : VarUI1FromDec
+
+Archive member name at A14C: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI1FromDisp
+  Type         : code
+  Name type    : no prefix
+  Hint         : 184
+  Name         : VarUI1FromDisp
+
+Archive member name at A1BA: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI1FromI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 185
+  Name         : VarUI1FromI1
+
+Archive member name at A226: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI1FromI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 186
+  Name         : VarUI1FromI2
+
+Archive member name at A292: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI1FromI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 187
+  Name         : VarUI1FromI4
+
+Archive member name at A2FE: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI1FromR4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 188
+  Name         : VarUI1FromR4
+
+Archive member name at A36A: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI1FromR8
+  Type         : code
+  Name type    : no prefix
+  Hint         : 189
+  Name         : VarUI1FromR8
+
+Archive member name at A3D6: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI1FromStr
+  Type         : code
+  Name type    : no prefix
+  Hint         : 190
+  Name         : VarUI1FromStr
+
+Archive member name at A442: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI1FromUI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 191
+  Name         : VarUI1FromUI2
+
+Archive member name at A4AE: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI1FromUI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 192
+  Name         : VarUI1FromUI4
+
+Archive member name at A51A: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI2FromBool
+  Type         : code
+  Name type    : no prefix
+  Hint         : 193
+  Name         : VarUI2FromBool
+
+Archive member name at A588: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI2FromCy
+  Type         : code
+  Name type    : no prefix
+  Hint         : 194
+  Name         : VarUI2FromCy
+
+Archive member name at A5F4: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI2FromDate
+  Type         : code
+  Name type    : no prefix
+  Hint         : 195
+  Name         : VarUI2FromDate
+
+Archive member name at A662: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI2FromDec
+  Type         : code
+  Name type    : no prefix
+  Hint         : 196
+  Name         : VarUI2FromDec
+
+Archive member name at A6CE: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI2FromDisp
+  Type         : code
+  Name type    : no prefix
+  Hint         : 197
+  Name         : VarUI2FromDisp
+
+Archive member name at A73C: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI2FromI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 198
+  Name         : VarUI2FromI1
+
+Archive member name at A7A8: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI2FromI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 199
+  Name         : VarUI2FromI2
+
+Archive member name at A814: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI2FromI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 200
+  Name         : VarUI2FromI4
+
+Archive member name at A880: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI2FromR4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 201
+  Name         : VarUI2FromR4
+
+Archive member name at A8EC: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI2FromR8
+  Type         : code
+  Name type    : no prefix
+  Hint         : 202
+  Name         : VarUI2FromR8
+
+Archive member name at A958: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI2FromStr
+  Type         : code
+  Name type    : no prefix
+  Hint         : 203
+  Name         : VarUI2FromStr
+
+Archive member name at A9C4: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI2FromUI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 204
+  Name         : VarUI2FromUI1
+
+Archive member name at AA30: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI2FromUI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 205
+  Name         : VarUI2FromUI4
+
+Archive member name at AA9C: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI4FromBool
+  Type         : code
+  Name type    : no prefix
+  Hint         : 206
+  Name         : VarUI4FromBool
+
+Archive member name at AB0A: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI4FromCy
+  Type         : code
+  Name type    : no prefix
+  Hint         : 207
+  Name         : VarUI4FromCy
+
+Archive member name at AB76: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI4FromDate
+  Type         : code
+  Name type    : no prefix
+  Hint         : 208
+  Name         : VarUI4FromDate
+
+Archive member name at ABE4: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI4FromDec
+  Type         : code
+  Name type    : no prefix
+  Hint         : 209
+  Name         : VarUI4FromDec
+
+Archive member name at AC50: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI4FromDisp
+  Type         : code
+  Name type    : no prefix
+  Hint         : 210
+  Name         : VarUI4FromDisp
+
+Archive member name at ACBE: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI4FromI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 211
+  Name         : VarUI4FromI1
+
+Archive member name at AD2A: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI4FromI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 212
+  Name         : VarUI4FromI2
+
+Archive member name at AD96: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI4FromI4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 213
+  Name         : VarUI4FromI4
+
+Archive member name at AE02: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI4FromR4
+  Type         : code
+  Name type    : no prefix
+  Hint         : 214
+  Name         : VarUI4FromR4
+
+Archive member name at AE6E: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI4FromR8
+  Type         : code
+  Name type    : no prefix
+  Hint         : 215
+  Name         : VarUI4FromR8
+
+Archive member name at AEDA: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI4FromStr
+  Type         : code
+  Name type    : no prefix
+  Hint         : 216
+  Name         : VarUI4FromStr
+
+Archive member name at AF46: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI4FromUI1
+  Type         : code
+  Name type    : no prefix
+  Hint         : 217
+  Name         : VarUI4FromUI1
+
+Archive member name at AFB2: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001C
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUI4FromUI2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 218
+  Name         : VarUI4FromUI2
+
+Archive member name at B01E: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001F
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VarUdateFromDate
+  Type         : code
+  Name type    : no prefix
+  Hint         : 219
+  Name         : VarUdateFromDate
+
+Archive member name at B08E: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000020
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VariantChangeType
+  Type         : code
+  Name type    : no prefix
+  Hint         : 220
+  Name         : VariantChangeType
+
+Archive member name at B0FE: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000022
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VariantChangeTypeEx
+  Type         : code
+  Name type    : no prefix
+  Hint         : 221
+  Name         : VariantChangeTypeEx
+
+Archive member name at B170: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001B
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VariantClear
+  Type         : code
+  Name type    : no prefix
+  Hint         : 222
+  Name         : VariantClear
+
+Archive member name at B1DC: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VariantCopy
+  Type         : code
+  Name type    : no prefix
+  Hint         : 223
+  Name         : VariantCopy
+
+Archive member name at B246: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VariantCopyInd
+  Type         : code
+  Name type    : no prefix
+  Hint         : 224
+  Name         : VariantCopyInd
+
+Archive member name at B2B4: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001A
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VariantInit
+  Type         : code
+  Name type    : no prefix
+  Hint         : 225
+  Name         : VariantInit
+
+Archive member name at B31E: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 00000026
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VariantTimeToSystemTime
+  Type         : code
+  Name type    : no prefix
+  Hint         : 226
+  Name         : VariantTimeToSystemTime
+
+Archive member name at B394: OLEAUT32.dll/   
+3C20793C time/date Wed Dec 19 06:25:48 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20793C Wed Dec 19 06:25:48 2001
+  SizeOfData   : 0000001D
+  DLL name     : OLEAUT32.dll
+  Symbol name  : _VectorFromBstr
+  Type         : code
+  Name type    : no prefix
+  Hint         : 227
+  Name         : VectorFromBstr
+
+     Exports
+
+       ordinal    name
+
+                  _BstrFromVector
+                  _CreateErrorInfo
+                  _CreateTypeLib2
+                  _DispCallFunc
+                  _DispGetIDsOfNames
+                  _DispGetParam
+                  _DispInvoke
+                  _GetErrorInfo
+                  _LoadRegTypeLib
+                  _LoadTypeLib
+                  _OACreateTypeLib2
+                  _RegisterTypeLib
+                  _SafeArrayAccessData
+                  _SafeArrayAllocData
+                  _SafeArrayAllocDescriptor
+                  _SafeArrayCopy
+                  _SafeArrayCopyData
+                  _SafeArrayCreate
+                  _SafeArrayCreateVector
+                  _SafeArrayDestroy
+                  _SafeArrayDestroyData
+                  _SafeArrayDestroyDescriptor
+                  _SafeArrayGetDim
+                  _SafeArrayGetElement
+                  _SafeArrayGetElemsize
+                  _SafeArrayGetLBound
+                  _SafeArrayGetUBound
+                  _SafeArrayLock
+                  _SafeArrayPtrOfIndex
+                  _SafeArrayPutElement
+                  _SafeArrayRedim
+                  _SafeArrayUnaccessData
+                  _SafeArrayUnlock
+                  _SetErrorInfo
+                  _SysAllocString
+                  _SysAllocStringByteLen
+                  _SysAllocStringLen
+                  _SysFreeString
+                  _SysReAllocString
+                  _SysReAllocStringLen
+                  _SysStringByteLen
+                  _SysStringLen
+                  _SystemTimeToVariantTime
+                  _VarBoolFromCy
+                  _VarBoolFromDate
+                  _VarBoolFromDec
+                  _VarBoolFromDisp
+                  _VarBoolFromI1
+                  _VarBoolFromI2
+                  _VarBoolFromI4
+                  _VarBoolFromR4
+                  _VarBoolFromR8
+                  _VarBoolFromStr
+                  _VarBoolFromUI1
+                  _VarBoolFromUI2
+                  _VarBoolFromUI4
+                  _VarBstrFromBool
+                  _VarBstrFromCy
+                  _VarBstrFromDate
+                  _VarBstrFromDec
+                  _VarBstrFromDisp
+                  _VarBstrFromI1
+                  _VarBstrFromI2
+                  _VarBstrFromI4
+                  _VarBstrFromR4
+                  _VarBstrFromR8
+                  _VarBstrFromUI1
+                  _VarBstrFromUI2
+                  _VarBstrFromUI4
+                  _VarCyFromBool
+                  _VarCyFromDate
+                  _VarCyFromDec
+                  _VarCyFromDisp
+                  _VarCyFromI1
+                  _VarCyFromI2
+                  _VarCyFromI4
+                  _VarCyFromR4
+                  _VarCyFromR8
+                  _VarCyFromStr
+                  _VarCyFromUI1
+                  _VarCyFromUI2
+                  _VarCyFromUI4
+                  _VarDateFromBool
+                  _VarDateFromCy
+                  _VarDateFromDec
+                  _VarDateFromDisp
+                  _VarDateFromI1
+                  _VarDateFromI2
+                  _VarDateFromI4
+                  _VarDateFromR4
+                  _VarDateFromR8
+                  _VarDateFromStr
+                  _VarDateFromUI1
+                  _VarDateFromUI2
+                  _VarDateFromUI4
+                  _VarDateFromUdate
+                  _VarDecFromBool
+                  _VarDecFromCy
+                  _VarDecFromDate
+                  _VarDecFromDisp
+                  _VarDecFromI1
+                  _VarDecFromI2
+                  _VarDecFromI4
+                  _VarDecFromR4
+                  _VarDecFromR8
+                  _VarDecFromStr
+                  _VarDecFromUI1
+                  _VarDecFromUI2
+                  _VarDecFromUI4
+                  _VarI1FromBool
+                  _VarI1FromCy
+                  _VarI1FromDate
+                  _VarI1FromDec
+                  _VarI1FromDisp
+                  _VarI1FromI2
+                  _VarI1FromI4
+                  _VarI1FromR4
+                  _VarI1FromR8
+                  _VarI1FromStr
+                  _VarI1FromUI1
+                  _VarI1FromUI2
+                  _VarI1FromUI4
+                  _VarI2FromBool
+                  _VarI2FromCy
+                  _VarI2FromDate
+                  _VarI2FromDec
+                  _VarI2FromDisp
+                  _VarI2FromI1
+                  _VarI2FromI4
+                  _VarI2FromR4
+                  _VarI2FromR8
+                  _VarI2FromStr
+                  _VarI2FromUI1
+                  _VarI2FromUI2
+                  _VarI2FromUI4
+                  _VarI4FromBool
+                  _VarI4FromCy
+                  _VarI4FromDate
+                  _VarI4FromDec
+                  _VarI4FromDisp
+                  _VarI4FromI1
+                  _VarI4FromI2
+                  _VarI4FromR4
+                  _VarI4FromR8
+                  _VarI4FromStr
+                  _VarI4FromUI1
+                  _VarI4FromUI2
+                  _VarI4FromUI4
+                  _VarNumFromParseNum
+                  _VarParseNumFromStr
+                  _VarR4FromBool
+                  _VarR4FromCy
+                  _VarR4FromDate
+                  _VarR4FromDec
+                  _VarR4FromDisp
+                  _VarR4FromI1
+                  _VarR4FromI2
+                  _VarR4FromI4
+                  _VarR4FromR8
+                  _VarR4FromStr
+                  _VarR4FromUI1
+                  _VarR4FromUI2
+                  _VarR4FromUI4
+                  _VarR8FromBool
+                  _VarR8FromCy
+                  _VarR8FromDate
+                  _VarR8FromDec
+                  _VarR8FromDisp
+                  _VarR8FromI1
+                  _VarR8FromI2
+                  _VarR8FromI4
+                  _VarR8FromR4
+                  _VarR8FromStr
+                  _VarR8FromUI1
+                  _VarR8FromUI2
+                  _VarR8FromUI4
+                  _VarUI1FromBool
+                  _VarUI1FromCy
+                  _VarUI1FromDate
+                  _VarUI1FromDec
+                  _VarUI1FromDisp
+                  _VarUI1FromI1
+                  _VarUI1FromI2
+                  _VarUI1FromI4
+                  _VarUI1FromR4
+                  _VarUI1FromR8
+                  _VarUI1FromStr
+                  _VarUI1FromUI2
+                  _VarUI1FromUI4
+                  _VarUI2FromBool
+                  _VarUI2FromCy
+                  _VarUI2FromDate
+                  _VarUI2FromDec
+                  _VarUI2FromDisp
+                  _VarUI2FromI1
+                  _VarUI2FromI2
+                  _VarUI2FromI4
+                  _VarUI2FromR4
+                  _VarUI2FromR8
+                  _VarUI2FromStr
+                  _VarUI2FromUI1
+                  _VarUI2FromUI4
+                  _VarUI4FromBool
+                  _VarUI4FromCy
+                  _VarUI4FromDate
+                  _VarUI4FromDec
+                  _VarUI4FromDisp
+                  _VarUI4FromI1
+                  _VarUI4FromI2
+                  _VarUI4FromI4
+                  _VarUI4FromR4
+                  _VarUI4FromR8
+                  _VarUI4FromStr
+                  _VarUI4FromUI1
+                  _VarUI4FromUI2
+                  _VarUdateFromDate
+                  _VariantChangeType
+                  _VariantChangeTypeEx
+                  _VariantClear
+                  _VariantCopy
+                  _VariantCopyInd
+                  _VariantInit
+                  _VariantTimeToSystemTime
+                  _VectorFromBstr
+
+  Summary
+
+          C9 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           E .idata$6

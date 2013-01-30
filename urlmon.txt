@@ -1,0 +1,1902 @@
+Microsoft (R) COFF/PE Dumper Version 7.10.6030
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files\Windows CE Tools\wce400\STANDARDSDK\Lib\Emulator\urlmon.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+     E60 size
+correct header end
+
+    131 public symbols
+
+     1D4A __IMPORT_DESCRIPTOR_urlmon
+     1F72 __NULL_IMPORT_DESCRIPTOR
+     20A8 urlmon_NULL_THUNK_DATA
+     3C66 _UrlMkBuildVersion
+     3C66 __imp__UrlMkBuildVersion
+     298E _CreateURLMoniker
+     298E __imp__CreateURLMoniker
+     29FC _CreateURLMonikerEx
+     29FC __imp__CreateURLMonikerEx
+     2CF6 _GetClassURL
+     2CF6 __imp__GetClassURL
+     329E _MkParseDisplayNameEx
+     329E __imp__MkParseDisplayNameEx
+     21FA _BindAsyncMoniker
+     21FA __imp__BindAsyncMoniker
+     3382 _RegisterBindStatusCallback
+     3382 __imp__RegisterBindStatusCallback
+     35C0 _RevokeBindStatusCallback
+     35C0 __imp__RevokeBindStatusCallback
+     291A _CreateFormatEnumerator
+     291A __imp__CreateFormatEnumerator
+     33FA _RegisterFormatEnumerator
+     33FA __imp__RegisterFormatEnumerator
+     3636 _RevokeFormatEnumerator
+     3636 __imp__RevokeFormatEnumerator
+     34E4 _RegisterMediaTypes
+     34E4 __imp__RegisterMediaTypes
+     2B3E _FindMediaType
+     2B3E __imp__FindMediaType
+     3470 _RegisterMediaTypeClass
+     3470 __imp__RegisterMediaTypeClass
+     2BA8 _FindMediaTypeClass
+     2BA8 __imp__FindMediaTypeClass
+     2838 _CreateAsyncBindCtx
+     2838 __imp__CreateAsyncBindCtx
+     30EE _IsAsyncMoniker
+     30EE __imp__IsAsyncMoniker
+     2C86 _GetClassFileOrMime
+     2C86 __imp__GetClassFileOrMime
+     3236 _IsValidURL
+     3236 __imp__IsValidURL
+     3D46 _UrlMkSetSessionOption
+     3D46 __imp__UrlMkSetSessionOption
+     3CD4 _UrlMkGetSessionOption
+     3CD4 __imp__UrlMkGetSessionOption
+     2268 _CoGetClassObjectFromURL
+     2268 __imp__CoGetClassObjectFromURL
+     28A8 _CreateAsyncBindCtxEx
+     28A8 __imp__CreateAsyncBindCtxEx
+     2C18 _FindMimeFromData
+     2C18 __imp__FindMimeFromData
+     3310 _ObtainUserAgentString
+     3310 __imp__ObtainUserAgentString
+     26F4 _CompareSecurityIds
+     26F4 __imp__CompareSecurityIds
+     25A2 _CoInternetGetSession
+     25A2 __imp__CoInternetGetSession
+     2614 _CoInternetParseUrl
+     2614 __imp__CoInternetParseUrl
+     22DC _CoInternetCombineUrl
+     22DC __imp__CoInternetCombineUrl
+     234E _CoInternetCompareUrl
+     234E __imp__CoInternetCompareUrl
+     252C _CoInternetGetSecurityUrl
+     252C __imp__CoInternetGetSecurityUrl
+     2684 _CoInternetQueryInfo
+     2684 __imp__CoInternetQueryInfo
+     23C0 _CoInternetCreateSecurityManager
+     23C0 __imp__CoInternetCreateSecurityManager
+     243C _CoInternetCreateZoneManager
+     243C __imp__CoInternetCreateZoneManager
+     24B4 _CoInternetGetProtocolFlags
+     24B4 __imp__CoInternetGetProtocolFlags
+     2A6C _Extract
+     2A6C __imp__Extract
+     395C _URLDownloadW
+     395C __imp__URLDownloadW
+     372A _URLDownloadA
+     372A __imp__URLDownloadA
+     3AAE _URLOpenPullStreamA
+     3AAE __imp__URLOpenPullStreamA
+     3B1E _URLOpenPullStreamW
+     3B1E __imp__URLOpenPullStreamW
+     387C _URLDownloadToFileA
+     387C __imp__URLDownloadToFileA
+     38EC _URLDownloadToFileW
+     38EC __imp__URLDownloadToFileW
+     3794 _URLDownloadToCacheFileA
+     3794 __imp__URLDownloadToCacheFileA
+     3808 _URLDownloadToCacheFileW
+     3808 __imp__URLDownloadToCacheFileW
+     39C6 _URLOpenBlockingStreamA
+     39C6 __imp__URLOpenBlockingStreamA
+     3A3A _URLOpenBlockingStreamW
+     3A3A __imp__URLOpenBlockingStreamW
+     3B8E _URLOpenStreamA
+     3B8E __imp__URLOpenStreamA
+     3BFA _URLOpenStreamW
+     3BFA __imp__URLOpenStreamW
+     3076 _HlinkSimpleNavigateToString
+     3076 __imp__HlinkSimpleNavigateToString
+     2FFC _HlinkSimpleNavigateToMoniker
+     2FFC __imp__HlinkSimpleNavigateToMoniker
+     2E46 _HlinkGoBack
+     2E46 __imp__HlinkGoBack
+     2EAE _HlinkGoForward
+     2EAE __imp__HlinkGoForward
+     2F8C _HlinkNavigateString
+     2F8C __imp__HlinkNavigateString
+     2F1A _HlinkNavigateMoniker
+     2F1A __imp__HlinkNavigateMoniker
+     315A _IsLoggingEnabledA
+     315A __imp__IsLoggingEnabledA
+     31C8 _IsLoggingEnabledW
+     31C8 __imp__IsLoggingEnabledW
+     3DB8 _WriteHitLogging
+     3DB8 __imp__WriteHitLogging
+     2AD0 _FaultInIEFeature
+     2AD0 __imp__FaultInIEFeature
+     2D5E _GetComponentIDFromCLSSPEC
+     2D5E __imp__GetComponentIDFromCLSSPEC
+     2DD4 _GetSoftwareUpdateInfo
+     2DD4 __imp__GetSoftwareUpdateInfo
+     36AA _SetSoftwareUpdateAdvertisementState
+     36AA __imp__SetSoftwareUpdateAdvertisementState
+     2764 _CopyBindInfo
+     2764 __imp__CopyBindInfo
+     27CE _CopyStgMedium
+     27CE __imp__CopyStgMedium
+     3554 _ReleaseBindInfo
+     3554 __imp__ReleaseBindInfo
+
+Archive member name at EA4: /               
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+     E6A size
+correct header end
+
+    67 offsets
+
+        1     1D4A
+        2     1F72
+        3     20A8
+        4     3C66
+        5     298E
+        6     29FC
+        7     2CF6
+        8     329E
+        9     21FA
+        A     3382
+        B     35C0
+        C     291A
+        D     33FA
+        E     3636
+        F     34E4
+       10     2B3E
+       11     3470
+       12     2BA8
+       13     2838
+       14     30EE
+       15     2C86
+       16     3236
+       17     3D46
+       18     3CD4
+       19     2268
+       1A     28A8
+       1B     2C18
+       1C     3310
+       1D     26F4
+       1E     25A2
+       1F     2614
+       20     22DC
+       21     234E
+       22     252C
+       23     2684
+       24     23C0
+       25     243C
+       26     24B4
+       27     2A6C
+       28     395C
+       29     372A
+       2A     3AAE
+       2B     3B1E
+       2C     387C
+       2D     38EC
+       2E     3794
+       2F     3808
+       30     39C6
+       31     3A3A
+       32     3B8E
+       33     3BFA
+       34     3076
+       35     2FFC
+       36     2E46
+       37     2EAE
+       38     2F8C
+       39     2F1A
+       3A     315A
+       3B     31C8
+       3C     3DB8
+       3D     2AD0
+       3E     2D5E
+       3F     2DD4
+       40     36AA
+       41     2764
+       42     27CE
+       43     3554
+
+    131 public symbols
+
+        9 _BindAsyncMoniker
+       19 _CoGetClassObjectFromURL
+       20 _CoInternetCombineUrl
+       21 _CoInternetCompareUrl
+       24 _CoInternetCreateSecurityManager
+       25 _CoInternetCreateZoneManager
+       26 _CoInternetGetProtocolFlags
+       22 _CoInternetGetSecurityUrl
+       1E _CoInternetGetSession
+       1F _CoInternetParseUrl
+       23 _CoInternetQueryInfo
+       1D _CompareSecurityIds
+       41 _CopyBindInfo
+       42 _CopyStgMedium
+       13 _CreateAsyncBindCtx
+       1A _CreateAsyncBindCtxEx
+        C _CreateFormatEnumerator
+        5 _CreateURLMoniker
+        6 _CreateURLMonikerEx
+       27 _Extract
+       3D _FaultInIEFeature
+       10 _FindMediaType
+       12 _FindMediaTypeClass
+       1B _FindMimeFromData
+       15 _GetClassFileOrMime
+        7 _GetClassURL
+       3E _GetComponentIDFromCLSSPEC
+       3F _GetSoftwareUpdateInfo
+       36 _HlinkGoBack
+       37 _HlinkGoForward
+       39 _HlinkNavigateMoniker
+       38 _HlinkNavigateString
+       35 _HlinkSimpleNavigateToMoniker
+       34 _HlinkSimpleNavigateToString
+       14 _IsAsyncMoniker
+       3A _IsLoggingEnabledA
+       3B _IsLoggingEnabledW
+       16 _IsValidURL
+        8 _MkParseDisplayNameEx
+       1C _ObtainUserAgentString
+        A _RegisterBindStatusCallback
+        D _RegisterFormatEnumerator
+       11 _RegisterMediaTypeClass
+        F _RegisterMediaTypes
+       43 _ReleaseBindInfo
+        B _RevokeBindStatusCallback
+        E _RevokeFormatEnumerator
+       40 _SetSoftwareUpdateAdvertisementState
+       29 _URLDownloadA
+       2E _URLDownloadToCacheFileA
+       2F _URLDownloadToCacheFileW
+       2C _URLDownloadToFileA
+       2D _URLDownloadToFileW
+       28 _URLDownloadW
+       30 _URLOpenBlockingStreamA
+       31 _URLOpenBlockingStreamW
+       2A _URLOpenPullStreamA
+       2B _URLOpenPullStreamW
+       32 _URLOpenStreamA
+       33 _URLOpenStreamW
+        4 _UrlMkBuildVersion
+       18 _UrlMkGetSessionOption
+       17 _UrlMkSetSessionOption
+       3C _WriteHitLogging
+        1 __IMPORT_DESCRIPTOR_urlmon
+        2 __NULL_IMPORT_DESCRIPTOR
+        9 __imp__BindAsyncMoniker
+       19 __imp__CoGetClassObjectFromURL
+       20 __imp__CoInternetCombineUrl
+       21 __imp__CoInternetCompareUrl
+       24 __imp__CoInternetCreateSecurityManager
+       25 __imp__CoInternetCreateZoneManager
+       26 __imp__CoInternetGetProtocolFlags
+       22 __imp__CoInternetGetSecurityUrl
+       1E __imp__CoInternetGetSession
+       1F __imp__CoInternetParseUrl
+       23 __imp__CoInternetQueryInfo
+       1D __imp__CompareSecurityIds
+       41 __imp__CopyBindInfo
+       42 __imp__CopyStgMedium
+       13 __imp__CreateAsyncBindCtx
+       1A __imp__CreateAsyncBindCtxEx
+        C __imp__CreateFormatEnumerator
+        5 __imp__CreateURLMoniker
+        6 __imp__CreateURLMonikerEx
+       27 __imp__Extract
+       3D __imp__FaultInIEFeature
+       10 __imp__FindMediaType
+       12 __imp__FindMediaTypeClass
+       1B __imp__FindMimeFromData
+       15 __imp__GetClassFileOrMime
+        7 __imp__GetClassURL
+       3E __imp__GetComponentIDFromCLSSPEC
+       3F __imp__GetSoftwareUpdateInfo
+       36 __imp__HlinkGoBack
+       37 __imp__HlinkGoForward
+       39 __imp__HlinkNavigateMoniker
+       38 __imp__HlinkNavigateString
+       35 __imp__HlinkSimpleNavigateToMoniker
+       34 __imp__HlinkSimpleNavigateToString
+       14 __imp__IsAsyncMoniker
+       3A __imp__IsLoggingEnabledA
+       3B __imp__IsLoggingEnabledW
+       16 __imp__IsValidURL
+        8 __imp__MkParseDisplayNameEx
+       1C __imp__ObtainUserAgentString
+        A __imp__RegisterBindStatusCallback
+        D __imp__RegisterFormatEnumerator
+       11 __imp__RegisterMediaTypeClass
+        F __imp__RegisterMediaTypes
+       43 __imp__ReleaseBindInfo
+        B __imp__RevokeBindStatusCallback
+        E __imp__RevokeFormatEnumerator
+       40 __imp__SetSoftwareUpdateAdvertisementState
+       29 __imp__URLDownloadA
+       2E __imp__URLDownloadToCacheFileA
+       2F __imp__URLDownloadToCacheFileW
+       2C __imp__URLDownloadToFileA
+       2D __imp__URLDownloadToFileW
+       28 __imp__URLDownloadW
+       30 __imp__URLOpenBlockingStreamA
+       31 __imp__URLOpenBlockingStreamW
+       2A __imp__URLOpenPullStreamA
+       2B __imp__URLOpenPullStreamW
+       32 __imp__URLOpenStreamA
+       33 __imp__URLOpenStreamW
+        4 __imp__UrlMkBuildVersion
+       18 __imp__UrlMkGetSessionOption
+       17 __imp__UrlMkSetSessionOption
+       3C __imp__WriteHitLogging
+        3 urlmon_NULL_THUNK_DATA
+
+Archive member name at 1D4A: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+     1EB size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20794A time date stamp Wed Dec 19 06:26:02 2001
+             10B file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      8C file pointer to raw data (0000008C to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 11 00 09 00 00 00 00 00 0A 75 72 6C  .............url
+  00000010: 6D 6F 6E 2E 64 6C 6C 28 00 13 10 07 00 00 00 03  mon.dll(........
+  00000020: 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D 69  ...........Û..Mi
+  00000030: 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B  crosoft (R) LINK
+  00000040: 00                                               .
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CD file pointer to raw data (000000CD to 000000E0)
+      E1 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+RELOCATIONS #2
+                                                Symbol    Symbol
+ Offset    Type              Applied To         Index     Name
+ --------  ----------------  -----------------  --------  ------
+ 0000000C  DIR32NB                    00000000         3  .idata$6
+ 00000000  DIR32NB                    00000000         4  .idata$4
+ 00000010  DIR32NB                    00000000         5  .idata$5
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FF file pointer to raw data (000000FF to 0000010A)
+      E1 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 75 72 6C 6D 6F 6E 2E 64 6C 6C 00 00              urlmon.dll..
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __IMPORT_DESCRIPTOR_urlmon
+002 C0000040 SECT2  notype       Section      | .idata$2
+003 00000000 SECT3  notype       Static       | .idata$6
+004 C0000040 UNDEF  notype       Section      | .idata$4
+005 C0000040 UNDEF  notype       Section      | .idata$5
+006 00000000 UNDEF  notype       External     | __NULL_IMPORT_DESCRIPTOR
+007 00000000 UNDEF  notype       External     | urlmon_NULL_THUNK_DATA
+
+String Table Size = 0x50 bytes
+
+Archive member name at 1F72: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      FA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        3C20794A time date stamp Wed Dec 19 06:26:02 2001
+              B9 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      64 file pointer to raw data (00000064 to 000000A4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 11 00 09 00 00 00 00 00 0A 75 72 6C  .............url
+  00000010: 6D 6F 6E 2E 64 6C 6C 28 00 13 10 07 00 00 00 03  mon.dll(........
+  00000020: 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D 69  ...........Û..Mi
+  00000030: 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B  crosoft (R) LINK
+  00000040: 00                                               .
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A5 file pointer to raw data (000000A5 to 000000B8)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __NULL_IMPORT_DESCRIPTOR
+
+String Table Size = 0x1D bytes
+
+Archive member name at 20A8: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+     115 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20794A time date stamp Wed Dec 19 06:26:02 2001
+              D5 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      8C file pointer to raw data (0000008C to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 11 00 09 00 00 00 00 00 0A 75 72 6C  .............url
+  00000010: 6D 6F 6E 2E 64 6C 6C 28 00 13 10 07 00 00 00 03  mon.dll(........
+  00000020: 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D 69  ...........Û..Mi
+  00000030: 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B  crosoft (R) LINK
+  00000040: 00                                               .
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CD file pointer to raw data (000000CD to 000000D0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00                                      ....
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D1 file pointer to raw data (000000D1 to 000000D4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | urlmon_NULL_THUNK_DATA
+
+String Table Size = 0x1C bytes
+
+Archive member name at 21FA: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001D
+  DLL name     : urlmon.dll
+  Symbol name  : _BindAsyncMoniker
+  Type         : code
+  Name type    : no prefix
+  Hint         : 2
+  Name         : BindAsyncMoniker
+
+Archive member name at 2268: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000024
+  DLL name     : urlmon.dll
+  Symbol name  : _CoGetClassObjectFromURL
+  Type         : code
+  Name type    : no prefix
+  Hint         : 3
+  Name         : CoGetClassObjectFromURL
+
+Archive member name at 22DC: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000021
+  DLL name     : urlmon.dll
+  Symbol name  : _CoInternetCombineUrl
+  Type         : code
+  Name type    : no prefix
+  Hint         : 5
+  Name         : CoInternetCombineUrl
+
+Archive member name at 234E: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000021
+  DLL name     : urlmon.dll
+  Symbol name  : _CoInternetCompareUrl
+  Type         : code
+  Name type    : no prefix
+  Hint         : 6
+  Name         : CoInternetCompareUrl
+
+Archive member name at 23C0: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000002C
+  DLL name     : urlmon.dll
+  Symbol name  : _CoInternetCreateSecurityManager
+  Type         : code
+  Name type    : no prefix
+  Hint         : 7
+  Name         : CoInternetCreateSecurityManager
+
+Archive member name at 243C: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000028
+  DLL name     : urlmon.dll
+  Symbol name  : _CoInternetCreateZoneManager
+  Type         : code
+  Name type    : no prefix
+  Hint         : 8
+  Name         : CoInternetCreateZoneManager
+
+Archive member name at 24B4: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000027
+  DLL name     : urlmon.dll
+  Symbol name  : _CoInternetGetProtocolFlags
+  Type         : code
+  Name type    : no prefix
+  Hint         : 9
+  Name         : CoInternetGetProtocolFlags
+
+Archive member name at 252C: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000025
+  DLL name     : urlmon.dll
+  Symbol name  : _CoInternetGetSecurityUrl
+  Type         : code
+  Name type    : no prefix
+  Hint         : 10
+  Name         : CoInternetGetSecurityUrl
+
+Archive member name at 25A2: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000021
+  DLL name     : urlmon.dll
+  Symbol name  : _CoInternetGetSession
+  Type         : code
+  Name type    : no prefix
+  Hint         : 11
+  Name         : CoInternetGetSession
+
+Archive member name at 2614: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001F
+  DLL name     : urlmon.dll
+  Symbol name  : _CoInternetParseUrl
+  Type         : code
+  Name type    : no prefix
+  Hint         : 12
+  Name         : CoInternetParseUrl
+
+Archive member name at 2684: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000020
+  DLL name     : urlmon.dll
+  Symbol name  : _CoInternetQueryInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 13
+  Name         : CoInternetQueryInfo
+
+Archive member name at 26F4: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001F
+  DLL name     : urlmon.dll
+  Symbol name  : _CompareSecurityIds
+  Type         : code
+  Name type    : no prefix
+  Hint         : 14
+  Name         : CompareSecurityIds
+
+Archive member name at 2764: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000019
+  DLL name     : urlmon.dll
+  Symbol name  : _CopyBindInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 15
+  Name         : CopyBindInfo
+
+Archive member name at 27CE: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001A
+  DLL name     : urlmon.dll
+  Symbol name  : _CopyStgMedium
+  Type         : code
+  Name type    : no prefix
+  Hint         : 16
+  Name         : CopyStgMedium
+
+Archive member name at 2838: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001F
+  DLL name     : urlmon.dll
+  Symbol name  : _CreateAsyncBindCtx
+  Type         : code
+  Name type    : no prefix
+  Hint         : 17
+  Name         : CreateAsyncBindCtx
+
+Archive member name at 28A8: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000021
+  DLL name     : urlmon.dll
+  Symbol name  : _CreateAsyncBindCtxEx
+  Type         : code
+  Name type    : no prefix
+  Hint         : 18
+  Name         : CreateAsyncBindCtxEx
+
+Archive member name at 291A: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000023
+  DLL name     : urlmon.dll
+  Symbol name  : _CreateFormatEnumerator
+  Type         : code
+  Name type    : no prefix
+  Hint         : 19
+  Name         : CreateFormatEnumerator
+
+Archive member name at 298E: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001D
+  DLL name     : urlmon.dll
+  Symbol name  : _CreateURLMoniker
+  Type         : code
+  Name type    : no prefix
+  Hint         : 20
+  Name         : CreateURLMoniker
+
+Archive member name at 29FC: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001F
+  DLL name     : urlmon.dll
+  Symbol name  : _CreateURLMonikerEx
+  Type         : code
+  Name type    : no prefix
+  Hint         : 21
+  Name         : CreateURLMonikerEx
+
+Archive member name at 2A6C: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000014
+  DLL name     : urlmon.dll
+  Symbol name  : _Extract
+  Type         : code
+  Name type    : no prefix
+  Hint         : 28
+  Name         : Extract
+
+Archive member name at 2AD0: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001D
+  DLL name     : urlmon.dll
+  Symbol name  : _FaultInIEFeature
+  Type         : code
+  Name type    : no prefix
+  Hint         : 29
+  Name         : FaultInIEFeature
+
+Archive member name at 2B3E: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001A
+  DLL name     : urlmon.dll
+  Symbol name  : _FindMediaType
+  Type         : code
+  Name type    : no prefix
+  Hint         : 30
+  Name         : FindMediaType
+
+Archive member name at 2BA8: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001F
+  DLL name     : urlmon.dll
+  Symbol name  : _FindMediaTypeClass
+  Type         : code
+  Name type    : no prefix
+  Hint         : 31
+  Name         : FindMediaTypeClass
+
+Archive member name at 2C18: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001D
+  DLL name     : urlmon.dll
+  Symbol name  : _FindMimeFromData
+  Type         : code
+  Name type    : no prefix
+  Hint         : 32
+  Name         : FindMimeFromData
+
+Archive member name at 2C86: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001F
+  DLL name     : urlmon.dll
+  Symbol name  : _GetClassFileOrMime
+  Type         : code
+  Name type    : no prefix
+  Hint         : 33
+  Name         : GetClassFileOrMime
+
+Archive member name at 2CF6: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000018
+  DLL name     : urlmon.dll
+  Symbol name  : _GetClassURL
+  Type         : code
+  Name type    : no prefix
+  Hint         : 34
+  Name         : GetClassURL
+
+Archive member name at 2D5E: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000026
+  DLL name     : urlmon.dll
+  Symbol name  : _GetComponentIDFromCLSSPEC
+  Type         : code
+  Name type    : no prefix
+  Hint         : 35
+  Name         : GetComponentIDFromCLSSPEC
+
+Archive member name at 2DD4: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000022
+  DLL name     : urlmon.dll
+  Symbol name  : _GetSoftwareUpdateInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 37
+  Name         : GetSoftwareUpdateInfo
+
+Archive member name at 2E46: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000018
+  DLL name     : urlmon.dll
+  Symbol name  : _HlinkGoBack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 38
+  Name         : HlinkGoBack
+
+Archive member name at 2EAE: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001B
+  DLL name     : urlmon.dll
+  Symbol name  : _HlinkGoForward
+  Type         : code
+  Name type    : no prefix
+  Hint         : 39
+  Name         : HlinkGoForward
+
+Archive member name at 2F1A: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000021
+  DLL name     : urlmon.dll
+  Symbol name  : _HlinkNavigateMoniker
+  Type         : code
+  Name type    : no prefix
+  Hint         : 40
+  Name         : HlinkNavigateMoniker
+
+Archive member name at 2F8C: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000020
+  DLL name     : urlmon.dll
+  Symbol name  : _HlinkNavigateString
+  Type         : code
+  Name type    : no prefix
+  Hint         : 41
+  Name         : HlinkNavigateString
+
+Archive member name at 2FFC: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000029
+  DLL name     : urlmon.dll
+  Symbol name  : _HlinkSimpleNavigateToMoniker
+  Type         : code
+  Name type    : no prefix
+  Hint         : 42
+  Name         : HlinkSimpleNavigateToMoniker
+
+Archive member name at 3076: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000028
+  DLL name     : urlmon.dll
+  Symbol name  : _HlinkSimpleNavigateToString
+  Type         : code
+  Name type    : no prefix
+  Hint         : 43
+  Name         : HlinkSimpleNavigateToString
+
+Archive member name at 30EE: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001B
+  DLL name     : urlmon.dll
+  Symbol name  : _IsAsyncMoniker
+  Type         : code
+  Name type    : no prefix
+  Hint         : 44
+  Name         : IsAsyncMoniker
+
+Archive member name at 315A: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001E
+  DLL name     : urlmon.dll
+  Symbol name  : _IsLoggingEnabledA
+  Type         : code
+  Name type    : no prefix
+  Hint         : 45
+  Name         : IsLoggingEnabledA
+
+Archive member name at 31C8: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001E
+  DLL name     : urlmon.dll
+  Symbol name  : _IsLoggingEnabledW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 46
+  Name         : IsLoggingEnabledW
+
+Archive member name at 3236: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000017
+  DLL name     : urlmon.dll
+  Symbol name  : _IsValidURL
+  Type         : code
+  Name type    : no prefix
+  Hint         : 47
+  Name         : IsValidURL
+
+Archive member name at 329E: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000021
+  DLL name     : urlmon.dll
+  Symbol name  : _MkParseDisplayNameEx
+  Type         : code
+  Name type    : no prefix
+  Hint         : 48
+  Name         : MkParseDisplayNameEx
+
+Archive member name at 3310: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000022
+  DLL name     : urlmon.dll
+  Symbol name  : _ObtainUserAgentString
+  Type         : code
+  Name type    : no prefix
+  Hint         : 49
+  Name         : ObtainUserAgentString
+
+Archive member name at 3382: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000027
+  DLL name     : urlmon.dll
+  Symbol name  : _RegisterBindStatusCallback
+  Type         : code
+  Name type    : no prefix
+  Hint         : 51
+  Name         : RegisterBindStatusCallback
+
+Archive member name at 33FA: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000025
+  DLL name     : urlmon.dll
+  Symbol name  : _RegisterFormatEnumerator
+  Type         : code
+  Name type    : no prefix
+  Hint         : 52
+  Name         : RegisterFormatEnumerator
+
+Archive member name at 3470: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000023
+  DLL name     : urlmon.dll
+  Symbol name  : _RegisterMediaTypeClass
+  Type         : code
+  Name type    : no prefix
+  Hint         : 53
+  Name         : RegisterMediaTypeClass
+
+Archive member name at 34E4: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001F
+  DLL name     : urlmon.dll
+  Symbol name  : _RegisterMediaTypes
+  Type         : code
+  Name type    : no prefix
+  Hint         : 54
+  Name         : RegisterMediaTypes
+
+Archive member name at 3554: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001C
+  DLL name     : urlmon.dll
+  Symbol name  : _ReleaseBindInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 55
+  Name         : ReleaseBindInfo
+
+Archive member name at 35C0: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000025
+  DLL name     : urlmon.dll
+  Symbol name  : _RevokeBindStatusCallback
+  Type         : code
+  Name type    : no prefix
+  Hint         : 56
+  Name         : RevokeBindStatusCallback
+
+Archive member name at 3636: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000023
+  DLL name     : urlmon.dll
+  Symbol name  : _RevokeFormatEnumerator
+  Type         : code
+  Name type    : no prefix
+  Hint         : 57
+  Name         : RevokeFormatEnumerator
+
+Archive member name at 36AA: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000030
+  DLL name     : urlmon.dll
+  Symbol name  : _SetSoftwareUpdateAdvertisementState
+  Type         : code
+  Name type    : no prefix
+  Hint         : 58
+  Name         : SetSoftwareUpdateAdvertisementState
+
+Archive member name at 372A: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000019
+  DLL name     : urlmon.dll
+  Symbol name  : _URLDownloadA
+  Type         : code
+  Name type    : no prefix
+  Hint         : 59
+  Name         : URLDownloadA
+
+Archive member name at 3794: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000024
+  DLL name     : urlmon.dll
+  Symbol name  : _URLDownloadToCacheFileA
+  Type         : code
+  Name type    : no prefix
+  Hint         : 60
+  Name         : URLDownloadToCacheFileA
+
+Archive member name at 3808: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000024
+  DLL name     : urlmon.dll
+  Symbol name  : _URLDownloadToCacheFileW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 61
+  Name         : URLDownloadToCacheFileW
+
+Archive member name at 387C: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001F
+  DLL name     : urlmon.dll
+  Symbol name  : _URLDownloadToFileA
+  Type         : code
+  Name type    : no prefix
+  Hint         : 62
+  Name         : URLDownloadToFileA
+
+Archive member name at 38EC: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001F
+  DLL name     : urlmon.dll
+  Symbol name  : _URLDownloadToFileW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 63
+  Name         : URLDownloadToFileW
+
+Archive member name at 395C: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000019
+  DLL name     : urlmon.dll
+  Symbol name  : _URLDownloadW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 64
+  Name         : URLDownloadW
+
+Archive member name at 39C6: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000023
+  DLL name     : urlmon.dll
+  Symbol name  : _URLOpenBlockingStreamA
+  Type         : code
+  Name type    : no prefix
+  Hint         : 65
+  Name         : URLOpenBlockingStreamA
+
+Archive member name at 3A3A: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000023
+  DLL name     : urlmon.dll
+  Symbol name  : _URLOpenBlockingStreamW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 66
+  Name         : URLOpenBlockingStreamW
+
+Archive member name at 3AAE: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001F
+  DLL name     : urlmon.dll
+  Symbol name  : _URLOpenPullStreamA
+  Type         : code
+  Name type    : no prefix
+  Hint         : 67
+  Name         : URLOpenPullStreamA
+
+Archive member name at 3B1E: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001F
+  DLL name     : urlmon.dll
+  Symbol name  : _URLOpenPullStreamW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 68
+  Name         : URLOpenPullStreamW
+
+Archive member name at 3B8E: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001B
+  DLL name     : urlmon.dll
+  Symbol name  : _URLOpenStreamA
+  Type         : code
+  Name type    : no prefix
+  Hint         : 69
+  Name         : URLOpenStreamA
+
+Archive member name at 3BFA: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001B
+  DLL name     : urlmon.dll
+  Symbol name  : _URLOpenStreamW
+  Type         : code
+  Name type    : no prefix
+  Hint         : 70
+  Name         : URLOpenStreamW
+
+Archive member name at 3C66: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001E
+  DLL name     : urlmon.dll
+  Symbol name  : _UrlMkBuildVersion
+  Type         : code
+  Name type    : no prefix
+  Hint         : 71
+  Name         : UrlMkBuildVersion
+
+Archive member name at 3CD4: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000022
+  DLL name     : urlmon.dll
+  Symbol name  : _UrlMkGetSessionOption
+  Type         : code
+  Name type    : no prefix
+  Hint         : 72
+  Name         : UrlMkGetSessionOption
+
+Archive member name at 3D46: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 00000022
+  DLL name     : urlmon.dll
+  Symbol name  : _UrlMkSetSessionOption
+  Type         : code
+  Name type    : no prefix
+  Hint         : 73
+  Name         : UrlMkSetSessionOption
+
+Archive member name at 3DB8: urlmon.dll/     
+3C20794A time/date Wed Dec 19 06:26:02 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20794A Wed Dec 19 06:26:02 2001
+  SizeOfData   : 0000001C
+  DLL name     : urlmon.dll
+  Symbol name  : _WriteHitLogging
+  Type         : code
+  Name type    : no prefix
+  Hint         : 74
+  Name         : WriteHitLogging
+
+     Exports
+
+       ordinal    name
+
+                  _BindAsyncMoniker
+                  _CoGetClassObjectFromURL
+                  _CoInternetCombineUrl
+                  _CoInternetCompareUrl
+                  _CoInternetCreateSecurityManager
+                  _CoInternetCreateZoneManager
+                  _CoInternetGetProtocolFlags
+                  _CoInternetGetSecurityUrl
+                  _CoInternetGetSession
+                  _CoInternetParseUrl
+                  _CoInternetQueryInfo
+                  _CompareSecurityIds
+                  _CopyBindInfo
+                  _CopyStgMedium
+                  _CreateAsyncBindCtx
+                  _CreateAsyncBindCtxEx
+                  _CreateFormatEnumerator
+                  _CreateURLMoniker
+                  _CreateURLMonikerEx
+                  _Extract
+                  _FaultInIEFeature
+                  _FindMediaType
+                  _FindMediaTypeClass
+                  _FindMimeFromData
+                  _GetClassFileOrMime
+                  _GetClassURL
+                  _GetComponentIDFromCLSSPEC
+                  _GetSoftwareUpdateInfo
+                  _HlinkGoBack
+                  _HlinkGoForward
+                  _HlinkNavigateMoniker
+                  _HlinkNavigateString
+                  _HlinkSimpleNavigateToMoniker
+                  _HlinkSimpleNavigateToString
+                  _IsAsyncMoniker
+                  _IsLoggingEnabledA
+                  _IsLoggingEnabledW
+                  _IsValidURL
+                  _MkParseDisplayNameEx
+                  _ObtainUserAgentString
+                  _RegisterBindStatusCallback
+                  _RegisterFormatEnumerator
+                  _RegisterMediaTypeClass
+                  _RegisterMediaTypes
+                  _ReleaseBindInfo
+                  _RevokeBindStatusCallback
+                  _RevokeFormatEnumerator
+                  _SetSoftwareUpdateAdvertisementState
+                  _URLDownloadA
+                  _URLDownloadToCacheFileA
+                  _URLDownloadToCacheFileW
+                  _URLDownloadToFileA
+                  _URLDownloadToFileW
+                  _URLDownloadW
+                  _URLOpenBlockingStreamA
+                  _URLOpenBlockingStreamW
+                  _URLOpenPullStreamA
+                  _URLOpenPullStreamW
+                  _URLOpenStreamA
+                  _URLOpenStreamW
+                  _UrlMkBuildVersion
+                  _UrlMkGetSessionOption
+                  _UrlMkSetSessionOption
+                  _WriteHitLogging
+
+  Summary
+
+          C3 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

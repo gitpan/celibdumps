@@ -1,0 +1,827 @@
+Microsoft (R) COFF/PE Dumper Version 7.10.6030
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files\Windows CE Tools\wce400\STANDARDSDK\Lib\Emulator\cxport.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+     44A size
+correct header end
+
+    45 public symbols
+
+      91E __IMPORT_DESCRIPTOR_CXPORT
+      B46 __NULL_IMPORT_DESCRIPTOR
+      C7C CXPORT_NULL_THUNK_DATA
+      F1E _CTEIOControl
+      F1E __imp__CTEIOControl
+     12DE _CXPortDumpInfo
+     12DE __imp__CXPortDumpInfo
+     105C _CTEInitialize
+     105C __imp__CTEInitialize
+      F88 _CTEInitEvent
+      F88 __imp__CTEInitEvent
+      FF2 _CTEInitTimer
+      FF2 __imp__CTEInitTimer
+     11A0 _CTEStartTimer
+     11A0 __imp__CTEStartTimer
+     1274 _CTEStopTimer
+     1274 __imp__CTEStopTimer
+      EB0 _CTEGetTimerState
+      EB0 __imp__CTEGetTimerState
+      E3A _CTEEnlargedUnsignedDivide
+      E3A __imp__CTEEnlargedUnsignedDivide
+     10C6 _CTEScheduleEvent
+     10C6 __imp__CTEScheduleEvent
+      DCE _CTECancelEvent
+      DCE __imp__CTECancelEvent
+     13B8 _GetRegDWORDValue
+     13B8 __imp__GetRegDWORDValue
+     156E _SetRegDWORDValue
+     156E __imp__SetRegDWORDValue
+     1426 _GetRegMultiSZValue
+     1426 __imp__GetRegMultiSZValue
+     15DC _SetRegMultiSZValue
+     15DC __imp__SetRegMultiSZValue
+     1496 _GetRegSZValue
+     1496 __imp__GetRegSZValue
+     164C _SetRegSZValue
+     164C __imp__SetRegSZValue
+     134A _GetRegBinaryValue
+     134A __imp__GetRegBinaryValue
+     1500 _SetRegBinaryValue
+     1500 __imp__SetRegBinaryValue
+     1134 _CTEStartFTimer
+     1134 __imp__CTEStartFTimer
+     120A _CTEStopFTimer
+     120A __imp__CTEStopFTimer
+
+Archive member name at 48E: /               
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+     454 size
+correct header end
+
+    24 offsets
+
+        1      91E
+        2      B46
+        3      C7C
+        4      F1E
+        5     12DE
+        6     105C
+        7      F88
+        8      FF2
+        9     11A0
+        A     1274
+        B      EB0
+        C      E3A
+        D     10C6
+        E      DCE
+        F     13B8
+       10     156E
+       11     1426
+       12     15DC
+       13     1496
+       14     164C
+       15     134A
+       16     1500
+       17     1134
+       18     120A
+
+    45 public symbols
+
+        E _CTECancelEvent
+        C _CTEEnlargedUnsignedDivide
+        B _CTEGetTimerState
+        4 _CTEIOControl
+        7 _CTEInitEvent
+        8 _CTEInitTimer
+        6 _CTEInitialize
+        D _CTEScheduleEvent
+       17 _CTEStartFTimer
+        9 _CTEStartTimer
+       18 _CTEStopFTimer
+        A _CTEStopTimer
+        5 _CXPortDumpInfo
+       15 _GetRegBinaryValue
+        F _GetRegDWORDValue
+       11 _GetRegMultiSZValue
+       13 _GetRegSZValue
+       16 _SetRegBinaryValue
+       10 _SetRegDWORDValue
+       12 _SetRegMultiSZValue
+       14 _SetRegSZValue
+        1 __IMPORT_DESCRIPTOR_CXPORT
+        2 __NULL_IMPORT_DESCRIPTOR
+        E __imp__CTECancelEvent
+        C __imp__CTEEnlargedUnsignedDivide
+        B __imp__CTEGetTimerState
+        4 __imp__CTEIOControl
+        7 __imp__CTEInitEvent
+        8 __imp__CTEInitTimer
+        6 __imp__CTEInitialize
+        D __imp__CTEScheduleEvent
+       17 __imp__CTEStartFTimer
+        9 __imp__CTEStartTimer
+       18 __imp__CTEStopFTimer
+        A __imp__CTEStopTimer
+        5 __imp__CXPortDumpInfo
+       15 __imp__GetRegBinaryValue
+        F __imp__GetRegDWORDValue
+       11 __imp__GetRegMultiSZValue
+       13 __imp__GetRegSZValue
+       16 __imp__SetRegBinaryValue
+       10 __imp__SetRegDWORDValue
+       12 __imp__SetRegMultiSZValue
+       14 __imp__SetRegSZValue
+        3 CXPORT_NULL_THUNK_DATA
+
+Archive member name at 91E: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+     1EB size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20791D time date stamp Wed Dec 19 06:25:17 2001
+             10B file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      8C file pointer to raw data (0000008C to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 11 00 09 00 00 00 00 00 0A 43 58 50  .............CXP
+  00000010: 4F 52 54 2E 64 6C 6C 28 00 13 10 07 00 00 00 03  ORT.dll(........
+  00000020: 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D 69  ...........Û..Mi
+  00000030: 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B  crosoft (R) LINK
+  00000040: 00                                               .
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CD file pointer to raw data (000000CD to 000000E0)
+      E1 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+RELOCATIONS #2
+                                                Symbol    Symbol
+ Offset    Type              Applied To         Index     Name
+ --------  ----------------  -----------------  --------  ------
+ 0000000C  DIR32NB                    00000000         3  .idata$6
+ 00000000  DIR32NB                    00000000         4  .idata$4
+ 00000010  DIR32NB                    00000000         5  .idata$5
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FF file pointer to raw data (000000FF to 0000010A)
+      E1 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 43 58 50 4F 52 54 2E 64 6C 6C 00 00              CXPORT.dll..
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __IMPORT_DESCRIPTOR_CXPORT
+002 C0000040 SECT2  notype       Section      | .idata$2
+003 00000000 SECT3  notype       Static       | .idata$6
+004 C0000040 UNDEF  notype       Section      | .idata$4
+005 C0000040 UNDEF  notype       Section      | .idata$5
+006 00000000 UNDEF  notype       External     | __NULL_IMPORT_DESCRIPTOR
+007 00000000 UNDEF  notype       External     | CXPORT_NULL_THUNK_DATA
+
+String Table Size = 0x50 bytes
+
+Archive member name at B46: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      FA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        3C20791D time date stamp Wed Dec 19 06:25:17 2001
+              B9 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      64 file pointer to raw data (00000064 to 000000A4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 11 00 09 00 00 00 00 00 0A 43 58 50  .............CXP
+  00000010: 4F 52 54 2E 64 6C 6C 28 00 13 10 07 00 00 00 03  ORT.dll(........
+  00000020: 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D 69  ...........Û..Mi
+  00000030: 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B  crosoft (R) LINK
+  00000040: 00                                               .
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A5 file pointer to raw data (000000A5 to 000000B8)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __NULL_IMPORT_DESCRIPTOR
+
+String Table Size = 0x1D bytes
+
+Archive member name at C7C: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+     115 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20791D time date stamp Wed Dec 19 06:25:17 2001
+              D5 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      8C file pointer to raw data (0000008C to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 11 00 09 00 00 00 00 00 0A 43 58 50  .............CXP
+  00000010: 4F 52 54 2E 64 6C 6C 28 00 13 10 07 00 00 00 03  ORT.dll(........
+  00000020: 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D 69  ...........Û..Mi
+  00000030: 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B  crosoft (R) LINK
+  00000040: 00                                               .
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CD file pointer to raw data (000000CD to 000000D0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00                                      ....
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D1 file pointer to raw data (000000D1 to 000000D4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | CXPORT_NULL_THUNK_DATA
+
+String Table Size = 0x1C bytes
+
+Archive member name at DCE: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791D Wed Dec 19 06:25:17 2001
+  SizeOfData   : 0000001B
+  DLL name     : CXPORT.dll
+  Symbol name  : _CTECancelEvent
+  Type         : code
+  Name type    : no prefix
+  Hint         : 0
+  Name         : CTECancelEvent
+
+Archive member name at E3A: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791D Wed Dec 19 06:25:17 2001
+  SizeOfData   : 00000026
+  DLL name     : CXPORT.dll
+  Symbol name  : _CTEEnlargedUnsignedDivide
+  Type         : code
+  Name type    : no prefix
+  Hint         : 1
+  Name         : CTEEnlargedUnsignedDivide
+
+Archive member name at EB0: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791D Wed Dec 19 06:25:17 2001
+  SizeOfData   : 0000001D
+  DLL name     : CXPORT.dll
+  Symbol name  : _CTEGetTimerState
+  Type         : code
+  Name type    : no prefix
+  Hint         : 2
+  Name         : CTEGetTimerState
+
+Archive member name at F1E: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791D Wed Dec 19 06:25:17 2001
+  SizeOfData   : 00000019
+  DLL name     : CXPORT.dll
+  Symbol name  : _CTEIOControl
+  Type         : code
+  Name type    : no prefix
+  Hint         : 3
+  Name         : CTEIOControl
+
+Archive member name at F88: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791D Wed Dec 19 06:25:17 2001
+  SizeOfData   : 00000019
+  DLL name     : CXPORT.dll
+  Symbol name  : _CTEInitEvent
+  Type         : code
+  Name type    : no prefix
+  Hint         : 4
+  Name         : CTEInitEvent
+
+Archive member name at FF2: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791D Wed Dec 19 06:25:17 2001
+  SizeOfData   : 00000019
+  DLL name     : CXPORT.dll
+  Symbol name  : _CTEInitTimer
+  Type         : code
+  Name type    : no prefix
+  Hint         : 5
+  Name         : CTEInitTimer
+
+Archive member name at 105C: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791D Wed Dec 19 06:25:17 2001
+  SizeOfData   : 0000001A
+  DLL name     : CXPORT.dll
+  Symbol name  : _CTEInitialize
+  Type         : code
+  Name type    : no prefix
+  Hint         : 6
+  Name         : CTEInitialize
+
+Archive member name at 10C6: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791D Wed Dec 19 06:25:17 2001
+  SizeOfData   : 0000001D
+  DLL name     : CXPORT.dll
+  Symbol name  : _CTEScheduleEvent
+  Type         : code
+  Name type    : no prefix
+  Hint         : 7
+  Name         : CTEScheduleEvent
+
+Archive member name at 1134: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791D Wed Dec 19 06:25:17 2001
+  SizeOfData   : 0000001B
+  DLL name     : CXPORT.dll
+  Symbol name  : _CTEStartFTimer
+  Type         : code
+  Name type    : no prefix
+  Hint         : 8
+  Name         : CTEStartFTimer
+
+Archive member name at 11A0: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791D Wed Dec 19 06:25:17 2001
+  SizeOfData   : 0000001A
+  DLL name     : CXPORT.dll
+  Symbol name  : _CTEStartTimer
+  Type         : code
+  Name type    : no prefix
+  Hint         : 9
+  Name         : CTEStartTimer
+
+Archive member name at 120A: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791D Wed Dec 19 06:25:17 2001
+  SizeOfData   : 0000001A
+  DLL name     : CXPORT.dll
+  Symbol name  : _CTEStopFTimer
+  Type         : code
+  Name type    : no prefix
+  Hint         : 10
+  Name         : CTEStopFTimer
+
+Archive member name at 1274: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791D Wed Dec 19 06:25:17 2001
+  SizeOfData   : 00000019
+  DLL name     : CXPORT.dll
+  Symbol name  : _CTEStopTimer
+  Type         : code
+  Name type    : no prefix
+  Hint         : 11
+  Name         : CTEStopTimer
+
+Archive member name at 12DE: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791D Wed Dec 19 06:25:17 2001
+  SizeOfData   : 0000001B
+  DLL name     : CXPORT.dll
+  Symbol name  : _CXPortDumpInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 12
+  Name         : CXPortDumpInfo
+
+Archive member name at 134A: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791D Wed Dec 19 06:25:17 2001
+  SizeOfData   : 0000001E
+  DLL name     : CXPORT.dll
+  Symbol name  : _GetRegBinaryValue
+  Type         : code
+  Name type    : no prefix
+  Hint         : 13
+  Name         : GetRegBinaryValue
+
+Archive member name at 13B8: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791D Wed Dec 19 06:25:17 2001
+  SizeOfData   : 0000001D
+  DLL name     : CXPORT.dll
+  Symbol name  : _GetRegDWORDValue
+  Type         : code
+  Name type    : no prefix
+  Hint         : 14
+  Name         : GetRegDWORDValue
+
+Archive member name at 1426: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791D Wed Dec 19 06:25:17 2001
+  SizeOfData   : 0000001F
+  DLL name     : CXPORT.dll
+  Symbol name  : _GetRegMultiSZValue
+  Type         : code
+  Name type    : no prefix
+  Hint         : 15
+  Name         : GetRegMultiSZValue
+
+Archive member name at 1496: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791D Wed Dec 19 06:25:17 2001
+  SizeOfData   : 0000001A
+  DLL name     : CXPORT.dll
+  Symbol name  : _GetRegSZValue
+  Type         : code
+  Name type    : no prefix
+  Hint         : 16
+  Name         : GetRegSZValue
+
+Archive member name at 1500: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791D Wed Dec 19 06:25:17 2001
+  SizeOfData   : 0000001E
+  DLL name     : CXPORT.dll
+  Symbol name  : _SetRegBinaryValue
+  Type         : code
+  Name type    : no prefix
+  Hint         : 17
+  Name         : SetRegBinaryValue
+
+Archive member name at 156E: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791D Wed Dec 19 06:25:17 2001
+  SizeOfData   : 0000001D
+  DLL name     : CXPORT.dll
+  Symbol name  : _SetRegDWORDValue
+  Type         : code
+  Name type    : no prefix
+  Hint         : 18
+  Name         : SetRegDWORDValue
+
+Archive member name at 15DC: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791D Wed Dec 19 06:25:17 2001
+  SizeOfData   : 0000001F
+  DLL name     : CXPORT.dll
+  Symbol name  : _SetRegMultiSZValue
+  Type         : code
+  Name type    : no prefix
+  Hint         : 19
+  Name         : SetRegMultiSZValue
+
+Archive member name at 164C: CXPORT.dll/     
+3C20791D time/date Wed Dec 19 06:25:17 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791D Wed Dec 19 06:25:17 2001
+  SizeOfData   : 0000001A
+  DLL name     : CXPORT.dll
+  Symbol name  : _SetRegSZValue
+  Type         : code
+  Name type    : no prefix
+  Hint         : 20
+  Name         : SetRegSZValue
+
+     Exports
+
+       ordinal    name
+
+                  _CTECancelEvent
+                  _CTEEnlargedUnsignedDivide
+                  _CTEGetTimerState
+                  _CTEIOControl
+                  _CTEInitEvent
+                  _CTEInitTimer
+                  _CTEInitialize
+                  _CTEScheduleEvent
+                  _CTEStartFTimer
+                  _CTEStartTimer
+                  _CTEStopFTimer
+                  _CTEStopTimer
+                  _CXPortDumpInfo
+                  _GetRegBinaryValue
+                  _GetRegDWORDValue
+                  _GetRegMultiSZValue
+                  _GetRegSZValue
+                  _SetRegBinaryValue
+                  _SetRegDWORDValue
+                  _SetRegMultiSZValue
+                  _SetRegSZValue
+
+  Summary
+
+          C3 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

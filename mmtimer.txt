@@ -1,0 +1,502 @@
+Microsoft (R) COFF/PE Dumper Version 7.10.6030
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files\Windows CE Tools\wce400\STANDARDSDK\Lib\Emulator\mmtimer.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+3C207927 time/date Wed Dec 19 06:25:27 2001
+         uid
+         gid
+       0 mode
+     1EC size
+correct header end
+
+    19 public symbols
+
+      462 __IMPORT_DESCRIPTOR_MMTimer
+      68C __NULL_IMPORT_DESCRIPTOR
+      7C4 MMTimer_NULL_THUNK_DATA
+      918 __imp__timeBeginPeriod
+      918 _timeBeginPeriod
+      986 __imp__timeEndPeriod
+      986 _timeEndPeriod
+      9F2 __imp__timeGetDevCaps
+      9F2 _timeGetDevCaps
+      AD4 __imp__timeGetTime
+      AD4 _timeGetTime
+      C22 __imp__timeSetEvent
+      C22 _timeSetEvent
+      BB6 __imp__timeKillEvent
+      BB6 _timeKillEvent
+      B3E __imp__timeGetTimeSinceInterrupt
+      B3E _timeGetTimeSinceInterrupt
+      A5E __imp__timeGetHardwareFrequency
+      A5E _timeGetHardwareFrequency
+
+Archive member name at 230: /               
+3C207927 time/date Wed Dec 19 06:25:27 2001
+         uid
+         gid
+       0 mode
+     1F6 size
+correct header end
+
+    11 offsets
+
+        1      462
+        2      68C
+        3      7C4
+        4      918
+        5      986
+        6      9F2
+        7      AD4
+        8      C22
+        9      BB6
+        A      B3E
+        B      A5E
+
+    19 public symbols
+
+        1 __IMPORT_DESCRIPTOR_MMTimer
+        2 __NULL_IMPORT_DESCRIPTOR
+        4 __imp__timeBeginPeriod
+        5 __imp__timeEndPeriod
+        6 __imp__timeGetDevCaps
+        B __imp__timeGetHardwareFrequency
+        7 __imp__timeGetTime
+        A __imp__timeGetTimeSinceInterrupt
+        9 __imp__timeKillEvent
+        8 __imp__timeSetEvent
+        4 _timeBeginPeriod
+        5 _timeEndPeriod
+        6 _timeGetDevCaps
+        B _timeGetHardwareFrequency
+        7 _timeGetTime
+        A _timeGetTimeSinceInterrupt
+        9 _timeKillEvent
+        8 _timeSetEvent
+        3 MMTimer_NULL_THUNK_DATA
+
+Archive member name at 462: MMTimer.dll/    
+3C207927 time/date Wed Dec 19 06:25:27 2001
+         uid
+         gid
+       0 mode
+     1EE size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C207927 time date stamp Wed Dec 19 06:25:27 2001
+             10C file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 12 00 09 00 00 00 00 00 0B 4D 4D 54  .............MMT
+  00000010: 69 6D 65 72 2E 64 6C 6C 28 00 13 10 07 00 00 00  imer.dll(.......
+  00000020: 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D  ............Û..M
+  00000030: 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E  icrosoft (R) LIN
+  00000040: 4B 00                                            K.
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CE file pointer to raw data (000000CE to 000000E1)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+RELOCATIONS #2
+                                                Symbol    Symbol
+ Offset    Type              Applied To         Index     Name
+ --------  ----------------  -----------------  --------  ------
+ 0000000C  DIR32NB                    00000000         3  .idata$6
+ 00000000  DIR32NB                    00000000         4  .idata$4
+ 00000010  DIR32NB                    00000000         5  .idata$5
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+     100 file pointer to raw data (00000100 to 0000010B)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 4D 4D 54 69 6D 65 72 2E 64 6C 6C 00              MMTimer.dll.
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __IMPORT_DESCRIPTOR_MMTimer
+002 C0000040 SECT2  notype       Section      | .idata$2
+003 00000000 SECT3  notype       Static       | .idata$6
+004 C0000040 UNDEF  notype       Section      | .idata$4
+005 C0000040 UNDEF  notype       Section      | .idata$5
+006 00000000 UNDEF  notype       External     | __NULL_IMPORT_DESCRIPTOR
+007 00000000 UNDEF  notype       External     | MMTimer_NULL_THUNK_DATA
+
+String Table Size = 0x52 bytes
+
+Archive member name at 68C: MMTimer.dll/    
+3C207927 time/date Wed Dec 19 06:25:27 2001
+         uid
+         gid
+       0 mode
+      FB size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        3C207927 time date stamp Wed Dec 19 06:25:27 2001
+              BA file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      64 file pointer to raw data (00000064 to 000000A5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 12 00 09 00 00 00 00 00 0B 4D 4D 54  .............MMT
+  00000010: 69 6D 65 72 2E 64 6C 6C 28 00 13 10 07 00 00 00  imer.dll(.......
+  00000020: 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D  ............Û..M
+  00000030: 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E  icrosoft (R) LIN
+  00000040: 4B 00                                            K.
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A6 file pointer to raw data (000000A6 to 000000B9)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __NULL_IMPORT_DESCRIPTOR
+
+String Table Size = 0x1D bytes
+
+Archive member name at 7C4: MMTimer.dll/    
+3C207927 time/date Wed Dec 19 06:25:27 2001
+         uid
+         gid
+       0 mode
+     117 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C207927 time date stamp Wed Dec 19 06:25:27 2001
+              D6 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 12 00 09 00 00 00 00 00 0B 4D 4D 54  .............MMT
+  00000010: 69 6D 65 72 2E 64 6C 6C 28 00 13 10 07 00 00 00  imer.dll(.......
+  00000020: 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D  ............Û..M
+  00000030: 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E  icrosoft (R) LIN
+  00000040: 4B 00                                            K.
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CE file pointer to raw data (000000CE to 000000D1)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00                                      ....
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D2 file pointer to raw data (000000D2 to 000000D5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | MMTimer_NULL_THUNK_DATA
+
+String Table Size = 0x1D bytes
+
+Archive member name at 918: MMTimer.dll/    
+3C207927 time/date Wed Dec 19 06:25:27 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207927 Wed Dec 19 06:25:27 2001
+  SizeOfData   : 0000001D
+  DLL name     : MMTimer.dll
+  Symbol name  : _timeBeginPeriod
+  Type         : code
+  Name type    : no prefix
+  Hint         : 0
+  Name         : timeBeginPeriod
+
+Archive member name at 986: MMTimer.dll/    
+3C207927 time/date Wed Dec 19 06:25:27 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207927 Wed Dec 19 06:25:27 2001
+  SizeOfData   : 0000001B
+  DLL name     : MMTimer.dll
+  Symbol name  : _timeEndPeriod
+  Type         : code
+  Name type    : no prefix
+  Hint         : 1
+  Name         : timeEndPeriod
+
+Archive member name at 9F2: MMTimer.dll/    
+3C207927 time/date Wed Dec 19 06:25:27 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207927 Wed Dec 19 06:25:27 2001
+  SizeOfData   : 0000001C
+  DLL name     : MMTimer.dll
+  Symbol name  : _timeGetDevCaps
+  Type         : code
+  Name type    : no prefix
+  Hint         : 2
+  Name         : timeGetDevCaps
+
+Archive member name at A5E: MMTimer.dll/    
+3C207927 time/date Wed Dec 19 06:25:27 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207927 Wed Dec 19 06:25:27 2001
+  SizeOfData   : 00000026
+  DLL name     : MMTimer.dll
+  Symbol name  : _timeGetHardwareFrequency
+  Type         : code
+  Name type    : no prefix
+  Hint         : 3
+  Name         : timeGetHardwareFrequency
+
+Archive member name at AD4: MMTimer.dll/    
+3C207927 time/date Wed Dec 19 06:25:27 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207927 Wed Dec 19 06:25:27 2001
+  SizeOfData   : 00000019
+  DLL name     : MMTimer.dll
+  Symbol name  : _timeGetTime
+  Type         : code
+  Name type    : no prefix
+  Hint         : 4
+  Name         : timeGetTime
+
+Archive member name at B3E: MMTimer.dll/    
+3C207927 time/date Wed Dec 19 06:25:27 2001
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207927 Wed Dec 19 06:25:27 2001
+  SizeOfData   : 00000027
+  DLL name     : MMTimer.dll
+  Symbol name  : _timeGetTimeSinceInterrupt
+  Type         : code
+  Name type    : no prefix
+  Hint         : 5
+  Name         : timeGetTimeSinceInterrupt
+
+Archive member name at BB6: MMTimer.dll/    
+3C207927 time/date Wed Dec 19 06:25:27 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207927 Wed Dec 19 06:25:27 2001
+  SizeOfData   : 0000001B
+  DLL name     : MMTimer.dll
+  Symbol name  : _timeKillEvent
+  Type         : code
+  Name type    : no prefix
+  Hint         : 6
+  Name         : timeKillEvent
+
+Archive member name at C22: MMTimer.dll/    
+3C207927 time/date Wed Dec 19 06:25:27 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207927 Wed Dec 19 06:25:27 2001
+  SizeOfData   : 0000001A
+  DLL name     : MMTimer.dll
+  Symbol name  : _timeSetEvent
+  Type         : code
+  Name type    : no prefix
+  Hint         : 7
+  Name         : timeSetEvent
+
+     Exports
+
+       ordinal    name
+
+                  _timeBeginPeriod
+                  _timeEndPeriod
+                  _timeGetDevCaps
+                  _timeGetHardwareFrequency
+                  _timeGetTime
+                  _timeGetTimeSinceInterrupt
+                  _timeKillEvent
+                  _timeSetEvent
+
+  Summary
+
+          C6 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

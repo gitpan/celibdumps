@@ -1,0 +1,7 @@
+A dumpbin dumping of the lib files for linking WinCE 4.0 apps. This is from the x86 emulator libraries. Useful to see what APIs are provided by the OS.
+
+license: public domain or fair use
+
+By  bulkdd @ cpan.org
+
+Version 0.01, will there be more? who knows.

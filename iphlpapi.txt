@@ -1,0 +1,2577 @@
+Microsoft (R) COFF/PE Dumper Version 7.10.6030
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files\Windows CE Tools\wce400\STANDARDSDK\Lib\Emulator\iphlpapi.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+    1422 size
+correct header end
+
+    185 public symbols
+
+     28CE __IMPORT_DESCRIPTOR_iphlpapi
+     2AFE __NULL_IMPORT_DESCRIPTOR
+     2C36 iphlpapi_NULL_THUNK_DATA
+     3494 _DllEntry
+     3494 __imp__DllEntry
+     3B24 _GetIfTable
+     3B24 __imp__GetIfTable
+     3A48 _GetIfEntry
+     3A48 __imp__GetIfEntry
+     3CDA _GetIpAddrTable
+     3CDA __imp__GetIpAddrTable
+     3EA8 _GetIpNetTable
+     3EA8 __imp__GetIpNetTable
+     3DBE _GetIpForwardTable
+     3DBE __imp__GetIpForwardTable
+     4312 _GetTcpTable
+     4312 __imp__GetTcpTable
+     44D4 _GetUdpTable
+     44D4 __imp__GetUdpTable
+     3F8A _GetIpStatistics
+     3F8A __imp__GetIpStatistics
+     3964 _GetIcmpStatistics
+     3964 __imp__GetIcmpStatistics
+     422E _GetTcpStatistics
+     422E __imp__GetTcpStatistics
+     43F0 _GetUdpStatistics
+     43F0 __imp__GetUdpStatistics
+     4FA2 _SetIfEntry
+     4FA2 __imp__SetIfEntry
+     317A _CreateIpForwardEntry
+     317A __imp__CreateIpForwardEntry
+     507C _SetIpForwardEntry
+     507C __imp__SetIpForwardEntry
+     333E _DeleteIpForwardEntry
+     333E __imp__DeleteIpForwardEntry
+     52BA _SetIpStatistics
+     52BA __imp__SetIpStatistics
+     31EE _CreateIpNetEntry
+     31EE __imp__CreateIpNetEntry
+     5164 _SetIpNetEntry
+     5164 __imp__SetIpNetEntry
+     33B2 _DeleteIpNetEntry
+     33B2 __imp__DeleteIpNetEntry
+     54E4 _SetTcpEntry
+     54E4 __imp__SetTcpEntry
+     372A _GetBestInterface
+     372A __imp__GetBestInterface
+     3812 _GetBestRoute
+     3812 __imp__GetBestRoute
+     4F3C _SendARP
+     4F3C __imp__SendARP
+     40DA _GetNumberOfInterfaces
+     40DA __imp__GetNumberOfInterfaces
+     325E _CreateProxyArpEntry
+     325E __imp__CreateProxyArpEntry
+     3422 _DeleteProxyArpEntry
+     3422 __imp__DeleteProxyArpEntry
+     4816 _InternalGetIfTable
+     4816 __imp__InternalGetIfTable
+     4888 _InternalGetIpAddrTable
+     4888 __imp__InternalGetIpAddrTable
+     4976 _InternalGetIpNetTable
+     4976 __imp__InternalGetIpNetTable
+     48FE _InternalGetIpForwardTable
+     48FE __imp__InternalGetIpForwardTable
+     49EA _InternalGetTcpTable
+     49EA __imp__InternalGetTcpTable
+     4A5C _InternalGetUdpTable
+     4A5C __imp__InternalGetUdpTable
+     4ACE _InternalSetIfEntry
+     4ACE __imp__InternalSetIfEntry
+     462E _InternalCreateIpForwardEntry
+     462E __imp__InternalCreateIpForwardEntry
+     4B40 _InternalSetIpForwardEntry
+     4B40 __imp__InternalSetIpForwardEntry
+     4722 _InternalDeleteIpForwardEntry
+     4722 __imp__InternalDeleteIpForwardEntry
+     4C2C _InternalSetIpStats
+     4C2C __imp__InternalSetIpStats
+     46AA _InternalCreateIpNetEntry
+     46AA __imp__InternalCreateIpNetEntry
+     4BB8 _InternalSetIpNetEntry
+     4BB8 __imp__InternalSetIpNetEntry
+     479E _InternalDeleteIpNetEntry
+     479E __imp__InternalDeleteIpNetEntry
+     4C9E _InternalSetTcpEntry
+     4C9E __imp__InternalSetTcpEntry
+     364E _GetAdapterIndex
+     364E __imp__GetAdapterIndex
+     2D8C _AddIPAddress
+     2D8C __imp__AddIPAddress
+     32D0 _DeleteIPAddress
+     32D0 __imp__DeleteIPAddress
+     41BE _GetRTTAndHopCount
+     41BE __imp__GetRTTAndHopCount
+     4DEE _IsLocalAddress
+     4DEE __imp__IsLocalAddress
+     4E5C _NotifyAddrChange
+     4E5C __imp__NotifyAddrChange
+     4ECC _NotifyRouteChange
+     4ECC __imp__NotifyRouteChange
+     4D10 _IpReleaseAddress
+     4D10 __imp__IpReleaseAddress
+     4D80 _IpRenewAddress
+     4D80 __imp__IpRenewAddress
+     3C6A _GetInterfaceInfo
+     3C6A __imp__GetInterfaceInfo
+     45B2 _GetUniDirectionalAdapterInfo
+     45B2 __imp__GetUniDirectionalAdapterInfo
+     2E7A _AllocateAndGetIfTableFromStack
+     2E7A __imp__AllocateAndGetIfTableFromStack
+     2EF8 _AllocateAndGetIpAddrTableFromStack
+     2EF8 __imp__AllocateAndGetIpAddrTableFromStack
+     307E _AllocateAndGetTcpTableFromStack
+     307E __imp__AllocateAndGetTcpTableFromStack
+     30FC _AllocateAndGetUdpTableFromStack
+     30FC __imp__AllocateAndGetUdpTableFromStack
+     2F7A _AllocateAndGetIpForwardTableFromStack
+     2F7A __imp__AllocateAndGetIpForwardTableFromStack
+     2FFE _AllocateAndGetIpNetTableFromStack
+     2FFE __imp__AllocateAndGetIpNetTableFromStack
+     2DF8 _AllocateAndGetArpEntTableFromStack
+     2DF8 __imp__AllocateAndGetArpEntTableFromStack
+     3B8E _GetIfTableFromStack
+     3B8E __imp__GetIfTableFromStack
+     3AB2 _GetIfEntryFromStack
+     3AB2 __imp__GetIfEntryFromStack
+     500C _SetIfEntryToStack
+     500C __imp__SetIfEntryToStack
+     3D48 _GetIpAddrTableFromStack
+     3D48 __imp__GetIpAddrTableFromStack
+     437C _GetTcpTableFromStack
+     437C __imp__GetTcpTableFromStack
+     554E _SetTcpEntryToStack
+     554E __imp__SetTcpEntryToStack
+     453E _GetUdpTableFromStack
+     453E __imp__GetUdpTableFromStack
+     3E2E _GetIpForwardTableFromStack
+     3E2E __imp__GetIpForwardTableFromStack
+     3FF8 _GetIpStatsFromStack
+     3FF8 __imp__GetIpStatsFromStack
+     5328 _SetIpStatsToStack
+     5328 __imp__SetIpStatsToStack
+     39D4 _GetIcmpStatsFromStack
+     39D4 __imp__GetIcmpStatsFromStack
+     4460 _GetUdpStatsFromStack
+     4460 __imp__GetUdpStatsFromStack
+     429E _GetTcpStatsFromStack
+     429E __imp__GetTcpStatsFromStack
+     3F14 _GetIpNetTableFromStack
+     3F14 __imp__GetIpNetTableFromStack
+     51D0 _SetIpNetEntryToStack
+     51D0 __imp__SetIpNetEntryToStack
+     50EC _SetIpForwardEntryToStack
+     50EC __imp__SetIpForwardEntryToStack
+     5244 _SetIpRouteEntryToStack
+     5244 __imp__SetIpRouteEntryToStack
+     379A _GetBestInterfaceFromStack
+     379A __imp__GetBestInterfaceFromStack
+     387E _GetBestRouteFromStack
+     387E __imp__GetBestRouteFromStack
+     5400 _SetProxyArpEntryToStack
+     5400 __imp__SetProxyArpEntryToStack
+     34FC _EnableRouter
+     34FC __imp__EnableRouter
+     55C0 _UnenableRouter
+     55C0 __imp__UnenableRouter
+     406A _GetNetworkParams
+     406A __imp__GetNetworkParams
+     36BC _GetAdaptersInfo
+     36BC __imp__GetAdaptersInfo
+     414E _GetPerAdapterInfo
+     414E __imp__GetPerAdapterInfo
+     5398 _SetIpTTL
+     5398 __imp__SetIpTTL
+     38F2 _GetFriendlyIfIndex
+     38F2 __imp__GetFriendlyIfIndex
+     3568 _FlushIpNetTable
+     3568 __imp__FlushIpNetTable
+     35D6 _FlushIpNetTableFromStack
+     35D6 __imp__FlushIpNetTableFromStack
+     3C00 _GetIgmpList
+     3C00 __imp__GetIgmpList
+     5476 _SetRouteWithRef
+     5476 __imp__SetRouteWithRef
+
+Archive member name at 1466: /               
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+    142C size
+correct header end
+
+    94 offsets
+
+        1     28CE
+        2     2AFE
+        3     2C36
+        4     3494
+        5     3B24
+        6     3A48
+        7     3CDA
+        8     3EA8
+        9     3DBE
+        A     4312
+        B     44D4
+        C     3F8A
+        D     3964
+        E     422E
+        F     43F0
+       10     4FA2
+       11     317A
+       12     507C
+       13     333E
+       14     52BA
+       15     31EE
+       16     5164
+       17     33B2
+       18     54E4
+       19     372A
+       1A     3812
+       1B     4F3C
+       1C     40DA
+       1D     325E
+       1E     3422
+       1F     4816
+       20     4888
+       21     4976
+       22     48FE
+       23     49EA
+       24     4A5C
+       25     4ACE
+       26     462E
+       27     4B40
+       28     4722
+       29     4C2C
+       2A     46AA
+       2B     4BB8
+       2C     479E
+       2D     4C9E
+       2E     364E
+       2F     2D8C
+       30     32D0
+       31     41BE
+       32     4DEE
+       33     4E5C
+       34     4ECC
+       35     4D10
+       36     4D80
+       37     3C6A
+       38     45B2
+       39     2E7A
+       3A     2EF8
+       3B     307E
+       3C     30FC
+       3D     2F7A
+       3E     2FFE
+       3F     2DF8
+       40     3B8E
+       41     3AB2
+       42     500C
+       43     3D48
+       44     437C
+       45     554E
+       46     453E
+       47     3E2E
+       48     3FF8
+       49     5328
+       4A     39D4
+       4B     4460
+       4C     429E
+       4D     3F14
+       4E     51D0
+       4F     50EC
+       50     5244
+       51     379A
+       52     387E
+       53     5400
+       54     34FC
+       55     55C0
+       56     406A
+       57     36BC
+       58     414E
+       59     5398
+       5A     38F2
+       5B     3568
+       5C     35D6
+       5D     3C00
+       5E     5476
+
+    185 public symbols
+
+       2F _AddIPAddress
+       3F _AllocateAndGetArpEntTableFromStack
+       39 _AllocateAndGetIfTableFromStack
+       3A _AllocateAndGetIpAddrTableFromStack
+       3D _AllocateAndGetIpForwardTableFromStack
+       3E _AllocateAndGetIpNetTableFromStack
+       3B _AllocateAndGetTcpTableFromStack
+       3C _AllocateAndGetUdpTableFromStack
+       11 _CreateIpForwardEntry
+       15 _CreateIpNetEntry
+       1D _CreateProxyArpEntry
+       30 _DeleteIPAddress
+       13 _DeleteIpForwardEntry
+       17 _DeleteIpNetEntry
+       1E _DeleteProxyArpEntry
+        4 _DllEntry
+       54 _EnableRouter
+       5B _FlushIpNetTable
+       5C _FlushIpNetTableFromStack
+       2E _GetAdapterIndex
+       57 _GetAdaptersInfo
+       19 _GetBestInterface
+       51 _GetBestInterfaceFromStack
+       1A _GetBestRoute
+       52 _GetBestRouteFromStack
+       5A _GetFriendlyIfIndex
+        D _GetIcmpStatistics
+       4A _GetIcmpStatsFromStack
+        6 _GetIfEntry
+       41 _GetIfEntryFromStack
+        5 _GetIfTable
+       40 _GetIfTableFromStack
+       5D _GetIgmpList
+       37 _GetInterfaceInfo
+        7 _GetIpAddrTable
+       43 _GetIpAddrTableFromStack
+        9 _GetIpForwardTable
+       47 _GetIpForwardTableFromStack
+        8 _GetIpNetTable
+       4D _GetIpNetTableFromStack
+        C _GetIpStatistics
+       48 _GetIpStatsFromStack
+       56 _GetNetworkParams
+       1C _GetNumberOfInterfaces
+       58 _GetPerAdapterInfo
+       31 _GetRTTAndHopCount
+        E _GetTcpStatistics
+       4C _GetTcpStatsFromStack
+        A _GetTcpTable
+       44 _GetTcpTableFromStack
+        F _GetUdpStatistics
+       4B _GetUdpStatsFromStack
+        B _GetUdpTable
+       46 _GetUdpTableFromStack
+       38 _GetUniDirectionalAdapterInfo
+       26 _InternalCreateIpForwardEntry
+       2A _InternalCreateIpNetEntry
+       28 _InternalDeleteIpForwardEntry
+       2C _InternalDeleteIpNetEntry
+       1F _InternalGetIfTable
+       20 _InternalGetIpAddrTable
+       22 _InternalGetIpForwardTable
+       21 _InternalGetIpNetTable
+       23 _InternalGetTcpTable
+       24 _InternalGetUdpTable
+       25 _InternalSetIfEntry
+       27 _InternalSetIpForwardEntry
+       2B _InternalSetIpNetEntry
+       29 _InternalSetIpStats
+       2D _InternalSetTcpEntry
+       35 _IpReleaseAddress
+       36 _IpRenewAddress
+       32 _IsLocalAddress
+       33 _NotifyAddrChange
+       34 _NotifyRouteChange
+       1B _SendARP
+       10 _SetIfEntry
+       42 _SetIfEntryToStack
+       12 _SetIpForwardEntry
+       4F _SetIpForwardEntryToStack
+       16 _SetIpNetEntry
+       4E _SetIpNetEntryToStack
+       50 _SetIpRouteEntryToStack
+       14 _SetIpStatistics
+       49 _SetIpStatsToStack
+       59 _SetIpTTL
+       53 _SetProxyArpEntryToStack
+       5E _SetRouteWithRef
+       18 _SetTcpEntry
+       45 _SetTcpEntryToStack
+       55 _UnenableRouter
+        1 __IMPORT_DESCRIPTOR_iphlpapi
+        2 __NULL_IMPORT_DESCRIPTOR
+       2F __imp__AddIPAddress
+       3F __imp__AllocateAndGetArpEntTableFromStack
+       39 __imp__AllocateAndGetIfTableFromStack
+       3A __imp__AllocateAndGetIpAddrTableFromStack
+       3D __imp__AllocateAndGetIpForwardTableFromStack
+       3E __imp__AllocateAndGetIpNetTableFromStack
+       3B __imp__AllocateAndGetTcpTableFromStack
+       3C __imp__AllocateAndGetUdpTableFromStack
+       11 __imp__CreateIpForwardEntry
+       15 __imp__CreateIpNetEntry
+       1D __imp__CreateProxyArpEntry
+       30 __imp__DeleteIPAddress
+       13 __imp__DeleteIpForwardEntry
+       17 __imp__DeleteIpNetEntry
+       1E __imp__DeleteProxyArpEntry
+        4 __imp__DllEntry
+       54 __imp__EnableRouter
+       5B __imp__FlushIpNetTable
+       5C __imp__FlushIpNetTableFromStack
+       2E __imp__GetAdapterIndex
+       57 __imp__GetAdaptersInfo
+       19 __imp__GetBestInterface
+       51 __imp__GetBestInterfaceFromStack
+       1A __imp__GetBestRoute
+       52 __imp__GetBestRouteFromStack
+       5A __imp__GetFriendlyIfIndex
+        D __imp__GetIcmpStatistics
+       4A __imp__GetIcmpStatsFromStack
+        6 __imp__GetIfEntry
+       41 __imp__GetIfEntryFromStack
+        5 __imp__GetIfTable
+       40 __imp__GetIfTableFromStack
+       5D __imp__GetIgmpList
+       37 __imp__GetInterfaceInfo
+        7 __imp__GetIpAddrTable
+       43 __imp__GetIpAddrTableFromStack
+        9 __imp__GetIpForwardTable
+       47 __imp__GetIpForwardTableFromStack
+        8 __imp__GetIpNetTable
+       4D __imp__GetIpNetTableFromStack
+        C __imp__GetIpStatistics
+       48 __imp__GetIpStatsFromStack
+       56 __imp__GetNetworkParams
+       1C __imp__GetNumberOfInterfaces
+       58 __imp__GetPerAdapterInfo
+       31 __imp__GetRTTAndHopCount
+        E __imp__GetTcpStatistics
+       4C __imp__GetTcpStatsFromStack
+        A __imp__GetTcpTable
+       44 __imp__GetTcpTableFromStack
+        F __imp__GetUdpStatistics
+       4B __imp__GetUdpStatsFromStack
+        B __imp__GetUdpTable
+       46 __imp__GetUdpTableFromStack
+       38 __imp__GetUniDirectionalAdapterInfo
+       26 __imp__InternalCreateIpForwardEntry
+       2A __imp__InternalCreateIpNetEntry
+       28 __imp__InternalDeleteIpForwardEntry
+       2C __imp__InternalDeleteIpNetEntry
+       1F __imp__InternalGetIfTable
+       20 __imp__InternalGetIpAddrTable
+       22 __imp__InternalGetIpForwardTable
+       21 __imp__InternalGetIpNetTable
+       23 __imp__InternalGetTcpTable
+       24 __imp__InternalGetUdpTable
+       25 __imp__InternalSetIfEntry
+       27 __imp__InternalSetIpForwardEntry
+       2B __imp__InternalSetIpNetEntry
+       29 __imp__InternalSetIpStats
+       2D __imp__InternalSetTcpEntry
+       35 __imp__IpReleaseAddress
+       36 __imp__IpRenewAddress
+       32 __imp__IsLocalAddress
+       33 __imp__NotifyAddrChange
+       34 __imp__NotifyRouteChange
+       1B __imp__SendARP
+       10 __imp__SetIfEntry
+       42 __imp__SetIfEntryToStack
+       12 __imp__SetIpForwardEntry
+       4F __imp__SetIpForwardEntryToStack
+       16 __imp__SetIpNetEntry
+       4E __imp__SetIpNetEntryToStack
+       50 __imp__SetIpRouteEntryToStack
+       14 __imp__SetIpStatistics
+       49 __imp__SetIpStatsToStack
+       59 __imp__SetIpTTL
+       53 __imp__SetProxyArpEntryToStack
+       5E __imp__SetRouteWithRef
+       18 __imp__SetTcpEntry
+       45 __imp__SetTcpEntryToStack
+       55 __imp__UnenableRouter
+        3 iphlpapi_NULL_THUNK_DATA
+
+Archive member name at 28CE: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+     1F3 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20791F time date stamp Wed Dec 19 06:25:19 2001
+             10F file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      43 size of raw data
+      8C file pointer to raw data (0000008C to 000000CE)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 13 00 09 00 00 00 00 00 0C 69 70 68  .............iph
+  00000010: 6C 70 61 70 69 2E 64 6C 6C 28 00 13 10 07 00 00  lpapi.dll(......
+  00000020: 00 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12  .............Û..
+  00000030: 4D 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49  Microsoft (R) LI
+  00000040: 4E 4B 00                                         NK.
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CF file pointer to raw data (000000CF to 000000E2)
+      E3 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+RELOCATIONS #2
+                                                Symbol    Symbol
+ Offset    Type              Applied To         Index     Name
+ --------  ----------------  -----------------  --------  ------
+ 0000000C  DIR32NB                    00000000         3  .idata$6
+ 00000000  DIR32NB                    00000000         4  .idata$4
+ 00000010  DIR32NB                    00000000         5  .idata$5
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       E size of raw data
+     101 file pointer to raw data (00000101 to 0000010E)
+      E3 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 69 70 68 6C 70 61 70 69 2E 64 6C 6C 00 00        iphlpapi.dll..
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __IMPORT_DESCRIPTOR_iphlpapi
+002 C0000040 SECT2  notype       Section      | .idata$2
+003 00000000 SECT3  notype       Static       | .idata$6
+004 C0000040 UNDEF  notype       Section      | .idata$4
+005 C0000040 UNDEF  notype       Section      | .idata$5
+006 00000000 UNDEF  notype       External     | __NULL_IMPORT_DESCRIPTOR
+007 00000000 UNDEF  notype       External     | iphlpapi_NULL_THUNK_DATA
+
+String Table Size = 0x54 bytes
+
+Archive member name at 2AFE: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      FC size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        3C20791F time date stamp Wed Dec 19 06:25:19 2001
+              BB file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      43 size of raw data
+      64 file pointer to raw data (00000064 to 000000A6)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 13 00 09 00 00 00 00 00 0C 69 70 68  .............iph
+  00000010: 6C 70 61 70 69 2E 64 6C 6C 28 00 13 10 07 00 00  lpapi.dll(......
+  00000020: 00 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12  .............Û..
+  00000030: 4D 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49  Microsoft (R) LI
+  00000040: 4E 4B 00                                         NK.
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A7 file pointer to raw data (000000A7 to 000000BA)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __NULL_IMPORT_DESCRIPTOR
+
+String Table Size = 0x1D bytes
+
+Archive member name at 2C36: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+     119 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20791F time date stamp Wed Dec 19 06:25:19 2001
+              D7 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      43 size of raw data
+      8C file pointer to raw data (0000008C to 000000CE)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 13 00 09 00 00 00 00 00 0C 69 70 68  .............iph
+  00000010: 6C 70 61 70 69 2E 64 6C 6C 28 00 13 10 07 00 00  lpapi.dll(......
+  00000020: 00 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12  .............Û..
+  00000030: 4D 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49  Microsoft (R) LI
+  00000040: 4E 4B 00                                         NK.
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CF file pointer to raw data (000000CF to 000000D2)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00                                      ....
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D3 file pointer to raw data (000000D3 to 000000D6)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | iphlpapi_NULL_THUNK_DATA
+
+String Table Size = 0x1E bytes
+
+Archive member name at 2D8C: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001B
+  DLL name     : iphlpapi.dll
+  Symbol name  : _AddIPAddress
+  Type         : code
+  Name type    : no prefix
+  Hint         : 0
+  Name         : AddIPAddress
+
+Archive member name at 2DF8: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000031
+  DLL name     : iphlpapi.dll
+  Symbol name  : _AllocateAndGetArpEntTableFromStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 1
+  Name         : AllocateAndGetArpEntTableFromStack
+
+Archive member name at 2E7A: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002D
+  DLL name     : iphlpapi.dll
+  Symbol name  : _AllocateAndGetIfTableFromStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 2
+  Name         : AllocateAndGetIfTableFromStack
+
+Archive member name at 2EF8: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000031
+  DLL name     : iphlpapi.dll
+  Symbol name  : _AllocateAndGetIpAddrTableFromStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 3
+  Name         : AllocateAndGetIpAddrTableFromStack
+
+Archive member name at 2F7A: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000034
+  DLL name     : iphlpapi.dll
+  Symbol name  : _AllocateAndGetIpForwardTableFromStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 4
+  Name         : AllocateAndGetIpForwardTableFromStack
+
+Archive member name at 2FFE: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000030
+  DLL name     : iphlpapi.dll
+  Symbol name  : _AllocateAndGetIpNetTableFromStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 5
+  Name         : AllocateAndGetIpNetTableFromStack
+
+Archive member name at 307E: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002E
+  DLL name     : iphlpapi.dll
+  Symbol name  : _AllocateAndGetTcpTableFromStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 6
+  Name         : AllocateAndGetTcpTableFromStack
+
+Archive member name at 30FC: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002E
+  DLL name     : iphlpapi.dll
+  Symbol name  : _AllocateAndGetUdpTableFromStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 7
+  Name         : AllocateAndGetUdpTableFromStack
+
+Archive member name at 317A: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000023
+  DLL name     : iphlpapi.dll
+  Symbol name  : _CreateIpForwardEntry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 8
+  Name         : CreateIpForwardEntry
+
+Archive member name at 31EE: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : iphlpapi.dll
+  Symbol name  : _CreateIpNetEntry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 9
+  Name         : CreateIpNetEntry
+
+Archive member name at 325E: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000022
+  DLL name     : iphlpapi.dll
+  Symbol name  : _CreateProxyArpEntry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 10
+  Name         : CreateProxyArpEntry
+
+Archive member name at 32D0: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001E
+  DLL name     : iphlpapi.dll
+  Symbol name  : _DeleteIPAddress
+  Type         : code
+  Name type    : no prefix
+  Hint         : 11
+  Name         : DeleteIPAddress
+
+Archive member name at 333E: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000023
+  DLL name     : iphlpapi.dll
+  Symbol name  : _DeleteIpForwardEntry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 12
+  Name         : DeleteIpForwardEntry
+
+Archive member name at 33B2: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : iphlpapi.dll
+  Symbol name  : _DeleteIpNetEntry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 13
+  Name         : DeleteIpNetEntry
+
+Archive member name at 3422: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000022
+  DLL name     : iphlpapi.dll
+  Symbol name  : _DeleteProxyArpEntry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 14
+  Name         : DeleteProxyArpEntry
+
+Archive member name at 3494: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000017
+  DLL name     : iphlpapi.dll
+  Symbol name  : _DllEntry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 15
+  Name         : DllEntry
+
+Archive member name at 34FC: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001B
+  DLL name     : iphlpapi.dll
+  Symbol name  : _EnableRouter
+  Type         : code
+  Name type    : no prefix
+  Hint         : 16
+  Name         : EnableRouter
+
+Archive member name at 3568: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001E
+  DLL name     : iphlpapi.dll
+  Symbol name  : _FlushIpNetTable
+  Type         : code
+  Name type    : no prefix
+  Hint         : 17
+  Name         : FlushIpNetTable
+
+Archive member name at 35D6: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000027
+  DLL name     : iphlpapi.dll
+  Symbol name  : _FlushIpNetTableFromStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 18
+  Name         : FlushIpNetTableFromStack
+
+Archive member name at 364E: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001E
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetAdapterIndex
+  Type         : code
+  Name type    : no prefix
+  Hint         : 19
+  Name         : GetAdapterIndex
+
+Archive member name at 36BC: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001E
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetAdaptersInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 20
+  Name         : GetAdaptersInfo
+
+Archive member name at 372A: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetBestInterface
+  Type         : code
+  Name type    : no prefix
+  Hint         : 21
+  Name         : GetBestInterface
+
+Archive member name at 379A: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000028
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetBestInterfaceFromStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 22
+  Name         : GetBestInterfaceFromStack
+
+Archive member name at 3812: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001B
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetBestRoute
+  Type         : code
+  Name type    : no prefix
+  Hint         : 23
+  Name         : GetBestRoute
+
+Archive member name at 387E: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000024
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetBestRouteFromStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 24
+  Name         : GetBestRouteFromStack
+
+Archive member name at 38F2: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetFriendlyIfIndex
+  Type         : code
+  Name type    : no prefix
+  Hint         : 25
+  Name         : GetFriendlyIfIndex
+
+Archive member name at 3964: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetIcmpStatistics
+  Type         : code
+  Name type    : no prefix
+  Hint         : 26
+  Name         : GetIcmpStatistics
+
+Archive member name at 39D4: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000024
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetIcmpStatsFromStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 27
+  Name         : GetIcmpStatsFromStack
+
+Archive member name at 3A48: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000019
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetIfEntry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 28
+  Name         : GetIfEntry
+
+Archive member name at 3AB2: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000022
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetIfEntryFromStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 29
+  Name         : GetIfEntryFromStack
+
+Archive member name at 3B24: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000019
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetIfTable
+  Type         : code
+  Name type    : no prefix
+  Hint         : 30
+  Name         : GetIfTable
+
+Archive member name at 3B8E: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000022
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetIfTableFromStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 31
+  Name         : GetIfTableFromStack
+
+Archive member name at 3C00: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001A
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetIgmpList
+  Type         : code
+  Name type    : no prefix
+  Hint         : 32
+  Name         : GetIgmpList
+
+Archive member name at 3C6A: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetInterfaceInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 33
+  Name         : GetInterfaceInfo
+
+Archive member name at 3CDA: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001D
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetIpAddrTable
+  Type         : code
+  Name type    : no prefix
+  Hint         : 34
+  Name         : GetIpAddrTable
+
+Archive member name at 3D48: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000026
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetIpAddrTableFromStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 35
+  Name         : GetIpAddrTableFromStack
+
+Archive member name at 3DBE: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetIpForwardTable
+  Type         : code
+  Name type    : no prefix
+  Hint         : 36
+  Name         : GetIpForwardTable
+
+Archive member name at 3E2E: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000029
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetIpForwardTableFromStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 37
+  Name         : GetIpForwardTableFromStack
+
+Archive member name at 3EA8: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001C
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetIpNetTable
+  Type         : code
+  Name type    : no prefix
+  Hint         : 38
+  Name         : GetIpNetTable
+
+Archive member name at 3F14: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000025
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetIpNetTableFromStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 39
+  Name         : GetIpNetTableFromStack
+
+Archive member name at 3F8A: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001E
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetIpStatistics
+  Type         : code
+  Name type    : no prefix
+  Hint         : 40
+  Name         : GetIpStatistics
+
+Archive member name at 3FF8: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000022
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetIpStatsFromStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 41
+  Name         : GetIpStatsFromStack
+
+Archive member name at 406A: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetNetworkParams
+  Type         : code
+  Name type    : no prefix
+  Hint         : 42
+  Name         : GetNetworkParams
+
+Archive member name at 40DA: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000024
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetNumberOfInterfaces
+  Type         : code
+  Name type    : no prefix
+  Hint         : 43
+  Name         : GetNumberOfInterfaces
+
+Archive member name at 414E: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetPerAdapterInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 44
+  Name         : GetPerAdapterInfo
+
+Archive member name at 41BE: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetRTTAndHopCount
+  Type         : code
+  Name type    : no prefix
+  Hint         : 45
+  Name         : GetRTTAndHopCount
+
+Archive member name at 422E: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetTcpStatistics
+  Type         : code
+  Name type    : no prefix
+  Hint         : 46
+  Name         : GetTcpStatistics
+
+Archive member name at 429E: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000023
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetTcpStatsFromStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 47
+  Name         : GetTcpStatsFromStack
+
+Archive member name at 4312: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001A
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetTcpTable
+  Type         : code
+  Name type    : no prefix
+  Hint         : 48
+  Name         : GetTcpTable
+
+Archive member name at 437C: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000023
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetTcpTableFromStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 49
+  Name         : GetTcpTableFromStack
+
+Archive member name at 43F0: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetUdpStatistics
+  Type         : code
+  Name type    : no prefix
+  Hint         : 50
+  Name         : GetUdpStatistics
+
+Archive member name at 4460: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000023
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetUdpStatsFromStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 51
+  Name         : GetUdpStatsFromStack
+
+Archive member name at 44D4: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001A
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetUdpTable
+  Type         : code
+  Name type    : no prefix
+  Hint         : 52
+  Name         : GetUdpTable
+
+Archive member name at 453E: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000023
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetUdpTableFromStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 53
+  Name         : GetUdpTableFromStack
+
+Archive member name at 45B2: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002B
+  DLL name     : iphlpapi.dll
+  Symbol name  : _GetUniDirectionalAdapterInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 54
+  Name         : GetUniDirectionalAdapterInfo
+
+Archive member name at 462E: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002B
+  DLL name     : iphlpapi.dll
+  Symbol name  : _InternalCreateIpForwardEntry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 55
+  Name         : InternalCreateIpForwardEntry
+
+Archive member name at 46AA: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000027
+  DLL name     : iphlpapi.dll
+  Symbol name  : _InternalCreateIpNetEntry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 56
+  Name         : InternalCreateIpNetEntry
+
+Archive member name at 4722: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000002B
+  DLL name     : iphlpapi.dll
+  Symbol name  : _InternalDeleteIpForwardEntry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 57
+  Name         : InternalDeleteIpForwardEntry
+
+Archive member name at 479E: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000027
+  DLL name     : iphlpapi.dll
+  Symbol name  : _InternalDeleteIpNetEntry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 58
+  Name         : InternalDeleteIpNetEntry
+
+Archive member name at 4816: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : iphlpapi.dll
+  Symbol name  : _InternalGetIfTable
+  Type         : code
+  Name type    : no prefix
+  Hint         : 59
+  Name         : InternalGetIfTable
+
+Archive member name at 4888: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000025
+  DLL name     : iphlpapi.dll
+  Symbol name  : _InternalGetIpAddrTable
+  Type         : code
+  Name type    : no prefix
+  Hint         : 60
+  Name         : InternalGetIpAddrTable
+
+Archive member name at 48FE: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000028
+  DLL name     : iphlpapi.dll
+  Symbol name  : _InternalGetIpForwardTable
+  Type         : code
+  Name type    : no prefix
+  Hint         : 61
+  Name         : InternalGetIpForwardTable
+
+Archive member name at 4976: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000024
+  DLL name     : iphlpapi.dll
+  Symbol name  : _InternalGetIpNetTable
+  Type         : code
+  Name type    : no prefix
+  Hint         : 62
+  Name         : InternalGetIpNetTable
+
+Archive member name at 49EA: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000022
+  DLL name     : iphlpapi.dll
+  Symbol name  : _InternalGetTcpTable
+  Type         : code
+  Name type    : no prefix
+  Hint         : 63
+  Name         : InternalGetTcpTable
+
+Archive member name at 4A5C: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000022
+  DLL name     : iphlpapi.dll
+  Symbol name  : _InternalGetUdpTable
+  Type         : code
+  Name type    : no prefix
+  Hint         : 64
+  Name         : InternalGetUdpTable
+
+Archive member name at 4ACE: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : iphlpapi.dll
+  Symbol name  : _InternalSetIfEntry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 65
+  Name         : InternalSetIfEntry
+
+Archive member name at 4B40: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000028
+  DLL name     : iphlpapi.dll
+  Symbol name  : _InternalSetIpForwardEntry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 66
+  Name         : InternalSetIpForwardEntry
+
+Archive member name at 4BB8: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000024
+  DLL name     : iphlpapi.dll
+  Symbol name  : _InternalSetIpNetEntry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 67
+  Name         : InternalSetIpNetEntry
+
+Archive member name at 4C2C: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : iphlpapi.dll
+  Symbol name  : _InternalSetIpStats
+  Type         : code
+  Name type    : no prefix
+  Hint         : 68
+  Name         : InternalSetIpStats
+
+Archive member name at 4C9E: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000022
+  DLL name     : iphlpapi.dll
+  Symbol name  : _InternalSetTcpEntry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 69
+  Name         : InternalSetTcpEntry
+
+Archive member name at 4D10: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : iphlpapi.dll
+  Symbol name  : _IpReleaseAddress
+  Type         : code
+  Name type    : no prefix
+  Hint         : 70
+  Name         : IpReleaseAddress
+
+Archive member name at 4D80: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001D
+  DLL name     : iphlpapi.dll
+  Symbol name  : _IpRenewAddress
+  Type         : code
+  Name type    : no prefix
+  Hint         : 71
+  Name         : IpRenewAddress
+
+Archive member name at 4DEE: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001D
+  DLL name     : iphlpapi.dll
+  Symbol name  : _IsLocalAddress
+  Type         : code
+  Name type    : no prefix
+  Hint         : 72
+  Name         : IsLocalAddress
+
+Archive member name at 4E5C: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001F
+  DLL name     : iphlpapi.dll
+  Symbol name  : _NotifyAddrChange
+  Type         : code
+  Name type    : no prefix
+  Hint         : 73
+  Name         : NotifyAddrChange
+
+Archive member name at 4ECC: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : iphlpapi.dll
+  Symbol name  : _NotifyRouteChange
+  Type         : code
+  Name type    : no prefix
+  Hint         : 74
+  Name         : NotifyRouteChange
+
+Archive member name at 4F3C: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000016
+  DLL name     : iphlpapi.dll
+  Symbol name  : _SendARP
+  Type         : code
+  Name type    : no prefix
+  Hint         : 75
+  Name         : SendARP
+
+Archive member name at 4FA2: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000019
+  DLL name     : iphlpapi.dll
+  Symbol name  : _SetIfEntry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 76
+  Name         : SetIfEntry
+
+Archive member name at 500C: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : iphlpapi.dll
+  Symbol name  : _SetIfEntryToStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 77
+  Name         : SetIfEntryToStack
+
+Archive member name at 507C: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : iphlpapi.dll
+  Symbol name  : _SetIpForwardEntry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 78
+  Name         : SetIpForwardEntry
+
+Archive member name at 50EC: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000027
+  DLL name     : iphlpapi.dll
+  Symbol name  : _SetIpForwardEntryToStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 79
+  Name         : SetIpForwardEntryToStack
+
+Archive member name at 5164: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001C
+  DLL name     : iphlpapi.dll
+  Symbol name  : _SetIpNetEntry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 80
+  Name         : SetIpNetEntry
+
+Archive member name at 51D0: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000023
+  DLL name     : iphlpapi.dll
+  Symbol name  : _SetIpNetEntryToStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 81
+  Name         : SetIpNetEntryToStack
+
+Archive member name at 5244: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000025
+  DLL name     : iphlpapi.dll
+  Symbol name  : _SetIpRouteEntryToStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 82
+  Name         : SetIpRouteEntryToStack
+
+Archive member name at 52BA: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001E
+  DLL name     : iphlpapi.dll
+  Symbol name  : _SetIpStatistics
+  Type         : code
+  Name type    : no prefix
+  Hint         : 83
+  Name         : SetIpStatistics
+
+Archive member name at 5328: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000020
+  DLL name     : iphlpapi.dll
+  Symbol name  : _SetIpStatsToStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 84
+  Name         : SetIpStatsToStack
+
+Archive member name at 5398: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000017
+  DLL name     : iphlpapi.dll
+  Symbol name  : _SetIpTTL
+  Type         : code
+  Name type    : no prefix
+  Hint         : 85
+  Name         : SetIpTTL
+
+Archive member name at 5400: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000026
+  DLL name     : iphlpapi.dll
+  Symbol name  : _SetProxyArpEntryToStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 86
+  Name         : SetProxyArpEntryToStack
+
+Archive member name at 5476: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001E
+  DLL name     : iphlpapi.dll
+  Symbol name  : _SetRouteWithRef
+  Type         : code
+  Name type    : no prefix
+  Hint         : 87
+  Name         : SetRouteWithRef
+
+Archive member name at 54E4: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001A
+  DLL name     : iphlpapi.dll
+  Symbol name  : _SetTcpEntry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 88
+  Name         : SetTcpEntry
+
+Archive member name at 554E: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 00000021
+  DLL name     : iphlpapi.dll
+  Symbol name  : _SetTcpEntryToStack
+  Type         : code
+  Name type    : no prefix
+  Hint         : 89
+  Name         : SetTcpEntryToStack
+
+Archive member name at 55C0: iphlpapi.dll/   
+3C20791F time/date Wed Dec 19 06:25:19 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791F Wed Dec 19 06:25:19 2001
+  SizeOfData   : 0000001D
+  DLL name     : iphlpapi.dll
+  Symbol name  : _UnenableRouter
+  Type         : code
+  Name type    : no prefix
+  Hint         : 90
+  Name         : UnenableRouter
+
+     Exports
+
+       ordinal    name
+
+                  _AddIPAddress
+                  _AllocateAndGetArpEntTableFromStack
+                  _AllocateAndGetIfTableFromStack
+                  _AllocateAndGetIpAddrTableFromStack
+                  _AllocateAndGetIpForwardTableFromStack
+                  _AllocateAndGetIpNetTableFromStack
+                  _AllocateAndGetTcpTableFromStack
+                  _AllocateAndGetUdpTableFromStack
+                  _CreateIpForwardEntry
+                  _CreateIpNetEntry
+                  _CreateProxyArpEntry
+                  _DeleteIPAddress
+                  _DeleteIpForwardEntry
+                  _DeleteIpNetEntry
+                  _DeleteProxyArpEntry
+                  _DllEntry
+                  _EnableRouter
+                  _FlushIpNetTable
+                  _FlushIpNetTableFromStack
+                  _GetAdapterIndex
+                  _GetAdaptersInfo
+                  _GetBestInterface
+                  _GetBestInterfaceFromStack
+                  _GetBestRoute
+                  _GetBestRouteFromStack
+                  _GetFriendlyIfIndex
+                  _GetIcmpStatistics
+                  _GetIcmpStatsFromStack
+                  _GetIfEntry
+                  _GetIfEntryFromStack
+                  _GetIfTable
+                  _GetIfTableFromStack
+                  _GetIgmpList
+                  _GetInterfaceInfo
+                  _GetIpAddrTable
+                  _GetIpAddrTableFromStack
+                  _GetIpForwardTable
+                  _GetIpForwardTableFromStack
+                  _GetIpNetTable
+                  _GetIpNetTableFromStack
+                  _GetIpStatistics
+                  _GetIpStatsFromStack
+                  _GetNetworkParams
+                  _GetNumberOfInterfaces
+                  _GetPerAdapterInfo
+                  _GetRTTAndHopCount
+                  _GetTcpStatistics
+                  _GetTcpStatsFromStack
+                  _GetTcpTable
+                  _GetTcpTableFromStack
+                  _GetUdpStatistics
+                  _GetUdpStatsFromStack
+                  _GetUdpTable
+                  _GetUdpTableFromStack
+                  _GetUniDirectionalAdapterInfo
+                  _InternalCreateIpForwardEntry
+                  _InternalCreateIpNetEntry
+                  _InternalDeleteIpForwardEntry
+                  _InternalDeleteIpNetEntry
+                  _InternalGetIfTable
+                  _InternalGetIpAddrTable
+                  _InternalGetIpForwardTable
+                  _InternalGetIpNetTable
+                  _InternalGetTcpTable
+                  _InternalGetUdpTable
+                  _InternalSetIfEntry
+                  _InternalSetIpForwardEntry
+                  _InternalSetIpNetEntry
+                  _InternalSetIpStats
+                  _InternalSetTcpEntry
+                  _IpReleaseAddress
+                  _IpRenewAddress
+                  _IsLocalAddress
+                  _NotifyAddrChange
+                  _NotifyRouteChange
+                  _SendARP
+                  _SetIfEntry
+                  _SetIfEntryToStack
+                  _SetIpForwardEntry
+                  _SetIpForwardEntryToStack
+                  _SetIpNetEntry
+                  _SetIpNetEntryToStack
+                  _SetIpRouteEntryToStack
+                  _SetIpStatistics
+                  _SetIpStatsToStack
+                  _SetIpTTL
+                  _SetProxyArpEntryToStack
+                  _SetRouteWithRef
+                  _SetTcpEntry
+                  _SetTcpEntryToStack
+                  _UnenableRouter
+
+  Summary
+
+          C9 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           E .idata$6

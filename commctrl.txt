@@ -1,0 +1,1707 @@
+Microsoft (R) COFF/PE Dumper Version 7.10.6030
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files\Windows CE Tools\wce400\STANDARDSDK\Lib\Emulator\commctrl.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+     CA8 size
+correct header end
+
+    119 public symbols
+
+     19DA __IMPORT_DESCRIPTOR_commctrl
+     1C0A __NULL_IMPORT_DESCRIPTOR
+     1D42 commctrl_NULL_THUNK_DATA
+     317A _InitCommonControls
+     317A __imp__InitCommonControls
+     31EC _InitCommonControlsEx
+     31EC __imp__InitCommonControlsEx
+     24BA _CommandBar_Create
+     24BA __imp__CommandBar_Create
+     28DC _CommandBar_Show
+     28DC __imp__CommandBar_Show
+     23CC _CommandBar_AddBitmap
+     23CC __imp__CommandBar_AddBitmap
+     26FA _CommandBar_InsertComboBox
+     26FA __imp__CommandBar_InsertComboBox
+     2772 _CommandBar_InsertControl
+     2772 __imp__CommandBar_InsertControl
+     27EA _CommandBar_InsertMenubar
+     27EA __imp__CommandBar_InsertMenubar
+     2618 _CommandBar_GetMenu
+     2618 __imp__CommandBar_GetMenu
+     2354 _CommandBar_AddAdornments
+     2354 __imp__CommandBar_AddAdornments
+     25A0 _CommandBar_GetItemWindow
+     25A0 __imp__CommandBar_GetItemWindow
+     268A _CommandBar_Height
+     268A __imp__CommandBar_Height
+     363E _IsCommandBarMessage
+     363E __imp__IsCommandBarMessage
+     2B0E _CreateUpDownControl
+     2B0E __imp__CreateUpDownControl
+     2A34 _CreateToolbar
+     2A34 __imp__CreateToolbar
+     2AA0 _CreateToolbarEx
+     2AA0 __imp__CreateToolbarEx
+     29C2 _CreateStatusWindowW
+     29C2 __imp__CreateStatusWindowW
+     36B0 _PropertySheetW
+     36B0 __imp__PropertySheetW
+     294A _CreatePropertySheetPageW
+     294A __imp__CreatePropertySheetPageW
+     302A _DestroyPropertySheetPage
+     302A __imp__DestroyPropertySheetPage
+     30A2 _DrawStatusTextW
+     30A2 __imp__DrawStatusTextW
+     35D4 _InvertRect
+     35D4 __imp__InvertRect
+     2C54 _DSA_Create
+     2C54 __imp__DSA_Create
+     2D9E _DSA_Destroy
+     2D9E __imp__DSA_Destroy
+     2E7A _DSA_GetItem
+     2E7A __imp__DSA_GetItem
+     2EE4 _DSA_GetItemPtr
+     2EE4 __imp__DSA_GetItemPtr
+     2F52 _DSA_InsertItem
+     2F52 __imp__DSA_InsertItem
+     2FC0 _DSA_SetItem
+     2FC0 __imp__DSA_SetItem
+     2D30 _DSA_DeleteItem
+     2D30 __imp__DSA_DeleteItem
+     2CBE _DSA_DeleteAllItems
+     2CBE __imp__DSA_DeleteAllItems
+     2E08 _DSA_DestroyCallback
+     2E08 __imp__DSA_DestroyCallback
+     2B80 _DPA_Destroy
+     2B80 __imp__DPA_Destroy
+     2BEA _DPA_GetPtr
+     2BEA __imp__DPA_GetPtr
+     3786 _Str_SetPtrW
+     3786 __imp__Str_SetPtrW
+     371E _StrToIntW
+     371E __imp__StrToIntW
+     201C _CenterWindow
+     201C __imp__CenterWindow
+     2176 _CommandBands_Create
+     2176 __imp__CommandBands_Create
+     2102 _CommandBands_AddBands
+     2102 __imp__CommandBands_AddBands
+     21E8 _CommandBands_GetCommandBar
+     21E8 __imp__CommandBands_GetCommandBar
+     2088 _CommandBands_AddAdornments
+     2088 __imp__CommandBands_AddAdornments
+     22E4 _CommandBands_Show
+     22E4 __imp__CommandBands_Show
+     2262 _CommandBands_GetRestoreInformation
+     2262 __imp__CommandBands_GetRestoreInformation
+     2862 _CommandBar_InsertMenubarEx
+     2862 __imp__CommandBar_InsertMenubarEx
+     252A _CommandBar_DrawMenuBar
+     252A __imp__CommandBar_DrawMenuBar
+     2440 _CommandBar_AlignAdornments
+     2440 __imp__CommandBar_AlignAdornments
+     348A _InitToolbarClass
+     348A __imp__InitToolbarClass
+     333E _InitReBarClass
+     333E __imp__InitReBarClass
+     33AC _InitStatusClass
+     33AC __imp__InitStatusClass
+     1F1A ?ListView_Init@@YAHPAUHINSTANCE__@@@Z
+     1F1A __imp_?ListView_Init@@YAHPAUHINSTANCE__@@@Z
+     1E98 ?Header_Init@@YAHPAUHINSTANCE__@@@Z
+     1E98 __imp_?Header_Init@@YAHPAUHINSTANCE__@@@Z
+     37F0 _Tab_Init
+     37F0 __imp__Tab_Init
+     1F9E ?TV_Init@@YAHPAUHINSTANCE__@@@Z
+     1F9E __imp_?TV_Init@@YAHPAUHINSTANCE__@@@Z
+     34FA _InitTrackBar
+     34FA __imp__InitTrackBar
+     3566 _InitUpDownClass
+     3566 __imp__InitUpDownClass
+     32CE _InitProgressClass
+     32CE __imp__InitProgressClass
+     3260 _InitDateClasses
+     3260 __imp__InitDateClasses
+     3110 _InitCapEdit
+     3110 __imp__InitCapEdit
+     341A _InitToolTipsClass
+     341A __imp__InitToolTipsClass
+
+Archive member name at CEC: /               
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+     CB2 size
+correct header end
+
+    61 offsets
+
+        1     19DA
+        2     1C0A
+        3     1D42
+        4     317A
+        5     31EC
+        6     24BA
+        7     28DC
+        8     23CC
+        9     26FA
+        A     2772
+        B     27EA
+        C     2618
+        D     2354
+        E     25A0
+        F     268A
+       10     363E
+       11     2B0E
+       12     2A34
+       13     2AA0
+       14     29C2
+       15     36B0
+       16     294A
+       17     302A
+       18     30A2
+       19     35D4
+       1A     2C54
+       1B     2D9E
+       1C     2E7A
+       1D     2EE4
+       1E     2F52
+       1F     2FC0
+       20     2D30
+       21     2CBE
+       22     2E08
+       23     2B80
+       24     2BEA
+       25     3786
+       26     371E
+       27     201C
+       28     2176
+       29     2102
+       2A     21E8
+       2B     2088
+       2C     22E4
+       2D     2262
+       2E     2862
+       2F     252A
+       30     2440
+       31     348A
+       32     333E
+       33     33AC
+       34     1F1A
+       35     1E98
+       36     37F0
+       37     1F9E
+       38     34FA
+       39     3566
+       3A     32CE
+       3B     3260
+       3C     3110
+       3D     341A
+
+    119 public symbols
+
+       35 ?Header_Init@@YAHPAUHINSTANCE__@@@Z
+       34 ?ListView_Init@@YAHPAUHINSTANCE__@@@Z
+       37 ?TV_Init@@YAHPAUHINSTANCE__@@@Z
+       27 _CenterWindow
+       2B _CommandBands_AddAdornments
+       29 _CommandBands_AddBands
+       28 _CommandBands_Create
+       2A _CommandBands_GetCommandBar
+       2D _CommandBands_GetRestoreInformation
+       2C _CommandBands_Show
+        D _CommandBar_AddAdornments
+        8 _CommandBar_AddBitmap
+       30 _CommandBar_AlignAdornments
+        6 _CommandBar_Create
+       2F _CommandBar_DrawMenuBar
+        E _CommandBar_GetItemWindow
+        C _CommandBar_GetMenu
+        F _CommandBar_Height
+        9 _CommandBar_InsertComboBox
+        A _CommandBar_InsertControl
+        B _CommandBar_InsertMenubar
+       2E _CommandBar_InsertMenubarEx
+        7 _CommandBar_Show
+       16 _CreatePropertySheetPageW
+       14 _CreateStatusWindowW
+       12 _CreateToolbar
+       13 _CreateToolbarEx
+       11 _CreateUpDownControl
+       23 _DPA_Destroy
+       24 _DPA_GetPtr
+       1A _DSA_Create
+       21 _DSA_DeleteAllItems
+       20 _DSA_DeleteItem
+       1B _DSA_Destroy
+       22 _DSA_DestroyCallback
+       1C _DSA_GetItem
+       1D _DSA_GetItemPtr
+       1E _DSA_InsertItem
+       1F _DSA_SetItem
+       17 _DestroyPropertySheetPage
+       18 _DrawStatusTextW
+       3C _InitCapEdit
+        4 _InitCommonControls
+        5 _InitCommonControlsEx
+       3B _InitDateClasses
+       3A _InitProgressClass
+       32 _InitReBarClass
+       33 _InitStatusClass
+       3D _InitToolTipsClass
+       31 _InitToolbarClass
+       38 _InitTrackBar
+       39 _InitUpDownClass
+       19 _InvertRect
+       10 _IsCommandBarMessage
+       15 _PropertySheetW
+       26 _StrToIntW
+       25 _Str_SetPtrW
+       36 _Tab_Init
+        1 __IMPORT_DESCRIPTOR_commctrl
+        2 __NULL_IMPORT_DESCRIPTOR
+       35 __imp_?Header_Init@@YAHPAUHINSTANCE__@@@Z
+       34 __imp_?ListView_Init@@YAHPAUHINSTANCE__@@@Z
+       37 __imp_?TV_Init@@YAHPAUHINSTANCE__@@@Z
+       27 __imp__CenterWindow
+       2B __imp__CommandBands_AddAdornments
+       29 __imp__CommandBands_AddBands
+       28 __imp__CommandBands_Create
+       2A __imp__CommandBands_GetCommandBar
+       2D __imp__CommandBands_GetRestoreInformation
+       2C __imp__CommandBands_Show
+        D __imp__CommandBar_AddAdornments
+        8 __imp__CommandBar_AddBitmap
+       30 __imp__CommandBar_AlignAdornments
+        6 __imp__CommandBar_Create
+       2F __imp__CommandBar_DrawMenuBar
+        E __imp__CommandBar_GetItemWindow
+        C __imp__CommandBar_GetMenu
+        F __imp__CommandBar_Height
+        9 __imp__CommandBar_InsertComboBox
+        A __imp__CommandBar_InsertControl
+        B __imp__CommandBar_InsertMenubar
+       2E __imp__CommandBar_InsertMenubarEx
+        7 __imp__CommandBar_Show
+       16 __imp__CreatePropertySheetPageW
+       14 __imp__CreateStatusWindowW
+       12 __imp__CreateToolbar
+       13 __imp__CreateToolbarEx
+       11 __imp__CreateUpDownControl
+       23 __imp__DPA_Destroy
+       24 __imp__DPA_GetPtr
+       1A __imp__DSA_Create
+       21 __imp__DSA_DeleteAllItems
+       20 __imp__DSA_DeleteItem
+       1B __imp__DSA_Destroy
+       22 __imp__DSA_DestroyCallback
+       1C __imp__DSA_GetItem
+       1D __imp__DSA_GetItemPtr
+       1E __imp__DSA_InsertItem
+       1F __imp__DSA_SetItem
+       17 __imp__DestroyPropertySheetPage
+       18 __imp__DrawStatusTextW
+       3C __imp__InitCapEdit
+        4 __imp__InitCommonControls
+        5 __imp__InitCommonControlsEx
+       3B __imp__InitDateClasses
+       3A __imp__InitProgressClass
+       32 __imp__InitReBarClass
+       33 __imp__InitStatusClass
+       3D __imp__InitToolTipsClass
+       31 __imp__InitToolbarClass
+       38 __imp__InitTrackBar
+       39 __imp__InitUpDownClass
+       19 __imp__InvertRect
+       10 __imp__IsCommandBarMessage
+       15 __imp__PropertySheetW
+       26 __imp__StrToIntW
+       25 __imp__Str_SetPtrW
+       36 __imp__Tab_Init
+        3 commctrl_NULL_THUNK_DATA
+
+Archive member name at 19DA: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+     1F3 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20791B time date stamp Wed Dec 19 06:25:15 2001
+             10F file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      43 size of raw data
+      8C file pointer to raw data (0000008C to 000000CE)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 13 00 09 00 00 00 00 00 0C 63 6F 6D  .............com
+  00000010: 6D 63 74 72 6C 2E 64 6C 6C 28 00 13 10 07 00 00  mctrl.dll(......
+  00000020: 00 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12  .............Û..
+  00000030: 4D 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49  Microsoft (R) LI
+  00000040: 4E 4B 00                                         NK.
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CF file pointer to raw data (000000CF to 000000E2)
+      E3 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+RELOCATIONS #2
+                                                Symbol    Symbol
+ Offset    Type              Applied To         Index     Name
+ --------  ----------------  -----------------  --------  ------
+ 0000000C  DIR32NB                    00000000         3  .idata$6
+ 00000000  DIR32NB                    00000000         4  .idata$4
+ 00000010  DIR32NB                    00000000         5  .idata$5
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       E size of raw data
+     101 file pointer to raw data (00000101 to 0000010E)
+      E3 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 63 6F 6D 6D 63 74 72 6C 2E 64 6C 6C 00 00        commctrl.dll..
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __IMPORT_DESCRIPTOR_commctrl
+002 C0000040 SECT2  notype       Section      | .idata$2
+003 00000000 SECT3  notype       Static       | .idata$6
+004 C0000040 UNDEF  notype       Section      | .idata$4
+005 C0000040 UNDEF  notype       Section      | .idata$5
+006 00000000 UNDEF  notype       External     | __NULL_IMPORT_DESCRIPTOR
+007 00000000 UNDEF  notype       External     | commctrl_NULL_THUNK_DATA
+
+String Table Size = 0x54 bytes
+
+Archive member name at 1C0A: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      FC size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        3C20791B time date stamp Wed Dec 19 06:25:15 2001
+              BB file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      43 size of raw data
+      64 file pointer to raw data (00000064 to 000000A6)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 13 00 09 00 00 00 00 00 0C 63 6F 6D  .............com
+  00000010: 6D 63 74 72 6C 2E 64 6C 6C 28 00 13 10 07 00 00  mctrl.dll(......
+  00000020: 00 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12  .............Û..
+  00000030: 4D 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49  Microsoft (R) LI
+  00000040: 4E 4B 00                                         NK.
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A7 file pointer to raw data (000000A7 to 000000BA)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __NULL_IMPORT_DESCRIPTOR
+
+String Table Size = 0x1D bytes
+
+Archive member name at 1D42: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+     119 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C20791B time date stamp Wed Dec 19 06:25:15 2001
+              D7 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      43 size of raw data
+      8C file pointer to raw data (0000008C to 000000CE)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 13 00 09 00 00 00 00 00 0C 63 6F 6D  .............com
+  00000010: 6D 63 74 72 6C 2E 64 6C 6C 28 00 13 10 07 00 00  mctrl.dll(......
+  00000020: 00 03 00 00 00 00 00 00 00 06 00 18 00 DB 04 12  .............Û..
+  00000030: 4D 69 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49  Microsoft (R) LI
+  00000040: 4E 4B 00                                         NK.
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CF file pointer to raw data (000000CF to 000000D2)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00                                      ....
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D3 file pointer to raw data (000000D3 to 000000D6)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | commctrl_NULL_THUNK_DATA
+
+String Table Size = 0x1E bytes
+
+Archive member name at 1E98: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000031
+  DLL name     : commctrl.dll
+  Symbol name  : ?Header_Init@@YAHPAUHINSTANCE__@@@Z (int __cdecl Header_Init(struct HINSTANCE__ *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : Header_Init
+
+Archive member name at 1F1A: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000033
+  DLL name     : commctrl.dll
+  Symbol name  : ?ListView_Init@@YAHPAUHINSTANCE__@@@Z (int __cdecl ListView_Init(struct HINSTANCE__ *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 52
+  Name         : ListView_Init
+
+Archive member name at 1F9E: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000002D
+  DLL name     : commctrl.dll
+  Symbol name  : ?TV_Init@@YAHPAUHINSTANCE__@@@Z (int __cdecl TV_Init(struct HINSTANCE__ *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 56
+  Name         : TV_Init
+
+Archive member name at 201C: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000001B
+  DLL name     : commctrl.dll
+  Symbol name  : _CenterWindow
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 35
+
+Archive member name at 2088: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000029
+  DLL name     : commctrl.dll
+  Symbol name  : _CommandBands_AddAdornments
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 39
+
+Archive member name at 2102: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000024
+  DLL name     : commctrl.dll
+  Symbol name  : _CommandBands_AddBands
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 37
+
+Archive member name at 2176: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000022
+  DLL name     : commctrl.dll
+  Symbol name  : _CommandBands_Create
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 36
+
+Archive member name at 21E8: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000029
+  DLL name     : commctrl.dll
+  Symbol name  : _CommandBands_GetCommandBar
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 38
+
+Archive member name at 2262: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000031
+  DLL name     : commctrl.dll
+  Symbol name  : _CommandBands_GetRestoreInformation
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 41
+
+Archive member name at 22E4: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000020
+  DLL name     : commctrl.dll
+  Symbol name  : _CommandBands_Show
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 40
+
+Archive member name at 2354: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000027
+  DLL name     : commctrl.dll
+  Symbol name  : _CommandBar_AddAdornments
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 10
+
+Archive member name at 23CC: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000023
+  DLL name     : commctrl.dll
+  Symbol name  : _CommandBar_AddBitmap
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 5
+
+Archive member name at 2440: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000029
+  DLL name     : commctrl.dll
+  Symbol name  : _CommandBar_AlignAdornments
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 44
+
+Archive member name at 24BA: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000020
+  DLL name     : commctrl.dll
+  Symbol name  : _CommandBar_Create
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 3
+
+Archive member name at 252A: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000025
+  DLL name     : commctrl.dll
+  Symbol name  : _CommandBar_DrawMenuBar
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 43
+
+Archive member name at 25A0: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000027
+  DLL name     : commctrl.dll
+  Symbol name  : _CommandBar_GetItemWindow
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 11
+
+Archive member name at 2618: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000021
+  DLL name     : commctrl.dll
+  Symbol name  : _CommandBar_GetMenu
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 9
+
+Archive member name at 268A: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000020
+  DLL name     : commctrl.dll
+  Symbol name  : _CommandBar_Height
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 12
+
+Archive member name at 26FA: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000028
+  DLL name     : commctrl.dll
+  Symbol name  : _CommandBar_InsertComboBox
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 6
+
+Archive member name at 2772: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000027
+  DLL name     : commctrl.dll
+  Symbol name  : _CommandBar_InsertControl
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 7
+
+Archive member name at 27EA: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000027
+  DLL name     : commctrl.dll
+  Symbol name  : _CommandBar_InsertMenubar
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 8
+
+Archive member name at 2862: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000029
+  DLL name     : commctrl.dll
+  Symbol name  : _CommandBar_InsertMenubarEx
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 42
+
+Archive member name at 28DC: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000001E
+  DLL name     : commctrl.dll
+  Symbol name  : _CommandBar_Show
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 4
+
+Archive member name at 294A: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000027
+  DLL name     : commctrl.dll
+  Symbol name  : _CreatePropertySheetPageW
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 19
+
+Archive member name at 29C2: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000022
+  DLL name     : commctrl.dll
+  Symbol name  : _CreateStatusWindowW
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 17
+
+Archive member name at 2A34: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000001C
+  DLL name     : commctrl.dll
+  Symbol name  : _CreateToolbar
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 15
+
+Archive member name at 2AA0: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000001E
+  DLL name     : commctrl.dll
+  Symbol name  : _CreateToolbarEx
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 16
+
+Archive member name at 2B0E: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000022
+  DLL name     : commctrl.dll
+  Symbol name  : _CreateUpDownControl
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 14
+
+Archive member name at 2B80: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000001A
+  DLL name     : commctrl.dll
+  Symbol name  : _DPA_Destroy
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 31
+
+Archive member name at 2BEA: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000019
+  DLL name     : commctrl.dll
+  Symbol name  : _DPA_GetPtr
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 32
+
+Archive member name at 2C54: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000019
+  DLL name     : commctrl.dll
+  Symbol name  : _DSA_Create
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 23
+
+Archive member name at 2CBE: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000021
+  DLL name     : commctrl.dll
+  Symbol name  : _DSA_DeleteAllItems
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 30
+
+Archive member name at 2D30: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000001D
+  DLL name     : commctrl.dll
+  Symbol name  : _DSA_DeleteItem
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 29
+
+Archive member name at 2D9E: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000001A
+  DLL name     : commctrl.dll
+  Symbol name  : _DSA_Destroy
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 24
+
+Archive member name at 2E08: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000022
+  DLL name     : commctrl.dll
+  Symbol name  : _DSA_DestroyCallback
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 57
+
+Archive member name at 2E7A: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000001A
+  DLL name     : commctrl.dll
+  Symbol name  : _DSA_GetItem
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 25
+
+Archive member name at 2EE4: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000001D
+  DLL name     : commctrl.dll
+  Symbol name  : _DSA_GetItemPtr
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 26
+
+Archive member name at 2F52: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000001D
+  DLL name     : commctrl.dll
+  Symbol name  : _DSA_InsertItem
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 27
+
+Archive member name at 2FC0: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000001A
+  DLL name     : commctrl.dll
+  Symbol name  : _DSA_SetItem
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 28
+
+Archive member name at 302A: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000027
+  DLL name     : commctrl.dll
+  Symbol name  : _DestroyPropertySheetPage
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 20
+
+Archive member name at 30A2: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000001E
+  DLL name     : commctrl.dll
+  Symbol name  : _DrawStatusTextW
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 21
+
+Archive member name at 3110: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000001A
+  DLL name     : commctrl.dll
+  Symbol name  : _InitCapEdit
+  Type         : code
+  Name type    : no prefix
+  Hint         : 39
+  Name         : InitCapEdit
+
+Archive member name at 317A: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000021
+  DLL name     : commctrl.dll
+  Symbol name  : _InitCommonControls
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 1
+
+Archive member name at 31EC: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000023
+  DLL name     : commctrl.dll
+  Symbol name  : _InitCommonControlsEx
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 2
+
+Archive member name at 3260: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000001E
+  DLL name     : commctrl.dll
+  Symbol name  : _InitDateClasses
+  Type         : code
+  Name type    : no prefix
+  Hint         : 42
+  Name         : InitDateClasses
+
+Archive member name at 32CE: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000020
+  DLL name     : commctrl.dll
+  Symbol name  : _InitProgressClass
+  Type         : code
+  Name type    : no prefix
+  Hint         : 43
+  Name         : InitProgressClass
+
+Archive member name at 333E: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000001D
+  DLL name     : commctrl.dll
+  Symbol name  : _InitReBarClass
+  Type         : code
+  Name type    : no prefix
+  Hint         : 44
+  Name         : InitReBarClass
+
+Archive member name at 33AC: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000001E
+  DLL name     : commctrl.dll
+  Symbol name  : _InitStatusClass
+  Type         : code
+  Name type    : no prefix
+  Hint         : 45
+  Name         : InitStatusClass
+
+Archive member name at 341A: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000020
+  DLL name     : commctrl.dll
+  Symbol name  : _InitToolTipsClass
+  Type         : code
+  Name type    : no prefix
+  Hint         : 46
+  Name         : InitToolTipsClass
+
+Archive member name at 348A: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000001F
+  DLL name     : commctrl.dll
+  Symbol name  : _InitToolbarClass
+  Type         : code
+  Name type    : no prefix
+  Hint         : 47
+  Name         : InitToolbarClass
+
+Archive member name at 34FA: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000001B
+  DLL name     : commctrl.dll
+  Symbol name  : _InitTrackBar
+  Type         : code
+  Name type    : no prefix
+  Hint         : 48
+  Name         : InitTrackBar
+
+Archive member name at 3566: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000001E
+  DLL name     : commctrl.dll
+  Symbol name  : _InitUpDownClass
+  Type         : code
+  Name type    : no prefix
+  Hint         : 49
+  Name         : InitUpDownClass
+
+Archive member name at 35D4: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000019
+  DLL name     : commctrl.dll
+  Symbol name  : _InvertRect
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 22
+
+Archive member name at 363E: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000022
+  DLL name     : commctrl.dll
+  Symbol name  : _IsCommandBarMessage
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 13
+
+Archive member name at 36B0: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000001D
+  DLL name     : commctrl.dll
+  Symbol name  : _PropertySheetW
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 18
+
+Archive member name at 371E: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000018
+  DLL name     : commctrl.dll
+  Symbol name  : _StrToIntW
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 34
+
+Archive member name at 3786: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 0000001A
+  DLL name     : commctrl.dll
+  Symbol name  : _Str_SetPtrW
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 33
+
+Archive member name at 37F0: commctrl.dll/   
+3C20791B time/date Wed Dec 19 06:25:15 2001
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C20791B Wed Dec 19 06:25:15 2001
+  SizeOfData   : 00000017
+  DLL name     : commctrl.dll
+  Symbol name  : _Tab_Init
+  Type         : code
+  Name type    : no prefix
+  Hint         : 57
+  Name         : Tab_Init
+
+     Exports
+
+       ordinal    name
+
+                  ?Header_Init@@YAHPAUHINSTANCE__@@@Z (int __cdecl Header_Init(struct HINSTANCE__ *))
+                  ?ListView_Init@@YAHPAUHINSTANCE__@@@Z (int __cdecl ListView_Init(struct HINSTANCE__ *))
+                  ?TV_Init@@YAHPAUHINSTANCE__@@@Z (int __cdecl TV_Init(struct HINSTANCE__ *))
+            35    _CenterWindow
+            39    _CommandBands_AddAdornments
+            37    _CommandBands_AddBands
+            36    _CommandBands_Create
+            38    _CommandBands_GetCommandBar
+            41    _CommandBands_GetRestoreInformation
+            40    _CommandBands_Show
+            10    _CommandBar_AddAdornments
+             5    _CommandBar_AddBitmap
+            44    _CommandBar_AlignAdornments
+             3    _CommandBar_Create
+            43    _CommandBar_DrawMenuBar
+            11    _CommandBar_GetItemWindow
+             9    _CommandBar_GetMenu
+            12    _CommandBar_Height
+             6    _CommandBar_InsertComboBox
+             7    _CommandBar_InsertControl
+             8    _CommandBar_InsertMenubar
+            42    _CommandBar_InsertMenubarEx
+             4    _CommandBar_Show
+            19    _CreatePropertySheetPageW
+            17    _CreateStatusWindowW
+            15    _CreateToolbar
+            16    _CreateToolbarEx
+            14    _CreateUpDownControl
+            31    _DPA_Destroy
+            32    _DPA_GetPtr
+            23    _DSA_Create
+            30    _DSA_DeleteAllItems
+            29    _DSA_DeleteItem
+            24    _DSA_Destroy
+            57    _DSA_DestroyCallback
+            25    _DSA_GetItem
+            26    _DSA_GetItemPtr
+            27    _DSA_InsertItem
+            28    _DSA_SetItem
+            20    _DestroyPropertySheetPage
+            21    _DrawStatusTextW
+                  _InitCapEdit
+             1    _InitCommonControls
+             2    _InitCommonControlsEx
+                  _InitDateClasses
+                  _InitProgressClass
+                  _InitReBarClass
+                  _InitStatusClass
+                  _InitToolTipsClass
+                  _InitToolbarClass
+                  _InitTrackBar
+                  _InitUpDownClass
+            22    _InvertRect
+            13    _IsCommandBarMessage
+            18    _PropertySheetW
+            34    _StrToIntW
+            33    _Str_SetPtrW
+                  _Tab_Init
+
+  Summary
+
+          C9 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           E .idata$6

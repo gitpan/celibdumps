@@ -1,0 +1,927 @@
+Microsoft (R) COFF/PE Dumper Version 7.10.6030
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files\Windows CE Tools\wce400\STANDARDSDK\Lib\Emulator\msmqrt.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+     53C size
+correct header end
+
+    53 public symbols
+
+      B02 __IMPORT_DESCRIPTOR_MSMQRT
+      D2A __NULL_IMPORT_DESCRIPTOR
+      E60 MSMQRT_NULL_THUNK_DATA
+     1162 _MQCreateQueue
+     1162 __imp__MQCreateQueue
+     11CC _MQDeleteQueue
+     11CC __imp__MQDeleteQueue
+     1312 _MQGetMachineProperties
+     1312 __imp__MQGetMachineProperties
+     1386 _MQGetQueueProperties
+     1386 __imp__MQGetQueueProperties
+     1984 _MQSetQueueProperties
+     1984 __imp__MQSetQueueProperties
+     17D0 _MQOpenQueue
+     17D0 __imp__MQOpenQueue
+     108C _MQCloseQueue
+     108C __imp__MQCloseQueue
+     10F6 _MQCreateCursor
+     10F6 __imp__MQCreateCursor
+     1022 _MQCloseCursor
+     1022 __imp__MQCloseCursor
+     14DA _MQHandleToFormatName
+     14DA __imp__MQHandleToFormatName
+     1838 _MQPathNameToFormatName
+     1838 __imp__MQPathNameToFormatName
+     1236 _MQFreeMemory
+     1236 __imp__MQFreeMemory
+     191A _MQSendMessage
+     191A __imp__MQSendMessage
+     18AC _MQReceiveMessage
+     18AC __imp__MQReceiveMessage
+      FB2 _MQBeginTransaction
+      FB2 __imp__MQBeginTransaction
+     13F8 _MQGetQueueSecurity
+     13F8 __imp__MQGetQueueSecurity
+     19F6 _MQSetQueueSecurity
+     19F6 __imp__MQSetQueueSecurity
+     1468 _MQGetSecurityContext
+     1468 __imp__MQGetSecurityContext
+     12A0 _MQFreeSecurityContext
+     12A0 __imp__MQFreeSecurityContext
+     154C _MQInstanceToFormatName
+     154C __imp__MQInstanceToFormatName
+     15C0 _MQLocateBegin
+     15C0 __imp__MQLocateBegin
+     1692 _MQLocateNext
+     1692 __imp__MQLocateNext
+     162A _MQLocateEnd
+     162A __imp__MQLocateEnd
+     1766 _MQMgmtGetInfo
+     1766 __imp__MQMgmtGetInfo
+     16FC _MQMgmtAction
+     16FC __imp__MQMgmtAction
+
+Archive member name at 580: /               
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+     546 size
+correct header end
+
+    28 offsets
+
+        1      B02
+        2      D2A
+        3      E60
+        4     1162
+        5     11CC
+        6     1312
+        7     1386
+        8     1984
+        9     17D0
+        A     108C
+        B     10F6
+        C     1022
+        D     14DA
+        E     1838
+        F     1236
+       10     191A
+       11     18AC
+       12      FB2
+       13     13F8
+       14     19F6
+       15     1468
+       16     12A0
+       17     154C
+       18     15C0
+       19     1692
+       1A     162A
+       1B     1766
+       1C     16FC
+
+    53 public symbols
+
+       12 _MQBeginTransaction
+        C _MQCloseCursor
+        A _MQCloseQueue
+        B _MQCreateCursor
+        4 _MQCreateQueue
+        5 _MQDeleteQueue
+        F _MQFreeMemory
+       16 _MQFreeSecurityContext
+        6 _MQGetMachineProperties
+        7 _MQGetQueueProperties
+       13 _MQGetQueueSecurity
+       15 _MQGetSecurityContext
+        D _MQHandleToFormatName
+       17 _MQInstanceToFormatName
+       18 _MQLocateBegin
+       1A _MQLocateEnd
+       19 _MQLocateNext
+       1C _MQMgmtAction
+       1B _MQMgmtGetInfo
+        9 _MQOpenQueue
+        E _MQPathNameToFormatName
+       11 _MQReceiveMessage
+       10 _MQSendMessage
+        8 _MQSetQueueProperties
+       14 _MQSetQueueSecurity
+        1 __IMPORT_DESCRIPTOR_MSMQRT
+        2 __NULL_IMPORT_DESCRIPTOR
+       12 __imp__MQBeginTransaction
+        C __imp__MQCloseCursor
+        A __imp__MQCloseQueue
+        B __imp__MQCreateCursor
+        4 __imp__MQCreateQueue
+        5 __imp__MQDeleteQueue
+        F __imp__MQFreeMemory
+       16 __imp__MQFreeSecurityContext
+        6 __imp__MQGetMachineProperties
+        7 __imp__MQGetQueueProperties
+       13 __imp__MQGetQueueSecurity
+       15 __imp__MQGetSecurityContext
+        D __imp__MQHandleToFormatName
+       17 __imp__MQInstanceToFormatName
+       18 __imp__MQLocateBegin
+       1A __imp__MQLocateEnd
+       19 __imp__MQLocateNext
+       1C __imp__MQMgmtAction
+       1B __imp__MQMgmtGetInfo
+        9 __imp__MQOpenQueue
+        E __imp__MQPathNameToFormatName
+       11 __imp__MQReceiveMessage
+       10 __imp__MQSendMessage
+        8 __imp__MQSetQueueProperties
+       14 __imp__MQSetQueueSecurity
+        3 MSMQRT_NULL_THUNK_DATA
+
+Archive member name at B02: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+     1EB size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C207956 time date stamp Wed Dec 19 06:26:14 2001
+             10B file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      8C file pointer to raw data (0000008C to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 11 00 09 00 00 00 00 00 0A 4D 53 4D  .............MSM
+  00000010: 51 52 54 2E 64 6C 6C 28 00 13 10 07 00 00 00 03  QRT.dll(........
+  00000020: 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D 69  ...........Û..Mi
+  00000030: 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B  crosoft (R) LINK
+  00000040: 00                                               .
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CD file pointer to raw data (000000CD to 000000E0)
+      E1 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+RELOCATIONS #2
+                                                Symbol    Symbol
+ Offset    Type              Applied To         Index     Name
+ --------  ----------------  -----------------  --------  ------
+ 0000000C  DIR32NB                    00000000         3  .idata$6
+ 00000000  DIR32NB                    00000000         4  .idata$4
+ 00000010  DIR32NB                    00000000         5  .idata$5
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FF file pointer to raw data (000000FF to 0000010A)
+      E1 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 4D 53 4D 51 52 54 2E 64 6C 6C 00 00              MSMQRT.dll..
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __IMPORT_DESCRIPTOR_MSMQRT
+002 C0000040 SECT2  notype       Section      | .idata$2
+003 00000000 SECT3  notype       Static       | .idata$6
+004 C0000040 UNDEF  notype       Section      | .idata$4
+005 C0000040 UNDEF  notype       Section      | .idata$5
+006 00000000 UNDEF  notype       External     | __NULL_IMPORT_DESCRIPTOR
+007 00000000 UNDEF  notype       External     | MSMQRT_NULL_THUNK_DATA
+
+String Table Size = 0x50 bytes
+
+Archive member name at D2A: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      FA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        3C207956 time date stamp Wed Dec 19 06:26:14 2001
+              B9 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      64 file pointer to raw data (00000064 to 000000A4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 11 00 09 00 00 00 00 00 0A 4D 53 4D  .............MSM
+  00000010: 51 52 54 2E 64 6C 6C 28 00 13 10 07 00 00 00 03  QRT.dll(........
+  00000020: 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D 69  ...........Û..Mi
+  00000030: 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B  crosoft (R) LINK
+  00000040: 00                                               .
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A5 file pointer to raw data (000000A5 to 000000B8)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+  00000010: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | __NULL_IMPORT_DESCRIPTOR
+
+String Table Size = 0x1D bytes
+
+Archive member name at E60: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+     115 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        3C207956 time date stamp Wed Dec 19 06:26:14 2001
+              D5 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      8C file pointer to raw data (0000008C to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+RAW DATA #1
+  00000000: 02 00 00 00 11 00 09 00 00 00 00 00 0A 4D 53 4D  .............MSM
+  00000010: 51 52 54 2E 64 6C 6C 28 00 13 10 07 00 00 00 03  QRT.dll(........
+  00000020: 00 00 00 00 00 00 00 06 00 18 00 DB 04 12 4D 69  ...........Û..Mi
+  00000030: 63 72 6F 73 6F 66 74 20 28 52 29 20 4C 49 4E 4B  crosoft (R) LINK
+  00000040: 00                                               .
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CD file pointer to raw data (000000CD to 000000D0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #2
+  00000000: 00 00 00 00                                      ....
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D1 file pointer to raw data (000000D1 to 000000D4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+RAW DATA #3
+  00000000: 00 00 00 00                                      ....
+
+COFF SYMBOL TABLE
+000 005904DB ABS    notype       Static       | @comp.id
+001 00000000 SECT2  notype       External     | MSMQRT_NULL_THUNK_DATA
+
+String Table Size = 0x1C bytes
+
+Archive member name at FB2: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 0000001F
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQBeginTransaction
+  Type         : code
+  Name type    : no prefix
+  Hint         : 0
+  Name         : MQBeginTransaction
+
+Archive member name at 1022: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 0000001A
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQCloseCursor
+  Type         : code
+  Name type    : no prefix
+  Hint         : 1
+  Name         : MQCloseCursor
+
+Archive member name at 108C: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 00000019
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQCloseQueue
+  Type         : code
+  Name type    : no prefix
+  Hint         : 2
+  Name         : MQCloseQueue
+
+Archive member name at 10F6: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 0000001B
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQCreateCursor
+  Type         : code
+  Name type    : no prefix
+  Hint         : 3
+  Name         : MQCreateCursor
+
+Archive member name at 1162: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 0000001A
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQCreateQueue
+  Type         : code
+  Name type    : no prefix
+  Hint         : 4
+  Name         : MQCreateQueue
+
+Archive member name at 11CC: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 0000001A
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQDeleteQueue
+  Type         : code
+  Name type    : no prefix
+  Hint         : 5
+  Name         : MQDeleteQueue
+
+Archive member name at 1236: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 00000019
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQFreeMemory
+  Type         : code
+  Name type    : no prefix
+  Hint         : 6
+  Name         : MQFreeMemory
+
+Archive member name at 12A0: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 00000022
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQFreeSecurityContext
+  Type         : code
+  Name type    : no prefix
+  Hint         : 7
+  Name         : MQFreeSecurityContext
+
+Archive member name at 1312: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 00000023
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQGetMachineProperties
+  Type         : code
+  Name type    : no prefix
+  Hint         : 8
+  Name         : MQGetMachineProperties
+
+Archive member name at 1386: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 00000021
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQGetQueueProperties
+  Type         : code
+  Name type    : no prefix
+  Hint         : 9
+  Name         : MQGetQueueProperties
+
+Archive member name at 13F8: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 0000001F
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQGetQueueSecurity
+  Type         : code
+  Name type    : no prefix
+  Hint         : 10
+  Name         : MQGetQueueSecurity
+
+Archive member name at 1468: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 00000021
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQGetSecurityContext
+  Type         : code
+  Name type    : no prefix
+  Hint         : 11
+  Name         : MQGetSecurityContext
+
+Archive member name at 14DA: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 00000021
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQHandleToFormatName
+  Type         : code
+  Name type    : no prefix
+  Hint         : 12
+  Name         : MQHandleToFormatName
+
+Archive member name at 154C: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 00000023
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQInstanceToFormatName
+  Type         : code
+  Name type    : no prefix
+  Hint         : 13
+  Name         : MQInstanceToFormatName
+
+Archive member name at 15C0: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 0000001A
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQLocateBegin
+  Type         : code
+  Name type    : no prefix
+  Hint         : 14
+  Name         : MQLocateBegin
+
+Archive member name at 162A: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 00000018
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQLocateEnd
+  Type         : code
+  Name type    : no prefix
+  Hint         : 15
+  Name         : MQLocateEnd
+
+Archive member name at 1692: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 00000019
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQLocateNext
+  Type         : code
+  Name type    : no prefix
+  Hint         : 16
+  Name         : MQLocateNext
+
+Archive member name at 16FC: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 00000019
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQMgmtAction
+  Type         : code
+  Name type    : no prefix
+  Hint         : 17
+  Name         : MQMgmtAction
+
+Archive member name at 1766: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 0000001A
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQMgmtGetInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 18
+  Name         : MQMgmtGetInfo
+
+Archive member name at 17D0: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 00000018
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQOpenQueue
+  Type         : code
+  Name type    : no prefix
+  Hint         : 19
+  Name         : MQOpenQueue
+
+Archive member name at 1838: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 00000023
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQPathNameToFormatName
+  Type         : code
+  Name type    : no prefix
+  Hint         : 20
+  Name         : MQPathNameToFormatName
+
+Archive member name at 18AC: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 0000001D
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQReceiveMessage
+  Type         : code
+  Name type    : no prefix
+  Hint         : 21
+  Name         : MQReceiveMessage
+
+Archive member name at 191A: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 0000001A
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQSendMessage
+  Type         : code
+  Name type    : no prefix
+  Hint         : 22
+  Name         : MQSendMessage
+
+Archive member name at 1984: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 00000021
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQSetQueueProperties
+  Type         : code
+  Name type    : no prefix
+  Hint         : 23
+  Name         : MQSetQueueProperties
+
+Archive member name at 19F6: MSMQRT.dll/     
+3C207956 time/date Wed Dec 19 06:26:14 2001
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: 3C207956 Wed Dec 19 06:26:14 2001
+  SizeOfData   : 0000001F
+  DLL name     : MSMQRT.dll
+  Symbol name  : _MQSetQueueSecurity
+  Type         : code
+  Name type    : no prefix
+  Hint         : 24
+  Name         : MQSetQueueSecurity
+
+     Exports
+
+       ordinal    name
+
+                  _MQBeginTransaction
+                  _MQCloseCursor
+                  _MQCloseQueue
+                  _MQCreateCursor
+                  _MQCreateQueue
+                  _MQDeleteQueue
+                  _MQFreeMemory
+                  _MQFreeSecurityContext
+                  _MQGetMachineProperties
+                  _MQGetQueueProperties
+                  _MQGetQueueSecurity
+                  _MQGetSecurityContext
+                  _MQHandleToFormatName
+                  _MQInstanceToFormatName
+                  _MQLocateBegin
+                  _MQLocateEnd
+                  _MQLocateNext
+                  _MQMgmtAction
+                  _MQMgmtGetInfo
+                  _MQOpenQueue
+                  _MQPathNameToFormatName
+                  _MQReceiveMessage
+                  _MQSendMessage
+                  _MQSetQueueProperties
+                  _MQSetQueueSecurity
+
+  Summary
+
+          C3 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6
